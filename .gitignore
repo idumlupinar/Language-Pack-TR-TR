@@ -1,0 +1,32 @@
+#################
+## DNN tr-TR language pack
+## Allow-list: the Resources folder can be filled straight from a DNN site
+## (tools/Sync-FromSite.ps1) without dragging in unrelated site files.
+#################
+
+# Ignore everything...
+*
+
+# ...except folders (so the rules below can match inside them)
+!*/
+
+# Repository files
+!.editorconfig
+!.gitattributes
+!.gitignore
+!.gitkeep
+!/.github/**
+!/tools/*.ps1
+!/LICENSE
+!/readme.md
+
+# Translated resource files (only the tr-TR culture)
+!/Resources/**/*.tr-TR.resx
+
+# Package manifest, license and release notes
+!/Resources/DNNCE_tr-TR.dnn
+!/Resources/license.txt
+!/Resources/ReleaseNotes.txt
+
+# Never commit build output
+/Resources/*.zip

@@ -1,0 +1,1215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Prompt_InvalidData.Text" xml:space="preserve">
+    <value>Geçersiz veri gönderdiniz. İsteğiniz işlenemiyor.</value>
+  </data>
+  <data name="Prompt_InvalidSyntax.Text" xml:space="preserve">
+    <value>Geçersiz sözdizimi</value>
+  </data>
+  <data name="Prompt_NotAuthorized.Text" xml:space="preserve">
+    <value>Bu kaynağa erişim yetkiniz bulunmamaktadır. Oturumunuzun süresi dolmuş olabilir. Bu durumda lütfen yeniden giriş yapınız.</value>
+  </data>
+  <data name="Prompt_NotImplemented.Text" xml:space="preserve">
+    <value>Bu işlevsellik henüz uygulanmamıştır.</value>
+  </data>
+  <data name="Prompt_ServerError.Text" xml:space="preserve">
+    <value>Sunucu bir sorunla karşılaştı ve isteğinizi işlemeyi başaramadı. Lütfen daha sonra tekrar deneyiniz.</value>
+  </data>
+  <data name="Prompt_SessionTimedOut.Text" xml:space="preserve">
+    <value>Oturumunuzun süresi dolmuş olabilir. Bu durumda lütfen yeniden giriş yapınız.</value>
+  </data>
+  <data name="CommandNotFound.Text" xml:space="preserve">
+    <value>'{0}' komutu bulunamadı.</value>
+  </data>
+  <data name="CommandOptionText.Text" xml:space="preserve">
+    <value>{0} veya {1}</value>
+  </data>
+  <data name="DidYouMean.Text" xml:space="preserve">
+    <value>'{0}' demek istediniz mi?</value>
+  </data>
+  <data name="Prompt_NoModules.Text" xml:space="preserve">
+    <value>Hiçbir modül bulunamadı.</value>
+  </data>
+  <data name="Prompt_AddModuleError.Text" xml:space="preserve">
+    <value>Modül eklenmeye çalışılırken bir hata oluştu. Ayrıntılar için lütfen DNN Yönetici Günlüklerine bakınız.</value>
+  </data>
+  <data name="Prompt_DesktopModuleNotFound.Text" xml:space="preserve">
+    <value>Bu sitede '{0}' adlı bir masaüstü modülü bulunamadı</value>
+  </data>
+  <data name="Prompt_ModuleAdded.Text" xml:space="preserve">
+    <value>{0} yeni modül başarıyla eklendi</value>
+  </data>
+  <data name="Prompt_ModuleCopied.Text" xml:space="preserve">
+    <value>Modül başarıyla kopyalandı.</value>
+  </data>
+  <data name="Prompt_ModuleDeleted.Text" xml:space="preserve">
+    <value>Modül başarıyla silindi.</value>
+  </data>
+  <data name="Prompt_NoModulesAdded.Text" xml:space="preserve">
+    <value>Hiçbir modül eklenmedi</value>
+  </data>
+  <data name="Prompt_SourceAndTargetPagesAreSame.Text" xml:space="preserve">
+    <value>Kaynak Sayfa Kimliği ve hedef Sayfa Kimliği aynı olamaz.\n</value>
+  </data>
+  <data name="Prompt_ModuleMoved.Text" xml:space="preserve">
+    <value>Modül başarıyla taşındı.</value>
+  </data>
+  <data name="Prompt_ErrorWhileCopying.Text" xml:space="preserve">
+    <value>Modül kopyalanmaya çalışılırken bir hata oluştu. Ayrıntılar için DNN Yönetici Günlüklerine bakınız.</value>
+  </data>
+  <data name="Prompt_ErrorWhileMoving.Text" xml:space="preserve">
+    <value>Modül taşınmaya çalışılırken bir hata oluştu. Ayrıntılar için DNN Yönetici Günlüklerine bakınız.</value>
+  </data>
+  <data name="Prompt_FailedtoDeleteModule.Text" xml:space="preserve">
+    <value>{0} kimliğine sahip modül silinemedi. Daha fazla ayrıntı için lütfen günlük görüntüleyiciye bakınız.</value>
+  </data>
+  <data name="Prompt_InsufficientPermissions.Text" xml:space="preserve">
+    <value>Bu işlemi gerçekleştirmek için yeterli izniniz bulunmamaktadır.</value>
+  </data>
+  <data name="Prompt_ModuleNotFound.Text" xml:space="preserve">
+    <value>{1} kimliğine sahip sayfada {0} kimliğine sahip modül bulunamadı</value>
+  </data>
+  <data name="Prompt_NoModule.Text" xml:space="preserve">
+    <value>{0} kimliğine sahip modül bulunamadı.</value>
+  </data>
+  <data name="Prompt_PageNotFound.Text" xml:space="preserve">
+    <value>Hedef Sayfa yüklenemedi. Sitede '{0}' kimliğine sahip bir sayfa bulunamadı</value>
+  </data>
+  <data name="Prompt_UserRestart.Text" xml:space="preserve">
+    <value>Kullanıcı bir Uygulama Yeniden Başlatma tetikledi</value>
+  </data>
+  <data name="Prompt_RestartApplication_Description.Text" xml:space="preserve">
+    <value>DNN örneğinin yeniden başlatılmasını başlatır ve sayfayı yeniden yükler.</value>
+  </data>
+  <data name="Prompt_Default.Text" xml:space="preserve">
+    <value>Varsayılan</value>
+  </data>
+  <data name="Prompt_Description.Text" xml:space="preserve">
+    <value>Açıklama</value>
+  </data>
+  <data name="Prompt_Options.Text" xml:space="preserve">
+    <value>Seçenekler</value>
+  </data>
+  <data name="Prompt_Required.Text" xml:space="preserve">
+    <value>Gerekli</value>
+  </data>
+  <data name="Prompt_Type.Text" xml:space="preserve">
+    <value>Tür</value>
+  </data>
+  <data name="Prompt_CommandNotFound.Text" xml:space="preserve">
+    <value>Bu komut için yardım bulunamadı</value>
+  </data>
+  <data name="Prompt_CommandHelpLearn.Text" xml:space="preserve">
+    <value>&lt;section class="dnn-prompt-inline-help"&gt;
+
+  &lt;h3&gt;Prompt Komutlarını Anlama&lt;/h3&gt;
+  &lt;p&gt;
+    Çoğu komut satırı arabirimi gibi, daha fazla komut ezberledikçe daha verimli olabilirsiniz. Prompt komutlarının &lt;em&gt;nasıl&lt;/em&gt; adlandırıldığının ve yapılandırıldığının arkasındaki mantığı anlamak, bunları öğrenmeyi ve içselleştirmeyi çok daha kolay hale getirecektir.
+  &lt;/p&gt;
+  &lt;ol&gt;
+    &lt;li&gt;
+      &lt;strong&gt;Prompt Büyük Küçük Harf Duyarlı Değildir&lt;/strong&gt;. Bu, küçük harf, büyük harf veya karma harf komut adları ve bayrak adları kullanabileceğiniz anlamına gelir. Bu, çoğu komut satırının tipik özelliğidir ve günlük kullanımı daha kolay hale getirdiğini bulduk.
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;strong&gt;Komutlar ya 1 kelimeli ya da tek bir tire (-) ile ayrılmış ve boşluk içermeyen 2 kelimelidir&lt;/strong&gt;.
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;strong&gt;Tek Kelimeli Komutlar:&lt;/strong&gt; Bunlar genellikle Prompt konsolu veya tarayıcıyla etkileşime giren komutlar için ayrılmıştır. Başka bir deyişle, bu komutların çoğu tarayıcıda gerçekleşir. Bazı örnekler: konsol ekranını temizleyen &lt;code&gt;cls&lt;/code&gt; ve tarayıcının sayfayı yeniden yüklemesini sağlayan &lt;code&gt;reload&lt;/code&gt;. Ayrıca istemci tarafında çalışan iki kelimeli komutlar da vardır, örneğin &lt;code&gt;clear-history&lt;/code&gt; (clear-history için bir kısayol da mevcuttur: &lt;code&gt;clh&lt;/code&gt;&lt;/li&gt;
+    &lt;li&gt;
+      &lt;strong&gt;İki Kelimeli Komutlar:&lt;/strong&gt; Bu komutlar &lt;code&gt;eylem-bileşen&lt;/code&gt; biçimini izler; bir eylem, ardından bir tire, ardından eylemin üzerinde çalıştığı bir bileşen veya nesne.
+    &lt;/li&gt;
+  &lt;/ol&gt;
+
+  &lt;h4&gt;Yaygın Eylemler&lt;/h4&gt;
+  &lt;p&gt;Bu, tüm eylemlerin tam listesi değildir, ancak çoğunu kapsar...&lt;/p&gt;
+
+  &lt;table class="table"&gt;
+    &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Eylem&lt;/th&gt;
+      &lt;th&gt;Açıklama&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td class="mono"&gt;list&lt;/td&gt;
+      &lt;td&gt;
+        Nesnelerin bir listesini getirir. Varsayım, iki veya daha fazla nesnenin döndürüleceğidir, bu nedenle komutun bileşen kısmı çoğul formdadır:&lt;br&gt;
+        &lt;code&gt;list-pages&lt;/code&gt; &lt;code&gt;list-page&lt;/code&gt; DEĞİL
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class="mono"&gt;get&lt;/td&gt;
+      &lt;td&gt;
+        Tek bir nesne getirir. Komut birden fazla nesne sonucuna yol açarsa, yalnızca bulunan ilk nesne getirilir. Bu komut tek bir öge üzerinde çalıştığından, bileşen çoğul değil tekildir:&lt;br&gt;
+        &lt;code&gt;get-page&lt;/code&gt; &lt;code&gt;get-pages&lt;/code&gt; DEĞİL
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class="mono"&gt;new&lt;/td&gt;
+      &lt;td&gt;
+        Yeni bir nesne oluşturur. 'create' kelimesinden daha az yazım gerektirdiği için ve 'add' kelimesinden daha doğru olduğu için &lt;code&gt;new&lt;/code&gt; kelimesini seçtik; çünkü 'add', bir şeye başka bir şey ekleme anlamına gelir.
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class="mono"&gt;add&lt;/td&gt;
+      &lt;td&gt;
+        Bir şeye başka bir şey ekler. Bu, yeni bir nesne &lt;em&gt;oluşturan&lt;/em&gt; &lt;code&gt;new&lt;/code&gt; ile karıştırılmamalıdır. &lt;code&gt;add-roles&lt;/code&gt; ve &lt;code&gt;new-role&lt;/code&gt; düşünün. İlki, bir kullanıcıya bir veya daha fazla güvenlik rolü &lt;em&gt;eklemek&lt;/em&gt; için kullanılır (yani. kullanıcının zaten sahip olduğu roller listesine bir rol eklemek), ikincisi ise DNN sisteminde yeni bir güvenlik rolü oluşturur.
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class="mono"&gt;set&lt;/td&gt;
+      &lt;td&gt;
+        Bir nesneyi değiştirir. Bu, 'güncelle' veya bir değer ayarlamak (ilk kez) anlamına gelebilir. 'set' kelimesini yalnızca kısa ve yazması kolay olduğu için değil, aynı zamanda daha fazla senaryoda daha doğru olduğu için de seçtik. 'Update' (Güncelle), zaten ayarlanmış bir değeri değiştirdiğinizi ima eder, ancak bir değeri ilk kez ayarlarsanız daha az doğru olur. 'set'in 'update'ten yarısı kadar kısa olduğunu bahsetmiş miydik?
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class="mono"&gt;delete&lt;/td&gt;
+      &lt;td&gt;
+        Bir nesneyi siler. Bu eylemin sonuçları bağlama göre değişir. DNN, sayfalar ve kullanıcılar için yaptığı gibi bir geri dönüş kutusu imkânı sağlıyorsa, komut nesneyi bu geri dönüş kutusuna gönderir ve daha sonra geri yüklenmesini sağlar. Böyle bir imkân sağlanmıyorsa, nesne kalıcı olarak silinir.
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class="mono"&gt;restore&lt;/td&gt;
+      &lt;td&gt;
+        Bir nesne daha önce silindiyse ve DNN nesne için bir geri dönüş imkânı sağlıyorsa, bu nesneyi geri yükler.
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class="mono"&gt;purge&lt;/td&gt;
+      &lt;td&gt;
+        Nesne daha önce silindiyse ve DNN nesne için bir geri dönüş imkânı sağlıyorsa, bu komut nesneyi kalıcı olarak siler. DNN kullanıcı arabirimi buna genellikle 'remove' (kaldır) der ancak 'purge' (temizle) kelimesinin eylemi daha doğru yansıttığını düşündük.
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;/tbody&gt;
+  &lt;/table&gt;
+
+  &lt;h4&gt;Yaygın Bileşenler&lt;/h4&gt;
+  &lt;p&gt;Çoğu bileşen, DNN ile yönetici deneyimine sahip herhangi bir kullanıcı için tanıdık olacaktır. Aşağıda en yaygın olanlar yer almaktadır:&lt;/p&gt;
+  &lt;p&gt;Çoğul ve Tekil Bileşenler Hakkında Bir Not: Bir komut 1 veya daha fazla öge üzerinde çalışabildiğinde, bileşen çoğul formda olur. Örneğin &lt;code&gt;list-modules&lt;/code&gt;. Komut tek bir nesne veya ilk nesne döndürmek üzere tasarlandığında, bileşen &lt;code&gt;get-module&lt;/code&gt; örneğinde olduğu gibi tekil formda olur.&lt;/p&gt;
+
+  &lt;table class="table"&gt;
+    &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Bileşen&lt;/th&gt;
+      &lt;th&gt;Açıklama&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td class="mono"&gt;user/users&lt;/td&gt;
+      &lt;td&gt;
+        Bir DNN Kullanıcı.
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class="mono"&gt;page/pages&lt;/td&gt;
+      &lt;td&gt;Site içindeki bir sayfa. NOT: Tarihsel nedenlerle, DNN sayfaları &lt;em&gt;içeride&lt;/em&gt; Tab olarak referans verirken, DNN kullanıcı arabirimi bunlara sayfa olarak atıfta bulunur. 'page' (sayfa) kelimesini kullanmayı seçtik, ancak sayfa ile ilgili komutlardan dönen Tab veya TabID referansları görebilirsiniz. Prompt'un amaçları doğrultusunda yalnızca 'page' kullanmalısınız, ancak 'page' ve 'tab' eş anlamlı olduğunu anlamalısınız. &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class="mono"&gt;role/roles&lt;/td&gt;
+      &lt;td&gt;Bir DNN Güvenlik Rolü.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class="mono"&gt;task/tasks&lt;/td&gt;
+      &lt;td&gt;Bir görev, bir DNN Zamanlayıcı Ögesidir veya Planlanmış Gövtür. Kısalığı nedeniyle 'task' (görev) kelimesini kullanıyoruz.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class="mono"&gt;portal/portals&lt;/td&gt;
+      &lt;td&gt;Bir DNN sitesi veya portal.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class="mono"&gt;module/modules&lt;/td&gt;
+      &lt;td&gt;Bir DNN modülü. Komuta bağlı olarak, bu bir modül tanımı veya modül örneği olabilir.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;/tbody&gt;
+  &lt;/table&gt;
+
+  &lt;h4&gt;Ayrıca Bakınız&lt;/h4&gt;
+  &lt;a data-cmd="help syntax" class="dnn-prompt-cmd-insert" href="#"&gt;Temel Sözdizimi&lt;/a&gt;
+  &lt;a data-cmd="help" class="dnn-prompt-cmd-insert" href="#"&gt;Prompt Komutları Listesi&lt;/a&gt;
+
+&lt;/section&gt;</value>
+  </data>
+  <data name="Prompt_CommandHelpSyntax.Text" xml:space="preserve">
+    <value>&lt;section class="dnn-prompt-inline-help"&gt;
+  &lt;h3&gt;Temel Sözdizimi&lt;/h3&gt;
+  &lt;p&gt;
+    &lt;em&gt;Prompt&lt;/em&gt;, bir Terminal, Bash kabuğu, Windows CMD kabuğu veya Powershell'e benzer bir şekilde çalışır. Bir komut girersiniz ve &lt;code&gt;ENTER&lt;/code&gt; tuşuna basarsınız, bilgisayar bir sonuçla yanıt verir. &lt;code&gt;help&lt;/code&gt; veya &lt;code&gt;list-modules&lt;/code&gt; gibi çok basit komutlar için bu yeterlidir. Ancak bazı komutlar ek veri gerektirebilir veya ek seçenekler sağlayabilmenize olanak tanır.
+  &lt;/p&gt;
+  &lt;p&gt;
+    Bir komut için hedef veya bağlam belirtme: Bir kullanıcı gibi bir nesne üzerinde çalışan veya bir sayfa gibi bir bağlam gerektiren komutlar için, bu bilgileri komuttan sonra basitçe sağlarsınız. Örneğin, &lt;code&gt;get-user&lt;/code&gt; komutunu kullanarak &lt;em&gt;jsmith&lt;/em&gt; kullanıcısını bulmak için şu şekilde yazarsınız: &lt;code&gt;get-user jsmith&lt;/code&gt; ve ardından göndermek için &lt;code&gt;ENTER&lt;/code&gt; tuşuna basarsınız. Bayrak belirtecekseniz (bir sonraki paragrafa bakın), bunlar &lt;em&gt;her zaman&lt;/em&gt; komutun hedefi/bağlamı &lt;em&gt;sonrası&lt;/em&gt; gelmelidir.
+  &lt;/p&gt;
+  &lt;p&gt;
+    Komutlara Seçenek Belirtme: Bazı komutlar daha fazla veri gerektirir veya isteğe bağlı yapılandırma bilgisi belirtmenize olanak tanır. &lt;em&gt;Prompt&lt;/em&gt; içinde bunlara &amp;quot;bayraklar&amp;quot; diyoruz. Bunlar, komutun ihtiyaç duyduğu herhangi bir hedef/bağlamdan &lt;em&gt;sonra&lt;/em&gt; gelmelidir (yukarıdaki paragrafa bakın) ve &lt;em&gt;mutlaka&lt;/em&gt; iki tire veya kısa çizgi ile (&lt;code&gt;--&lt;/code&gt;) başlamalıdır. Tireler arasında boşluk olmamalı ve tireler ile bayrak adı arasında boşluk olmamalıdır. Eğer bayrak bir değer gerektiriyorsa, bu değeri bayrağın sonrasına eklersiniz.
+  &lt;/p&gt;
+  &lt;p&gt;
+    Bayrak kullanımı örneği olarak, &lt;code&gt;get-user&lt;/code&gt; komutunu ele alalım. Varsayılan olarak, bulmak istediğiniz kullanıcının kullanıcı adını belirtirsiniz. Ancak, e-posta adresleriyle de arayabilirsiniz. Bu durumda, &lt;code&gt;--email&lt;/code&gt; bayrağını kullanırsınız. Kullanımı şöyledir:
+  &lt;/p&gt;
+  &lt;code class="block"&gt;
+    get-user --email jsmith@sample.com
+  &lt;/code&gt;
+  &lt;p&gt;
+    Bir bayrağın değeri birden fazla kelimeyse, çift tırnak içinde yerleştirin:
+  &lt;/p&gt;
+  &lt;code class="block"&gt;
+    set-page --title "My Page"
+  &lt;/code&gt;
+
+  &lt;h4&gt;Ayrıca Bakınız&lt;/h4&gt;
+  &lt;a data-cmd="help learn" class="dnn-prompt-cmd-insert" href="#"&gt;Prompt Komutlarını Öğrenme&lt;/a&gt;
+  &lt;a data-cmd="help" class="dnn-prompt-cmd-insert" href="#"&gt;Prompt Komutları Listesi&lt;/a&gt;
+
+&lt;/section&gt;</value>
+  </data>
+  <data name="Prompt_AddModule_Description.Text" xml:space="preserve">
+    <value>Web sitesindeki bir sayfaya modül ekler.</value>
+  </data>
+  <data name="Prompt_AddModule_FlagModuleName.Text" xml:space="preserve">
+    <value>Eklenecek masaüstü modülün adı. Bu, benzersiz ve var olan bir modül adı olmalıdır.</value>
+  </data>
+  <data name="Prompt_AddModule_FlagModuleTitle.Text" xml:space="preserve">
+    <value>Modülün sayfadaki başlığını belirtin.</value>
+  </data>
+  <data name="Prompt_AddModule_FlagPageId.Text" xml:space="preserve">
+    <value>Modülün ekleneceği sayfanın Kimliği.</value>
+  </data>
+  <data name="Prompt_AddModule_FlagPane.Text" xml:space="preserve">
+    <value>Modülün ekleneceği bölünü belirtin. Sağlanmazsa, modül ContentPane'e eklenecektir.</value>
+  </data>
+  <data name="Prompt_AddModule_ResultHtml.Text" xml:space="preserve">
+    <value>&lt;h4&gt;Bir sayfaya modül ekleme&lt;/h4&gt;
+    &lt;code class="block"&gt;add-module --name "Html" --pageid 23 --pane TopPane&lt;/code&gt;</value>
+  </data>
+  <data name="Prompt_CopyModule_Description.Text" xml:space="preserve">
+    <value>Bir modülü belirtilen sayfaya kopyalar.</value>
+  </data>
+  <data name="Prompt_CopyModule_FlagId.Text" xml:space="preserve">
+    <value>Kopyalanacak modülün Modül Kimliğini açıkça belirtir. Bayrağın kullanılması gerekli değildir. Kimlik değerini ilk bağımsız değişken olarak sağlayabilirsiniz.</value>
+  </data>
+  <data name="Prompt_CopyModule_FlagIncludesettings.Text" xml:space="preserve">
+    <value>Doğruysa, Prompt kaynak modülün ayarlarını kopyalanan modüle kopyalar.</value>
+  </data>
+  <data name="Prompt_CopyModule_FlagPageId.Text" xml:space="preserve">
+    <value>Kopyalamak istediğiniz modülü içeren sayfanın Sayfa Kimliği.</value>
+  </data>
+  <data name="Prompt_CopyModule_FlagPane.Text" xml:space="preserve">
+    <value>Modülün kopyalanacağı bölünü belirtin. Sağlanmazsa, modül ContentPane'e kopyalanacaktır.</value>
+  </data>
+  <data name="Prompt_CopyModule_FlagToPageId.Text" xml:space="preserve">
+    <value>Hedef sayfanın Sayfa Kimliği. Modülü kopyalamak istediğiniz sayfa.</value>
+  </data>
+  <data name="Prompt_DeleteModule_Description.Text" xml:space="preserve">
+    <value>Belirli bir sayfadaki bir modülü yumuşak siler. Modül DNN Geri Dönüş Kutusu'na gönderilecektir. Bu, modüllerin kaldırılmasını veya modül tanımlarını etkilemez.</value>
+  </data>
+  <data name="Prompt_DeleteModule_FlagId.Text" xml:space="preserve">
+    <value>Getirilecek modülün Modül Kimliğini açıkça belirtir. Bayrağın kullanılması gerekli değildir. Kimlik değerini ilk bağımsız değişken olarak sağlayabilirsiniz.</value>
+  </data>
+  <data name="Prompt_DeleteModule_FlagPageId.Text" xml:space="preserve">
+    <value>Silinecek modülün bulunduğu sayfanın Sayfa Kimliğini belirtir.</value>
+  </data>
+  <data name="Prompt_DeleteModule_ResultHtml.Text" xml:space="preserve">
+    <value>&lt;h4&gt;Modül Örneğini Silme ve Geri Dönüş Kutusu'na Gönderme&lt;/h4&gt;
+    &lt;p&gt;Bu, belirli bir sayfadaki bir modül örneğini siler ve DNN Geri Dönüş Kutusu'na gönderir&lt;/p&gt;
+    &lt;code class="block"&gt;delete-module 345 --pageid 42&lt;/code&gt;</value>
+  </data>
+  <data name="Prompt_GetModule_Description.Text" xml:space="preserve">
+    <value>Belirtilen sayfadaki tek bir modül hakkında ayrıntıları getirir</value>
+  </data>
+  <data name="Prompt_GetModule_FlagId.Text" xml:space="preserve">
+    <value>Getirilecek modülün Modül Kimliğini açıkça belirtir. Bayrağın kullanılması gerekli değildir. Kimlik değerini ilk bağımsız değişken olarak sağlayabilirsiniz.</value>
+  </data>
+  <data name="Prompt_GetModule_FlagPageId.Text" xml:space="preserve">
+    <value>Modülü içeren sayfanın Sayfa Kimliği.</value>
+  </data>
+  <data name="Prompt_GetModule_Result.Text" xml:space="preserve">
+    <value>'{0}' modülü '{1}' sayfasında bulundu.</value>
+  </data>
+  <data name="Prompt_GetModule_ResultHtml.Text" xml:space="preserve">
+    <value>&lt;h4&gt;Belirli Bir Modül Hakkında Bilgi Alma&lt;/h4&gt;
+        &lt;p&gt;Aşağıdaki kod, Modül Kimliği 345 olan bir modülün 48 numaralı sayfadaki ayrıntılarını getirir&lt;/p&gt;
+        &lt;code class="block"&gt;get-module 359 --pageid 48&lt;/code&gt;
+        &lt;p&gt;Aşağıdaki sürüm, yukarıdaki kodun daha açık bir versiyonudur ve 48 numaralı sayfada aynı işlemi gerçekleştirir.&lt;/p&gt;
+        &lt;code class="block"&gt;get-module --id 359 --pageid 48&lt;/code&gt;
+
+        &lt;h4&gt;Sonuçlar&lt;/h4&gt;
+        &lt;table class="command-result-tbl"&gt;
+            &lt;tr&gt;
+                &lt;td&gt;ModuleId&lt;/td&gt;
+                &lt;td&gt;:&lt;/td&gt;
+                &lt;td&gt;359&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;Title&lt;/td&gt;
+                &lt;td&gt;:&lt;/td&gt;
+                &lt;td&gt;Navigation&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;ModuleName&lt;/td&gt;
+                &lt;td&gt;:&lt;/td&gt;
+                &lt;td&gt;Console&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;FriendlyName&lt;/td&gt;
+                &lt;td&gt;:&lt;/td&gt;
+                &lt;td&gt;Console&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;ModuleDefId&lt;/td&gt;
+                &lt;td&gt;:&lt;/td&gt;
+                &lt;td&gt;102&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;TabModuleId&lt;/td&gt;
+                &lt;td&gt;:&lt;/td&gt;
+                &lt;td&gt;48&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;AddedToPages&lt;/td&gt;
+                &lt;td&gt;:&lt;/td&gt;
+                &lt;td&gt;42, 46, 47, 48&lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/table&gt;</value>
+  </data>
+  <data name="Prompt_ListModules_Description.Text" xml:space="preserve">
+    <value>Arama kriterlerine göre modüllerin bir listesini getirir</value>
+  </data>
+  <data name="Prompt_ListModules_FlagDeleted.Text" xml:space="preserve">
+    <value>Belirtilendiğinde, komut sitedeki Geri Dönüşüm Kutusu'ndaki (&lt;span class="mono"&gt;--deleted&lt;/span&gt; doğruysa) tüm modül örneklerini veya Geri Dönüşüm Kutusu'nda &lt;em&gt;olmayan&lt;/em&gt; tüm modül örneklerini (&lt;span class="mono"&gt;--deleted&lt;/span&gt; yanlışsa) bulacaktır. Bayrak belirtilir ancak bir değer verilmezse, varsayılan olarak &lt;span class="mono"&gt;true&lt;/span&gt; olur. Bu bayrak, sonuçları daha da daraltmak için &lt;span class="mono"&gt;--name&lt;/span&gt; ve &lt;span class="mono"&gt;--title&lt;/span&gt; ile birlikte kullanılabilir.</value>
+  </data>
+  <data name="Prompt_ListModules_FlagMax.Text" xml:space="preserve">
+    <value>Sayfa boyutu. Maksimum 500'dür.</value>
+  </data>
+  <data name="Prompt_ListModules_FlagModuleName.Text" xml:space="preserve">
+    <value>Aranacak modülün adı. Bu, kısmi aramalar yapmak için joker (*) karakterini kabul eder. Modül Adı, modülün Anlaşılır Adı veya modülün Başlığı ile aynı şey değildir. Modül Adını bulmak için, modülü içeren bir sayfada &lt;code&gt;list-modules&lt;/code&gt; komutunu çalıştırın. Aramalar büyük küçük harf duyarlı değildir</value>
+  </data>
+  <data name="Prompt_ListModules_FlagModuleTitle.Text" xml:space="preserve">
+    <value>Aranacak modülün başlığı. Bu, 0 veya daha fazla karakteri temsil eden joker (*) karakterlerini kabul eder. Aramalar büyük küçük harf duyarlı değildir.</value>
+  </data>
+  <data name="Prompt_ListModules_FlagPage.Text" xml:space="preserve">
+    <value>Kayıtları göstermek için sayfa numarası.</value>
+  </data>
+  <data name="Prompt_ListModules_FlagPageId.Text" xml:space="preserve">
+    <value>Belirtilendiğinde, komut yalnızca belirtilen sayfadan modülleri gösterecektir. Bayrağın kullanılması gerekli değildir. Kimlik değerini ilk bağımsız değişken olarak sağlayabilirsiniz.</value>
+  </data>
+  <data name="Prompt_ListModules_ResultHtml.Text" xml:space="preserve">
+    <value>&lt;h4&gt;Geçerli Sitedeki Modülleri Listeleme&lt;/h4&gt;
+        &lt;code class="block"&gt;list-modules&lt;/code&gt;
+
+        &lt;h4&gt;Belirli Sayfadaki Modülleri Listeleme&lt;/h4&gt;
+        &lt;code class="block"&gt;list-modules 72&lt;/code&gt;
+
+        &lt;h4&gt;Modül Adına Göre Filtrelenmiş Modülleri Listeleme&lt;/h4&gt;
+        &lt;p&gt;Bu, geçerli sitedeki tüm XMod ve XMod Pro modüllerini döndürecektir&lt;/p&gt;
+        &lt;code class="block"&gt;list-modules --name XMod*&lt;/code&gt;
+
+        &lt;h4&gt;Belirli Bir Sayfada Modül Adına Göre Filtrelenmiş Modülleri Listeleme&lt;/h4&gt;
+        &lt;p&gt;Bu, Sayfa/TabId'si 72 olan sayfada tüm XMod ve XMod Pro modüllerini döndürecektir&lt;/p&gt;
+        &lt;code class="block"&gt;list-modules 72 --name XMod*&lt;/code&gt;
+
+        &lt;h4&gt;Ad ve Başlığa Göre Filtrelenmiş Tüm Modülleri Listeleme&lt;/h4&gt;
+        &lt;p&gt;Bu, sitede Modül Adı Site ile &lt;strong&gt;başlayan&lt;/strong&gt; ve Başlığı Configure ile başlayan tüm modülleri döndürecektir.&lt;/p&gt;
+        &lt;code class="block"&gt;list-modules --title Configure* --name Site*&lt;/code&gt;
+        &lt;h4&gt;Dönen Sonuçlar&lt;/h4&gt;
+        &lt;table class="command-result-tbl"&gt;
+            &lt;thead&gt;
+                &lt;tr&gt;
+                    &lt;th&gt;ModuleId&lt;/th&gt;
+                    &lt;th&gt;Title&lt;/th&gt;
+                    &lt;th&gt;ModuleName&lt;/th&gt;
+                    &lt;th&gt;FriendlyName&lt;/th&gt;
+                    &lt;th&gt;ModuleDefId&lt;/th&gt;
+                    &lt;th&gt;TabModuleId&lt;/th&gt;
+                    &lt;th&gt;AddedToPages&lt;/th&gt;
+                &lt;/tr&gt;
+            &lt;/thead&gt;
+            &lt;tbody&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;394&lt;/td&gt;
+                    &lt;td&gt;Site ayarlarını, sayfa tasarımını yapılandırın ve şablon uygulayın...&lt;/td&gt;
+                    &lt;td&gt;SiteWizard&lt;/td&gt;
+                    &lt;td&gt;Site Wizard&lt;/td&gt;
+                    &lt;td&gt;88&lt;/td&gt;
+                    &lt;td&gt;86&lt;/td&gt;
+                    &lt;td&gt;64&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;395&lt;/td&gt;
+                    &lt;td&gt;Yaygın arama motorlarına gönderim için site haritasını yapılandırın&lt;/td&gt;
+                    &lt;td&gt;Sitemap&lt;/td&gt;
+                    &lt;td&gt;Sitemap&lt;/td&gt;
+                    &lt;td&gt;106&lt;/td&gt;
+                    &lt;td&gt;87&lt;/td&gt;
+                    &lt;td&gt;65&lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/tbody&gt;
+        &lt;/table&gt;
+
+        &lt;h4&gt;Sitedeki Tüm Silinen Modülleri Listeleme&lt;/h4&gt;
+        &lt;p&gt;Bu, DNN Geri Dönüşüm Kutusu'ndaki tüm modülleri döndürecektir.&lt;/p&gt;
+        &lt;code class="block"&gt;list-modules --deleted&lt;/code&gt;
+        &lt;h4&gt;Dönen Sonuçlar&lt;/h4&gt;
+        &lt;table class="command-result-tbl"&gt;
+            &lt;thead&gt;
+                &lt;tr&gt;
+                    &lt;th&gt;ModuleId&lt;/th&gt;
+                    &lt;th&gt;Title&lt;/th&gt;
+                    &lt;th&gt;Pane&lt;/th&gt;
+                    &lt;th&gt;ModuleName&lt;/th&gt;
+                    &lt;th&gt;FriendlyName&lt;/th&gt;
+                    &lt;th&gt;ModuleDefId&lt;/th&gt;
+                    &lt;th&gt;TabModuleId&lt;/th&gt;
+                    &lt;th&gt;IsDeleted&lt;/th&gt;
+                    &lt;th&gt;TabId&lt;/th&gt;
+                &lt;/tr&gt;
+            &lt;/thead&gt;
+            &lt;tbody&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;358&lt;/td&gt;
+                    &lt;td&gt;Home Banner&lt;/td&gt;
+                    &lt;td&gt;ContentPane&lt;/td&gt;
+                    &lt;td&gt;DNN_HTML&lt;/td&gt;
+                    &lt;td&gt;HTML&lt;/td&gt;
+                    &lt;td&gt;120&lt;/td&gt;
+                    &lt;td&gt;106&lt;/td&gt;
+                    &lt;td&gt;true&lt;/td&gt;
+                    &lt;td&gt;74&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;410&lt;/td&gt;
+                    &lt;td&gt;Kopyalanan modül&lt;/td&gt;
+                    &lt;td&gt;ContentPane&lt;/td&gt;
+                    &lt;td&gt;DNN_HTML&lt;/td&gt;
+                    &lt;td&gt;HTML&lt;/td&gt;
+                    &lt;td&gt;120&lt;/td&gt;
+                    &lt;td&gt;104&lt;/td&gt;
+                    &lt;td&gt;true&lt;/td&gt;
+                    &lt;td&gt;71&lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/tbody&gt;
+        &lt;/table&gt;
+
+        &lt;h4&gt;Ad ve Başlığa Göre Filtrelenmiş Tüm Silinen Modülleri Listeleme&lt;/h4&gt;
+        &lt;p&gt;Bu, DNN Geri Dönüşüm Kutusu'nda Modül Adı &amp;quot;HTML&amp;quot; ile biten ve Modül Başlığı &amp;quot;that&amp;quot; içeren tüm modülleri döndürecektir.&lt;/p&gt;
+        &lt;code class="block"&gt;list-modules --deleted --name *HTML --title *that*&lt;/code&gt;
+        &lt;h4&gt;Dönen Sonuçlar&lt;/h4&gt;
+        &lt;table class="command-result-tbl"&gt;
+            &lt;thead&gt;
+                &lt;tr&gt;
+                    &lt;th&gt;ModuleId&lt;/th&gt;
+                    &lt;th&gt;Title&lt;/th&gt;
+                    &lt;th&gt;Pane&lt;/th&gt;
+                    &lt;th&gt;ModuleName&lt;/th&gt;
+                    &lt;th&gt;FriendlyName&lt;/th&gt;
+                    &lt;th&gt;ModuleDefId&lt;/th&gt;
+                    &lt;th&gt;TabModuleId&lt;/th&gt;
+                    &lt;th&gt;IsDeleted&lt;/th&gt;
+                    &lt;th&gt;TabId&lt;/th&gt;
+                &lt;/tr&gt;
+            &lt;/thead&gt;
+            &lt;tbody&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;410&lt;/td&gt;
+                    &lt;td&gt;Kopyalanan modül&lt;/td&gt;
+                    &lt;td&gt;ContentPane&lt;/td&gt;
+                    &lt;td&gt;DNN_HTML&lt;/td&gt;
+                    &lt;td&gt;HTML&lt;/td&gt;
+                    &lt;td&gt;120&lt;/td&gt;
+                    &lt;td&gt;104&lt;/td&gt;
+                    &lt;td&gt;true&lt;/td&gt;
+                    &lt;td&gt;71&lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/tbody&gt;
+        &lt;/table&gt;</value>
+  </data>
+  <data name="Prompt_MoveModule_Description.Text" xml:space="preserve">
+    <value>Bir modülü belirtilen sayfaya taşır</value>
+  </data>
+  <data name="Prompt_MoveModule_FlagId.Text" xml:space="preserve">
+    <value>Kopyalanacak modülün Modül Kimliğini açıkça belirtir. Bayrağın kullanılması gerekli değildir. Kimlik değerini ilk bağımsız değişken olarak sağlayabilirsiniz.</value>
+  </data>
+  <data name="Prompt_MoveModule_FlagPageId.Text" xml:space="preserve">
+    <value>Kopyalamak istediğiniz modülü içeren sayfanın Sayfa Kimliği.</value>
+  </data>
+  <data name="Prompt_MoveModule_FlagPane.Text" xml:space="preserve">
+    <value>Modülün taşınacağı bölünü belirtin. Sağlanmazsa, modül ContentPane'e taşınacaktır.</value>
+  </data>
+  <data name="Prompt_MoveModule_FlagToPageId.Text" xml:space="preserve">
+    <value>Hedef sayfanın Sayfa Kimliği. Modülü kopyalamak istediğiniz sayfa.</value>
+  </data>
+  <data name="Prompt_MoveModule_ResultHtml.Text" xml:space="preserve">
+    <value>&lt;h4&gt;Bir Modülü Bir Sayfadan Başkasına Taşıma&lt;/h4&gt;
+    &lt;p&gt;Bu komut, Sayfa Kimliği 71 olan Sayfadaki Modül Kimliği 358 olan modülü alır ve modülü Sayfa Kimliği 75 olan sayfaya yerleştirir&lt;/p&gt;
+    &lt;code class="block"&gt;move-module 358 --pageid 71 --topageid 75&lt;/code&gt;
+
+    &lt;h4&gt;Sonuçlar&lt;/h4&gt;
+    &lt;table class="command-result-tbl"&gt;
+      &lt;tr&gt;
+        &lt;td&gt;ModuleId&lt;/td&gt;
+        &lt;td&gt;:&lt;/td&gt;
+        &lt;td&gt;358&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Title&lt;/td&gt;
+        &lt;td&gt;:&lt;/td&gt;
+        &lt;td&gt;My Module&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;ModuleName&lt;/td&gt;
+        &lt;td&gt;:&lt;/td&gt;
+        &lt;td&gt;DNN_HTML&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;FriendlyName&lt;/td&gt;
+        &lt;td&gt;:&lt;/td&gt;
+        &lt;td&gt;HTML&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;ModuleDefId&lt;/td&gt;
+        &lt;td&gt;:&lt;/td&gt;
+        &lt;td&gt;120&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;TabModuleId&lt;/td&gt;
+        &lt;td&gt;:&lt;/td&gt;
+        &lt;td&gt;107&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;AddedToPages&lt;/td&gt;
+        &lt;td&gt;:&lt;/td&gt;
+        &lt;td&gt;71, 75&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td colspan="3"&gt;Modül başarıyla taşındı.&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/table&gt;</value>
+  </data>
+  <data name="Prompt_ClearCache_Description.Text" xml:space="preserve">
+    <value>Sunucunun önbelleğini temizler ve sayfayı yeniden yükler.</value>
+  </data>
+  <data name="Prompt_ClearCache_ResultHtml.Text" xml:space="preserve">
+    <value>   &lt;code class="block"&gt;
+      clear-cache
+    &lt;/code&gt;
+    &lt;h4&gt;Sonuçlar&lt;/h4&gt;
+    &lt;table class="command-result-tbl"&gt;
+      &lt;tr&gt;&lt;td&gt;Önbellek temizlendi&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;3 saniye içinde yeniden yükleniyor&lt;/td&gt;&lt;/tr&gt;
+    &lt;/table&gt;</value>
+  </data>
+  <data name="Prompt_ClearHistory_Description.Text" xml:space="preserve">
+    <value>Mevcut oturumda kullanılan komutların geçmişini temizler</value>
+  </data>
+  <data name="Prompt_ClearLog_Description.Text" xml:space="preserve">
+    <value>Geçerli sitenin Olay Günlüğünü temizler.</value>
+  </data>
+  <data name="Prompt_ClearLog_ResultHtml.Text" xml:space="preserve">
+    <value>&lt;code class="block"&gt;
+      clear-log
+    &lt;/code&gt;
+    &lt;h4&gt;Sonuçlar&lt;/h4&gt;
+    &lt;table class="command-result-tbl"&gt;
+      &lt;tr&gt;&lt;td&gt;&lt;em&gt;[Olay Günlüğü Temizlendi]&lt;/em&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;/table&gt;</value>
+  </data>
+  <data name="Prompt_Cls_Description.Text" xml:space="preserve">
+    <value>Prompt konsolunu temizler. &lt;code&gt;cls&lt;/code&gt;, &lt;a href="#clear-screen" class="dnn-prompt-cmd-insert"&gt;&lt;code&gt;clear-screen&lt;/code&gt;&lt;/a&gt; için bir kısayoldur</value>
+  </data>
+  <data name="Prompt_Echo_Description.Text" xml:space="preserve">
+    <value>Alınan ilk bağımsız değişkeni yansıtır</value>
+  </data>
+  <data name="Prompt_Exit_Description.Text" xml:space="preserve">
+    <value>Prompt konsolundan çıkar.</value>
+  </data>
+  <data name="Prompt_GetHost_Description.Text" xml:space="preserve">
+    <value>DNN yükleme hakkında bilgi getirir</value>
+  </data>
+  <data name="Prompt_GetHost_ResultHtml.Text" xml:space="preserve">
+    <value>&lt;h4&gt;Mevcut DNN Yükleme Hakkında Bilgi Alma&lt;/h4&gt;
+  &lt;code class="block"&gt;
+    get-host
+  &lt;/code&gt;
+  &lt;h4&gt;Sonuçlar&lt;/h4&gt;
+  &lt;table class="command-result-tbl"&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Product&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;DNN Platform&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Version&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;9.0.0.1002&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;UpgradeAvailable&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;true&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Framework&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;4.6&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;IP Address&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;fe80::a952:8263:d357:ab90%5&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Permissions&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;ReflectionPermission, WebPermission, AspNetHostingPermission&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Site&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;dnnprompt.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Title&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;DNN Corp&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Url&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;https://dnncommunity.org/&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Email&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;support@dnnprompt.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Theme&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;Gravity (2-Col)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Container&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;Gravity (Title_h2)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;EditTheme&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;Gravity (2-Col)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;EditContainer&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;Gravity (Title_h2)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;PortalCount&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;</value>
+  </data>
+  <data name="Prompt_GetPortal_Description.Text" xml:space="preserve">
+    <value>Geçerli site veya belirtilen site hakkında temel bilgileri getirir</value>
+  </data>
+  <data name="Prompt_GetPortal_FlagId.Text" xml:space="preserve">
+    <value>Bilgisi alınacak sitenin kimliği. Geçerli site dışındaki sitelerin bilgilerini yalnızca süper kullanıcılar alabilir.</value>
+  </data>
+  <data name="Prompt_GetPortal_ResultHtml.Text" xml:space="preserve">
+    <value>&lt;h4&gt;Geçerli Site Hakkında Bilgi Alma&lt;/h4&gt;
+  &lt;code class="block"&gt;
+    get-portal
+  &lt;/code&gt;
+  &lt;h4&gt;Sonuçlar&lt;/h4&gt;
+  &lt;table class="command-result-tbl"&gt;
+    &lt;tr&gt;
+      &lt;td&gt;PortalId&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;PortalName&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;dnncommunity.org&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CdfVersion&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;-1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;RegistrationMode&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;Verified&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;DefaultPortalAlias&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;dnncommunity.org&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;PageCount&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;34&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;UserCount&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;5&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;SiteTheme&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;Aperture (default)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;AdminTheme&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;Aperture (default)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Container&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;Aperture (none)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;AdminContainer&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;Aperture (title)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Language&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;en-US&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;</value>
+  </data>
+  <data name="Prompt_GetSite_Description.Text" xml:space="preserve">
+    <value>Geçerli site veya belirtilen site hakkında temel bilgileri getirir</value>
+  </data>
+  <data name="Prompt_GetSite_FlagId.Text" xml:space="preserve">
+    <value>Bilgisi alınacak sitenin kimliği. Geçerli site dışındaki sitelerin bilgilerini yalnızca süper kullanıcılar alabilir.</value>
+  </data>
+  <data name="Prompt_GetSite_ResultHtml.Text" xml:space="preserve">
+    <value>&lt;h4&gt;Geçerli Site Hakkında Bilgi Alma&lt;/h4&gt;
+  &lt;code class="block"&gt;
+    get-portal
+  &lt;/code&gt;
+  &lt;h4&gt;Sonuçlar&lt;/h4&gt;
+  &lt;table class="command-result-tbl"&gt;
+    &lt;tr&gt;
+      &lt;td&gt;PortalId&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;PortalName&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;dnncommunity.org&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CdfVersion&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;-1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;RegistrationMode&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;Verified&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;DefaultPortalAlias&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;dnncommunity.org&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;PageCount&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;34&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;UserCount&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;5&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;SiteTheme&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;Aperture (default)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;AdminTheme&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;Aperture (default)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Container&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;Aperture (none)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;AdminContainer&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;Aperture (title)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Language&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;en-US&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;</value>
+  </data>
+  <data name="Prompt_ListCommands_Description.Text" xml:space="preserve">
+    <value>Tüm komutları listeler.</value>
+  </data>
+  <data name="Prompt_ListPortals_Description.Text" xml:space="preserve">
+    <value>Geçerli DNN kurulumundaki sitelerin listesini getirir</value>
+  </data>
+  <data name="Prompt_ListSites_Description.Text" xml:space="preserve">
+    <value>Geçerli DNN kurulumundaki sitelerin listesini getirir</value>
+  </data>
+  <data name="Prompt_Reload_Description.Text" xml:space="preserve">
+    <value>Mevcut sayfayı yeniden yükler</value>
+  </data>
+  <data name="Prompt_PagingMessage.Text" xml:space="preserve">
+    <value>Sayfa {0} / {1}.</value>
+  </data>
+  <data name="Prompt_PagingMessageWithLoad.Text" xml:space="preserve">
+    <value>Sayfa {0} / {1}. Sonraki sayfayı yüklemek için herhangi bir tuşa basın. Bitirmek için CTRL + X tuşlarına basın.</value>
+  </data>
+  <data name="Help_Default.Text" xml:space="preserve">
+    <value>Varsayılan</value>
+  </data>
+  <data name="Help_Description.Text" xml:space="preserve">
+    <value>Açıklama</value>
+  </data>
+  <data name="Help_Flag.Text" xml:space="preserve">
+    <value>Bayrak</value>
+  </data>
+  <data name="Help_Options.Text" xml:space="preserve">
+    <value>Seçenekler</value>
+  </data>
+  <data name="Help_Required.Text" xml:space="preserve">
+    <value>Gerekli</value>
+  </data>
+  <data name="Help_Type.Text" xml:space="preserve">
+    <value>Tür</value>
+  </data>
+  <data name="Prompt_GeneralCategory.Text" xml:space="preserve">
+    <value>Genel Komutlar</value>
+  </data>
+  <data name="Prompt_HostCategory.Text" xml:space="preserve">
+    <value>Sunucu Komutları</value>
+  </data>
+  <data name="Prompt_ModulesCategory.Text" xml:space="preserve">
+    <value>Modül Komutları</value>
+  </data>
+  <data name="Prompt_PortalCategory.Text" xml:space="preserve">
+    <value>Site Komutları</value>
+  </data>
+  <data name="Prompt_Help_Command.Text" xml:space="preserve">
+    <value>Komut</value>
+  </data>
+  <data name="Prompt_Help_Commands.Text" xml:space="preserve">
+    <value>Komutlar</value>
+  </data>
+  <data name="Prompt_Help_Description.Text" xml:space="preserve">
+    <value>Açıklama</value>
+  </data>
+  <data name="Prompt_Help_Learn.Text" xml:space="preserve">
+    <value>Prompt Komutlarını Öğrenme</value>
+  </data>
+  <data name="Prompt_Help_ListOfAvailableMsg.Text" xml:space="preserve">
+    <value>İşte Prompt için kullanılabilir komutların listesi.</value>
+  </data>
+  <data name="Prompt_Help_PromptCommands.Text" xml:space="preserve">
+    <value>Prompt Komutları</value>
+  </data>
+  <data name="Prompt_Help_SeeAlso.Text" xml:space="preserve">
+    <value>Ayrıca Bakınız</value>
+  </data>
+  <data name="Prompt_Help_Syntax.Text" xml:space="preserve">
+    <value>Genel Bakış/Temel Sözdizimi</value>
+  </data>
+  <data name="Prompt_ClearCache_Error.Text" xml:space="preserve">
+    <value>Önbellek temizlenmeye çalışılırken bir hata oluştu.</value>
+  </data>
+  <data name="Prompt_ClearCache_Success.Text" xml:space="preserve">
+    <value>Önbellek Temizlendi.</value>
+  </data>
+  <data name="Prompt_ClearLog_Error.Text" xml:space="preserve">
+    <value>Olay Günlüğü temizlenmeye çalışılırken bir hata oluştu.</value>
+  </data>
+  <data name="Prompt_ClearLog_Success.Text" xml:space="preserve">
+    <value>Olay Günlüğü Temizlendi.</value>
+  </data>
+  <data name="Prompt_Echo_Nothing.Text" xml:space="preserve">
+    <value>Yansıtılacak bir şey yok</value>
+  </data>
+  <data name="Prompt_Echo_ResultHtml.Text" xml:space="preserve">
+    <value>&lt;h4&gt;&lt;/h4&gt;</value>
+  </data>
+  <data name="Prompt_FlagIsRequired.Text" xml:space="preserve">
+    <value>'[0]' gereklidir.</value>
+  </data>
+  <data name="Prompt_GetHost_Unauthorized.Text" xml:space="preserve">
+    <value>Bu işlevselliğe erişim yetkiniz bulunmamaktadır.</value>
+  </data>
+  <data name="Prompt_GetHost__NoArgs.Text" xml:space="preserve">
+    <value>get-host komutu herhangi bir bağımsız değişken veya bayrak almaz.</value>
+  </data>
+  <data name="Prompt_GetHost_OkMessage.Text" xml:space="preserve">
+    <value>get-host komutu başarıyla yürütüldü.</value>
+  </data>
+  <data name="Prompt_GetPortal_NoArgs.Text" xml:space="preserve">
+    <value>get-portal komutu herhangi bir bağımsız değişken veya bayrak almaz.</value>
+  </data>
+  <data name="Prompt_GetPortal_NotFound.Text" xml:space="preserve">
+    <value>'{0}' kimliğine sahip site bulunamadı</value>
+  </data>
+  <data name="Prompt_GetPortal_Found.Text" xml:space="preserve">
+    <value>'{0}' sitesi bulundu.</value>
+  </data>
+  <data name="Prompt_ListCommands_Error.Text" xml:space="preserve">
+    <value>Komutlar listelenmeye çalışılırken bir hata oluştu.</value>
+  </data>
+  <data name="Prompt_ListCommands_Found.Text" xml:space="preserve">
+    <value>{0} komut bulundu.</value>
+  </data>
+  <data name="Prompt_ListCommands_H_Description.Text" xml:space="preserve">
+    <value>Açıklama</value>
+  </data>
+  <data name="Prompt_ListCommands_H_Name.Text" xml:space="preserve">
+    <value>Ad</value>
+  </data>
+  <data name="Prompt_ListCommands_H_Version.Text" xml:space="preserve">
+    <value>Sürüm</value>
+  </data>
+  <data name="Prompt_ListCommands__H_Category.Text" xml:space="preserve">
+    <value>Kategori</value>
+  </data>
+  <data name="Prompt_ListPortals_NoArgs.Text" xml:space="preserve">
+    <value>list-portal komutu herhangi bir bağımsız değişken veya bayrak almaz</value>
+  </data>
+  <data name="Prompt_ListPortals_Results.Text" xml:space="preserve">
+    <value>{0} site bulundu.</value>
+  </data>
+  <data name="Prompt_SetMode_Description.Text" xml:space="preserve">
+    <value>DNN Görünüm Modunu ayarlar. Bu, DNN Denetim Çubuğundaki uygun seçeneklere tıklamakla aynı etkiye sahiptir.</value>
+  </data>
+  <data name="Prompt_SetMode_FlagMode.Text" xml:space="preserve">
+    <value>Üç görünüm modundan biri: &lt;code&gt;edit&lt;/code&gt;, &lt;code&gt;layout&lt;/code&gt; veya &lt;code&gt;view&lt;/code&gt;.
+          &lt;span class="mono"&gt;--mode&lt;/span&gt; bayrağını açıkça belirtmeniz gerekmez. Komuttan sonra görünüm modu değerlerinden birini yazmanız yeterlidir.</value>
+  </data>
+  <data name="Prompt_SetMode_ResultHtml.Text" xml:space="preserve">
+    <value>&lt;div&gt;
+    &lt;h4&gt;DNN Görünüm Modunu Değiştirme&lt;/h4&gt;
+    &lt;code class="block"&gt;
+      set-mode layout
+    &lt;/code&gt; VEYA
+    &lt;code class="block"&gt;
+      set-mode view
+    &lt;/code&gt; VEYA
+    &lt;code class="block"&gt;
+      set-mode edit
+    &lt;/code&gt;
+  &lt;/div&gt;</value>
+  </data>
+  <data name="Prompt_UserRestart_Error.Text" xml:space="preserve">
+    <value>Uygulama yeniden başlatılmaya çalışılırken bir hata oluştu.</value>
+  </data>
+  <data name="Prompt_UserRestart_Success.Text" xml:space="preserve">
+    <value>Uygulama Yeniden Başlatıldı</value>
+  </data>
+  <data name="Prompt_CopyModule_ResultHtml.Text" xml:space="preserve">
+    <value>&lt;h4&gt;Bir Modülü Bir Sayfadan Başkasına Kopyalama&lt;/h4&gt;
+    &lt;p&gt;Bu komut, Sayfa Kimliği 71 olan Sayfadaki Modül Kimliği 358 olan modülün bir kopyasını oluşturur ve bu kopyayı Sayfa Kimliği 75 olan sayfaya yerleştirir&lt;/p&gt;
+    &lt;code class="block"&gt;copy-module 358 --pageid 71 --topageid 75&lt;/code&gt;
+
+    &lt;h4&gt;Sonuçlar&lt;/h4&gt;
+    &lt;table class="command-result-tbl"&gt;
+      &lt;tr&gt;
+        &lt;td&gt;ModuleId&lt;/td&gt;
+        &lt;td&gt;:&lt;/td&gt;
+        &lt;td&gt;358&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Title&lt;/td&gt;
+        &lt;td&gt;:&lt;/td&gt;
+        &lt;td&gt;My Module&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;ModuleName&lt;/td&gt;
+        &lt;td&gt;:&lt;/td&gt;
+        &lt;td&gt;DNN_HTML&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;FriendlyName&lt;/td&gt;
+        &lt;td&gt;:&lt;/td&gt;
+        &lt;td&gt;HTML&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;ModuleDefId&lt;/td&gt;
+        &lt;td&gt;:&lt;/td&gt;
+        &lt;td&gt;120&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;TabModuleId&lt;/td&gt;
+        &lt;td&gt;:&lt;/td&gt;
+        &lt;td&gt;107&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;AddedToPages&lt;/td&gt;
+        &lt;td&gt;:&lt;/td&gt;
+        &lt;td&gt;71, 75&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td colspan="3"&gt;Modül başarıyla kopyalandı.&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/table&gt;</value>
+  </data>
+  <data name="Prompt_ListCommands_ResultHtml.Text" xml:space="preserve">
+    <value>&lt;h4&gt;&lt;/h4&gt;</value>
+  </data>
+  <data name="Prompt_ListPortals_ResultHtml.Text" xml:space="preserve">
+    <value>&lt;h4&gt;&lt;/h4&gt;</value>
+  </data>
+  <data name="Prompt_ListSites_ResultHtml.Text" xml:space="preserve">
+    <value>&lt;h4&gt;&lt;/h4&gt;</value>
+  </data>
+  <data name="Prompt_RestartApplication_ResultHtml.Text" xml:space="preserve">
+    <value>&lt;h4&gt;Sonuçlar&lt;/h4&gt;
+    &lt;table class="command-result-tbl"&gt;
+      &lt;tr&gt;&lt;td&gt;Uygulama yeniden başlatıldı&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;3 saniye içinde yeniden yükleniyor&lt;/td&gt;&lt;/tr&gt;
+    &lt;/table&gt;</value>
+  </data>
+  <data name="Prompt_ListServices_ImplementationFactory.Text" xml:space="preserve">
+    <value>&lt;em&gt; { Fabrika Yöntemi } &lt;/em&gt;</value>
+  </data>
+  <data name="Prompt_ListServices_ImplementationInstance.Text" xml:space="preserve">
+    <value>&lt;em&gt; { Belirli Örnek } &lt;/em&gt;</value>
+  </data>
+  <data name="Prompt_ListServices_None.Text" xml:space="preserve">
+    <value>&lt;em&gt; { Yok } &lt;/em&gt;</value>
+  </data>
+  <data name="Prompt_ListServices_Unauthorized.Text" xml:space="preserve">
+    <value>Bu işlevselliğe erişim yetkiniz bulunmamaktadır.</value>
+  </data>
+</root>

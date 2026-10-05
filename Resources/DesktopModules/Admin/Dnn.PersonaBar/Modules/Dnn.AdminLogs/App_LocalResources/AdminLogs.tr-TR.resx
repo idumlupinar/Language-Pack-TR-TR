@@ -1,0 +1,473 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="plPortalID.Text" xml:space="preserve">
+    <value>Web Sitesi</value>
+  </data>
+  <data name="plPortalID.Help" xml:space="preserve">
+    <value>Görüntülemek istediğiniz siteyi seçin.</value>
+  </data>
+  <data name="plLogType.Text" xml:space="preserve">
+    <value>Tür</value>
+  </data>
+  <data name="plLogType.Help" xml:space="preserve">
+    <value>Günlükte görüntülenen olayları filtreleyin.</value>
+  </data>
+  <data name="plShowRecords.Text" xml:space="preserve">
+    <value>Kayıtları Göster</value>
+  </data>
+  <data name="plShowRecords.Help" xml:space="preserve">
+    <value>Görüntülemek istediğiniz kayıtları seçin.</value>
+  </data>
+  <data name="ColorCoding.Text" xml:space="preserve">
+    <value>Renk Kodlaması açık</value>
+  </data>
+  <data name="Settings.Text" xml:space="preserve">
+    <value>Günlük Ayarları</value>
+  </data>
+  <data name="Legend.Text" xml:space="preserve">
+    <value>Renk Kodlaması Açıklaması</value>
+  </data>
+  <data name="Date.Text" xml:space="preserve">
+    <value>Tarih</value>
+  </data>
+  <data name="Type.Text" xml:space="preserve">
+    <value>Günlük Türü</value>
+  </data>
+  <data name="Username.Text" xml:space="preserve">
+    <value>Kullanıcı Adı</value>
+  </data>
+  <data name="Portal.Text" xml:space="preserve">
+    <value>Web Sitesi</value>
+  </data>
+  <data name="Summary.Text" xml:space="preserve">
+    <value>Özet</value>
+  </data>
+  <data name="btnDelete.Text" xml:space="preserve">
+    <value>Seçilenleri Sil</value>
+  </data>
+  <data name="btnClear.Text" xml:space="preserve">
+    <value>Günlüğü Temizle</value>
+  </data>
+  <data name="SendExceptions.Text" xml:space="preserve">
+    <value>Günlük Kayıtlarını Gönder</value>
+  </data>
+  <data name="ExceptionsWarning.Text" xml:space="preserve">
+    <value>&lt;b&gt;Lütfen dikkat&lt;/b&gt;: Aşağıdaki özellikleri 
+            kullanarak hassas verileri İnternet üzerinden düz 
+            metin olarak (&lt;i&gt;şifrelenmeden&lt;/i&gt;) gönderiyor &lt;i&gt;olabilirsiniz&lt;/i&gt;. Bu özel durumu göndermeden önce 
+            hiçbir hassas veri içermediğinden emin olmak için günlük kaydınızın 
+            içeriğini gözden geçirin. Yalnızca yukarıda işaretlenen günlük kayıtları 
+            gönderilecektir.</value>
+  </data>
+  <data name="SendExceptionsEmail.Text" xml:space="preserve">
+    <value>Günlük Kayıtlarını E-postayla Gönder</value>
+  </data>
+  <data name="plEmailAddress.Text" xml:space="preserve">
+    <value>E-posta Adresi</value>
+  </data>
+  <data name="plEmailAddress.Help" xml:space="preserve">
+    <value>Günlük kayıtlarını alacak kişinin e-posta adresini girin. Birden fazla e-posta adresini virgül veya noktalı virgülle ayırın.</value>
+  </data>
+  <data name="SendMessage.Text" xml:space="preserve">
+    <value>Mesaj (isteğe bağlı)</value>
+  </data>
+  <data name="SendMessage.Help" xml:space="preserve">
+    <value>Günlük kayıtlarıyla birlikte isteğe bağlı bir mesaj ekleyin.</value>
+  </data>
+  <data name="btnEmail.Text" xml:space="preserve">
+    <value>Seçilenleri E-postayla Gönder</value>
+  </data>
+  <data name="AddContent.Action" xml:space="preserve">
+    <value>Günlük Ayarı Ekle</value>
+  </data>
+  <data name="NoEntries.Text" xml:space="preserve">
+    <value>Günlük öğesi yok.</value>
+  </data>
+  <data name="Showing.Text" xml:space="preserve">
+    <value>{2} kayıttan {0} - {1} arası gösteriliyor</value>
+  </data>
+  <data name="DeleteSuccess.Text" xml:space="preserve">
+    <value>Seçilen günlük kayıtları başarıyla silindi.</value>
+  </data>
+  <data name="EmailSuccess.Text" xml:space="preserve">
+    <value>E-postanız gönderildi.</value>
+  </data>
+  <data name="EmailFailure.Text" xml:space="preserve">
+    <value>E-postanız &lt;b&gt;gönderilemedi&lt;/b&gt;.</value>
+  </data>
+  <data name="ServiceUnavailable.Text" xml:space="preserve">
+    <value>DotNetNuke.com adresindeki web hizmeti şu anda kullanılamıyor.</value>
+  </data>
+  <data name="ServerName.Text" xml:space="preserve">
+    <value>&lt;b&gt;Sunucu Adı&lt;/b&gt;: </value>
+  </data>
+  <data name="LogCleared.Text" xml:space="preserve">
+    <value>Günlük temizlendi.</value>
+  </data>
+  <data name="ClickRow.Text" xml:space="preserve">
+    <value>Ayrıntılar için bir satıra tıklayın.</value>
+  </data>
+  <data name="ExceptionCode.Text" xml:space="preserve">
+    <value>Özel Durum</value>
+  </data>
+  <data name="ItemCreatedCode.Text" xml:space="preserve">
+    <value>Öğe Oluşturuldu</value>
+  </data>
+  <data name="ItemUpdatedCode.Text" xml:space="preserve">
+    <value>Öğe Güncellendi</value>
+  </data>
+  <data name="ItemDeletedCode.Text" xml:space="preserve">
+    <value>Öğe Silindi</value>
+  </data>
+  <data name="SuccessCode.Text" xml:space="preserve">
+    <value>İşlem Başarılı</value>
+  </data>
+  <data name="FailureCode.Text" xml:space="preserve">
+    <value>İşlem Başarısız</value>
+  </data>
+  <data name="AdminOpCode.Text" xml:space="preserve">
+    <value>Genel Yönetim İşlemi</value>
+  </data>
+  <data name="AdminAlertCode.Text" xml:space="preserve">
+    <value>Yönetici Uyarısı</value>
+  </data>
+  <data name="HostAlertCode.Text" xml:space="preserve">
+    <value>Sunucu Uyarısı</value>
+  </data>
+  <data name="ToEmail.Text" xml:space="preserve">
+    <value>Belirtilen E-posta Adresine</value>
+  </data>
+  <data name="ControlTitle_.Text" xml:space="preserve">
+    <value>Olay Görüntüleyici</value>
+  </data>
+  <data name="ModuleHelp.Text" xml:space="preserve">
+    <value>&lt;h1&gt;Günlük Görüntüleyici Hakkında&lt;/h1&gt;&lt;p&gt;Günlüğe kaydedilecek web sitesi olaylarını düzenlemenizi sağlar.&lt;/p&gt;</value>
+  </data>
+  <data name="SecurityException.Text" xml:space="preserve">
+    <value>Güvenlik Özel Durumu</value>
+  </data>
+  <data name="plSubject.Help" xml:space="preserve">
+    <value>E-postanın konusunu girin.</value>
+  </data>
+  <data name="plSubject.Text" xml:space="preserve">
+    <value>Konu</value>
+  </data>
+  <data name="InavlidEmailAddress.Text" xml:space="preserve">
+    <value>'{0}' geçerli bir e-posta adresi değil.</value>
+  </data>
+  <data name="Viewer.Text" xml:space="preserve">
+    <value>Görüntüleyici</value>
+  </data>
+  <data name="ClearLog.Text" xml:space="preserve">
+    <value>Tüm günlük kayıtlarını temizlemek istediğinizden emin misiniz?</value>
+  </data>
+  <data name="SelectException.Text" xml:space="preserve">
+    <value>En az bir günlük kaydı seçin.</value>
+  </data>
+  <data name="LogEntryDefaultMsg.Text" xml:space="preserve">
+    <value>Hata günlüğü kayıtlarım ektedir.</value>
+  </data>
+  <data name="LogEntryDefaultSubject.Text" xml:space="preserve">
+    <value>Hata Günlükleri</value>
+  </data>
+  <data name="LogType.Header" xml:space="preserve">
+    <value>Günlük Türü</value>
+  </data>
+  <data name="Portal.Header" xml:space="preserve">
+    <value>Web Sitesi</value>
+  </data>
+  <data name="Active.Header" xml:space="preserve">
+    <value>Etkin</value>
+  </data>
+  <data name="FileName.Header" xml:space="preserve">
+    <value>Dosya Adı</value>
+  </data>
+  <data name="Edit.EditText" xml:space="preserve">
+    <value>Düzenle</value>
+  </data>
+  <data name="plIsActive.Text" xml:space="preserve">
+    <value>Günlüğe Kaydetme</value>
+  </data>
+  <data name="plIsActive.Help" xml:space="preserve">
+    <value>Günlüğe kaydetmeyi etkinleştirmek için bu kutuyu işaretleyin.</value>
+  </data>
+  <data name="plLogTypeKey.Text" xml:space="preserve">
+    <value>Günlük Türü</value>
+  </data>
+  <data name="plLogTypeKey.Help" xml:space="preserve">
+    <value>Günlüğe kaydedilen olayın türü.</value>
+  </data>
+  <data name="plLogTypePortalID.Text" xml:space="preserve">
+    <value>Web Sitesi</value>
+  </data>
+  <data name="plLogTypePortalID.Help" xml:space="preserve">
+    <value>Bu günlük olayının ilişkili olduğu site.</value>
+  </data>
+  <data name="plKeepMostRecent.Text" xml:space="preserve">
+    <value>En Son Kayıtları Sakla</value>
+  </data>
+  <data name="plFileName.Text" xml:space="preserve">
+    <value>Dosya Adı</value>
+  </data>
+  <data name="plFileName.Help" xml:space="preserve">
+    <value>Günlük dosyasının dosya adı.</value>
+  </data>
+  <data name="plEmailNotificationStatus.Text" xml:space="preserve">
+    <value>E-posta Bildirimi</value>
+  </data>
+  <data name="plEmailNotificationStatus.Help" xml:space="preserve">
+    <value>Bu olay gerçekleştiğinde e-posta mesajı göndermek için bu kutuyu işaretleyin.</value>
+  </data>
+  <data name="plThreshold.Text" xml:space="preserve">
+    <value>Gerçekleşme Eşiği</value>
+  </data>
+  <data name="plMailFromAddress.Text" xml:space="preserve">
+    <value>Gönderen Adresi</value>
+  </data>
+  <data name="plMailFromAddress.Help" xml:space="preserve">
+    <value>Bildirimin gönderileceği e-posta adresi.</value>
+  </data>
+  <data name="plMailToAddress.Text" xml:space="preserve">
+    <value>Alıcı Adresi</value>
+  </data>
+  <data name="plMailToAddress.Help" xml:space="preserve">
+    <value>Bildirimin gönderileceği alıcı e-posta adresi</value>
+  </data>
+  <data name="EmailSettings.Text" xml:space="preserve">
+    <value>E-posta Bildirimi Ayarları</value>
+  </data>
+  <data name="ConfigDeleted.Text" xml:space="preserve">
+    <value>Günlük ayarı silindi.</value>
+  </data>
+  <data name="ConfigUpdated.Text" xml:space="preserve">
+    <value>Günlük ayarı güncellendi.</value>
+  </data>
+  <data name="ConfigAdded.Text" xml:space="preserve">
+    <value>Günlük ayarı eklendi.</value>
+  </data>
+  <data name="LogEntry.Text" xml:space="preserve">
+    <value> Günlük Kaydı</value>
+  </data>
+  <data name="LogEntries.Text" xml:space="preserve">
+    <value> Günlük Kaydı</value>
+  </data>
+  <data name="Occurence.Text" xml:space="preserve">
+    <value> Gerçekleşme</value>
+  </data>
+  <data name="Occurences.Text" xml:space="preserve">
+    <value> Gerçekleşme</value>
+  </data>
+  <data name="In.Text" xml:space="preserve">
+    <value>içinde</value>
+  </data>
+  <data name="ControlTitle_edit.Text" xml:space="preserve">
+    <value>Günlük Ayarlarını Düzenle</value>
+  </data>
+  <data name="DeleteError.Text" xml:space="preserve">
+    <value>Seçilen günlük ayarı silinemedi. Önce bu günlük türüne ait tüm mevcut günlük kayıtlarını silmelisiniz.</value>
+  </data>
+  <data name="TimeType_1.Text" xml:space="preserve">
+    <value>Saniye</value>
+  </data>
+  <data name="TimeType_2.Text" xml:space="preserve">
+    <value>Dakika</value>
+  </data>
+  <data name="TimeType_3.Text" xml:space="preserve">
+    <value>Saat</value>
+  </data>
+  <data name="TimeType_4.Text" xml:space="preserve">
+    <value>Gün</value>
+  </data>
+  <data name="nav_AdminLogs.Text" xml:space="preserve">
+    <value>Yönetici Günlükleri</value>
+  </data>
+  <data name="AdminLogs.Header" xml:space="preserve">
+    <value>Yönetici Günlükleri</value>
+  </data>
+  <data name="ConfigAddError.Text" xml:space="preserve">
+    <value>Günlük ayarı eklenemedi. Lütfen daha sonra tekrar deneyin.</value>
+  </data>
+  <data name="ConfigBtnCancel.Text" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="ConfigBtnDelete.Text" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="ConfigBtnSave.Text" xml:space="preserve">
+    <value>Kaydet</value>
+  </data>
+  <data name="ConfigDeleteCancelled.Text" xml:space="preserve">
+    <value>Silme işlemi iptal edildi.</value>
+  </data>
+  <data name="ConfigDeletedWarning.Text" xml:space="preserve">
+    <value>Seçilen günlük ayarını silmek istediğinizden emin misiniz?</value>
+  </data>
+  <data name="ConfigDeleteInconsistency.Text" xml:space="preserve">
+    <value>Tutarsızlık hatası oluştu. Sayfayı yenileyip tekrar deneyin.</value>
+  </data>
+  <data name="ConfigUpdateError.Text" xml:space="preserve">
+    <value>Günlük ayarı güncellenemedi. Lütfen daha sonra tekrar deneyin.</value>
+  </data>
+  <data name="False.Text" xml:space="preserve">
+    <value>Yanlış</value>
+  </data>
+  <data name="LogSettings.Header" xml:space="preserve">
+    <value>Günlük Ayarları</value>
+  </data>
+  <data name="no.Text" xml:space="preserve">
+    <value>Hayır</value>
+  </data>
+  <data name="True.Text" xml:space="preserve">
+    <value>Doğru</value>
+  </data>
+  <data name="yes.Text" xml:space="preserve">
+    <value>Evet</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="btnSend.Text" xml:space="preserve">
+    <value>Gönder</value>
+  </data>
+  <data name="EntriesPerPage.Text" xml:space="preserve">
+    <value> sayfa başına kayıt</value>
+  </data>
+  <data name="LogDeleteWarning.Text" xml:space="preserve">
+    <value>Seçilen günlükleri silmek istediğinizden emin misiniz?</value>
+  </data>
+  <data name="ShowingOne.Text" xml:space="preserve">
+    <value>1 kayıt gösteriliyor</value>
+  </data>
+  <data name="ShowingTotal.Text" xml:space="preserve">
+    <value>{0} kayıt gösteriliyor</value>
+  </data>
+  <data name="MailToAddress.Message" xml:space="preserve">
+    <value>Geçerli bir alıcı adresi gereklidir.</value>
+  </data>
+  <data name="Email.Message" xml:space="preserve">
+    <value>Geçerli bir e-posta adresi gereklidir.</value>
+  </data>
+  <data name="UnAuthorizedToSendLog.Text" xml:space="preserve">
+    <value>Bu günlük kayıtlarını göndermeye yetkiniz yok.</value>
+  </data>
+  <data name="AllTypes.Text" xml:space="preserve">
+    <value>Tüm Türler</value>
+  </data>
+</root>

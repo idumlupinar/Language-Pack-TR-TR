@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="nav_Analytics.Text" xml:space="preserve">
+    <value>Analiz</value>
+  </data>
+  <data name="nav_Dashboard.Text" xml:space="preserve">
+    <value>Pano</value>
+  </data>
+  <data name="nav_Logout.Text" xml:space="preserve">
+    <value>Çıkış</value>
+  </data>
+  <data name="nav_Settings.Text" xml:space="preserve">
+    <value>Ayarlar</value>
+  </data>
+  <data name="nav_Tasks.Text" xml:space="preserve">
+    <value>Görevler</value>
+  </data>
+  <data name="nav_Edit.Text" xml:space="preserve">
+    <value>Düzenle</value>
+  </data>
+  <data name="nav_Manage.Text" xml:space="preserve">
+    <value>Yönet</value>
+  </data>
+  <data name="nav_Content.Text" xml:space="preserve">
+    <value>İçerik</value>
+  </data>
+  <data name="nav_Tools.Text" xml:space="preserve">
+    <value>Araçlar</value>
+  </data>
+  <data name="nav_Accounts.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nav_DocCenter.Text" xml:space="preserve">
+    <value>Belge Merkezi</value>
+  </data>
+  <data name="nav_Help.Text" xml:space="preserve">
+    <value>Yardım</value>
+  </data>
+  <data name="nav_Site.Text" xml:space="preserve">
+    <value>Siteyi Görüntüle</value>
+  </data>
+  <data name="err_BetweenMinMax.Text" xml:space="preserve">
+    <value>Değer yalnızca En Küçük Değer ile En Büyük Değer arasında olabilir</value>
+  </data>
+  <data name="err_Email.Text" xml:space="preserve">
+    <value>Yalnızca geçerli bir e-posta adresi girilebilir</value>
+  </data>
+  <data name="err_Minimum.Text" xml:space="preserve">
+    <value>Metin en az {0} karakter olmalıdır</value>
+  </data>
+  <data name="err_MinLessThanMax.Text" xml:space="preserve">
+    <value>En Küçük Değer, En Büyük Değerden küçük olmalıdır</value>
+  </data>
+  <data name="err_NoLargerThanExp.Text" xml:space="preserve">
+    <value>İtibar puanları deneyim puanlarından büyük olamaz</value>
+  </data>
+  <data name="err_NonDecimalNumber.Text" xml:space="preserve">
+    <value>Ondalık sayılara izin verilmez</value>
+  </data>
+  <data name="err_NonNegativeNumber.Text" xml:space="preserve">
+    <value>Negatif sayılara izin verilmez</value>
+  </data>
+  <data name="err_NoUserFolder.Text" xml:space="preserve">
+    <value>{0} kullanıcısına ait hiçbir varlık yok.</value>
+  </data>
+  <data name="err_Number.Text" xml:space="preserve">
+    <value>Yalnızca sayılara izin verilir</value>
+  </data>
+  <data name="err_OneActionNeeded.Text" xml:space="preserve">
+    <value>En az bir eylem gereklidir</value>
+  </data>
+  <data name="err_PositiveNumber.Text" xml:space="preserve">
+    <value>Yalnızca pozitif sayılara izin verilir</value>
+  </data>
+  <data name="err_Required.Text" xml:space="preserve">
+    <value>Metin zorunludur</value>
+  </data>
+  <data name="err_RoleAssignedToUser.Text" xml:space="preserve">
+    <value>Bu rol zaten bu kullanıcıya atanmış.</value>
+  </data>
+  <data name="nav_Home.Text" xml:space="preserve">
+    <value>Ana Sayfa</value>
+  </data>
+  <data name="permissiongrid.Actions.Text" xml:space="preserve">
+    <value>Eylemler</value>
+  </data>
+  <data name="permissiongrid.Add Content.Text" xml:space="preserve">
+    <value>İçerik Ekle</value>
+  </data>
+  <data name="permissiongrid.Add User.Text" xml:space="preserve">
+    <value>Kullanıcı Ekle</value>
+  </data>
+  <data name="permissiongrid.Add.Text" xml:space="preserve">
+    <value>Ekle</value>
+  </data>
+  <data name="permissiongrid.AllRoles.Text" xml:space="preserve">
+    <value>&lt;Tüm Roller&gt;</value>
+  </data>
+  <data name="permissiongrid.Copy.Text" xml:space="preserve">
+    <value>Kopyala</value>
+  </data>
+  <data name="permissiongrid.Delete.Text" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="permissiongrid.Display Name.Text" xml:space="preserve">
+    <value>Görünen Ad:</value>
+  </data>
+  <data name="permissiongrid.Edit Content.Text" xml:space="preserve">
+    <value>İçeriği Düzenle</value>
+  </data>
+  <data name="permissiongrid.Edit Tab.Text" xml:space="preserve">
+    <value>Tam Denetim</value>
+  </data>
+  <data name="permissiongrid.Edit.Text" xml:space="preserve">
+    <value>Tam Denetim</value>
+  </data>
+  <data name="permissiongrid.Export.Text" xml:space="preserve">
+    <value>Dışa Aktar</value>
+  </data>
+  <data name="permissiongrid.Filter By Group.Text" xml:space="preserve">
+    <value>Gruba Göre Filtrele</value>
+  </data>
+  <data name="permissiongrid.GlobalRoles.Text" xml:space="preserve">
+    <value>&lt;Genel Roller&gt;</value>
+  </data>
+  <data name="permissiongrid.Import.Text" xml:space="preserve">
+    <value>İçe Aktar</value>
+  </data>
+  <data name="permissiongrid.Manage Settings.Text" xml:space="preserve">
+    <value>Ayarları Yönet</value>
+  </data>
+  <data name="permissiongrid.Navigate.Text" xml:space="preserve">
+    <value>Gezin</value>
+  </data>
+  <data name="permissiongrid.Select Role.Text" xml:space="preserve">
+    <value>Rol Seçin</value>
+  </data>
+  <data name="permissiongrid.Type-roles.Text" xml:space="preserve">
+    <value>Roller</value>
+  </data>
+  <data name="permissiongrid.Type-users.Text" xml:space="preserve">
+    <value>Kullanıcılar</value>
+  </data>
+  <data name="permissiongrid.View Tab.Text" xml:space="preserve">
+    <value>Görüntüle</value>
+  </data>
+  <data name="permissiongrid.View.Text" xml:space="preserve">
+    <value>Görüntüle</value>
+  </data>
+  <data name="nav_SiteAssets.Text" xml:space="preserve">
+    <value>Site Varlıkları</value>
+  </data>
+  <data name="nav_GlobalAssets.Text" xml:space="preserve">
+    <value>Genel Varlıklar</value>
+  </data>
+  <data name="title_Tasks.Text" xml:space="preserve">
+    <value>Görevler</value>
+  </data>
+  <data name="txt_ViewIndex.Text" xml:space="preserve">
+    <value>{0} / {1} görüntüleniyor</value>
+  </data>
+  <data name="btn_LoadMore.Text" xml:space="preserve">
+    <value>Daha Fazla Yükle</value>
+  </data>
+  <data name="Documentation.Text" xml:space="preserve">
+    <value>Belgeler</value>
+  </data>
+  <data name="Framework.Text" xml:space="preserve">
+    <value>.Net Framework</value>
+  </data>
+  <data name="LicenseKey.Text" xml:space="preserve">
+    <value>Lisans Anahtarı</value>
+  </data>
+  <data name="ServerName.Text" xml:space="preserve">
+    <value>Sunucu Adı</value>
+  </data>
+  <data name="btn_CloseDialog.Text" xml:space="preserve">
+    <value>Tamam</value>
+  </data>
+  <data name="Critical.Text" xml:space="preserve">
+    <value>Kritik</value>
+  </data>
+  <data name="NormalUpdate.Text" xml:space="preserve">
+    <value>[ Yeni Güncelleme ]</value>
+  </data>
+  <data name="DisableEditBar.Help" xml:space="preserve">
+    <value>Bu DNN kurulumu alternatif bir düzenleme çubuğu kullanıyor. </value>
+  </data>
+  <data name="DisableEditBar.Text" xml:space="preserve">
+    <value>Edit Bar devre dışı. </value>
+  </data>
+  <data name="LockEditMode.Help" xml:space="preserve">
+    <value>Kilitlendiğinde simge mavi görünür ve diğer sayfalara geçseniz bile Düzenleme Modunda kalırsınız.</value>
+  </data>
+  <data name="LockEditMode.Text" xml:space="preserve">
+    <value>Düzenleme Modunu kilitlemek için tıklayın.</value>
+  </data>
+  <data name="UnlockEditMode.Help" xml:space="preserve">
+    <value>Kilit açıldığında, başka bir sayfaya geçtiğinizde veya değişikliklerinizi tamamladığınızda Düzenleme Modundan çıkarsınız.</value>
+  </data>
+  <data name="UnlockEditMode.Text" xml:space="preserve">
+    <value>Düzenleme Modunun kilidini açmak için tıklayın.</value>
+  </data>
+  <data name="Update.Text" xml:space="preserve">
+    <value>Güncelle</value>
+  </data>
+  <data name="LatestVersion.Text" xml:space="preserve">
+    <value>En Son Sürüm</value>
+  </data>
+</root>

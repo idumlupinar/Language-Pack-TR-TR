@@ -1,0 +1,1522 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="nav_Security.Text" xml:space="preserve">
+    <value>Güvenlik</value>
+  </data>
+  <data name="cmdAdd.Text" xml:space="preserve">
+    <value>Yeni Filtre Ekle</value>
+  </data>
+  <data name="cmdCancel.Text" xml:space="preserve">
+    <value>Düzenlemeyi İptal Et</value>
+  </data>
+  <data name="Delete.Text" xml:space="preserve">
+    <value>Filtreyi Sil</value>
+  </data>
+  <data name="Edit.Text" xml:space="preserve">
+    <value>Filtreyi Düzenle</value>
+  </data>
+  <data name="saveRule.Text" xml:space="preserve">
+    <value>Filtreyi Güncelle</value>
+  </data>
+  <data name="Actions.Header" xml:space="preserve">
+    <value>İşlemler</value>
+  </data>
+  <data name="IPFilter.Header" xml:space="preserve">
+    <value>IP Filtresi</value>
+  </data>
+  <data name="AllowIP.Text" xml:space="preserve">
+    <value>İzin Ver</value>
+  </data>
+  <data name="DenyIP.Text" xml:space="preserve">
+    <value>Reddet</value>
+  </data>
+  <data name="CannotDelete.Text" xml:space="preserve">
+    <value>Bu kuralı silemezsiniz; silinmesi geçerli IP adresinin erişiminin engellenmesine neden olur.</value>
+  </data>
+  <data name="TabMoreSecuritySettings.Text" xml:space="preserve">
+    <value>DİĞER GÜVENLİK AYARLARI</value>
+  </data>
+  <data name="TabMore.Text" xml:space="preserve">
+    <value>Diğer</value>
+  </data>
+  <data name="TabSecurityBulletins.Text" xml:space="preserve">
+    <value>Güvenlik Bültenleri</value>
+  </data>
+  <data name="TabSecurityAnalyzer.Text" xml:space="preserve">
+    <value>Güvenlik Analizcisi</value>
+  </data>
+  <data name="TabSslSettings.Text" xml:space="preserve">
+    <value>SSL AYARLARI</value>
+  </data>
+  <data name="TabMemberAccounts.Text" xml:space="preserve">
+    <value>Üye Hesapları</value>
+  </data>
+  <data name="TabBasicLoginSettings.Text" xml:space="preserve">
+    <value>TEMEL GİRİŞ AYARLARI</value>
+  </data>
+  <data name="TabMemberSettings.Text" xml:space="preserve">
+    <value>ÜYE YÖNETİMİ</value>
+  </data>
+  <data name="TabRegistrationSettings.Text" xml:space="preserve">
+    <value>KAYIT AYARLARI</value>
+  </data>
+  <data name="TabIpFilters.Text" xml:space="preserve">
+    <value>GİRİŞ IP FİLTRELERİ</value>
+  </data>
+  <data name="DefaultAuthProvider.Text" xml:space="preserve">
+    <value>Varsayılan Kimlik Doğrulama Sağlayıcısı</value>
+  </data>
+  <data name="DefaultAuthProvider.Help" xml:space="preserve">
+    <value>Kullanıcı girişi için varsayılan bir kimlik doğrulama sağlayıcısı seçebilirsiniz.  Yalnızca form kimlik doğrulamasını destekleyen sağlayıcılar seçilebilir.</value>
+  </data>
+  <data name="plAdministrator.Text" xml:space="preserve">
+    <value>Birincil Yönetici</value>
+  </data>
+  <data name="plAdministrator.Help" xml:space="preserve">
+    <value>Üye etkinlikleriyle ilgili e-posta bildirimlerini alacak Birincil Yönetici.</value>
+  </data>
+  <data name="Security_RequireValidProfileAtLogin.Help" xml:space="preserve">
+    <value>Geçerli bir profil için gereken alanlar değiştirilmişse kullanıcıların giriş yapmadan önce profillerini güncellemelerini zorunlu kılmak için bu kutuyu işaretleyin.</value>
+  </data>
+  <data name="Security_RequireValidProfileAtLogin.Text" xml:space="preserve">
+    <value>Giriş İçin Geçerli Profil Zorunlu Olsun</value>
+  </data>
+  <data name="Security_CaptchaLogin.Help" xml:space="preserve">
+    <value>Giriş ilişkilendirmelerinde CAPTCHA kullanmak için bu kutuyu işaretleyin. Örn. OpenID, LiveID, CardSpace</value>
+  </data>
+  <data name="Security_CaptchaLogin.Text" xml:space="preserve">
+    <value>Giriş İlişkilendirmede CAPTCHA Kullan</value>
+  </data>
+  <data name="Security_CaptchaRetrivePassword.Help" xml:space="preserve">
+    <value>Şifre alınırken CAPTCHA kullanmak için bu kutuyu işaretleyin.</value>
+  </data>
+  <data name="Security_CaptchaRetrivePassword.Text" xml:space="preserve">
+    <value>Şifre Alırken CAPTCHA Kullan</value>
+  </data>
+  <data name="Security_CaptchaChangePassword.Help" xml:space="preserve">
+    <value>Şifre değiştirilirken CAPTCHA kullanmak için bu kutuyu işaretleyin.</value>
+  </data>
+  <data name="Security_CaptchaChangePassword.Text" xml:space="preserve">
+    <value>Şifre Değiştirirken CAPTCHA Kullan</value>
+  </data>
+  <data name="plHideLoginControl.Help" xml:space="preserve">
+    <value>Sayfadaki giriş bağlantısını gizlemek için bu kutuyu işaretleyin.</value>
+  </data>
+  <data name="plHideLoginControl.Text" xml:space="preserve">
+    <value>Giriş Denetimini Gizle</value>
+  </data>
+  <data name="BasicLoginSettingsUpdateSuccess" xml:space="preserve">
+    <value>Giriş ayarları güncellendi.</value>
+  </data>
+  <data name="BasicLoginSettingsError" xml:space="preserve">
+    <value>Giriş ayarları güncellenemedi. Lütfen daha sonra tekrar deneyin.</value>
+  </data>
+  <data name="Save.Text" xml:space="preserve">
+    <value>Kaydet</value>
+  </data>
+  <data name="Cancel.Text" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="FilterType.Header" xml:space="preserve">
+    <value>FİLTRE TÜRÜ</value>
+  </data>
+  <data name="IpAddress.Header" xml:space="preserve">
+    <value>IP ADRESİ</value>
+  </data>
+  <data name="Notes.Header" xml:space="preserve">
+    <value>Notlar</value>
+  </data>
+  <data name="DeleteSuccess.Text" xml:space="preserve">
+    <value>IP filtresi silindi.</value>
+  </data>
+  <data name="DeleteError.Text" xml:space="preserve">
+    <value>IP filtresi silinemedi. Lütfen daha sonra tekrar deneyin.</value>
+  </data>
+  <data name="IpFilterDeletedWarning.Text" xml:space="preserve">
+    <value>Bu IP filtresini silmek istediğinizden emin misiniz?</value>
+  </data>
+  <data name="Yes.Text" xml:space="preserve">
+    <value>Evet</value>
+  </data>
+  <data name="No.Text" xml:space="preserve">
+    <value>Hayır</value>
+  </data>
+  <data name="plRuleSpecifity.Help" xml:space="preserve">
+    <value>Kuralın tek bir IP adresine mi yoksa bir IP adresi aralığına mı uygulanacağını belirler.</value>
+  </data>
+  <data name="plRuleSpecifity.Text" xml:space="preserve">
+    <value>Kural Kapsamı</value>
+  </data>
+  <data name="plRuleType.Help" xml:space="preserve">
+    <value>Bu kuralın erişime izin mi verdiğini yoksa erişimi mi reddettiğini belirler.</value>
+  </data>
+  <data name="plRuleType.Text" xml:space="preserve">
+    <value>Kural Türü</value>
+  </data>
+  <data name="SingleIP.Text" xml:space="preserve">
+    <value>Tek IP</value>
+  </data>
+  <data name="IPRange.Text" xml:space="preserve">
+    <value>IP Aralığı</value>
+  </data>
+  <data name="plFirstIP.Text" xml:space="preserve">
+    <value>İlk IP</value>
+  </data>
+  <data name="plFirstIP.Help" xml:space="preserve">
+    <value>Bu değer, filtrelenecek tek IP adresi olur ya da bir IP adresi aralığı hesaplamak için alt ağ maskesiyle birlikte kullanılır.</value>
+  </data>
+  <data name="plSubnet.Text" xml:space="preserve">
+    <value>Maske</value>
+  </data>
+  <data name="plSubnet.Help" xml:space="preserve">
+    <value>Alt ağ maskesi, filtreleme için bir IP adresi aralığı hesaplamak üzere ilk IP adresiyle birleştirilir.</value>
+  </data>
+  <data name="plNotes.Help" xml:space="preserve">
+    <value>Bu kuralla ilgili isteğe bağlı notlar.</value>
+  </data>
+  <data name="plNotes.Text" xml:space="preserve">
+    <value>Notlar</value>
+  </data>
+  <data name="IpFilterUpdateSuccess.Text" xml:space="preserve">
+    <value>IP filtresi güncellendi.</value>
+  </data>
+  <data name="IpFilterUpdateError.Text" xml:space="preserve">
+    <value>IP filtresi güncellenemedi. Lütfen daha sonra tekrar deneyin.</value>
+  </data>
+  <data name="IPFiltersDisabled.Text" xml:space="preserve">
+    <value>Giriş IP filtrelemesi şu anda devre dışı. Etkinleştirmek için Üye Hesapları altındaki IP adresi denetimini açın</value>
+  </data>
+  <data name="IPValidation.ErrorMessage" xml:space="preserve">
+    <value>Geçerli bir IP adresi/maskesi kullanın.</value>
+  </data>
+  <data name="LoginSettingsRestoreWarning.Text" xml:space="preserve">
+    <value>Değişikliklerinizi iptal etmek istediğinizden emin misiniz?</value>
+  </data>
+  <data name="SslSettingsRestoreWarning.Text" xml:space="preserve">
+    <value>Değişikliklerinizi iptal etmek istediğinizden emin misiniz?</value>
+  </data>
+  <data name="plResetLinkValidity.Text" xml:space="preserve">
+    <value>Sıfırlama Bağlantısı Zaman Aşımı (Dakika)</value>
+  </data>
+  <data name="plResetLinkValidity.Help" xml:space="preserve">
+    <value>Şifre sıfırlama bağlantılarının geçerli kalacağı süre (dakika cinsinden).</value>
+  </data>
+  <data name="plAdminResetLinkValidity.Text" xml:space="preserve">
+    <value>Yönetici Sıfırlama Bağlantısı Zaman Aşımı (Dakika)</value>
+  </data>
+  <data name="plAdminResetLinkValidity.Help" xml:space="preserve">
+    <value>Site Yöneticisi tarafından gönderilen şifre sıfırlama bağlantılarının geçerli kalacağı süre (dakika cinsinden).</value>
+  </data>
+  <data name="plEnablePasswordHistory.Help" xml:space="preserve">
+    <value>Yeniden kullanımı önlemek için son kullanılan şifrelerin bir listesinin tutulup denetlenip denetlenmeyeceğini belirler.</value>
+  </data>
+  <data name="plEnablePasswordHistory.Text" xml:space="preserve">
+    <value>Şifre Geçmişini Etkinleştir</value>
+  </data>
+  <data name="plNumberPasswords.Text" xml:space="preserve">
+    <value>Saklanacak Şifre Sayısı</value>
+  </data>
+  <data name="plNumberPasswords.Help" xml:space="preserve">
+    <value>Yeniden kullanım denetimi için saklanacak şifre sayısını girin</value>
+  </data>
+  <data name="plPasswordDays.Text" xml:space="preserve">
+    <value>Şifrenin Yeniden Kullanılabilmesi İçin Gereken Gün Sayısı</value>
+  </data>
+  <data name="plPasswordDays.Help" xml:space="preserve">
+    <value>Bir şifrenin yeniden kullanılabilmesi için geçmesi gereken süreyi gün cinsinden girin</value>
+  </data>
+  <data name="plEnableBannedList.Text" xml:space="preserve">
+    <value>Yasaklı Şifre Listesini Etkinleştir</value>
+  </data>
+  <data name="plEnableBannedList.Help" xml:space="preserve">
+    <value>Şifreleri yasaklı öğeler listesine göre denetlemek için bu kutuyu işaretleyin.</value>
+  </data>
+  <data name="plEnableStrengthMeter.Text" xml:space="preserve">
+    <value>Şifre Gücü Denetimini Etkinleştir</value>
+  </data>
+  <data name="plEnableStrengthMeter.Help" xml:space="preserve">
+    <value>Kayıt ekranında şifre gücü göstergesinin gösterilip gösterilmeyeceğini belirler</value>
+  </data>
+  <data name="plEnableIPChecking.Text" xml:space="preserve">
+    <value>IP Adresi Denetimini Etkinleştir</value>
+  </data>
+  <data name="plEnableIPChecking.Help" xml:space="preserve">
+    <value>Giriş sırasında IP adresinin denetlenip denetlenmeyeceğini belirler</value>
+  </data>
+  <data name="PasswordConfig_PasswordExpiry.Help" xml:space="preserve">
+    <value>Kullanıcının şifresini değiştirmesi gerekene kadar geçecek gün sayısını girin.  Şifrenin hiçbir zaman sona ermemesi için 0 (sıfır) girin.</value>
+  </data>
+  <data name="PasswordConfig_PasswordExpiry.Text" xml:space="preserve">
+    <value>Şifre Geçerlilik Süresi (Gün)</value>
+  </data>
+  <data name="PasswordConfig_PasswordExpiryReminder.Help" xml:space="preserve">
+    <value>Şifrelerinin süresinin dolmak üzere olduğuna dair kullanıcılara kaç gün önceden uyarı verileceğini girin.</value>
+  </data>
+  <data name="PasswordConfig_PasswordExpiryReminder.Text" xml:space="preserve">
+    <value>Şifre Süresi Dolma Hatırlatıcısı (Gün)</value>
+  </data>
+  <data name="MemberSettingsUpdateSuccess.Text" xml:space="preserve">
+    <value>Üye ayarları güncellendi.</value>
+  </data>
+  <data name="MemberSettingsError.Text" xml:space="preserve">
+    <value>Üye ayarları güncellenemedi. Lütfen daha sonra tekrar deneyin.</value>
+  </data>
+  <data name="SslSettingsUpdateSuccess.Text" xml:space="preserve">
+    <value>SSL ayarları güncellendi.</value>
+  </data>
+  <data name="SslSettingsError.Text" xml:space="preserve">
+    <value>SSL ayarları güncellenemedi. Lütfen daha sonra tekrar deneyin.</value>
+  </data>
+  <data name="MemberSettingsRestoreWarning.Text" xml:space="preserve">
+    <value>Değişikliklerinizi iptal etmek istediğinizden emin misiniz?</value>
+  </data>
+  <data name="MembershipResetLinkValidity.ErrorMessage" xml:space="preserve">
+    <value>Sıfırlama bağlantısı zaman aşımı, 0'dan büyük ve 10000'den küçük bir tam sayı olmalıdır</value>
+  </data>
+  <data name="AdminMembershipResetLinkValidity.ErrorMessage" xml:space="preserve">
+    <value>Yönetici sıfırlama bağlantısı zaman aşımı, 0'dan büyük ve 10000'den küçük bir tam sayı olmalıdır.</value>
+  </data>
+  <data name="MembershipNumberPasswords.ErrorMessage" xml:space="preserve">
+    <value>Saklanacak şifre sayısı, 0'a eşit veya 0'dan büyük ve 10000'den küçük bir tam sayı olmalıdır.</value>
+  </data>
+  <data name="MembershipDaysBeforePasswordReuse.ErrorMessage" xml:space="preserve">
+    <value>Şifrenin Yeniden Kullanılabilmesi İçin Gereken Gün Sayısı, 0'a eşit veya 0'dan büyük ve 10000'den küçük bir tam sayı olmalıdır.</value>
+  </data>
+  <data name="AutoAccountUnlockDuration.ErrorMessage" xml:space="preserve">
+    <value>Otomatik hesap kilidi açma süresi, 0'a eşit veya 0'dan büyük ve 1000'den küçük bir tam sayı olmalıdır.</value>
+  </data>
+  <data name="AsyncTimeout.ErrorMessage" xml:space="preserve">
+    <value>Zaman aşımı süresi, 90'a eşit veya 90'dan büyük ve 10000'den küçük bir tam sayı olmalıdır.</value>
+  </data>
+  <data name="PasswordExpiry.ErrorMessage" xml:space="preserve">
+    <value>Şifre geçerlilik süresi, 0'a eşit veya 0'dan büyük ve 10000'den küçük bir tam sayı olmalıdır.</value>
+  </data>
+  <data name="PasswordExpiryReminder.ErrorMessage" xml:space="preserve">
+    <value>Şifre süresi dolma hatırlatıcısı, 0'a eşit veya 0'dan büyük ve 10000'den küçük bir tam sayı olmalıdır.</value>
+  </data>
+  <data name="None.Text" xml:space="preserve">
+    <value>Yok</value>
+  </data>
+  <data name="Private.Text" xml:space="preserve">
+    <value>Özel</value>
+  </data>
+  <data name="Public.Text" xml:space="preserve">
+    <value>Herkese Açık</value>
+  </data>
+  <data name="Verified.Text" xml:space="preserve">
+    <value>Doğrulanmış</value>
+  </data>
+  <data name="Standard.Text" xml:space="preserve">
+    <value>Standart</value>
+  </data>
+  <data name="Custom.Text" xml:space="preserve">
+    <value>Özel</value>
+  </data>
+  <data name="plUserRegistration.Text" xml:space="preserve">
+    <value>Kullanıcı Kaydı</value>
+  </data>
+  <data name="plUserRegistration.Help" xml:space="preserve">
+    <value>Bu site için izin verilen kullanıcı kaydı türünü (varsa) seçin. Özel kayıtta, kullanıcıların Kayıtlı Kullanıcılar rolüne erişebilmesi için Site Yöneticisi tarafından yetkilendirilmesi gerekir. Herkese açık kayıt anında erişim sağlar; doğrulanmış kayıt ise girilen e-posta adresinin doğrulanmasını gerektirir.</value>
+  </data>
+  <data name="NoEmail.Text" xml:space="preserve">
+    <value>En azından "E-posta" alanı eklenmelidir.</value>
+  </data>
+  <data name="NoDisplayName.Text" xml:space="preserve">
+    <value>Benzersiz Görünen Ad Zorunlu seçeneğini belirlediniz ancak Görünen Ad alanını alan listesine eklemediniz.</value>
+  </data>
+  <data name="ContainsDuplicateAddresses.Text" xml:space="preserve">
+    <value>Bu sitenin kullanıcıları arasında yinelenen e-posta adresleri var. E-posta adreslerini kullanıcı adı olarak kullanmak istiyorsanız önce bu kayıtları düzeltmeniz gerekir.</value>
+  </data>
+  <data name="registrationFormTypeLabel.Help" xml:space="preserve">
+    <value>Kullanmak istediğiniz Kayıt Formu türünü seçin.</value>
+  </data>
+  <data name="registrationFormTypeLabel.Text" xml:space="preserve">
+    <value>Kayıt Formu Türü</value>
+  </data>
+  <data name="Security_DisplayNameFormat.Help" xml:space="preserve">
+    <value>İsteğe bağlı olarak görünen adlar için bir biçim belirtin.  Biçim, [FIRSTNAME] [LASTNAME] gibi dinamik olarak değiştirilecek belirteçler içerebilir.  Bir görünen ad biçimi belirtilirse görünen ad artık kullanıcı arayüzünden düzenlenemez.</value>
+  </data>
+  <data name="Security_DisplayNameFormat.Text" xml:space="preserve">
+    <value>Görünen Ad Biçimi</value>
+  </data>
+  <data name="Security_UserNameValidation.Help" xml:space="preserve">
+    <value>Girilen kullanıcı adının geçerliliğini denetlemek için kullanılacak kendi Doğrulama İfadenizi ekleyin.  Bunu varsayılan değerden değiştirirseniz, kullanıcının geçersiz bir kullanıcı adı girdiğinde göreceği mesajı da Ayarlar - Site Ayarları - Diller bölümündeki yerelleştirme düzenleyicisini kullanarak güncellemelisiniz.</value>
+  </data>
+  <data name="Security_UserNameValidation.Text" xml:space="preserve">
+    <value>Kullanıcı Adı Doğrulama</value>
+  </data>
+  <data name="Security_EmailValidation.Help" xml:space="preserve">
+    <value>İsteğe bağlı olarak, girilen e-posta adresinin geçerliliğini denetlemek için kullanılan E-posta Doğrulama İfadesini değiştirin.</value>
+  </data>
+  <data name="Security_EmailValidation.Text" xml:space="preserve">
+    <value>E-posta Adresi Doğrulama</value>
+  </data>
+  <data name="Registration_ExcludeTerms.Help" xml:space="preserve">
+    <value>Kullanıcıların kullanıcı adlarında veya görünen adlarında kullanamayacağı terimlerin virgülle ayrılmış bir listesini tanımlayabilirsiniz.</value>
+  </data>
+  <data name="Registration_ExcludeTerms.Text" xml:space="preserve">
+    <value>Hariç Tutulan Terimler</value>
+  </data>
+  <data name="plEnableRegisterNotification.Help" xml:space="preserve">
+    <value>Yeni kullanıcı kayıtlarına ilişkin e-posta bildirimlerini Birincil Yöneticiye göndermek için bu kutuyu işaretleyin.</value>
+  </data>
+  <data name="plEnableRegisterNotification.Text" xml:space="preserve">
+    <value>Kullanıcı Kaydı Bildirimi Al</value>
+  </data>
+  <data name="plEnableUnapprovedPasswordReminderNotification.Help" xml:space="preserve">
+    <value>Onaylanmamış bir kullanıcı şifre hatırlatma/sıfırlama talebinde bulunduğunda Birincil Yöneticiye e-posta bildirimi göndermek için bu kutuyu işaretleyin.</value>
+  </data>
+  <data name="plEnableUnapprovedPasswordReminderNotification.Text" xml:space="preserve">
+    <value>Onaylanmamış Kullanıcı Şifre Hatırlatma Bildirimi Al</value>
+  </data>
+  <data name="Registration_UseAuthProviders.Help" xml:space="preserve">
+    <value>Kayıt sırasında kimlik doğrulama sağlayıcılarını kullanmak için bu seçeneği belirleyin.  Tüm sağlayıcıların bu seçeneği desteklemediğini unutmayın.</value>
+  </data>
+  <data name="Registration_UseAuthProviders.Text" xml:space="preserve">
+    <value>Kimlik Doğrulama Sağlayıcılarını Kullan</value>
+  </data>
+  <data name="Registration_UseProfanityFilter.Help" xml:space="preserve">
+    <value>Kayıt sırasında kullanıcı adı ve görünen ad alanlarına küfür filtresi uygulamak için bu kutuyu işaretleyin.</value>
+  </data>
+  <data name="Registration_UseProfanityFilter.Text" xml:space="preserve">
+    <value>Küfür Filtresini Kullan</value>
+  </data>
+  <data name="Registration_UseEmailAsUserName.Help" xml:space="preserve">
+    <value>E-posta adresini kullanıcı adı olarak kullanmak için bu kutuyu işaretleyin.  Bu seçenek etkinleştirilirse kayıt formunda kullanıcı adı giriş alanı gösterilmez.</value>
+  </data>
+  <data name="Registration_UseEmailAsUserName.Text" xml:space="preserve">
+    <value>E-posta Adresini Kullanıcı Adı Olarak Kullan</value>
+  </data>
+  <data name="Registration_RequireUniqueDisplayName.Help" xml:space="preserve">
+    <value>İsteğe bağlı olarak kullanıcıların benzersiz bir görünen ad kullanmasını zorunlu kılın.  Kullanıcı zaten var olan bir ad seçerse değiştirilmiş bir ad önerilir.</value>
+  </data>
+  <data name="Registration_RequireUniqueDisplayName.Text" xml:space="preserve">
+    <value>Benzersiz Görünen Ad Zorunlu</value>
+  </data>
+  <data name="Registration_RandomPassword.Help" xml:space="preserve">
+    <value>Kayıt sırasında şifre giriş alanı göstermek yerine rastgele şifre oluşturmak için bu kutuyu işaretleyin.</value>
+  </data>
+  <data name="Registration_RandomPassword.Text" xml:space="preserve">
+    <value>Rastgele Şifre Kullan</value>
+  </data>
+  <data name="Registration_RequireConfirmPassword.Help" xml:space="preserve">
+    <value>Kayıt formunda bir şifre onay kutusu göstermek için bu kutuyu işaretleyin.</value>
+  </data>
+  <data name="Registration_RequireConfirmPassword.Text" xml:space="preserve">
+    <value>Şifre Onayı Zorunlu</value>
+  </data>
+  <data name="Security_RequireValidProfile.Help" xml:space="preserve">
+    <value>Kullanıcıların kayıt sırasında Kullanıcı Adı, Ad, Soyad, Görünen Ad, E-posta Adresi ve Şifre alanları dahil tüm zorunlu alanları doldurması gerekiyorsa bu kutuyu işaretleyin.</value>
+  </data>
+  <data name="Security_RequireValidProfile.Text" xml:space="preserve">
+    <value>Kayıt İçin Geçerli Profil Zorunlu Olsun</value>
+  </data>
+  <data name="Security_CaptchaRegister.Help" xml:space="preserve">
+    <value>Bu sitenin kayıt için CAPTCHA kullanıp kullanmayacağını belirtin.</value>
+  </data>
+  <data name="Security_CaptchaRegister.Text" xml:space="preserve">
+    <value>Kayıt İçin CAPTCHA Kullan</value>
+  </data>
+  <data name="RequiresUniqueEmail.Help" xml:space="preserve">
+    <value>Her kullanıcının benzersiz bir e-posta adresi girmesini zorunlu kılmak için bu kutuyu işaretleyin.  Bu, kullanıcıların aynı e-posta adresiyle birden çok kez kayıt olmasını önler.</value>
+  </data>
+  <data name="RequiresUniqueEmail.Text" xml:space="preserve">
+    <value>Benzersiz E-posta Gerektirir</value>
+  </data>
+  <data name="PasswordFormat.Help" xml:space="preserve">
+    <value>Şifre biçimi.</value>
+  </data>
+  <data name="PasswordFormat.Text" xml:space="preserve">
+    <value>Şifre Biçimi</value>
+  </data>
+  <data name="PasswordRetrievalEnabled.Help" xml:space="preserve">
+    <value>Kullanıcıların şifrelerini geri alıp alamayacağını belirtir.</value>
+  </data>
+  <data name="PasswordRetrievalEnabled.Text" xml:space="preserve">
+    <value>Şifre Geri Alma Etkin</value>
+  </data>
+  <data name="PasswordResetEnabledTitle.Help" xml:space="preserve">
+    <value>Kullanıcının şifresinin sıfırlanmasını talep edip edemeyeceğini belirtir.  Bu ayar yalnızca web.config dosyasından değiştirilebilir.</value>
+  </data>
+  <data name="PasswordResetEnabledTitle.Text" xml:space="preserve">
+    <value>Şifre Sıfırlama Etkin</value>
+  </data>
+  <data name="MinNonAlphanumericCharactersTitle.Help" xml:space="preserve">
+    <value>Şifrede bulunması gereken en az özel karakter sayısını belirtir.  Bu ayar yalnızca web.config dosyasından değiştirilebilir.</value>
+  </data>
+  <data name="MinNonAlphanumericCharactersTitle.Text" xml:space="preserve">
+    <value>En Az Alfanümerik Olmayan Karakter</value>
+  </data>
+  <data name="RequiresQuestionAndAnswerTitle.Help" xml:space="preserve">
+    <value>Kayıt sürecinin bir parçası olarak soru-cevap sisteminin kullanılıp kullanılmadığını belirtir.  Yalnızca web.config dosyasından değiştirilebilir.</value>
+  </data>
+  <data name="RequiresQuestionAndAnswerTitle.Text" xml:space="preserve">
+    <value>Soru ve Cevap Gerektirir</value>
+  </data>
+  <data name="PasswordStrengthRegularExpressionTitle.Help" xml:space="preserve">
+    <value>Provider özelliğinde belirtilen sağlayıcının şifre karmaşıklığını değerlendirmek için kullandığı düzenli ifade. Bu ayar yalnızca web.config dosyasında AspNetSqlMembershipProvider öğesinin passwordStrengthRegularExpression düğümü eklenerek/değiştirilerek değiştirilebilir. Not: Bu sunucu doğrulaması, 7.1.0 sürümünde sunulan ve yalnızca şifre gücü hakkında öneride bulunan şifre gücü göstergesinden farklıdır; bu ifade (tanımlanmışsa) yeni şifreler için bir zorunluluktur.</value>
+  </data>
+  <data name="PasswordStrengthRegularExpressionTitle.Text" xml:space="preserve">
+    <value>Şifre Gücü Düzenli İfadesi</value>
+  </data>
+  <data name="MaxInvalidPasswordAttemptsTitle.Help" xml:space="preserve">
+    <value>Hesap kilitlenmeden önce yanlış şifrenin kaç kez girilebileceğini belirtir.  Bu ayar yalnızca web.config dosyasından değiştirilebilir.</value>
+  </data>
+  <data name="MaxInvalidPasswordAttemptsTitle.Text" xml:space="preserve">
+    <value>En Fazla Geçersiz Şifre Denemesi</value>
+  </data>
+  <data name="PasswordAttemptWindowTitle.Help" xml:space="preserve">
+    <value>Başarısız giriş denemelerinden sonra hesabın ne kadar süre kilitli kalacağını belirtir.  Yalnızca web.config dosyasından değiştirilebilir.</value>
+  </data>
+  <data name="PasswordAttemptWindowTitle.Text" xml:space="preserve">
+    <value>Şifre Deneme Aralığı</value>
+  </data>
+  <data name="RegistrationSettingsUpdateSuccess.Text" xml:space="preserve">
+    <value>Kayıt ayarları güncellendi.</value>
+  </data>
+  <data name="RegistrationSettingsError.Text" xml:space="preserve">
+    <value>Kayıt ayarları güncellenemedi. Lütfen daha sonra tekrar deneyin.</value>
+  </data>
+  <data name="RegistrationSettingsRestoreWarning.Text" xml:space="preserve">
+    <value>Değişikliklerinizi iptal etmek istediğinizden emin misiniz?</value>
+  </data>
+  <data name="registrationFieldsLabel.Help" xml:space="preserve">
+    <value>Eklemek istediğiniz alanları virgülle ayrılmış bir liste olarak belirtebilirsiniz.  Bu ayar kullanılırsa diğer ayarlara göre öncelikli olur.  Kullanılabilecek alanlar arasında kullanıcı adı, e-posta, şifre, şifre onayı, görünen ad ve tüm Profil Özellikleri bulunur.</value>
+  </data>
+  <data name="registrationFieldsLabel.Text" xml:space="preserve">
+    <value>Kayıt Alanları:</value>
+  </data>
+  <data name="GlobalSettingsTab.Text" xml:space="preserve">
+    <value>Bu, genel ayarlar sekmesidir. Ayarlarda yapılan değişiklikler tüm sitelerinizi etkiler.</value>
+  </data>
+  <data name="GlobalSetting.Text" xml:space="preserve">
+    <value>Bu, genel bir ayardır. Bu ayarda yapılan değişiklikler tüm sitelerinizi etkiler.</value>
+  </data>
+  <data name="plSSLEnforced.Text" xml:space="preserve">
+    <value>Karma Mod</value>
+  </data>
+  <data name="plSSLEnforced.Help" xml:space="preserve">
+    <value>Güvenli değil olarak işaretlenen sayfalara HTTPS üzerinden erişilememesi ve her zaman HTTP'ye yönlendirilmesi gerekiyorsa bu kutuyu işaretleyin.</value>
+  </data>
+  <data name="plSSLURL.Text" xml:space="preserve">
+    <value>SSL URL</value>
+  </data>
+  <data name="plSSLURL.Help" xml:space="preserve">
+    <value>İsteğe bağlı olarak bu sitenin güvenli bağlantıları için kullanılacak bir URL belirtin. Bu yalnızca standart site URL'niz için yüklü bir SSL sertifikanız yoksa gereklidir. Örneğin, barındırma sağlayıcısının size Paylaşımlı SSL URL'si sağladığı paylaşımlı bir barındırma hesabı.</value>
+  </data>
+  <data name="plSTDURL.Text" xml:space="preserve">
+    <value>Standart URL</value>
+  </data>
+  <data name="plSTDURL.Help" xml:space="preserve">
+    <value>Yukarıda bir SSL URL'si belirtildiyse güvenli olmayan bağlantılar için Standart URL'yi belirtin.</value>
+  </data>
+  <data name="plShowCriticalErrors.Help" xml:space="preserve">
+    <value>Bu ayar, error sorgu dizesi parametresiyle gönderilen hata mesajlarının sayfa içinde gösterilip gösterilmeyeceğini belirler.</value>
+  </data>
+  <data name="plShowCriticalErrors.Text" xml:space="preserve">
+    <value>Kritik Hataları Ekranda Göster</value>
+  </data>
+  <data name="plDebugMode.Help" xml:space="preserve">
+    <value>Kurulumu "hata ayıklama modunda" çalıştırmak için bu kutuyu işaretleyin. Bu, uygulamanın çeşitli bölümlerinin daha ayrıntılı hata günlükleri vb. yazmasını sağlar. Ayrıca CDV değerini bir zaman damgasına çevirir; bu da istemci tarayıcısının istemci kaynaklarının (stil sayfaları, yazı tipleri ve JavaScript dosyaları) yeni sürümlerini sürekli olarak indirmesi anlamına gelir. Not: Bu, performansın düşmesine yol açabilir.</value>
+  </data>
+  <data name="plDebugMode.Text" xml:space="preserve">
+    <value>Hata Ayıklama Modu</value>
+  </data>
+  <data name="plRememberMe.Text" xml:space="preserve">
+    <value>Giriş Denetiminde Beni Hatırla Seçeneğini Etkinleştir</value>
+  </data>
+  <data name="plRememberMe.Help" xml:space="preserve">
+    <value>Giriş denetiminde, kullanıcıların birden çok ziyaret boyunca oturumlarının açık kalmasını sağlayan Beni Hatırla onay kutusunu göstermek için bu kutuyu işaretleyin.</value>
+  </data>
+  <data name="plAutoAccountUnlock.Text" xml:space="preserve">
+    <value>Hesap Kilidini Otomatik Açma Süresi (Dakika)</value>
+  </data>
+  <data name="plAutoAccountUnlock.Help" xml:space="preserve">
+    <value>Başarısız giriş denemeleri nedeniyle kilitlenen bir hesabın kilidi, belirli bir süre geçtikten sonra başarılı bir kimlik doğrulamayla otomatik olarak açılabilir. Hesap kilidinin otomatik olarak açılabilmesi için beklenecek dakika sayısını girin. Otomatik kilit açma özelliğini devre dışı bırakmak için "0" girin.</value>
+  </data>
+  <data name="plAsyncTimeout.Help" xml:space="preserve">
+    <value>Yanıt alınamadığında zaman uyumsuz geri gönderimlerin zaman aşımına uğramadan önceki süresini saniye cinsinden belirtin; değer 90-9999 saniye arasında olmalıdır.</value>
+  </data>
+  <data name="plAsyncTimeout.Text" xml:space="preserve">
+    <value>Zaman Aşımı Süresi (Saniye)</value>
+  </data>
+  <data name="plMaxUploadSize.Help" xml:space="preserve">
+    <value>Siteye yüklenebilecek dosyaların en büyük boyutu.  En düşük değer 12 MB'dir.</value>
+  </data>
+  <data name="plMaxUploadSize.Text" xml:space="preserve">
+    <value>En Büyük Yükleme Boyutu (MB)</value>
+  </data>
+  <data name="maxUploadSize.Error" xml:space="preserve">
+    <value>En büyük yükleme boyutu 12 ile {0} arasında olmalıdır</value>
+  </data>
+  <data name="plFileExtensions.Help" xml:space="preserve">
+    <value>Site yöneticilerinin siteye yükleyebileceği dosyaların uzantılarını (virgülle ayırarak) girin.</value>
+  </data>
+  <data name="plFileExtensions.Text" xml:space="preserve">
+    <value>İzin Verilen Dosya Uzantıları:</value>
+  </data>
+  <data name="OtherSettingsUpdateSuccess.Text" xml:space="preserve">
+    <value>Ayarlar güncellendi.</value>
+  </data>
+  <data name="OtherSettingsError.Text" xml:space="preserve">
+    <value>Ayarlar güncellenemedi. Lütfen daha sonra tekrar deneyin.</value>
+  </data>
+  <data name="OtherSettingsRestoreWarning.Text" xml:space="preserve">
+    <value>Değişikliklerinizi iptal etmek istediğinizden emin misiniz?</value>
+  </data>
+  <data name="Bulletins.Text" xml:space="preserve">
+    <value>BÜLTENLER</value>
+  </data>
+  <data name="BulletinsDoNotExist.Text" xml:space="preserve">
+    <value>DotNetNuke Platform {0} sürümü için şu anda Güvenlik Bülteni bulunmuyor.</value>
+  </data>
+  <data name="BulletinsExist.Text" xml:space="preserve">
+    <value>DotNetNuke Platform {1} sürümü için şu anda {0} Güvenlik Bülteni bulunuyor:</value>
+  </data>
+  <data name="RequestFailed_Admin.Text" xml:space="preserve">
+    <value>{0} adresine bağlanılamadı. Kaynak adresin geçerli olduğunu ve barındırma sağlayıcınızın proxy sunucusu ayarlarını doğru yapılandırdığını doğrulamalısınız.</value>
+  </data>
+  <data name="RequestFailed_User.Text" xml:space="preserve">
+    <value>Haber akışı şu anda kullanılamıyor. Hata mesajı: </value>
+  </data>
+  <data name="TabAuditChecks.Text" xml:space="preserve">
+    <value>DENETİM KONTROLLERİ</value>
+  </data>
+  <data name="TabScannerCheck.Text" xml:space="preserve">
+    <value>TARAMA KONTROLÜ</value>
+  </data>
+  <data name="TabSuperuserActivity.Text" xml:space="preserve">
+    <value>SÜPER KULLANICI ETKİNLİĞİ</value>
+  </data>
+  <data name="SuperUserActivityExplaination.Text" xml:space="preserve">
+    <value>Süper Kullanıcı etkinlikleri aşağıda listelenmiştir. Şüpheli etkinlikleri burada arayın. Oluşturulma ve Son Giriş tarihlerine özellikle dikkat edin. </value>
+  </data>
+  <data name="Username.Text" xml:space="preserve">
+    <value>KULLANICI ADI</value>
+  </data>
+  <data name="CreatedDate.Text" xml:space="preserve">
+    <value>OLUŞTURULMA TARİHİ</value>
+  </data>
+  <data name="LastLogin.Text" xml:space="preserve">
+    <value>SON GİRİŞ</value>
+  </data>
+  <data name="LastActivityDate.Text" xml:space="preserve">
+    <value>SON ETKİNLİK TARİHİ</value>
+  </data>
+  <data name="SecurityCheck.Text" xml:space="preserve">
+    <value>GÜVENLİK KONTROLÜ</value>
+  </data>
+  <data name="Result.Text" xml:space="preserve">
+    <value>SONUÇ</value>
+  </data>
+  <data name="Notes.Text" xml:space="preserve">
+    <value>NOTLAR</value>
+  </data>
+  <data name="AuditChecks.Text" xml:space="preserve">
+    <value>Denetim Kontrolleri</value>
+  </data>
+  <data name="SuperuserActivity.Text" xml:space="preserve">
+    <value>Süper Kullanıcı Etkinliği</value>
+  </data>
+  <data name="CheckDebugFailure.Text" xml:space="preserve">
+    <value>debug değeri true olarak ayarlanmış - web.config dosyasını düzenleyip false olarak ayarlamayı düşünün (veya yapılandırma yöneticisini kullanın)</value>
+  </data>
+  <data name="CheckDebugReason.Text" xml:space="preserve">
+    <value>debug özniteliği true olarak ayarlanırsa performansı olumsuz etkiler ve saldırganların işine yarayabilecek güvenlik istisnası ayrıntılarını açığa çıkarabilir</value>
+  </data>
+  <data name="CheckDebugSuccess.Text" xml:space="preserve">
+    <value>Hata ayıklama modunda değil. Bu ayar web.config dosyasındaki debug değerine bağlıdır.</value>
+  </data>
+  <data name="cmdCheck.Text" xml:space="preserve">
+    <value>Kontrol Et</value>
+  </data>
+  <data name="cmdSearch.Text" xml:space="preserve">
+    <value>Ara</value>
+  </data>
+  <data name="plSearchTerm.Text" xml:space="preserve">
+    <value>Arama terimi</value>
+  </data>
+  <data name="cmdModifiedFiles.Text" xml:space="preserve">
+    <value>Son Değiştirilen Dosyaları Bul</value>
+  </data>
+  <data name="ScannerChecks.Text" xml:space="preserve">
+    <value>Dosya Sisteminde ve Veritabanında Ara</value>
+  </data>
+  <data name="AuditExplanation.Text" xml:space="preserve">
+    <value>Not: Sistem, güvenlik açısından en iyi uygulamalara yönelik taramaları otomatik olarak gerçekleştirir</value>
+  </data>
+  <data name="Authorized.Header" xml:space="preserve">
+    <value>Yetkili</value>
+  </data>
+  <data name="CheckTracing.Text" xml:space="preserve">
+    <value>tracing değeri true olarak ayarlanmış - web.config dosyasını düzenleyip false olarak ayarlamayı düşünün (veya yapılandırma yöneticisini kullanın)</value>
+  </data>
+  <data name="CheckTracingReason.Text" xml:space="preserve">
+    <value>tracing özniteliği true olarak ayarlanırsa olası saldırganların site etkinliğini görüntülemesine olanak tanır</value>
+  </data>
+  <data name="CheckTracingSuccess.Text" xml:space="preserve">
+    <value>İzleme etkin değil</value>
+  </data>
+  <data name="CreatedDate.Header" xml:space="preserve">
+    <value>Oluşturulma tarihi</value>
+  </data>
+  <data name="DisplayName.Header" xml:space="preserve">
+    <value>Görünen ad</value>
+  </data>
+  <data name="Email.Header" xml:space="preserve">
+    <value>E-posta</value>
+  </data>
+  <data name="FirstName.Header" xml:space="preserve">
+    <value>Ad</value>
+  </data>
+  <data name="LastActivityDate.Header" xml:space="preserve">
+    <value>Son Etkinlik Tarihi</value>
+  </data>
+  <data name="LastLogin.Header" xml:space="preserve">
+    <value>Son giriş</value>
+  </data>
+  <data name="LastName.Header" xml:space="preserve">
+    <value>Soyad</value>
+  </data>
+  <data name="ScannerExplanation.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Username.Header" xml:space="preserve">
+    <value>Kullanıcı adı</value>
+  </data>
+  <data name="CheckBiographyFailure.Text" xml:space="preserve">
+    <value>Alan zengin metin türünde. İstenmeyen ileti gönderenler biyografi alanına kendi web sitelerinin bağlantılarını ekleyebilir. Alan türü Ayarlar -&gt; Site Ayarları -&gt; Site Davranışı -&gt; Kullanıcı Profilleri bölümünden değiştirilebilir</value>
+  </data>
+  <data name="CheckBiographyReason.Text" xml:space="preserve">
+    <value>Biyografi alanı, bağlantı/HTML eklenebildiği için istenmeyen ileti gönderenlerin sık hedef aldığı bir alandır. DNN 7.2.0 sürümünde bu alan çok satırlı metin kutusuna dönüştürülerek bu risk ortadan kaldırılmıştır.</value>
+  </data>
+  <data name="CheckBiographySuccess.Text" xml:space="preserve">
+    <value>Alan etkin değil veya çok satırlı bir metin kutusu</value>
+  </data>
+  <data name="CheckRarelyUsedSuperuserFailure.Text" xml:space="preserve">
+    <value>Altı ay içinde hiç giriş yapılmamış veya etkinlik göstermemiş 1 ya da daha fazla süper kullanıcı hesabı bulundu. En iyi uygulama olarak bu hesapları silmeyi düşünün</value>
+  </data>
+  <data name="CheckRarelyUsedSuperuserReason.Text" xml:space="preserve">
+    <value>Süper kullanıcı hesapları DNN'deki en yetkili hesaplardır. En iyi uygulama olarak bu hesapların sayısı sınırlı tutulmalıdır.</value>
+  </data>
+  <data name="CheckRarelyUsedSuperuserSuccess.Text" xml:space="preserve">
+    <value>Tüm süper kullanıcılar sistemi düzenli olarak kullanıyor.</value>
+  </data>
+  <data name="CheckSiteRegistrationFailure.Text" xml:space="preserve">
+    <value>Bir veya daha fazla web sitesi herkese açık kayıt kullanıyor</value>
+  </data>
+  <data name="CheckSiteRegistrationReason.Text" xml:space="preserve">
+    <value>Herkese açık kaydın etkin olduğu siteler, istenmeyen ileti gönderenlerin başlıca hedefidir.</value>
+  </data>
+  <data name="CheckSiteRegistrationSuccess.Text" xml:space="preserve">
+    <value>Tüm web siteleri herkese açık olmayan kayıt kullanıyor</value>
+  </data>
+  <data name="CheckSuperuserOldPasswordFailure.Text" xml:space="preserve">
+    <value>En az bir süper kullanıcı hesabının şifresi 6 aydan uzun süredir değiştirilmemiş.</value>
+  </data>
+  <data name="CheckSuperuserOldPasswordReason.Text" xml:space="preserve">
+    <value>Süper kullanıcı hesapları DNN'deki en yetkili hesaplardır. En iyi uygulama olarak bu hesapların şifreleri düzenli olarak değiştirilmelidir.</value>
+  </data>
+  <data name="CheckSuperuserOldPasswordSuccess.Text" xml:space="preserve">
+    <value>Hiçbir süper kullanıcının şifresi 6 aydan eski değil.</value>
+  </data>
+  <data name="CheckUnexpectedExtensionsFailure.Text" xml:space="preserve">
+    <value>asp veya php uzantılı dosya bulundu - bunlar zararsız olabilir, ancak bazen sitenin istismar edildiğini ve bu dosyaların saldırı araçları olduğunu gösterir. Bu dosyaları dikkatle incelemenizi öneririz.</value>
+  </data>
+  <data name="CheckUnexpectedExtensionsReason.Text" xml:space="preserve">
+    <value>DNN bir ASP.NET web uygulamasıdır. Normal koşullarda asp ve php gibi diğer sunucu uygulaması uzantıları kullanılmamalıdır.</value>
+  </data>
+  <data name="CheckUnexpectedExtensionsSuccess.Text" xml:space="preserve">
+    <value>Beklenmeyen uzantı bulunamadı</value>
+  </data>
+  <data name="CheckViewstatemacFailure.Text" xml:space="preserve">
+    <value>viewstatemac doğrulaması etkin değil</value>
+  </data>
+  <data name="CheckViewstatemacReason.Text" xml:space="preserve">
+    <value>View-state MAC, sayfa tarayıcıya gönderilirken sayfanın görünüm durumunun saklandığı gizli değişkenin şifrelenmiş bir sürümüdür. Bu özellik true olarak ayarlandığında, şifrelenmiş görünüm durumunun istemci tarafında değiştirilmediği doğrulanır. 
+</value>
+  </data>
+  <data name="CheckViewstatemacSuccess.Text" xml:space="preserve">
+    <value>Görünüm durumu (viewstate) bir MAC kullanılarak korunuyor</value>
+  </data>
+  <data name="CheckPurpose.Header" xml:space="preserve">
+    <value>Kontrolün amacı</value>
+  </data>
+  <data name="Result.Header" xml:space="preserve">
+    <value>Sonuç</value>
+  </data>
+  <data name="Severity.Header" xml:space="preserve">
+    <value>Önem Derecesi</value>
+  </data>
+  <data name="CheckBiographyName.Text" xml:space="preserve">
+    <value>Herkese açık profil alanlarının zengin metin kullanıp kullanmadığını kontrol et</value>
+  </data>
+  <data name="CheckDebugName.Text" xml:space="preserve">
+    <value>Hata Ayıklama durumunu kontrol et</value>
+  </data>
+  <data name="CheckRarelyUsedSuperuserName.Text" xml:space="preserve">
+    <value>Süper kullanıcı hesaplarının nadiren etkin olup olmadığını kontrol et</value>
+  </data>
+  <data name="CheckSiteRegistrationName.Text" xml:space="preserve">
+    <value>Sitelerin herkese açık kayıt kullanıp kullanmadığını kontrol et</value>
+  </data>
+  <data name="CheckSuperuserOldPasswordName.Text" xml:space="preserve">
+    <value>Süper kullanıcıların şifrelerini düzenli olarak değiştirip değiştirmediğini kontrol et</value>
+  </data>
+  <data name="CheckTracingName.Text" xml:space="preserve">
+    <value>ASP.NET izlemenin etkin olup olmadığını kontrol et</value>
+  </data>
+  <data name="CheckUnexpectedExtensionsName.Text" xml:space="preserve">
+    <value>asp/php dosyası bulunup bulunmadığını kontrol et</value>
+  </data>
+  <data name="CheckDefaultPageName.Text" xml:space="preserve">
+    <value>default.aspx veya default.aspx.cs dosyalarının değiştirilip değiştirilmediğini kontrol et</value>
+  </data>
+  <data name="CheckDefaultPageFailure.Text" xml:space="preserve">
+    <value>Varsayılan sayfa dosyaları değiştirilmiş. Bu dosyaları dikkatle incelemenizi öneririz; bir saldırgan tarafından değiştirilmiş ve kötü amaçlı kod içeriyor olabilirler. Bu dosyaları ürününüzün standart bir kurulumundaki dosyalarla karşılaştırmanız en iyisidir. Karşılaştırmadan önce mevcut sitenizin DNN sürümünün standart siteyle aynı olduğundan emin olun. Kötü amaçlı kodu kaldırın veya bu dosyaları standart kurulumdan geri yükleyin.</value>
+  </data>
+  <data name="CheckDefaultPageReason.Text" xml:space="preserve">
+    <value>DNN her şeyi yüklemek için default.aspx dosyasını kullanır; bu nedenle kullanıcı siteye göz attığında tüm istekler bu dosyayı yükler. Bu dosyanın başkası tarafından değiştirilmesi büyük bir risk oluşturabilir.</value>
+  </data>
+  <data name="CheckDefaultPageSuccess.Text" xml:space="preserve">
+    <value>default.aspx ve default.aspx.cs sayfaları değiştirilmemiş.</value>
+  </data>
+  <data name="CheckViewstatemacName.Text" xml:space="preserve">
+    <value>Görünüm durumunun (viewstate) korunup korunmadığını kontrol et</value>
+  </data>
+  <data name="NoDatabaseResults.Text" xml:space="preserve">
+    <value>Arama terimi veritabanında bulunamadı</value>
+  </data>
+  <data name="NoFileResults.Text" xml:space="preserve">
+    <value>Arama terimi hiçbir dosyada bulunamadı</value>
+  </data>
+  <data name="SearchTermRequired.Text" xml:space="preserve">
+    <value>Arama terimi zorunludur</value>
+  </data>
+  <data name="CheckTracingFailure.Text" xml:space="preserve">
+    <value>İzleme etkin - bu, olası saldırganların site etkinliğini görüntülemesine olanak tanır.</value>
+  </data>
+  <data name="Filename.Header" xml:space="preserve">
+    <value>Dosya Adı</value>
+  </data>
+  <data name="LastModifiedDate.Header" xml:space="preserve">
+    <value>Son Değiştirilme Tarihi</value>
+  </data>
+  <data name="ModifiedFiles.Text" xml:space="preserve">
+    <value>Son Değiştirilen Dosyalar</value>
+  </data>
+  <data name="CheckModuleHeaderAndFooterFailure.Text" xml:space="preserve">
+    <value>Sisteminizde üst bilgi ve alt bilgi ayarları olan modüller var; kimlik avı kodu bulunmadığından emin olmak için bunları gözden geçirin.</value>
+  </data>
+  <data name="CheckModuleHeaderAndFooterName.Text" xml:space="preserve">
+    <value>Modüllerde Üst Bilgi veya Alt Bilgi ayarı olup olmadığını kontrol et</value>
+  </data>
+  <data name="CheckModuleHeaderAndFooterReason.Text" xml:space="preserve">
+    <value>Saldırganlar, kimlik avı saldırıları için içerik eklemek amacıyla modüllerin üst bilgi veya alt bilgi ayarlarını kullanabilir.</value>
+  </data>
+  <data name="CheckModuleHeaderAndFooterSuccess.Text" xml:space="preserve">
+    <value>Üst bilgi veya alt bilgi değeri yapılandırılmış modül bulunamadı.</value>
+  </data>
+  <data name="CheckDiskAccessName.Text" xml:space="preserve">
+    <value>Web sitesi klasörü dışındaki ek sürücü/klasörlere erişim iznini kontrol eder</value>
+  </data>
+  <data name="CheckDiskAccessFailure.Text" xml:space="preserve">
+    <value>Saldırganlar web sitesi dışındaki sürücü/klasörlere erişebilir</value>
+  </data>
+  <data name="CheckDiskAccessReason.Text" xml:space="preserve">
+    <value>Web sitenizin altında çalıştığı kullanıcı, web sitesi konumu dışındaki sürücülere ve klasörlere erişebiliyor. Bir saldırgan bu dosyalara erişerek onları okuyabilir, bunlara yazabilir veya her ikisini birden yapabilir.</value>
+  </data>
+  <data name="CheckDiskAccessSuccess.Text" xml:space="preserve">
+    <value>Saldırganlar web sitesi dışındaki sürücü/klasörlere erişemez</value>
+  </data>
+  <data name="HostSettings.Text" xml:space="preserve">
+    <value>Sunucu Ayarları</value>
+  </data>
+  <data name="ModifiedSettings.Text" xml:space="preserve">
+    <value>Son Değiştirilen Ayarlar</value>
+  </data>
+  <data name="ModuleSettings.Text" xml:space="preserve">
+    <value>Modül Ayarları</value>
+  </data>
+  <data name="PortalSettings.Text" xml:space="preserve">
+    <value>Site Ayarları</value>
+  </data>
+  <data name="TabSettings.Text" xml:space="preserve">
+    <value>Sayfa Ayarları</value>
+  </data>
+  <data name="ModifiedSettingsExplaination.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ModifiedFilesExplaination.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ModifiedFilesLoadWarning.Text" xml:space="preserve">
+    <value>Araç, son değiştirilen dosyaları göstermek için sisteminizdeki tüm dosyaları tarar. Çok sayıda dosya içeren bir sitede bu işlem biraz zaman alabilir.</value>
+  </data>
+  <data name="CheckPasswordFormatName.Text" xml:space="preserve">
+    <value>Şifre Biçimi Ayarını Kontrol Et</value>
+  </data>
+  <data name="CheckPasswordFormatFailure.Text" xml:space="preserve">
+    <value>web.config dosyasındaki passwordFormat ayarı Hashed olarak ayarlanmamış - web.config dosyasını düzenleyip Hashed olarak ayarlamayı düşünün (veya yapılandırma yöneticisini kullanın). Daha fazla bilgiyi &lt;a href="http://www.dnnsoftware.com/wiki/hashed-passwords" target="_blank"&gt;burada&lt;/a&gt; bulabilirsiniz.</value>
+  </data>
+  <data name="CheckPasswordFormatReason.Text" xml:space="preserve">
+    <value>Değer Clear veya Encrypted ise saldırganlar kullanıcı şifrelerini veritabanından elde edebilir.</value>
+  </data>
+  <data name="CheckPasswordFormatSuccess.Text" xml:space="preserve">
+    <value>web.config dosyasında passwordFormat değeri Hashed olarak ayarlanmış</value>
+  </data>
+  <data name="CheckAllowableFileExtensionsFailure.Text" xml:space="preserve">
+    <value>İzin verilen dosya uzantıları ayarında aspx, asp veya php uzantıları bulundu. Bu, saldırganların kod yüklemesine olanak tanır. Bu uzantıları Ayarlar &amp;gt; Diğer &amp;gt; Diğer güvenlik ayarları &amp;gt; İzin Verilen Dosya Uzantıları bölümünden kaldırın</value>
+  </data>
+  <data name="CheckAllowableFileExtensionsName.Text" xml:space="preserve">
+    <value>Dosya yükleyicinin izin verdiği zararlı uzantı olup olmadığını kontrol et</value>
+  </data>
+  <data name="CheckAllowableFileExtensionsReason.Text" xml:space="preserve">
+    <value>İzin verilen dosya uzantıları ayarında aspx, asp veya php uzantıları bulundu. Bu, saldırganların kod yüklemesine olanak tanır. Bu uzantıları Ayarlar &amp;gt; Diğer &amp;gt; Diğer güvenlik ayarları &amp;gt; İzin Verilen Dosya Uzantıları bölümünden kaldırın</value>
+  </data>
+  <data name="CheckAllowableFileExtensionsSuccess.Text" xml:space="preserve">
+    <value>İzin verilen dosya uzantıları doğru şekilde yapılandırılmış.</value>
+  </data>
+  <data name="CheckFileExists.Error" xml:space="preserve">
+    <value>Geçerli SQL Server hesabı, sunucuda dosyaların var olup olmadığını tespit edebilen xp_fileexist komutunu çalıştırabiliyor.</value>
+  </data>
+  <data name="CheckSqlRiskFailure.Text" xml:space="preserve">
+    <value>Geçerli SQL bağlantısı, SQL Server'ınızda tehlikeli komutlar çalıştırabiliyor.</value>
+  </data>
+  <data name="CheckSqlRiskName.Text" xml:space="preserve">
+    <value>Geçerli SQL Hesabı İznini Kontrol Et</value>
+  </data>
+  <data name="CheckSqlRiskReason.Text" xml:space="preserve">
+    <value>SQL Server hesabı doğru yapılandırılmamışsa risk oluşabilir ve saldırganlar özel betikler çalıştırarak sunucuyu istismar edebilir.</value>
+  </data>
+  <data name="CheckSqlRiskSuccess.Text" xml:space="preserve">
+    <value>SQL Server hesabı doğru şekilde yapılandırılmış.</value>
+  </data>
+  <data name="ExecuteCommand.Error" xml:space="preserve">
+    <value>Geçerli SQL Server hesabı, SQL Server sisteminde komut satırı çalıştıran xp_cmdshell komutunu çalıştırabiliyor.</value>
+  </data>
+  <data name="GetFolderTree.Error" xml:space="preserve">
+    <value>Geçerli SQL Server hesabı, sunucunun klasör yapısını görebilen xp_dirtree komutunu çalıştırabiliyor.</value>
+  </data>
+  <data name="RegRead.Error" xml:space="preserve">
+    <value>Geçerli SQL Server hesabı kayıt defteri değerlerini okuyabiliyor. xp_regread, xp_regwrite, xp_regenumkeys, xp_regenumvalues, xp_regdeletekey, xp_regdeletekey, xp_regdeletevalue, xp_instance_regread, xp_instance_regwrite, xp_instance_regenumkeys, xp_instance_regenumvalues, xp_instance_regdeletekey, xp_instance_regdeletekey, xp_instance_regdeletevalue saklı yordamlarının izinlerini kontrol etmeniz gerekir.</value>
+  </data>
+  <data name="SysAdmin.Error" xml:space="preserve">
+    <value>Geçerli SQL Server hesabı 'sysadmin' rolünde.</value>
+  </data>
+  <data name="HighRiskFiles.Text" xml:space="preserve">
+    <value>Yüksek Riskli Dosyalar</value>
+  </data>
+  <data name="LowRiskFiles.Text" xml:space="preserve">
+    <value>Düşük Riskli Dosyalar</value>
+  </data>
+  <data name="Pass.Text" xml:space="preserve">
+    <value>BAŞARILI</value>
+  </data>
+  <data name="Fail.Text" xml:space="preserve">
+    <value>BAŞARISIZ</value>
+  </data>
+  <data name="Alert.Text" xml:space="preserve">
+    <value>UYARI</value>
+  </data>
+  <data name="FileName.Text" xml:space="preserve">
+    <value>DOSYA ADI</value>
+  </data>
+  <data name="LastWriteTime.Text" xml:space="preserve">
+    <value>SON DEĞİŞTİRİLME TARİHİ</value>
+  </data>
+  <data name="PortalId.Text" xml:space="preserve">
+    <value>SİTE KİMLİĞİ</value>
+  </data>
+  <data name="TabId.Text" xml:space="preserve">
+    <value>SAYFA KİMLİĞİ</value>
+  </data>
+  <data name="ModuleId.Text" xml:space="preserve">
+    <value>MODÜL KİMLİĞİ</value>
+  </data>
+  <data name="SettingName.Text" xml:space="preserve">
+    <value>AYAR ADI</value>
+  </data>
+  <data name="SettingValue.Text" xml:space="preserve">
+    <value>AYAR DEĞERİ</value>
+  </data>
+  <data name="UserId.Text" xml:space="preserve">
+    <value>KULLANICI KİMLİĞİ</value>
+  </data>
+  <data name="SearchPlaceHolder.Text" xml:space="preserve">
+    <value>Ara</value>
+  </data>
+  <data name="SearchFileSystemResult.Text" xml:space="preserve">
+    <value>Dosya Sistemi: {0} Dosya Bulundu</value>
+  </data>
+  <data name="SearchDatabaseResult.Text" xml:space="preserve">
+    <value>Veritabanı: {0} Kayıt Bulundu</value>
+  </data>
+  <data name="DatabaseInstance.Text" xml:space="preserve">
+    <value>VERİTABANI KAYDI</value>
+  </data>
+  <data name="DatabaseValue.Text" xml:space="preserve">
+    <value>DEĞER</value>
+  </data>
+  <data name="plSSLOffload.Text" xml:space="preserve">
+    <value>SSL Offload Üst Bilgi Değeri</value>
+  </data>
+  <data name="plSSLOffload.Help" xml:space="preserve">
+    <value>Bir ağ yük dengeleyicisinin SSL Offloading kullanıp kullanmadığını anlamak için denetlenecek HTTP üst bilgisinin adını belirtin</value>
+  </data>
+  <data name="BulletinDescription.Text" xml:space="preserve">
+    <value>AÇIKLAMA</value>
+  </data>
+  <data name="BulletinLink.Text" xml:space="preserve">
+    <value>BAĞLANTI</value>
+  </data>
+  <data name="NoneSpecified.Text" xml:space="preserve">
+    <value>Belirtilmemiş</value>
+  </data>
+  <data name="MinPasswordLengthTitle.Help" xml:space="preserve">
+    <value>Şifrenin içermesi gereken en az karakter sayısını belirtir.  Bu ayar yalnızca web.config dosyasından değiştirilebilir.</value>
+  </data>
+  <data name="MinPasswordLengthTitle.Text" xml:space="preserve">
+    <value>En Kısa Şifre Uzunluğu</value>
+  </data>
+  <data name="CheckHiddenSystemFilesFailure.Text" xml:space="preserve">
+    <value>Web sitesi klasöründe sistem dosyası veya gizli olarak işaretlenmiş dosyalar var.</value>
+  </data>
+  <data name="CheckHiddenSystemFilesName.Text" xml:space="preserve">
+    <value>Gizli Dosyaları Kontrol Et</value>
+  </data>
+  <data name="CheckHiddenSystemFilesReason.Text" xml:space="preserve">
+    <value>Saldırganlar web sitesine rootkit yükleyip bunları dosya sisteminde sistem dosyası veya gizli olarak işaretleyebilir; bu durumda bu dosyaları dosya gezgininde göremezsiniz.</value>
+  </data>
+  <data name="CheckHiddenSystemFilesSuccess.Text" xml:space="preserve">
+    <value>Web sitesi klasöründe sistem dosyası veya gizli olarak işaretlenmiş dosya yok.</value>
+  </data>
+  <data name="CheckTelerikPresenceFailure.Text" xml:space="preserve">
+    <value>Sitede Telerik bileşeni bulundu.</value>
+  </data>
+  <data name="CheckTelerikPresenceName.Text" xml:space="preserve">
+    <value>Telerik'in yüklü olup olmadığını kontrol et.</value>
+  </data>
+  <data name="CheckTelerikPresenceReason.Text" xml:space="preserve">
+    <value>DNN 10.x sürümünde Telerik'in kaldırılması zorunlu olacak ve artık isteğe bağlı olmayacaktır.</value>
+  </data>
+  <data name="CheckTelerikPresenceSuccess.Text" xml:space="preserve">
+    <value>Telerik bileşeni yüklü değil.</value>
+  </data>
+  <data name="CheckTelerikPresenceInstalledButNotUsed.Text" xml:space="preserve">
+    <value>Bu sitede Telerik bulundu, ancak Telerik'e bağımlılık tespit edilmedi. 9.8.0 talimatlarına göre Telerik'i güvenle kaldırabileceğinizi makul ölçüde varsayabilirsiniz.</value>
+  </data>
+  <data name="CheckTelerikPresenceInstalledAndUsed.Text" xml:space="preserve">
+    <value>9.8.0 sürümündeki talimatlara göre kaldırma işlemiyle GİDERİLMEYECEK derlemelerde Telerik bağımlılıkları tespit edildi. Aşağıdaki liste tümünü içerir:</value>
+  </data>
+  <data name="CheckUserProfilePageFailure.Text" xml:space="preserve">
+    <value>Kullanıcı Profili sayfası herkese açık.</value>
+  </data>
+  <data name="CheckUserProfilePageName.Text" xml:space="preserve">
+    <value>Kullanıcı Profili sayfasına erişimi kontrol et</value>
+  </data>
+  <data name="CheckUserProfilePageReason.Text" xml:space="preserve">
+    <value>Kullanıcı Profili sayfası istemeden tüm kullanıcılara görünür olabilir.</value>
+  </data>
+  <data name="CheckUserProfilePageSuccess.Text" xml:space="preserve">
+    <value>Kullanıcı Profili sayfası herkese açık değil.</value>
+  </data>
+  <data name="UserNotMemberOfRole.Text" xml:space="preserve">
+    <value>Kullanıcı, {0} rolünün üyesi değil.</value>
+  </data>
+  <data name="NotValid.Text" xml:space="preserve">
+    <value>{0} {1} geçerli değil.</value>
+  </data>
+  <data name="Empty.Text" xml:space="preserve">
+    <value>{0} boş bırakılmamalıdır.</value>
+  </data>
+  <data name="DeletedTab.Text" xml:space="preserve">
+    <value>{0} kimlikli sayfa silinmiş.</value>
+  </data>
+  <data name="Disabled.Text" xml:space="preserve">
+    <value>{0} kimlikli sayfa devre dışı.</value>
+  </data>
+  <data name="Check.Text" xml:space="preserve">
+    <value>[ Kontrol Et ]</value>
+  </data>
+  <data name="plForceLogOutAfterPasswordChanged.Text" xml:space="preserve">
+    <value>Şifre Değiştirildikten Sonra Çıkışa Zorla</value>
+  </data>
+  <data name="plForceLogOutAfterPasswordChanged.Help" xml:space="preserve">
+    <value>Kullanıcının şifresi değiştirildikten sonra diğer tarayıcılarda kullanıcı oturumunun kapatılmasını zorunlu kılar.</value>
+  </data>
+  <data name="plDefaultEndUserExtensionWhitelist.Help" xml:space="preserve">
+    <value>Son kullanıcıların yüklemesine izin verilen dosyalar için varsayılan uzantı listesi. Yönetici kullanıcılar bunu geçersiz kılabilir, ancak hiçbir zaman yukarıdaki ana listede belirtilenlerden daha fazla dosya türüne izin veremez. Kaydetme sırasında bu listenin yukarıdaki listeye göre filtreleneceğini unutmayın.</value>
+  </data>
+  <data name="plDefaultEndUserExtensionWhitelist.Text" xml:space="preserve">
+    <value>Varsayılan Son Kullanıcı İzinli Uzantı Listesi</value>
+  </data>
+  <data name="RedirectionMovedToSiteSettings.Text" xml:space="preserve">
+    <value>Yönlendirme, Site Ayarları'na taşındı</value>
+  </data>
+  <data name="IncorrectDisplayNameConfiguration.Text" xml:space="preserve">
+    <value>Görünen Ad yapılandırması doğru değil. Görünen Ad Biçimi belirtin veya Görünen Ad alanını alan listesine ekleyin.</value>
+  </data>
+  <data name="Security_UserNameMinLength.Text" xml:space="preserve">
+    <value>En kısa Kullanıcı Adı uzunluğu</value>
+  </data>
+  <data name="Security_UserNameMinLength.Help" xml:space="preserve">
+    <value>Yeni kullanıcılar veya değiştirilen kullanıcı adları için kullanıcı adının en kısa uzunluğunu belirtin.</value>
+  </data>
+  <data name="Security_UserNameMinLength.ErrorMessage" xml:space="preserve">
+    <value>En kısa Kullanıcı Adı uzunluğu, 0'dan büyük ve 100'e eşit veya 100'den küçük bir tam sayı olmalıdır.</value>
+  </data>
+  <data name="SslOn.Help" xml:space="preserve">
+    <value>Tüm içeriği güvenli olarak sunmak için bu modu kullanın</value>
+  </data>
+  <data name="SslAdvanced.Help" xml:space="preserve">
+    <value>Bu modda web siteniz, sayfadaki ayara bağlı olarak hem güvenli hem de güvenli olmayan sayfalar sunar. Bu sitede güvenli olmayan [NumberOfNonSecureTabs] sayfa bulunduğunu unutmayın.</value>
+  </data>
+  <data name="SslOff.Help" xml:space="preserve">
+    <value>Sunucunuzda yüklü bir SSL sertifikası yoksa bu seçeneği kullanın</value>
+  </data>
+  <data name="SslAdvanced.Text" xml:space="preserve">
+    <value>Gelişmiş</value>
+  </data>
+  <data name="SslOn.Text" xml:space="preserve">
+    <value>Açık</value>
+  </data>
+  <data name="SslOff.Text" xml:space="preserve">
+    <value>Kapalı</value>
+  </data>
+  <data name="SslSetAllPagesSecure.Text" xml:space="preserve">
+    <value>Tüm Sayfaları Güvenli Yap</value>
+  </data>
+  <data name="SslSetAllPagesSecure.Completed" xml:space="preserve">
+    <value>Sitenin tüm sayfaları güvenli olarak ayarlandı</value>
+  </data>
+  <data name="SslSetAllPagesSecure.Confirm" xml:space="preserve">
+    <value>Bu sitenin tüm sayfalarını yalnızca https üzerinden erişilebilir olacak şekilde ayarlamak istiyor musunuz?</value>
+  </data>
+  <data name="TabApiTokens.Text" xml:space="preserve">
+    <value>API Belirteçleri</value>
+  </data>
+  <data name="CreatedBy.Header" xml:space="preserve">
+    <value>Oluşturan</value>
+  </data>
+  <data name="CreatedOn.Header" xml:space="preserve">
+    <value>Oluşturulma</value>
+  </data>
+  <data name="ExpiresOn.Header" xml:space="preserve">
+    <value>Sona Erme</value>
+  </data>
+  <data name="Revoke.Confirm" xml:space="preserve">
+    <value>Bu belirteci iptal etmek istiyor musunuz? Bu işlemin geri alınamayacağını unutmayın.</value>
+  </data>
+  <data name="Revoke.Text" xml:space="preserve">
+    <value>İptal Et</value>
+  </data>
+  <data name="RevokedBy.Header" xml:space="preserve">
+    <value>İptal Eden</value>
+  </data>
+  <data name="RevokedOn.Header" xml:space="preserve">
+    <value>İptal Tarihi</value>
+  </data>
+  <data name="Scope.Header" xml:space="preserve">
+    <value>Kapsam</value>
+  </data>
+  <data name="TabAuthenticationSettings.Text" xml:space="preserve">
+    <value>Kimlik Doğrulama</value>
+  </data>
+  <data name="Active.Text" xml:space="preserve">
+    <value>Etkin</value>
+  </data>
+  <data name="All.Text" xml:space="preserve">
+    <value>Tümü</value>
+  </data>
+  <data name="Expired.Text" xml:space="preserve">
+    <value>Süresi Doldu</value>
+  </data>
+  <data name="Host.Text" xml:space="preserve">
+    <value>Sunucu</value>
+  </data>
+  <data name="Portal.Text" xml:space="preserve">
+    <value>Site</value>
+  </data>
+  <data name="Revoked.Text" xml:space="preserve">
+    <value>İptal Edildi</value>
+  </data>
+  <data name="RevokedOrExpired.Text" xml:space="preserve">
+    <value>İptal edilmiş veya süresi dolmuş</value>
+  </data>
+  <data name="User.Text" xml:space="preserve">
+    <value>Kullanıcı</value>
+  </data>
+  <data name="Portal.Header" xml:space="preserve">
+    <value>Site</value>
+  </data>
+  <data name="ApiKeys.Help" xml:space="preserve">
+    <value>Belirtecin, kullanılabilir API'nin hangi bölümlerine erişebileceğini belirler.</value>
+  </data>
+  <data name="ApiKeys.Text" xml:space="preserve">
+    <value>API'ler</value>
+  </data>
+  <data name="ApiTokenStatus.Header" xml:space="preserve">
+    <value>Durum</value>
+  </data>
+  <data name="ApiTokenStatus.Text" xml:space="preserve">
+    <value>Belirteç Durumu</value>
+  </data>
+  <data name="CreatedBy.Help" xml:space="preserve">
+    <value>Belirteci oluşturan kullanıcının görünen adı ve kullanıcı adı</value>
+  </data>
+  <data name="CreatedBy.Text" xml:space="preserve">
+    <value>Oluşturan</value>
+  </data>
+  <data name="CreatedOnDate.Text" xml:space="preserve">
+    <value>Oluşturulma Tarihi</value>
+  </data>
+  <data name="DeleteApiKey.Confirm" xml:space="preserve">
+    <value>Bu API belirtecini silmek istiyor musunuz? Bu işlemin geri alınamayacağını unutmayın.</value>
+  </data>
+  <data name="DeleteApiKey.Text" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="ExpiresOn.Help" xml:space="preserve">
+    <value>Bu tarih ve saatten sonra belirteç artık çalışmaz</value>
+  </data>
+  <data name="ExpiresOn.Text" xml:space="preserve">
+    <value>Sona Erme Tarihi</value>
+  </data>
+  <data name="RevokedBy.Help" xml:space="preserve">
+    <value>Belirteci iptal eden kullanıcının görünen adı ve kullanıcı adı.</value>
+  </data>
+  <data name="RevokedBy.Text" xml:space="preserve">
+    <value>İptal Eden</value>
+  </data>
+  <data name="RevokedOn.Text" xml:space="preserve">
+    <value>İptal Tarihi</value>
+  </data>
+  <data name="Scope.Help" xml:space="preserve">
+    <value>Kapsam, belirtecin hangi düzeyde çalışabileceğini tanımlar. Üç düzey vardır: Kullanıcı, Site ve Sunucu. Kullanıcı kapsamı, belirtecin bir kullanıcının verilerine erişmesine izin verir. Site kapsamı belirtecin site düzeyindeki verilere, Sunucu kapsamı ise sistem düzeyindeki verilere erişmesine izin verir.</value>
+  </data>
+  <data name="Scope.Text" xml:space="preserve">
+    <value>Kapsam</value>
+  </data>
+  <data name="ApiTokenCreated.Text" xml:space="preserve">
+    <value>API belirteciniz budur. Güvenli bir yere kopyaladığınızdan emin olun. Belirteç bir daha gösterilmeyecektir.</value>
+  </data>
+  <data name="ApiTokensDisabled.Help" xml:space="preserve">
+    <value>API belirteçleri bu kurulumda devre dışıdır. Sistem yöneticisinin bunu web.config dosyasında etkinleştirmesi gerekir.</value>
+  </data>
+  <data name="ApiTokenSettingsError.Text" xml:space="preserve">
+    <value>Bir hata oluştu. API belirteci ayarları güncellenemedi. Hatanın nedenini belirlemek için yönetici günlüğüne başvurun.</value>
+  </data>
+  <data name="ApiTokenSettingsRestoreWarning.Text" xml:space="preserve">
+    <value>API belirteci ayarlarında yapılan değişiklikler atılacak. Devam etmek istiyor musunuz?</value>
+  </data>
+  <data name="ApiTokenSettingsUpdateSuccess.Text" xml:space="preserve">
+    <value>API belirteci ayarları güncellendi</value>
+  </data>
+  <data name="MaxApiTokenDuration.Error" xml:space="preserve">
+    <value>Bu değer pozitif bir tam sayı olmalıdır</value>
+  </data>
+  <data name="OptDays.Text" xml:space="preserve">
+    <value>Gün</value>
+  </data>
+  <data name="OptMonths.Text" xml:space="preserve">
+    <value>Ay</value>
+  </data>
+  <data name="OptWeeks.Text" xml:space="preserve">
+    <value>Hafta</value>
+  </data>
+  <data name="OptYears.Text" xml:space="preserve">
+    <value>Yıl</value>
+  </data>
+  <data name="plAllowApiTokens.Help" xml:space="preserve">
+    <value>Bu sitede API belirteçlerine izin verir</value>
+  </data>
+  <data name="plAllowApiTokens.Text" xml:space="preserve">
+    <value>API Belirteçlerine İzin Ver</value>
+  </data>
+  <data name="TabApiTokenSettings.Text" xml:space="preserve">
+    <value>API BELİRTECİ AYARLARI</value>
+  </data>
+  <data name="TokenName.Header" xml:space="preserve">
+    <value>Ad</value>
+  </data>
+  <data name="TokenName.Help" xml:space="preserve">
+    <value>Belirteç için açıklayıcı bir ad. Bu alanı boş bırakabilirsiniz.</value>
+  </data>
+  <data name="TokenName.Text" xml:space="preserve">
+    <value>Belirteç Adı</value>
+  </data>
+  <data name="Days180.Text" xml:space="preserve">
+    <value>180 Gün</value>
+  </data>
+  <data name="Days30.Text" xml:space="preserve">
+    <value>30 Gün</value>
+  </data>
+  <data name="Days60.Text" xml:space="preserve">
+    <value>60 Gün</value>
+  </data>
+  <data name="Days90.Text" xml:space="preserve">
+    <value>90 Gün</value>
+  </data>
+  <data name="ExpiresIn.Help" xml:space="preserve">
+    <value>Bu belirtecin ne kadar süre geçerli olacağını seçin.</value>
+  </data>
+  <data name="ExpiresIn.Text" xml:space="preserve">
+    <value>Geçerlilik Süresi</value>
+  </data>
+  <data name="plMaximumSiteTimespan.Help" xml:space="preserve">
+    <value>Bu DNN kurulumundaki herhangi bir site için API belirteçlerinin azami geçerlilik süresini ayarlayın</value>
+  </data>
+  <data name="plMaximumSiteTimespan.Text" xml:space="preserve">
+    <value>Azami Site Süresi</value>
+  </data>
+  <data name="plUserTokenTimespan.Help" xml:space="preserve">
+    <value>Bu sitede kullanıcıların oluşturduğu API belirteçlerinin geçerlilik süresini ayarlayın</value>
+  </data>
+  <data name="plUserTokenTimespan.Text" xml:space="preserve">
+    <value>Kullanıcı API Belirteci Süresi</value>
+  </data>
+  <data name="Years1.Text" xml:space="preserve">
+    <value>1 Yıl</value>
+  </data>
+  <data name="Years2.Text" xml:space="preserve">
+    <value>2 Yıl</value>
+  </data>
+  <data name="PageSizeOptions.Text" xml:space="preserve">
+    <value>Sayfa başına {0} sonuç</value>
+  </data>
+  <data name="PageSummary.Text" xml:space="preserve">
+    <value>{2} sonuçtan {0}-{1} arası gösteriliyor</value>
+  </data>
+  <data name="DeleteExpired.Confirm" xml:space="preserve">
+    <value>Bu işlem, süresi dolmuş ve iptal edilmiş tüm belirteçleri silecek. Devam etmek istiyor musunuz?</value>
+  </data>
+  <data name="DeleteExpired.Text" xml:space="preserve">
+    <value>Süresi Dolanları Sil</value>
+  </data>
+  <data name="LastUsedOnDate.Text" xml:space="preserve">
+    <value>Son Kullanım Tarihi</value>
+  </data>
+  <data name="plUserRequestIpHeader.Text" xml:space="preserve">
+    <value>Kullanıcı İsteği IP Üst Bilgisi</value>
+  </data>
+  <data name="plUserRequestIpHeader.Help" xml:space="preserve">
+    <value>Ayarlandığında, isteğin yönlendirildiği senaryolarda (WAF, ReverseProxy, LoadBalancer vb.) gerçek kullanıcı IP adresini bulmak için bu üst bilgi kullanılır. Bu amaçla yaygın olarak "X-Forwarded-For" üst bilgisi kullanılır. Ayarlanmazsa tüm kullanıcı IP adresi tespitlerinde "REMOTE_ADDR" sunucu değişkeni kullanılır.</value>
+  </data>
+  <data name="plAllowOverrideThemeViaQueryString.Text" xml:space="preserve">
+    <value>QueryString ile Temanın Geçersiz Kılınmasına İzin Ver</value>
+  </data>
+  <data name="plAllowOverrideThemeViaQueryString.Help" xml:space="preserve">
+    <value>Etkinleştirilirse, herhangi bir ziyaretçi SkinSrc querystring parametresini kullanarak temaları (kullanılmayanlar dahil) yükleyebilir.</value>
+  </data>
+  <data name="plAllowRichTextModuleTitle.Text" xml:space="preserve">
+    <value>Zengin Metin Modül Başlıklarına İzin Ver</value>
+  </data>
+  <data name="plAllowRichTextModuleTitle.Help" xml:space="preserve">
+    <value>Etkinleştirilirse, modül başlıklarında HTML içeriğe izin verilir.</value>
+  </data>
+  <data name="plCspHeader.Text" xml:space="preserve">
+    <value>CSP Üst Bilgisi (Content-Security-Policy veya Content-Security-Policy-Report-Only)</value>
+  </data>
+  <data name="plCspHeader.Help" xml:space="preserve">
+    <value>http yanıtına eklenecek CSP üst bilgisi.</value>
+  </data>
+  <data name="plCspReportingHeader.Text" xml:space="preserve">
+    <value>CSP Raporlama Üst Bilgisi (Reporting-Endpoints)</value>
+  </data>
+  <data name="plCspReportingHeader.Help" xml:space="preserve">
+    <value>http yanıtına eklenecek CSP raporlama üst bilgisi (örnek: csp-endpoint="https://example.com/csp-reports" ).</value>
+  </data>
+  <data name="plCspHeaderMode.Text" xml:space="preserve">
+    <value>İçerik Güvenliği İlkesi</value>
+  </data>
+  <data name="plCspHeaderMode.Help" xml:space="preserve">
+    <value>Kullanılacak CSP modu (Kapalı, Yalnızca Rapor, Açık).</value>
+  </data>
+  <data name="CspHeaderModeOff.Text" xml:space="preserve">
+    <value>Kapalı</value>
+  </data>
+  <data name="CspHeaderModeReportOnly.Text" xml:space="preserve">
+    <value>Yalnızca Rapor</value>
+  </data>
+  <data name="CspHeaderModeOn.Text" xml:space="preserve">
+    <value>Açık</value>
+  </data>
+  <data name="CspHeaderModeOff.Help" xml:space="preserve">
+    <value>CSP üst bilgisi yanıta eklenmez.</value>
+  </data>
+  <data name="CspHeaderModeReportOnly.Help" xml:space="preserve">
+    <value>CSP üst bilgisi yanıta eklenir ancak uygulanmaz.</value>
+  </data>
+  <data name="CspHeaderModeOn.Help" xml:space="preserve">
+    <value>CSP üst bilgisi http yanıtına eklenir ve uygulanır.</value>
+  </data>
+  <data name="CspSettings.Help" xml:space="preserve">
+    <value>DNN yönetim panellerine erişim JavaScript özelliklerine dayanır. DNN'in İçerik Güvenliği İlkesi (CSP) özelliği varsayılan olarak aşağıdaki ayarları kullanarak "en iyi çaba" ilkesiyle çalışır, ancak modüllerin ve temaların sitede izin verilenleri genişletmesine olanak tanır. Bunu "kilitli" modu kullanarak devre dışı bırakabilirsiniz. Bu "kilitli" modu kullanırken önce "yalnızca rapor" modunu kullanın ve tarayıcınızın konsolundaki hataları inceleyerek sitenizin hâlâ çalıştığından emin olun. "Kilitli" modda CSP, webforms veya MVC desteği için gereken asgari izinlerle genişletilir. Kendinizi sistem dışında bırakmanız durumunda CSP'nin web.config dosyasında genel olarak devre dışı bırakılabileceğini unutmayın.</value>
+  </data>
+  <data name="TabCspSettings.Text" xml:space="preserve">
+    <value>CSP AYARLARI</value>
+  </data>
+  <data name="CspHeader.Message" xml:space="preserve">
+    <value>Geçersiz CSP üst bilgisi</value>
+  </data>
+  <data name="CspReportingHeader.Message" xml:space="preserve">
+    <value>Geçersiz CSP raporlama üst bilgisi</value>
+  </data>
+  <data name="CspSettingsUpdateSuccess.Text" xml:space="preserve">
+    <value>CSP ayarları güncellendi</value>
+  </data>
+  <data name="CspSettingsError.Text" xml:space="preserve">
+    <value>Bir hata oluştu. CSP ayarları güncellenemedi. Hatanın nedenini belirlemek için yönetici günlüğüne başvurun.</value>
+  </data>
+  <data name="CspSettingsRestoreWarning.Text" xml:space="preserve">
+    <value>CSP ayarlarında yapılan değişiklikler atılacak. Devam etmek istiyor musunuz?</value>
+  </data>
+  <data name="plCspHeaderFixed.Text" xml:space="preserve">
+    <value>Uzantıların Geçersiz Kılmasına İzin Verme</value>
+  </data>
+  <data name="plCspHeaderFixed.Help" xml:space="preserve">
+    <value>Etkinleştirilirse, CSP üst bilgisi kilitlenir (yani aşağıdaki ayarlara sabitlenir) ve temalar veya modüller tarafından dinamik olarak değiştirilemez.</value>
+  </data>
+  <data name="SwitchOn.Text" xml:space="preserve">
+    <value>Açık</value>
+  </data>
+  <data name="SwitchOff.Text" xml:space="preserve">
+    <value>Kapalı</value>
+  </data>
+  <data name="CspDisabled.Help" xml:space="preserve">
+    <value>İçerik Güvenliği İlkesi (CSP) web.config dosyasında devre dışı bırakılmış. Bu özelliği kullanmak için yeniden etkinleştirin.</value>
+  </data>
+  <data name="CspLockConfirm.Text" xml:space="preserve">
+    <value>"Kilitli" özelliğini kullanmanın risklerinin farkında olduğumu onaylıyorum.</value>
+  </data>
+  <data name="CheckKnownHostGuidFailure.Text" xml:space="preserve">
+    <value>Kurulumunuzda bilinen yaygın bir Sunucu GUID değeri bulundu. Bu, güvenli ayarların şifrelemesini biraz zayıflatan küçük bir sorundur. HostSettings SQL tablosundaki GUID satırını silebilirsiniz; HostSettings'i yükleyen herhangi bir modülü ziyaret ettiğinizde sizin için yeni bir değer oluşturulur. Ancak bu işlem şifrelenmiş tüm ayarları geçersiz kılar ve bazı lisanslama çözümlerini bozabilir.</value>
+  </data>
+  <data name="CheckKnownHostGuidName.Text" xml:space="preserve">
+    <value>Bilinen yaygın Sunucu GUID değerlerinin varlığını denetler</value>
+  </data>
+  <data name="CheckKnownHostGuidSuccess.Text" xml:space="preserve">
+    <value>Bilinen yaygın bir Sunucu GUID değeri bulunamadı.</value>
+  </data>
+  <data name="CheckKnownHostGuidReason.Text" xml:space="preserve">
+    <value>Bazı DNN sürümleri yanlışlıkla ortak bir Sunucu GUID değeriyle birlikte dağıtıldı; bu değer her kurulum için benzersiz olmalıdır.</value>
+  </data>
+</root>

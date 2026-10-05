@@ -1,0 +1,436 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BasicSettings.Text" xml:space="preserve">
+    <value>Temel yapılandırma</value>
+  </data>
+  <data name="cmdCancel.Text" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="cmdExport.Text" xml:space="preserve">
+    <value>Şablon Oluştur</value>
+  </data>
+  <data name="ControlTitle_template.Text" xml:space="preserve">
+    <value>Site Şablonu Oluştur</value>
+  </data>
+  <data name="DefaultLanguage.Text" xml:space="preserve">
+    <value>Seçili sitenin varsayılan dili: {0}</value>
+  </data>
+  <data name="ErrorPages.Text" xml:space="preserve">
+    <value>Dışa aktarılacak en az bir sayfa seçmelisiniz.</value>
+  </data>
+  <data name="ExportedMessage.Text" xml:space="preserve">
+    <value>Yeni site şablonu şu klasöre kaydedildi:&lt;br/&gt;&lt;b&gt;{0}&lt;/b&gt;</value>
+  </data>
+  <data name="ErrorAncestorPages.Text" xml:space="preserve">
+    <value>Bir alt sayfayı dahil etmek için kök düzeyden itibaren tüm üst sayfaları seçmelisiniz.</value>
+  </data>
+  <data name="ChildExists.Text" xml:space="preserve">
+    <value>Belirttiğiniz alt site adı zaten mevcut.  Lütfen farklı bir alt site adı girin.</value>
+  </data>
+  <data name="DuplicatePortalAlias.Text" xml:space="preserve">
+    <value>Belirttiğiniz site takma adı zaten mevcut. Lütfen farklı bir site takma adı seçin.</value>
+  </data>
+  <data name="DuplicateWithTab.Text" xml:space="preserve">
+    <value>Bu sitede, site takma adı olarak girdiğiniz adla aynı ada sahip bir sayfa zaten var.  Lütfen site takma adını değiştirip tekrar deneyin.</value>
+  </data>
+  <data name="InvalidHomeFolder.Text" xml:space="preserve">
+    <value>Belirttiğiniz ana klasör geçerli değil.</value>
+  </data>
+  <data name="CreatePortalHomeFolderExists.Error" xml:space="preserve">
+    <value>{0} site klasörü zaten kullanılıyor.</value>
+  </data>
+  <data name="InvalidName.Text" xml:space="preserve">
+    <value>Site takma adı boşluk veya noktalama işareti içermemelidir.</value>
+  </data>
+  <data name="InvalidPassword.Text" xml:space="preserve">
+    <value>Girilen şifre değerleri eşleşmiyor.</value>
+  </data>
+  <data name="SendMail.Error" xml:space="preserve">
+    <value>Onay e-postaları gönderilirken bir hata oluştu - {0}  Ancak site oluşturuldu. &lt;a href='{1}' {2}&gt;Yeni Siteye Erişmek İçin Buraya Tıklayın&lt;/a&gt;</value>
+  </data>
+  <data name="UnknownEmailAddress.Error" xml:space="preserve">
+    <value>Site ve/veya Sunucu düzeyinde ayarlanmış bir e-posta adresi yok.</value>
+  </data>
+  <data name="UnknownSendMail.Error" xml:space="preserve">
+    <value>Onay e-postaları gönderilirken bir hata oluştu, ancak site yine de oluşturuldu. &lt;a href='{0}' {1}&gt;Yeni Siteye Erişmek İçin Buraya Tıklayın&lt;/a&gt;</value>
+  </data>
+  <data name="lblAdminOnly.Text" xml:space="preserve">
+    <value>Yalnızca Yöneticiler tarafından görülebilir</value>
+  </data>
+  <data name="lblDisabled.Text" xml:space="preserve">
+    <value>Sayfa devre dışı</value>
+  </data>
+  <data name="lblEveryone.Text" xml:space="preserve">
+    <value>Sayfa herkes tarafından görülebilir</value>
+  </data>
+  <data name="lblFiles.Help" xml:space="preserve">
+    <value>Yeni şablon oluşturulurken sitenin tüm dosya ve klasörlerini dışa aktarmak için bu kutuyu işaretleyin.</value>
+  </data>
+  <data name="lblFiles.Text" xml:space="preserve">
+    <value>Dosyaları Dahil Et</value>
+  </data>
+  <data name="lblHidden.Text" xml:space="preserve">
+    <value>Sayfa menüde gizli</value>
+  </data>
+  <data name="lblHome.Text" xml:space="preserve">
+    <value>Sitenin ana sayfası</value>
+  </data>
+  <data name="lblLanguages.Help" xml:space="preserve">
+    <value>Çok dilli bir şablona dahil edilecek ikincil dillerin her birini veya tek dilli bir sitenin dilini seçin.</value>
+  </data>
+  <data name="lblLanguages.Text" xml:space="preserve">
+    <value>Dışa Aktarılacak Diller</value>
+  </data>
+  <data name="lblModules.Help" xml:space="preserve">
+    <value>Modül dağıtım izinlerini dışa aktarılan şablona dahil etmek için bu kutuyu işaretleyin. Bu seçenek işaretlenirse ve dağıtım izinlerine sahip özel roller varsa Rollerin de dışa aktarılması gerekebilir.</value>
+  </data>
+  <data name="lblModules.Text" xml:space="preserve">
+    <value>Modül Dağıtım İzinlerini Dahil Et</value>
+  </data>
+  <data name="lblMultilanguage.Help" xml:space="preserve">
+    <value>Çok dilli bir site için şablon oluşturmak üzere bu kutuyu işaretleyin ve varsayılan dile ek olarak dahil edilecek her dili seçin.</value>
+  </data>
+  <data name="lblMultilanguage.Text" xml:space="preserve">
+    <value>Çok Dilli Site Olarak Dışa Aktar</value>
+  </data>
+  <data name="lblNote.Text" xml:space="preserve">
+    <value>Varsayılan dil ({0}) her zaman dışa aktarılır.</value>
+  </data>
+  <data name="lblNoteSingleLanguage.Text" xml:space="preserve">
+    <value>Not: Varsayılan dil &lt;b&gt;{0}&lt;/b&gt;</value>
+  </data>
+  <data name="lblPages.Help" xml:space="preserve">
+    <value>Dışa aktarılacak sayfaları seçin. &lt;br /&gt;Dışa aktarılan şablonu yeni bir site oluşturmak için kullanmayı planlıyorsanız tüm Yönetici sayfalarını veya seçili Yönetici sayfalarını seçtiğinizden emin olun. Şablonda hiç Yönetici sayfası yoksa yeni sitede Yönetici menüsü bulunmaz.</value>
+  </data>
+  <data name="lblPages.Text" xml:space="preserve">
+    <value>Dışa Aktarılacak Sayfalar</value>
+  </data>
+  <data name="lblProfile.Help" xml:space="preserve">
+    <value>Özel profil özelliği tanımlarını şablona dahil etmek için bu kutuyu işaretleyin.</value>
+  </data>
+  <data name="lblProfile.Text" xml:space="preserve">
+    <value>Profil Özelliklerini Dahil Et</value>
+  </data>
+  <data name="lblRedirect.Text" xml:space="preserve">
+    <value>Sayfa yönlendirmesi</value>
+  </data>
+  <data name="lblRegistered.Text" xml:space="preserve">
+    <value>Kayıtlı kullanıcılar tarafından görülebilir</value>
+  </data>
+  <data name="lblRoles.Help" xml:space="preserve">
+    <value>Yeni şablon oluşturulurken tüm güvenlik rollerini dışa aktarmak için bu kutuyu işaretleyin.</value>
+  </data>
+  <data name="lblRoles.Text" xml:space="preserve">
+    <value>Rolleri Dahil Et</value>
+  </data>
+  <data name="lblSecure.Text" xml:space="preserve">
+    <value>Yalnızca belirli roller tarafından görülebilir</value>
+  </data>
+  <data name="lblSelectLanguages.Text" xml:space="preserve">
+    <value>-- Dilleri Seçin --</value>
+  </data>
+  <data name="ModuleHelp.Text" xml:space="preserve">
+    <value>&lt;h1&gt;Şablonlar Hakkında&lt;/h1&gt;&lt;p&gt;Yeni siteler oluşturmak için kullanılacak bir site şablonunu dışa aktarmanızı sağlar.&lt;/p&gt;</value>
+  </data>
+  <data name="nav_Sites.Text" xml:space="preserve">
+    <value>Siteler</value>
+  </data>
+  <data name="plContent.Help" xml:space="preserve">
+    <value>IPortable modüllerindeki içeriği dahil etmek için bu kutuyu işaretleyin.</value>
+  </data>
+  <data name="plContent.Text" xml:space="preserve">
+    <value>İçeriği Dahil Et</value>
+  </data>
+  <data name="plDescription.Help" xml:space="preserve">
+    <value>Şablon dosyası için bir açıklama girin.</value>
+  </data>
+  <data name="plDescription.Text" xml:space="preserve">
+    <value>Şablon Açıklaması</value>
+  </data>
+  <data name="plPortals.Help" xml:space="preserve">
+    <value>Dışa aktarılacak siteyi seçin.</value>
+  </data>
+  <data name="plPortals.Text" xml:space="preserve">
+    <value>Site</value>
+  </data>
+  <data name="plTemplateName.Help" xml:space="preserve">
+    <value>Oluşturulacak şablon dosyası için bir ad girin.</value>
+  </data>
+  <data name="plTemplateName.Text" xml:space="preserve">
+    <value>Şablon Dosyası Adı</value>
+  </data>
+  <data name="PortalSetup.Text" xml:space="preserve">
+    <value>Site Kurulumu</value>
+  </data>
+  <data name="Settings.Text" xml:space="preserve">
+    <value>Gelişmiş Yapılandırma</value>
+  </data>
+  <data name="titleTemplateInfo.Text" xml:space="preserve">
+    <value>Site Şablonu Bilgileri</value>
+  </data>
+  <data name="valDescription.ErrorMessage" xml:space="preserve">
+    <value>Şablon açıklaması zorunludur.</value>
+  </data>
+  <data name="valFileName.ErrorMessage" xml:space="preserve">
+    <value>Şablon dosyası adı zorunludur.</value>
+  </data>
+  <data name="SiteDetails_Pages.Text" xml:space="preserve">
+    <value>Sayfalar</value>
+  </data>
+  <data name="SiteDetails_SiteID.Text" xml:space="preserve">
+    <value>Site Kimliği</value>
+  </data>
+  <data name="SiteDetails_Updated.Text" xml:space="preserve">
+    <value>Güncellenme</value>
+  </data>
+  <data name="SiteDetails_Users.Text" xml:space="preserve">
+    <value>Kullanıcılar</value>
+  </data>
+  <data name="CancelPortalDelete.Text" xml:space="preserve">
+    <value>Hayır</value>
+  </data>
+  <data name="ConfirmPortalDelete.Text" xml:space="preserve">
+    <value>Evet</value>
+  </data>
+  <data name="deletePortal.Text" xml:space="preserve">
+    <value>'{0}' adlı siteyi silmek istediğinizden emin misiniz?</value>
+  </data>
+  <data name="AddNewSite.Header" xml:space="preserve">
+    <value>Yeni Site Ekle</value>
+  </data>
+  <data name="AssignCurrentUserAsAdmin.Label" xml:space="preserve">
+    <value>Geçerli Kullanıcıyı Yönetici Olarak Ata</value>
+  </data>
+  <data name="cmdCreateSite.Text" xml:space="preserve">
+    <value>Site Oluştur</value>
+  </data>
+  <data name="Description.Label" xml:space="preserve">
+    <value>Açıklama</value>
+  </data>
+  <data name="Directory.Text" xml:space="preserve">
+    <value>Dizin</value>
+  </data>
+  <data name="Domain.Text" xml:space="preserve">
+    <value>Alan Adı</value>
+  </data>
+  <data name="HomeDirectory.Label" xml:space="preserve">
+    <value>Ana Dizin</value>
+  </data>
+  <data name="SiteTemplate.Label" xml:space="preserve">
+    <value>Site Şablonu</value>
+  </data>
+  <data name="SiteType.Label" xml:space="preserve">
+    <value>Site Türü:</value>
+  </data>
+  <data name="SiteUrl.Label" xml:space="preserve">
+    <value>Site URL'si</value>
+  </data>
+  <data name="Title.Label" xml:space="preserve">
+    <value>Başlık</value>
+  </data>
+  <data name="CreateSite_AdminEmail.Label" xml:space="preserve">
+    <value>E-posta</value>
+  </data>
+  <data name="CreateSite_AdminFirstName.Label" xml:space="preserve">
+    <value>Ad</value>
+  </data>
+  <data name="CreateSite_AdminLastName.Label" xml:space="preserve">
+    <value>Soyad</value>
+  </data>
+  <data name="CreateSite_AdminPassword.Label" xml:space="preserve">
+    <value>Şifre</value>
+  </data>
+  <data name="CreateSite_AdminPasswordConfirm.Label" xml:space="preserve">
+    <value>Şifreyi Onayla</value>
+  </data>
+  <data name="CreateSite_AdminUserName.Label" xml:space="preserve">
+    <value>Yönetici Kullanıcı Adı</value>
+  </data>
+  <data name="CreateSite_SelectTemplate.Overlay" xml:space="preserve">
+    <value>şablonu seçmek için tıklayın</value>
+  </data>
+  <data name="EmailRequired.Error" xml:space="preserve">
+    <value>E-posta zorunludur.</value>
+  </data>
+  <data name="FirstNameRequired.Error" xml:space="preserve">
+    <value>Ad zorunludur.</value>
+  </data>
+  <data name="LastNameRequired.Error" xml:space="preserve">
+    <value>Soyad zorunludur.</value>
+  </data>
+  <data name="PasswordConfirmRequired.Error" xml:space="preserve">
+    <value>Şifre onayı zorunludur.</value>
+  </data>
+  <data name="PasswordRequired.Error" xml:space="preserve">
+    <value>Şifre zorunludur. Lütfen en az 7 karakter girin.</value>
+  </data>
+  <data name="SiteAliasRequired.Error" xml:space="preserve">
+    <value>Site Takma Adı zorunludur. &lt;ul style="
+    word-break: normal;
+    margin: 10px auto;
+    list-style: none;
+"&gt;&lt;li style="margin-bottom:10px"&gt;Alan adı gereksinimleri: Boşluk ve özel karakter içermemelidir (yalnızca : , . kullanılabilir). &lt;/li&gt;&lt;li&gt;Dizin gereksinimleri: Boşluk ve özel karakter içermemelidir (yalnızca _ , - kullanılabilir). &lt;/li&gt;&lt;/ul&gt;</value>
+  </data>
+  <data name="SiteTitleRequired.Error" xml:space="preserve">
+    <value>Site Başlığı zorunludur.</value>
+  </data>
+  <data name="UsernameRequired.Error" xml:space="preserve">
+    <value>Kullanıcı adı zorunludur.</value>
+  </data>
+  <data name="PortalDeletionDenied.Text" xml:space="preserve">
+    <value>Site silmeye izin verilmiyor.</value>
+  </data>
+  <data name="PortalNotFound.Text" xml:space="preserve">
+    <value>Site bulunamadı.</value>
+  </data>
+  <data name="LoadMore.Button" xml:space="preserve">
+    <value>Daha Fazla Yükle</value>
+  </data>
+  <data name="BackToSites.Text" xml:space="preserve">
+    <value>Sitelere Dön</value>
+  </data>
+  <data name="DeleteSite.Text" xml:space="preserve">
+    <value>Siteyi Sil</value>
+  </data>
+  <data name="ExportTemplate.Text" xml:space="preserve">
+    <value>Şablonu Dışa Aktar</value>
+  </data>
+  <data name="SiteSettings.Text" xml:space="preserve">
+    <value>Site Ayarları</value>
+  </data>
+  <data name="ViewSite.Text" xml:space="preserve">
+    <value>Siteyi Görüntüle</value>
+  </data>
+  <data name="SiteExport.Text" xml:space="preserve">
+    <value>Site Dışa Aktarma</value>
+  </data>
+  <data name="SiteImport.Text" xml:space="preserve">
+    <value>Site İçe Aktarma</value>
+  </data>
+  <data name="AddNewSite.Text" xml:space="preserve">
+    <value>Yeni Site Ekle</value>
+  </data>
+  <data name="Sites.Text" xml:space="preserve">
+    <value>Siteler</value>
+  </data>
+  <data name="Description.Text" xml:space="preserve">
+    <value>Açıklama</value>
+  </data>
+</root>

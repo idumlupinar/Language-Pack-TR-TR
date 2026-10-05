@@ -1,0 +1,1486 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SyndicateModule.Action" xml:space="preserve">
+    <value>Sendikala</value>
+  </data>
+  <data name="ExportModule.Action" xml:space="preserve">
+    <value>İçeriği Dışa Aktar</value>
+  </data>
+  <data name="ImportModule.Action" xml:space="preserve">
+    <value>İçeriği İçe Aktar</value>
+  </data>
+  <data name="OnlineHelp.Action" xml:space="preserve">
+    <value>Çevrimiçi Yardım</value>
+  </data>
+  <data name="ModuleHelp.Action" xml:space="preserve">
+    <value>Yardım</value>
+  </data>
+  <data name="ModuleSettings.Action" xml:space="preserve">
+    <value>Ayarlar</value>
+  </data>
+  <data name="DeleteModule.Action" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="PrintModule.Action" xml:space="preserve">
+    <value>Yazdır</value>
+  </data>
+  <data name="ClearCache.Action" xml:space="preserve">
+    <value>Yenile</value>
+  </data>
+  <data name="MoveTop.Action" xml:space="preserve">
+    <value>Üst</value>
+  </data>
+  <data name="MoveUp.Action" xml:space="preserve">
+    <value>Yukarı</value>
+  </data>
+  <data name="MoveDown.Action" xml:space="preserve">
+    <value>Aşağı</value>
+  </data>
+  <data name="MoveBottom.Action" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="MovePane.Action" xml:space="preserve">
+    <value>Hedef</value>
+  </data>
+  <data name="MoveRoot.Action" xml:space="preserve">
+    <value>Taşı</value>
+  </data>
+  <data name="//Admin.String" xml:space="preserve">
+    <value>Yönetici</value>
+  </data>
+  <data name="//Host.String" xml:space="preserve">
+    <value>Sunucu</value>
+  </data>
+  <data name="BannerType.Banner.String" xml:space="preserve">
+    <value>Banner</value>
+  </data>
+  <data name="BannerType.MicroButton.String" xml:space="preserve">
+    <value>Mikro Düğme</value>
+  </data>
+  <data name="BannerType.Button.String" xml:space="preserve">
+    <value>Düğme</value>
+  </data>
+  <data name="BannerType.Block.String" xml:space="preserve">
+    <value>Blok</value>
+  </data>
+  <data name="BannerType.Skyscraper.String" xml:space="preserve">
+    <value>Gökdelen</value>
+  </data>
+  <data name="BannerType.Text.String" xml:space="preserve">
+    <value>Metin</value>
+  </data>
+  <data name="BannerType.Script.String" xml:space="preserve">
+    <value>Betik</value>
+  </data>
+  <data name="View.Permission" xml:space="preserve">
+    <value>Modülü Görüntüle</value>
+  </data>
+  <data name="Edit.Permission" xml:space="preserve">
+    <value>Modülü Düzenle</value>
+  </data>
+  <data name="View Tab.Permission" xml:space="preserve">
+    <value>Sayfayı Görüntüle</value>
+  </data>
+  <data name="Edit Tab.Permission" xml:space="preserve">
+    <value>Sayfayı Düzenle</value>
+  </data>
+  <data name="View Folder.Permission" xml:space="preserve">
+    <value>Klasördeki Dosyaları Aç</value>
+  </data>
+  <data name="Write to Folder.Permission" xml:space="preserve">
+    <value>Klasöre Yaz</value>
+  </data>
+  <data name="Browse Folder.Permission" xml:space="preserve">
+    <value>Klasördeki Dosyalarda Gözat</value>
+  </data>
+  <data name="EMAIL_SMTP_TEST_SUBJECT.Text" xml:space="preserve">
+    <value>[Host:HostTitle] SMTP Yapılandırma Testi - [Portal:PortalName]</value>
+  </data>
+  <data name="MESSAGE_PORTAL_PRIVACY.Text" xml:space="preserve">
+    <value>&lt;div align="left"&gt;
+        &lt;p&gt;[Portal:PortalName], gizliliğinizi korumayı ve size en güçlü ve en güvenli çevrimiçi deneyimi
+        sunan teknolojiler geliştirmeyi taahhüt eder. Bu Gizlilik Bildirimi, [Portal:PortalName]
+        sitesi için geçerlidir ve verilerin toplanmasını ve kullanılmasını düzenler.
+        [Portal:PortalName] sitesini kullanarak bu bildirimde açıklanan veri uygulamalarına
+        onay vermiş olursunuz.&lt;/p&gt;
+        &lt;p&gt;&lt;span class="SubHead"&gt;Kişisel Bilgilerinizin Toplanması&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;[Portal:PortalName]; e-posta adresiniz, adınız, ev veya iş adresiniz ya da telefon
+        numaranız gibi kişisel olarak tanımlanabilir bilgileri toplar. [Portal:PortalName] ayrıca
+        posta kodunuz, yaşınız, cinsiyetiniz, tercihleriniz, ilgi alanlarınız ve favorileriniz gibi
+        yalnızca size özgü olmayan anonim demografik bilgileri de toplar.&lt;/p&gt;
+        &lt;p&gt;Bunun yanı sıra, bilgisayar donanımınız ve yazılımınız hakkındaki bazı bilgiler
+        [Portal:PortalName] tarafından otomatik olarak toplanır. Bu bilgiler IP adresinizi,
+        tarayıcı türünüzü, alan adlarını, erişim zamanlarını ve yönlendiren web sitesi adreslerini
+        içerebilir. Bu bilgiler [Portal:PortalName] tarafından hizmetin işletilmesi, hizmet
+        kalitesinin korunması ve [Portal:PortalName] sitesinin kullanımına ilişkin genel
+        istatistiklerin sağlanması amacıyla kullanılır.&lt;/p&gt;
+        &lt;p&gt;[Portal:PortalName] herkese açık mesaj panoları aracılığıyla kişisel olarak tanımlanabilir
+        bilgileri veya kişisel nitelikteki hassas verileri doğrudan ifşa etmeniz hâlinde, bu bilgilerin
+        başkaları tarafından toplanıp kullanılabileceğini unutmayın. Not: [Portal:PortalName],
+        özel çevrimiçi yazışmalarınızın hiçbirini okumaz.&lt;/p&gt;
+        &lt;p&gt;[Portal:PortalName], [Portal:PortalName] üzerinden bağlantı vermeyi seçtiğiniz web sitelerinin
+        bilgilerinizi nasıl topladığını, kullandığını ve paylaştığını anlayabilmeniz için bu sitelerin
+        gizlilik bildirimlerini incelemenizi önerir. [Portal:PortalName], [Portal:PortalName]
+        ve [Portal:PortalName] web siteleri ailesi dışında kalan web sitelerindeki gizlilik bildirimlerinden
+        veya diğer içeriklerden sorumlu değildir.&lt;/p&gt;
+        &lt;p&gt;&lt;span class="SubHead"&gt;Kişisel Bilgilerinizin Kullanılması&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;[Portal:PortalName], kişisel bilgilerinizi [Portal:PortalName] web sitesini işletmek
+        ve talep ettiğiniz hizmetleri sunmak amacıyla toplar ve kullanır. [Portal:PortalName] ayrıca
+        kişisel olarak tanımlanabilir bilgilerinizi, [Portal:PortalName] ve iştirakleri tarafından sunulan
+        diğer ürün veya hizmetler hakkında sizi bilgilendirmek için kullanır. [Portal:PortalName], mevcut
+        hizmetler veya sunulabilecek potansiyel yeni hizmetler hakkındaki görüşlerinizi araştırmak amacıyla
+        anketler aracılığıyla da sizinle iletişime geçebilir.&lt;/p&gt;
+        &lt;p&gt;[Portal:PortalName], müşteri listelerini üçüncü taraflara satmaz, kiralamaz veya devretmez.
+        [Portal:PortalName], zaman zaman harici iş ortakları adına, ilginizi çekebilecek belirli bir teklif
+        hakkında sizinle iletişime geçebilir. Bu durumlarda, kişisel olarak tanımlanabilir benzersiz bilgileriniz
+        (e-posta, ad, adres, telefon numarası) üçüncü tarafa aktarılmaz. Ayrıca [Portal:PortalName];
+        istatistiksel analiz yapmamıza, size e-posta veya posta göndermemize, müşteri desteği sağlamamıza ya da
+        teslimatları düzenlememize yardımcı olmaları amacıyla güvenilir iş ortaklarıyla veri paylaşabilir. Bu
+        üçüncü tarafların tümünün kişisel bilgilerinizi, [Portal:PortalName] için bu hizmetleri sağlamak dışında
+        herhangi bir amaçla kullanması yasaktır ve bu taraflar bilgilerinizin gizliliğini korumakla yükümlüdür.&lt;/p&gt;
+        &lt;p&gt;[Portal:PortalName], ırk, din veya siyasi görüş gibi hassas kişisel bilgileri açık rızanız
+        olmaksızın kullanmaz veya ifşa etmez.&lt;/p&gt;
+        &lt;p&gt;[Portal:PortalName], hangi [Portal:PortalName] hizmetlerinin en popüler olduğunu belirlemek amacıyla
+        müşterilerimizin [Portal:PortalName] içinde ziyaret ettiği web sitelerini ve sayfaları takip eder. Bu
+        veriler, davranışları belirli bir konuya ilgi duyduklarını gösteren müşterilere [Portal:PortalName]
+        içinde kişiselleştirilmiş içerik ve reklam sunmak için kullanılır.&lt;/p&gt;
+        &lt;p&gt;[Portal:PortalName] web siteleri, kişisel bilgilerinizi önceden bildirimde bulunmaksızın yalnızca
+        yasaların gerektirdiği durumlarda veya bu tür bir işlemin aşağıdaki amaçlar için gerekli olduğuna iyi
+        niyetle inanılması hâlinde ifşa eder: (a) yasa hükümlerine uymak veya [Portal:PortalName] ya da siteye
+        tebliğ edilen yasal süreçlere uymak; (b) [Portal:PortalName] sitesinin haklarını veya mülkiyetini korumak
+        ve savunmak; ve (c) [Portal:PortalName] kullanıcılarının veya kamunun kişisel güvenliğini korumak için
+        acil durumlarda harekete geçmek.&lt;/p&gt;
+        &lt;p&gt;&lt;span class="SubHead"&gt;Çerezlerin Kullanımı&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;[Portal:PortalName] web sitesi, çevrimiçi deneyiminizi kişiselleştirmenize yardımcı olmak için
+        "çerezler" kullanır. Çerez, bir web sayfası sunucusu tarafından sabit diskinize yerleştirilen bir metin
+        dosyasıdır. Çerezler, program çalıştırmak veya bilgisayarınıza virüs bulaştırmak için kullanılamaz.
+        Çerezler size özel olarak atanır ve yalnızca çerezi size gönderen alan adındaki bir web sunucusu
+        tarafından okunabilir.&lt;/p&gt;
+        &lt;p&gt;Çerezlerin başlıca amaçlarından biri, size zaman kazandıran bir kolaylık sağlamaktır. Çerezin
+        amacı, web sunucusuna belirli bir sayfaya geri döndüğünüzü bildirmektir. Örneğin, [Portal:PortalName]
+        sayfalarını kişiselleştirirseniz veya [Portal:PortalName] sitesine ya da hizmetlerine kaydolursanız,
+        bir çerez [Portal:PortalName] sitesinin sonraki ziyaretlerinizde size özgü bilgileri hatırlamasına
+        yardımcı olur. Bu, fatura adresi, teslimat adresi gibi kişisel bilgilerinizin kaydedilmesi sürecini
+        basitleştirir. Aynı [Portal:PortalName] web sitesine geri döndüğünüzde, daha önce sağladığınız bilgiler
+        alınabilir; böylece özelleştirdiğiniz [Portal:PortalName] özelliklerini kolayca kullanabilirsiniz.&lt;/p&gt;
+        &lt;p&gt;Çerezleri kabul etme veya reddetme olanağına sahipsiniz. Çoğu web tarayıcısı çerezleri otomatik
+        olarak kabul eder; ancak dilerseniz tarayıcı ayarlarınızı genellikle çerezleri reddedecek şekilde
+        değiştirebilirsiniz. Çerezleri reddetmeyi seçerseniz, [Portal:PortalName] hizmetlerinin veya ziyaret
+        ettiğiniz web sitelerinin etkileşimli özelliklerinden tam olarak yararlanamayabilirsiniz.&lt;/p&gt;
+        &lt;p&gt;&lt;span class="SubHead"&gt;Kişisel Bilgilerinizin Güvenliği&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;[Portal:PortalName], kişisel bilgilerinizi yetkisiz erişime, kullanıma veya ifşaya karşı korur.
+        [Portal:PortalName], sağladığınız kişisel olarak tanımlanabilir bilgileri, yetkisiz erişime, kullanıma
+        veya ifşaya karşı korunan, denetimli ve güvenli bir ortamdaki bilgisayar sunucularında güvence altında
+        tutar. Kişisel bilgiler (kredi kartı numarası gibi) başka web sitelerine iletildiğinde, Secure Socket
+        Layer (SSL) protokolü gibi şifreleme yöntemleri kullanılarak korunur.&lt;/p&gt;
+        &lt;p&gt;&lt;span class="SubHead"&gt;Bu Bildirimde Yapılacak Değişiklikler&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;[Portal:PortalName], şirket ve müşteri geri bildirimlerini yansıtmak amacıyla bu Gizlilik Bildirimini
+zaman zaman güncelleyecektir. [Portal:PortalName], bilgilerinizin [Portal:PortalName] tarafından nasıl
+        korunduğu hakkında bilgi sahibi olmanız için bu Bildirimi düzenli aralıklarla incelemenizi önerir.&lt;/p&gt;
+        &lt;p&gt;&lt;span class="SubHead"&gt;İletişim Bilgileri&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;[Portal:PortalName], bu Gizlilik Bildirimine ilişkin görüşlerinizi memnuniyetle karşılar.
+        [Portal:PortalName] sitesinin bu Bildirime uymadığını düşünüyorsanız, lütfen
+        &lt;a href="mailto:[Portal:Email]"&gt;[Portal:Email]&lt;/a&gt; adresinden [Portal:PortalName] ile iletişime geçin.
+        Sorunu en kısa sürede tespit edip gidermek için ticari açıdan makul tüm çabayı göstereceğiz.&lt;/p&gt;
+    &lt;/div&gt;</value>
+  </data>
+  <data name="EMAIL_PORTAL_SIGNUP_SUBJECT.Text" xml:space="preserve">
+    <value>[Host:HostTitle] Site Kaydı</value>
+  </data>
+  <data name="EMAIL_PORTAL_SIGNUP_BODY.Text" xml:space="preserve">
+    <value>Sayın [User:DisplayName],
+
+Web siteniz oluşturuldu. Lütfen aşağıdaki bilgileri dikkatlice okuyun ve ileride başvurmak üzere bu mesajı güvenli bir yerde sakladığınızdan emin olun.
+
+Web Sitesi Adresi: [Portal:URL]
+Kullanıcı Adı: [User:UserName]
+Doğrulama Kodu: [User:VerificationCode]
+
+İçeriğini incelemek ve sunduğu pek çok özellikten yararlanmak için web sitesini ziyaret etmenizi öneririz.
+
+Desteğiniz için teşekkür ederiz...
+
+[Host:HostTitle]
+
+</value>
+  </data>
+  <data name="MESSAGE_PORTAL_TERMS.Text" xml:space="preserve">
+    <value>&lt;div align="left"&gt;
+        &lt;p&gt;&lt;span class="SubHead"&gt;KULLANICI İLE [Portal:PortalName] ARASINDAKİ SÖZLEŞME&lt;/span&gt;&lt;p&gt;
+        &lt;p&gt;[Portal:PortalName] Web Sitesi, [Portal:PortalName] tarafından işletilen çeşitli web sayfalarından oluşur.&lt;/p&gt;
+        &lt;p&gt;[Portal:PortalName] Web Sitesi, burada yer alan hüküm, koşul ve bildirimleri herhangi bir değişiklik
+        yapmaksızın kabul etmeniz koşuluyla size sunulmaktadır. [Portal:PortalName] Web Sitesini
+        kullanmanız, söz konusu hüküm, koşul ve bildirimlerin tümünü kabul ettiğiniz anlamına gelir.&lt;p&gt;
+        &lt;p&gt;&lt;span class="SubHead"&gt;BU KULLANIM KOŞULLARINDA DEĞİŞİKLİK&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;[Portal:PortalName], [Portal:PortalName] Web Sitesinin sunulmasına ilişkin hüküm, koşul ve bildirimleri,
+        [Portal:PortalName] Web Sitesinin kullanımıyla ilgili ücretler dahil ancak bunlarla sınırlı olmamak
+        üzere değiştirme hakkını saklı tutar.&lt;/p&gt;
+        &lt;p&gt;&lt;span class="SubHead"&gt;ÜÇÜNCÜ TARAF SİTELERİNE BAĞLANTILAR&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;[Portal:PortalName] Web Sitesi, başka web sitelerine bağlantılar ("Bağlantılı Siteler") içerebilir.
+        Bağlantılı Siteler [Portal:PortalName] denetiminde değildir ve [Portal:PortalName], Bağlantılı
+        Sitelerde yer alan bağlantılar dahil ancak bunlarla sınırlı olmamak üzere herhangi bir Bağlantılı
+        Sitenin içeriğinden veya Bağlantılı Sitelerde yapılan değişiklik ya da güncellemelerden sorumlu değildir.
+        [Portal:PortalName], herhangi bir Bağlantılı Siteden alınan web yayınlarından veya diğer iletim
+        biçimlerinden sorumlu değildir. [Portal:PortalName] bu bağlantıları size yalnızca kolaylık sağlamak
+        amacıyla sunmaktadır ve herhangi bir bağlantıya yer verilmesi, ilgili sitenin [Portal:PortalName]
+        tarafından onaylandığı veya site işletmecileriyle herhangi bir ilişki bulunduğu anlamına gelmez.&lt;/p&gt;
+        &lt;p&gt;&lt;span class="SubHead"&gt;HUKUKA AYKIRI VEYA YASAKLANMIŞ KULLANIM YASAĞI&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;[Portal:PortalName] Web Sitesini kullanmanızın bir koşulu olarak, [Portal:PortalName] Web Sitesini
+        hukuka aykırı olan veya bu hüküm, koşul ve bildirimlerle yasaklanan herhangi bir amaçla kullanmayacağınızı
+        [Portal:PortalName] karşısında taahhüt edersiniz. [Portal:PortalName] Web Sitesine zarar verebilecek,
+        onu devre dışı bırakabilecek, aşırı yükleyebilecek veya işlevini bozabilecek ya da başka herhangi bir
+        tarafın [Portal:PortalName] Web Sitesini kullanmasını ve bundan yararlanmasını engelleyebilecek
+        herhangi bir şekilde [Portal:PortalName] Web Sitesini kullanamazsınız. [Portal:PortalName] Web Siteleri
+        aracılığıyla kasıtlı olarak erişime açılmamış veya sağlanmamış herhangi bir yolla herhangi bir materyal
+        veya bilgi edinemez ya da edinmeye teşebbüs edemezsiniz.&lt;/p&gt;
+        &lt;p&gt;&lt;span class="SubHead"&gt;İLETİŞİM HİZMETLERİNİN KULLANIMI&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;[Portal:PortalName] Web Sitesi; ilan panosu hizmetleri, sohbet alanları, haber grupları, forumlar,
+        topluluklar, kişisel web sayfaları, takvimler ve/veya genel olarak kamuyla ya da bir grupla iletişim
+        kurmanızı sağlamak üzere tasarlanmış diğer mesaj veya iletişim olanaklarını (topluca "İletişim
+        Hizmetleri") içerebilir. İletişim Hizmetlerini yalnızca uygun olan ve ilgili İletişim Hizmetiyle
+        bağlantılı mesaj ve materyalleri yayınlamak, göndermek ve almak için kullanmayı kabul edersiniz.
+        Sınırlayıcı olmamak kaydıyla örnek vermek gerekirse, bir İletişim Hizmetini kullanırken aşağıdakileri
+        yapmayacağınızı kabul edersiniz:&lt;/p&gt;
+&lt;ul&gt;
+            &lt;li&gt;Başkalarını karalamak, onlara hakaret etmek, onları taciz etmek, ısrarlı takip etmek, tehdit etmek
+                veya başkalarının yasal haklarını (gizlilik ve kişilik hakları gibi) başka herhangi bir şekilde ihlal etmek.&lt;/li&gt;
+            &lt;li&gt;Uygunsuz, küfürlü, karalayıcı, hak ihlali niteliğinde, müstehcen, ahlaka aykırı veya hukuka aykırı
+                herhangi bir konu, ad, materyal veya bilgiyi yayımlamak, paylaşmak, yüklemek, dağıtmak veya yaymak.&lt;/li&gt;
+            &lt;li&gt;Haklarına sahip olmadığınız, bu hakları denetlemediğiniz veya gerekli tüm izinleri almadığınız
+                sürece, fikri mülkiyet yasalarıyla (veya gizlilik ya da kişilik haklarıyla) korunan yazılım veya
+                başka materyaller içeren dosyalar yüklemek.&lt;/li&gt;
+            &lt;li&gt;Virüs, bozuk dosya veya başka bir kişinin bilgisayarının çalışmasına zarar verebilecek benzer
+                herhangi bir yazılım ya da program içeren dosyalar yüklemek.&lt;/li&gt;
+            &lt;li&gt;İlgili İletişim Hizmeti bu tür mesajlara açıkça izin vermediği sürece, herhangi bir ticari amaçla
+                mal veya hizmet reklamı yapmak ya da mal veya hizmet satmayı veya satın almayı teklif etmek.&lt;/li&gt;
+            &lt;li&gt;Anket, yarışma, piramit şeması veya zincirleme mektup düzenlemek ya da iletmek.&lt;/li&gt;
+            &lt;li&gt;Bir İletişim Hizmetinin başka bir kullanıcısı tarafından paylaşılan ve bu şekilde yasal olarak
+                dağıtılamayacağını bildiğiniz veya makul olarak bilmeniz gereken herhangi bir dosyayı indirmek.&lt;/li&gt;
+            &lt;li&gt;Yüklenen bir dosyada yer alan yazılımın veya diğer materyallerin menşeine ya da kaynağına ilişkin
+                yazar atıflarını, yasal veya diğer uygun bildirimleri ya da mülkiyet ibarelerini veya etiketlerini
+                tahrif etmek veya silmek.&lt;/li&gt;
+            &lt;li&gt;Başka bir kullanıcının İletişim Hizmetlerini kullanmasını ve bunlardan yararlanmasını kısıtlamak veya engellemek.&lt;/li&gt;
+            &lt;li&gt;Belirli bir İletişim Hizmeti için geçerli olabilecek herhangi bir davranış kuralını veya diğer yönergeleri ihlal etmek.&lt;/li&gt;
+            &lt;li&gt;Başkalarına ait e-posta adresleri dahil olmak üzere bilgileri, onların izni olmadan toplamak veya başka şekilde derlemek.&lt;/li&gt;
+            &lt;li&gt;Yürürlükteki herhangi bir yasa veya düzenlemeyi ihlal etmek.&lt;/li&gt;
+&lt;/ul&gt;
+        &lt;p&gt;[Portal:PortalName], İletişim Hizmetlerini izleme yükümlülüğü altında değildir. Ancak
+        [Portal:PortalName], bir İletişim Hizmetinde yayınlanan materyalleri inceleme ve tamamen kendi takdirine
+        bağlı olarak herhangi bir materyali kaldırma hakkını saklı tutar. [Portal:PortalName], herhangi bir
+        sebeple, herhangi bir zamanda ve önceden bildirimde bulunmaksızın İletişim Hizmetlerinin bir kısmına
+        veya tamamına erişiminizi sonlandırma hakkını saklı tutar.&lt;/p&gt;
+        &lt;p&gt;[Portal:PortalName], yürürlükteki herhangi bir yasa, düzenleme, yasal süreç veya resmî talebi
+        karşılamak için gerekli olan her türlü bilgiyi ifşa etme ya da herhangi bir bilgi veya materyali
+        tamamen [Portal:PortalName] takdirine bağlı olarak kısmen veya tamamen düzenleme, yayınlamayı reddetme
+        veya kaldırma hakkını her zaman saklı tutar.&lt;/p&gt;
+        &lt;p&gt;Herhangi bir İletişim Hizmetinde kendiniz veya çocuklarınız hakkında kişisel olarak tanımlayıcı
+        bilgiler paylaşırken her zaman dikkatli olun. [Portal:PortalName], herhangi bir İletişim Hizmetinde
+        bulunan içerik, mesaj veya bilgileri denetlemez ya da onaylamaz; bu nedenle [Portal:PortalName],
+        İletişim Hizmetleri ve herhangi bir İletişim Hizmetine katılımınızdan doğan her türlü eylemle ilgili
+        her türlü sorumluluğu açıkça reddeder. Yöneticiler ve moderatörler yetkili [Portal:PortalName]
+        sözcüleri değildir ve görüşleri [Portal:PortalName] görüşlerini yansıtmak zorunda değildir.&lt;/p&gt;
+        &lt;p&gt;Bir İletişim Hizmetine yüklenen materyaller, kullanım, çoğaltma ve/veya yaymaya ilişkin belirtilmiş
+        sınırlamalara tabi olabilir. Materyalleri indirmeniz hâlinde bu sınırlamalara uymaktan siz sorumlusunuz.&lt;/p&gt;
+        &lt;p&gt;&lt;span class="SubHead"&gt;[Portal:PortalName] SİTESİNE SAĞLANAN VEYA HERHANGİ BİR [Portal:PortalName]
+            WEB SİTESİNDE YAYINLANAN MATERYALLER&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;[Portal:PortalName], [Portal:PortalName] sitesine sağladığınız (geri bildirim ve öneriler dahil) ya da
+        herhangi bir [Portal:PortalName] Web Sitesinde veya ilişkili hizmetlerinde yayınladığınız, yüklediğiniz,
+        girdiğiniz veya gönderdiğiniz materyaller (topluca "Gönderimler") üzerinde mülkiyet iddiasında bulunmaz.
+        Ancak Gönderiminizi yayınlayarak, yükleyerek, girerek, sağlayarak veya göndererek, [Portal:PortalName]
+        ile bağlı şirketlerine ve gerekli alt lisans sahiplerine Gönderiminizi kendi İnternet işlerinin
+        yürütülmesiyle bağlantılı olarak kullanma izni vermiş olursunuz; bu izin, sınırlama olmaksızın,
+        Gönderiminizi kopyalama, dağıtma, iletme, herkese açık olarak görüntüleme, herkese açık olarak icra etme,
+        çoğaltma, düzenleme, çevirme ve yeniden biçimlendirme ile adınızı Gönderiminizle bağlantılı olarak
+        yayımlama haklarını kapsar.&lt;/p&gt;
+        &lt;p&gt;Gönderiminizin burada belirtildiği şekilde kullanılması karşılığında herhangi bir ücret ödenmez.
+        [Portal:PortalName], sağlayabileceğiniz herhangi bir Gönderimi yayınlamak veya kullanmakla yükümlü
+        değildir ve herhangi bir Gönderimi, tamamen [Portal:PortalName] takdirine bağlı olarak herhangi bir
+        zamanda kaldırabilir.&lt;/p&gt;
+        &lt;p&gt;Gönderiminizi yayınlayarak, yükleyerek, girerek, sağlayarak veya göndererek, bu bölümde açıklandığı
+        şekilde Gönderiminize ilişkin tüm haklara, sınırlama olmaksızın Gönderimleri sağlamanız, yayınlamanız,
+        yüklemeniz, girmeniz veya göndermeniz için gerekli tüm haklar dahil olmak üzere, sahip olduğunuzu veya
+        bu hakları başka bir şekilde denetlediğinizi beyan ve taahhüt edersiniz.&lt;/p&gt;
+        &lt;p&gt;&lt;span class="SubHead"&gt;SORUMLULUK REDDİ&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;[Portal:PortalName] WEB SİTESİNDE YER ALAN VEYA BU SİTE ARACILIĞIYLA SUNULAN BİLGİLER, YAZILIMLAR,
+        ÜRÜNLER VE HİZMETLER HATALAR VEYA YAZIM YANLIŞLARI İÇEREBİLİR. BURADAKİ BİLGİLERDE DÖNEMSEL OLARAK
+        DEĞİŞİKLİKLER YAPILMAKTADIR. [Portal:PortalName] VE/VEYA TEDARİKÇİLERİ, [Portal:PortalName] WEB
+        SİTESİNDE HERHANGİ BİR ZAMANDA İYİLEŞTİRMELER VE/VEYA DEĞİŞİKLİKLER YAPABİLİR. [Portal:PortalName] WEB
+        SİTESİ ARACILIĞIYLA ALINAN TAVSİYELERE KİŞİSEL, TIBBİ, HUKUKİ VEYA MALİ KARARLARDA GÜVENİLMEMELİDİR VE
+        DURUMUNUZA ÖZGÜ TAVSİYE İÇİN UYGUN BİR UZMANA DANIŞMALISINIZ.&lt;/p&gt;
+        &lt;p&gt;[Portal:PortalName] VE/VEYA TEDARİKÇİLERİ, [Portal:PortalName] WEB SİTESİNDE YER ALAN BİLGİLERİN,
+        YAZILIMLARIN, ÜRÜNLERİN, HİZMETLERİN VE İLGİLİ GRAFİKLERİN HERHANGİ BİR AMACA UYGUNLUĞU, GÜVENİLİRLİĞİ,
+        KULLANILABİLİRLİĞİ, GÜNCELLİĞİ VE DOĞRULUĞU HAKKINDA HİÇBİR BEYANDA BULUNMAZ. YÜRÜRLÜKTEKİ YASALARIN
+        İZİN VERDİĞİ AZAMİ ÖLÇÜDE, BU TÜR BİLGİ, YAZILIM, ÜRÜN, HİZMET VE İLGİLİ GRAFİKLERİN TÜMÜ HİÇBİR TÜRDE
+        GARANTİ VEYA KOŞUL OLMAKSIZIN "OLDUĞU
+        GİBİ" SUNULMAKTADIR. [Portal:PortalName] VE/VEYA TEDARİKÇİLERİ, BU BİLGİ, YAZILIM, ÜRÜN, HİZMET VE
+        İLGİLİ GRAFİKLERE İLİŞKİN; SATILABİLİRLİK, BELİRLİ BİR AMACA UYGUNLUK, MÜLKİYET VE HAK İHLALİ
+        BULUNMAMASINA DAİR TÜM ZIMNİ GARANTİ VEYA KOŞULLAR DAHİL OLMAK ÜZERE TÜM GARANTİ VE KOŞULLARI İŞBU
+        BELGEYLE REDDEDER.&lt;/p&gt;
+        &lt;p&gt;YÜRÜRLÜKTEKİ YASALARIN İZİN VERDİĞİ AZAMİ ÖLÇÜDE, [Portal:PortalName] VE/VEYA TEDARİKÇİLERİ;
+        [Portal:PortalName] WEB SİTESİNİN KULLANIMI VEYA PERFORMANSINDAN, [Portal:PortalName] WEB SİTESİNİN VEYA
+        İLGİLİ HİZMETLERİN KULLANILMASINDAKİ GECİKMEDEN YA DA BUNLARIN KULLANILAMAMASINDAN, HİZMETLERİN
+        SAĞLANMASINDAN VEYA SAĞLANMAMASINDAN YA DA [Portal:PortalName] WEB SİTESİ ARACILIĞIYLA ELDE EDİLEN
+        HERHANGİ BİR BİLGİ, YAZILIM, ÜRÜN, HİZMET VE İLGİLİ GRAFİKLERDEN KAYNAKLANAN VEYA BUNLARLA HERHANGİ BİR
+        ŞEKİLDE BAĞLANTILI OLAN YA DA BAŞKA ŞEKİLDE [Portal:PortalName] WEB SİTESİNİN KULLANIMINDAN DOĞAN;
+        KULLANIM, VERİ VEYA KÂR KAYBINDAN DOĞAN ZARARLAR DAHİL ANCAK BUNLARLA SINIRLI OLMAMAK ÜZERE HİÇBİR
+        DOĞRUDAN, DOLAYLI, CEZAİ, ARIZİ, ÖZEL VEYA SONUÇSAL ZARARDAN YA DA HER NE TÜR OLURSA OLSUN HERHANGİ BİR
+        ZARARDAN; SÖZLEŞMEYE, HAKSIZ FİİLE, İHMALE, KUSURSUZ SORUMLULUĞA VEYA BAŞKA BİR NEDENE DAYANSIN,
+        [Portal:PortalName] VEYA TEDARİKÇİLERİNDEN HERHANGİ BİRİNE BU TÜR ZARARLARIN OLASILIĞI BİLDİRİLMİŞ OLSA
+        DAHİ HİÇBİR DURUMDA SORUMLU TUTULAMAZ. BAZI EYALETLER/YARGI BÖLGELERİ SONUÇSAL VEYA ARIZİ ZARARLARA
+        İLİŞKİN SORUMLULUĞUN HARİÇ TUTULMASINA VEYA SINIRLANDIRILMASINA İZİN VERMEDİĞİNDEN, YUKARIDAKİ SINIRLAMA
+        SİZİN İÇİN GEÇERLİ OLMAYABİLİR. [Portal:PortalName] WEB SİTESİNİN HERHANGİ BİR BÖLÜMÜNDEN VEYA BU
+        KULLANIM KOŞULLARINDAN HERHANGİ BİRİNDEN MEMNUN DEĞİLSENİZ, TEK VE MÜNHASIR ÇÖZÜM YOLUNUZ
+        [Portal:PortalName] WEB SİTESİNİ KULLANMAYI BIRAKMAKTIR.&lt;/p&gt;
+        &lt;p&gt;HİZMET İLETİŞİMİ : [Portal:Email]&lt;/p&gt;
+        &lt;p&gt;&lt;span class="SubHead"&gt;FESİH/ERİŞİM KISITLAMASI&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;[Portal:PortalName], tamamen kendi takdirine bağlı olarak, [Portal:PortalName] Web Sitesine ve ilgili
+        hizmetlere ya da bunların herhangi bir bölümüne erişiminizi herhangi bir zamanda, önceden bildirimde
+        bulunmaksızın sonlandırma hakkını saklı tutar. GENEL: Yasaların izin verdiği azami ölçüde, bu sözleşme
+        ABD'nin Washington Eyaleti yasalarına tabidir ve [Portal:PortalName] Web Sitesinin kullanımından doğan
+        veya bununla ilgili tüm uyuşmazlıklarda ABD, Kaliforniya, San Mateo County mahkemelerinin münhasır yargı
+        yetkisini ve yetkili yer olmasını kabul edersiniz. [Portal:PortalName] Web Sitesinin, bu paragraf dahil
+        ancak bununla sınırlı olmamak üzere işbu hüküm ve koşulların tüm hükümlerini uygulamayan herhangi bir
+        yargı bölgesinde kullanılmasına izin verilmez. Bu sözleşme veya [Portal:PortalName] Web Sitesinin
+        kullanımı sonucunda sizinle [Portal:PortalName] arasında herhangi bir ortak girişim, ortaklık, istihdam
+        veya acentelik ilişkisi doğmadığını kabul edersiniz. Bu sözleşmenin [Portal:PortalName] tarafından ifası,
+        mevcut yasalara ve yasal süreçlere tabidir ve bu sözleşmede yer alan hiçbir hüküm, [Portal:PortalName]
+        Web Sitesini kullanımınızla veya bu kullanıma ilişkin olarak siteye sağlanan ya da
+        [Portal:PortalName] tarafından toplanan bilgilerle ilgili resmî makamların, mahkemelerin ve kolluk
+        kuvvetlerinin talep veya gerekliliklerine uyma konusunda [Portal:PortalName] sitesinin sahip olduğu hakkı
+        kısıtlamaz. Bu sözleşmenin herhangi bir bölümünün, yukarıda belirtilen garanti reddi ve sorumluluk
+        sınırlamaları dahil ancak bunlarla sınırlı olmamak üzere, yürürlükteki yasa uyarınca geçersiz veya
+        uygulanamaz olduğuna karar verilmesi hâlinde, geçersiz veya uygulanamaz hükmün yerine, orijinal hükmün
+        amacına en yakın geçerli ve uygulanabilir bir hükmün geçtiği kabul edilir ve sözleşmenin geri kalanı
+        yürürlükte kalmaya devam eder. Burada aksi belirtilmedikçe, bu sözleşme [Portal:PortalName] Web Sitesi
+        ile ilgili olarak kullanıcı ile [Portal:PortalName] arasındaki sözleşmenin tamamını oluşturur ve
+        [Portal:PortalName] Web Sitesi ile ilgili olarak kullanıcı ile [Portal:PortalName] arasında önceden
+        veya eş zamanlı olarak gerçekleştirilmiş elektronik, sözlü veya yazılı tüm iletişim ve tekliflerin
+        yerine geçer. Bu sözleşmenin ve elektronik biçimde verilen herhangi bir bildirimin basılı bir sürümü,
+        bu sözleşmeye dayanan veya bununla ilgili yargısal ya da idari işlemlerde, ilk olarak basılı biçimde
+        oluşturulan ve saklanan diğer ticari belge ve kayıtlarla aynı ölçüde ve aynı koşullara tabi olarak
+        delil olarak kabul edilir. Tarafların açık iradesi, bu sözleşmenin ve ilgili tüm belgelerin İngilizce
+        olarak düzenlenmesidir.&lt;/p&gt;
+        &lt;p&gt;&lt;span class="SubHead"&gt;TELİF HAKKI VE TİCARİ MARKA BİLDİRİMLERİ:&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;[Portal:PortalName] Web Sitesinin tüm içeriği: [Portal:FooterText] ve/veya
+        tedarikçilerine aittir. Tüm hakları saklıdır.&lt;/p&gt;
+        &lt;p&gt;&lt;span class="SubHead"&gt;TİCARİ MARKALAR&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;Burada adı geçen gerçek şirket ve ürünlerin adları, ilgili sahiplerinin ticari markaları
+        olabilir.&lt;/p&gt;
+        &lt;p&gt;Burada tasvir edilen örnek şirketler, kuruluşlar, ürünler, kişiler ve olaylar hayal ürünüdür.
+        Herhangi bir gerçek şirket, kuruluş, ürün, kişi veya olayla herhangi bir ilişki kastedilmemektedir
+        ve böyle bir ilişki çıkarılmamalıdır.&lt;/p&gt;
+        &lt;p&gt;Burada açıkça verilmeyen tüm haklar saklıdır.&lt;/p&gt;
+        &lt;p&gt;&lt;span class="SubHead"&gt;TELİF HAKKI İHLALİ İDDİALARINA İLİŞKİN BİLDİRİMLER VE BAŞVURU PROSEDÜRÜ&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;Amerika Birleşik Devletleri Kanunları (United States Code) Başlık 17, Bölüm 512(c)(2) uyarınca, ABD
+        telif hakkı yasası kapsamındaki telif hakkı ihlali iddialarına ilişkin bildirimler, Hizmet
+        Sağlayıcının Atanmış Temsilcisine gönderilmelidir. AŞAĞIDAKİ PROSEDÜRLE İLGİLİ OLMAYAN HİÇBİR SORGUYA
+        YANIT VERİLMEYECEKTİR. Bkz. Telif Hakkı İhlali İddialarına İlişkin Bildirim ve Başvuru Prosedürü.&lt;/p&gt;
+    &lt;/div&gt;</value>
+  </data>
+  <data name="EMAIL_USER_REGISTRATION_ADMINISTRATOR_SUBJECT.Text" xml:space="preserve">
+    <value>[Portal:PortalName] Yeni Kullanıcı Kaydı</value>
+  </data>
+  <data name="EMAIL_USER_REGISTRATION_ADMINISTRATOR_BODY.Text" xml:space="preserve">
+    <value>Tarih: [Date:Current]
+Görünen Ad: [User:DisplayName]
+E-posta: [User:Email]
+</value>
+  </data>
+  <data name="EMAIL_USER_REGISTRATION_PRIVATE_SUBJECT.Text" xml:space="preserve">
+    <value>[Portal:PortalName] Yeni Kullanıcı Kaydı</value>
+  </data>
+  <data name="EMAIL_USER_REGISTRATION_PRIVATE_BODY.Text" xml:space="preserve">
+    <value>Sayın [User:DisplayName],
+
+[Portal:PortalName] adresine kayıt olduğunuz için teşekkür ederiz. Aşağıdaki bilgileri dikkatle okuyun ve ileride başvurmak üzere güvenli bir yere kaydedin.
+
+Web Sitesi Adresi: [Portal:URL]
+Kullanıcı Adı: [User:UserName]
+
+Hesap ayrıntılarınız web sitesi Yöneticisi tarafından incelenecek ve hesap etkinleştirildiğinde bir bildirim alacaksınız.
+
+Teşekkür ederiz, desteğiniz için minnettarız...
+
+[Portal:PortalName]
+</value>
+  </data>
+  <data name="MESSAGE_REGISTRATION_INSTRUCTIONS.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EMAIL_ROLE_ASSIGNMENT_SUBJECT.Text" xml:space="preserve">
+    <value>[Portal:PortalName] Kullanıcı Hesabı Güncellemesi</value>
+  </data>
+  <data name="EMAIL_ROLE_ASSIGNMENT_BODY.Text" xml:space="preserve">
+    <value>Sayın [User:DisplayName],
+
+[Portal:PortalName] sitesindeki kullanıcı hesabınız, aşağıdaki Güvenlik Rolüne erişim sağlayacak şekilde güncellendi:
+
+Rol: [Custom:0]
+Açıklama: [Custom:1]
+Geçerlilik Tarihi: [Custom:2]
+Bitiş Tarihi: [Custom:3]
+
+Desteğiniz için teşekkür ederiz...
+[Portal:PortalName]
+</value>
+  </data>
+  <data name="EMAIL_ROLE_UNASSIGNMENT_SUBJECT.Text" xml:space="preserve">
+    <value>[Portal:PortalName] Kullanıcı Hesabı Güncellemesi</value>
+  </data>
+  <data name="EMAIL_ROLE_UNASSIGNMENT_BODY.Text" xml:space="preserve">
+    <value>Sayın [User:DisplayName],
+
+[Portal:PortalName] sitesindeki kullanıcı hesabınız, aşağıdaki Güvenlik Rolüne erişiminizi kısıtlayacak şekilde güncellendi:
+
+Rol: [Custom:0]
+Açıklama: [Custom:1]
+
+Desteğiniz için teşekkür ederiz...
+[Portal:PortalName]
+</value>
+  </data>
+  <data name="MESSAGE_LOGIN_INSTRUCTIONS.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MESSAGE_RETRIEVEPASSWORD_INSTRUCTIONS.Text" xml:space="preserve">
+    <value>Şifrenizi almak için kullanıcı adınızı ve Şifre Sorusunun cevabını sağlamalısınız.</value>
+  </data>
+  <data name="EMAIL_PASSWORD_REMINDER_SUBJECT.Text" xml:space="preserve">
+    <value>[Portal:PortalName] Şifre Hatırlatıcı</value>
+  </data>
+  <data name="EMAIL_PASSWORD_REMINDER_BODY.Text" xml:space="preserve">
+    <value>Sayın [User:DisplayName],
+
+[Portal:PortalName] sitesinden bir Şifre Sıfırlama Belirteci talep ettiniz.
+
+Lütfen aşağıdaki bilgileri kullanarak giriş yapın:
+
+Web Sitesi Adresi: [Portal:URL]
+Kullanıcı Adı:   [User:Username]
+
+Şifre sıfırlama bağlantısı: [Portal:PASSWORDREMINDERURL]?ctl=PasswordReset&amp;resetToken=[Membership:PasswordResetToken]
+
+Saygılarımızla,
+[Portal:PortalName]
+
+*Not: Şifre Sıfırlama Belirteci talep etmediyseniz lütfen bu mesajı dikkate almayın.
+</value>
+  </data>
+  <data name="EMAIL_USER_AUTHORIZED_SUBJECT.Text" xml:space="preserve">
+    <value>[Portal:URL] için kayıt onaylandı</value>
+  </data>
+  <data name="EMAIL_USER_AUTHORIZED_BODY.Text" xml:space="preserve">
+    <value>Sayın [User:DisplayName],
+
+[Portal:PortalName] adresine kayıt olduğunuz için teşekkür ederiz. Kaydınız onaylanmıştır ve hesabınız artık aktif.
+
+Web Sitesi Adresi: [Portal:URL]
+Kullanıcı Adı: [User:UserName]
+
+Teşekkür ederiz, desteğiniz için minnettarız.
+
+[Portal:PortalName]
+</value>
+  </data>
+  <data name="EMAIL_PROFILE_UPDATED_SUBJECT.Text" xml:space="preserve">
+    <value>[Portal:PortalName] Profil Güncelleme Bildirimi</value>
+  </data>
+  <data name="EMAIL_PROFILE_UPDATED_BODY.Text" xml:space="preserve">
+    <value>Sayın [User:DisplayName],
+
+[Portal:PortalName] sitesindeki profiliniz başarıyla güncellendi.
+
+Saygılarımızla,
+[Portal:PortalName]
+
+</value>
+  </data>
+  <data name="EMAIL_USER_UNREGISTER_SUBJECT.Text" xml:space="preserve">
+    <value>[Portal:PortalName] Kullanıcı Kaydının İptali</value>
+  </data>
+  <data name="EMAIL_USER_UNREGISTER_BODY.Text" xml:space="preserve">
+    <value>Tarih: [Date:Current]
+Ad: [Profile:FirstName]
+Soyad: [Profile:LastName]
+Daire/Birim: [Profile:Unit]
+Sokak: [Profile:Street]
+Şehir: [Profile:City]
+Bölge: [Profile:Region]
+Ülke: [Profile:Country]
+Posta Kodu: [Profile:PostalCode]
+Telefon: [Profile:Telephone]
+E-posta: [User:Email]
+		</value>
+  </data>
+  <data name="EMAIL_USER_REGISTRATION_VERIFIED_SUBJECT.Text" xml:space="preserve">
+    <value>[Portal:PortalName] Yeni Kullanıcı Kaydı</value>
+  </data>
+  <data name="EMAIL_USER_REGISTRATION_VERIFIED_BODY.Text" xml:space="preserve">
+    <value>Sayın [User:DisplayName],
+
+[Portal:PortalName] sitesine Kayıtlı Kullanıcı olarak eklendiğinizi bildirmekten memnuniyet duyarız. Lütfen aşağıdaki bilgileri dikkatlice okuyun ve ileride başvurmak üzere bu mesajı güvenli bir yerde sakladığınızdan emin olun.
+
+Site Web Adresi: [Portal:URL]
+Kullanıcı Adı: [User:UserName]
+
+Doğrulanmış kaydınızı tamamlamak için aşağıdaki bağlantıyı kullanabilirsiniz:
+
+[Portal:FULLURL]/default.aspx?ctl=Login&amp;username=[Custom:0]&amp;verificationcode=[Custom:1]
+
+Desteğiniz için teşekkür ederiz...
+
+[Portal:PortalName]
+
+    </value>
+  </data>
+  <data name="EMAIL_USER_REGISTRATION_PUBLIC_SUBJECT.Text" xml:space="preserve">
+    <value>[Portal:PortalName] Yeni Kullanıcı Kaydı</value>
+  </data>
+  <data name="EMAIL_USER_REGISTRATION_PUBLIC_BODY.Text" xml:space="preserve">
+    <value>Sayın [User:DisplayName],
+
+[Portal:PortalName] sitesine Kayıtlı Kullanıcı olarak eklendiğinizi bildirmekten memnuniyet duyarız. Lütfen aşağıdaki bilgileri dikkatlice okuyun ve ileride başvurmak üzere bu mesajı güvenli bir yerde sakladığınızdan emin olun.
+
+Site Web Adresi: [Portal:URL]
+Kullanıcı Adı: [User:UserName]
+
+Şifrenizi bilmiyorsanız veya hatırlayamıyorsanız, sıfırlamak için şu adrese gidin: [Portal:FULLURL]/default.aspx?ctl=PasswordReset&amp;resetToken=[Membership:PasswordResetToken]
+Desteğiniz için teşekkür ederiz...
+
+[Portal:PortalName]
+
+</value>
+  </data>
+  <data name="EMAIL_AFFILIATE_NOTIFICATION_SUBJECT.Text" xml:space="preserve">
+    <value>[Portal:PortalName] İş Ortağı Bildirimi</value>
+  </data>
+  <data name="EMAIL_AFFILIATE_NOTIFICATION_BODY.Text" xml:space="preserve">
+    <value>Sayın [Custom:0],
+
+[Portal:PortalName] Satış Ortaklığı Programı hesabınız oluşturuldu.
+
+Ödül kazanmaya başlamak için sitemize bağlantı verirken lütfen aşağıdaki URL'yi kullanın:
+
+[Custom:1]
+
+Teşekkürler,
+[Portal:PortalName]
+
+</value>
+  </data>
+  <data name="EMAIL_BANNER_NOTIFICATION_BODY.Text" xml:space="preserve">
+    <value>Banner: [Custom:0]
+Açıklama: [Custom:1]
+Görsel: [Custom:2]
+CPM/Maliyet: [Custom:3]
+Gösterimler: [Custom:4]
+Başlangıç Tarihi: [Custom:5]
+Bitiş Tarihi: [Custom:6]
+Görüntülenmeler: [Custom:7]
+Tıklamalar: [Custom:8]</value>
+  </data>
+  <data name="EMAIL_BANNER_NOTIFICATION_SUBJECT.Text" xml:space="preserve">
+    <value>[Custom:0]</value>
+  </data>
+  <data name="EMAIL_VENDOR_REGISTRATION_ADMINISTRATOR_BODY.Text" xml:space="preserve">
+    <value>Tarih: [Custom:0]
+Satıcı Adı: [Custom:1]
+Ad: [Custom:2]
+Soyad: [Custom:3]
+Daire/Birim: [Custom:4]
+Sokak: [Custom:5]
+Şehir: [Custom:6]
+Bölge: [Custom:7]
+Ülke: [Custom:8]
+Posta Kodu: [Custom:9]
+Telefon: [Custom:10]
+Faks: [Custom:11]
+Cep Telefonu: [Custom:12]
+E-posta: [Custom:13]
+Web Sitesi: [Custom:14]</value>
+  </data>
+  <data name="EMAIL_VENDOR_REGISTRATION_ADMINISTRATOR_SUBJECT.Text" xml:space="preserve">
+    <value>[Portal:PortalName] Tedarikçi Başvurusu</value>
+  </data>
+  <data name="EMAIL_VENDOR_REGISTRATION_BODY.Text" xml:space="preserve">
+    <value>Sayın [Custom:0] [Custom:1],
+
+ [Custom:2], [Portal:PortalName] sitesine başarıyla kaydedildi.
+
+ Teşekkürler,
+
+ [Portal:PortalName]</value>
+  </data>
+  <data name="EMAIL_VENDOR_REGISTRATION_SUBJECT.Text" xml:space="preserve">
+    <value>[Portal:PortalName] Tedarikçi Başvurusu</value>
+  </data>
+  <data name="EMAIL_USER_LOCKOUT_SUBJECT.Text" xml:space="preserve">
+    <value>[Portal:PortalName] Kullanıcı Hesabı Kilitleme Uyarısı</value>
+  </data>
+  <data name="EMAIL_USER_LOCKOUT_BODY.Text" xml:space="preserve">
+    <value>[Date:Current] tarihinde kilitli bir kullanıcı hesabına ( kullanıcı adı: [Custom:0] ) erişim girişiminde bulunuldu. Bu konuyu daha ayrıntılı incelemek isteyebilirsiniz...
+
+Teşekkürler,
+[Portal:PortalName]
+</value>
+  </data>
+  <data name="404.Error" xml:space="preserve">
+    <value>&lt;div style="height: 100%; width: 90%;"&gt;
+   &lt;p style="color:red; font-weight:bold;"&gt;{0} Alan Adı Veritabanında Mevcut Değil&lt;/p&gt;
+   &lt;p&gt;Bu sistem, tek bir veritabanı/kod tabanı üzerinden birden fazla web sitesini destekler. Bunu, istemci tarayıcı isteğinin URL'sini Portals veritabanı tablosundaki geçerli bir Portal satırına dönüştürerek gerçekleştirir. Süreç aşağıdaki adımlarda açıklanmaktadır:&lt;/p&gt;
+    &lt;ol style="text-align: left; list-style-type: decimal; list-style-position: outside;"&gt;
+        &lt;li&gt;&lt;strong&gt;Web Sunucusu İşlemi&lt;/strong&gt;&lt;br /&gt;
+            &lt;ul style="list-style-type: disc;"&gt;
+                &lt;li&gt;Bir web sunucusu, istemci tarayıcıdan bir istek aldığında hedef URL kaynağındaki dosya adı uzantısını IIS'te tanımlı Uygulama Uzantısı Eşlemeleriyle karşılaştırır.&lt;/li&gt;
+                &lt;li&gt;Ardından IIS, ilgili eşleşmeye göre isteği tanımlı Yürütülebilir Dosya Yoluna (ASP.NET istekleri için aspnet_isapi.dll) gönderir.&lt;/li&gt;
+                &lt;li&gt;aspnet_isapi.dll motoru, isteği Application_BeginRequest ile başlayan sıralı bir olaylar dizisi içinde işler.&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li&gt;&lt;strong&gt;HttpModule.URLRewrite OnBeginRequest (UrlRewriteModule.vb)&lt;/strong&gt;&lt;br /&gt;
+            &lt;ul style="list-style-type: disc;"&gt;
+                &lt;li&gt;İstek URL'si "/" karakterine göre ayrıştırılır&lt;/li&gt;
+                &lt;li&gt;Ayrıştırılan ilgili URL bölümlerinin her biri kullanılarak bir alan adı oluşturulur.&lt;br /&gt;
+                    &lt;br /&gt;
+                    Örnekler:&lt;br /&gt;
+
+                    URL: https://www.domain.com/default.aspx = Alan Adı: www.domain.com&lt;br /&gt;
+                    URL: https://209.75.24.131/default.aspx = Alan Adı: 209.75.24.131&lt;br /&gt;
+                    URL: https://localhost/DotNetNuke/default.aspx = Alan Adı: localhost/DotNetNuke&lt;br /&gt;
+                    URL: https://www.domain.com/virtualdirectory/default.aspx = Alan Adı: www.domain.com/virtualdirectory&lt;br /&gt;
+                    URL: https://www.domain.com/directory/default.aspx = Alan Adı: www.domain.com/directory&lt;br /&gt;
+                    &lt;br /&gt;
+                &lt;/li&gt;
+                &lt;li&gt;Uygulama, eşleşen bir kaydı bulmak için alan adını kullanarak veritabanını ( PortalAlias tablosu - HTTPAlias sütunu) sorgular.&lt;br /&gt;
+                    &lt;br /&gt;
+                    Not: Uygulamayı uzak bir sunucuya kuruyorsanız, PortalAlias tablosunda uygun PortalID değerine sahip kaydın HTTPAlias alanının değerini yukarıda tanımlanan kurallara göre değiştirmeniz gerekir. &lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/li&gt;
+    &lt;/ol&gt;
+&lt;/div&gt;</value>
+  </data>
+  <data name="500.Error" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="403_3.Error" xml:space="preserve">
+    <value>&lt;div style="height: 100%; width: 90%;"&gt;     &lt;h3&gt;DNN Yapılandırma Hatası&lt;/h3&gt;     &lt;p&gt;{0}&lt;/p&gt;     &lt;p&gt;DNN kurulumunuzda bir güvenlik ayarları sorunu (büyük olasılıkla izinlerle ilgili) var gibi görünüyor. DNN; içerik, modüller ve temalar için kapsamlı dosya yükleme özelliklerine sahiptir. Bu özellikler, uygulamanın web sitenizde dosya oluşturabilmesi ve kaldırabilmesi için özel güvenlik ayarları gerektirir.&lt;/p&gt;     &lt;p&gt;Web sunucunuzda Windows Gezgini'ni kullanarak web sitesinin kök klasörüne (varsayılan olarak C:\DotNetNuke) gidin. Klasöre sağ tıklayın ve açılan menüden "Paylaşım ve Güvenlik" seçeneğini belirleyin. "Güvenlik" sekmesini seçin. Uygun kullanıcı hesabını ekleyin ve web sitenizi barındıran IIS uygulama havuzunun gelişmiş ayarlarında belirtilen ASP.Net kullanıcısı için uygun izinleri ayarlayın.&lt;/p&gt;     &lt;ul style="text-align: left; list-style-type: none; list-style-position: outside;"&gt;         &lt;li&gt;&lt;strong&gt;Yerleşik "NT AUTHORITY\NETWORK SERVICE" gibi adlandırılmış bir hesap kullanılıyorsa&lt;/strong&gt;&lt;br/&gt;             &lt;ol style="list-style-type: circle;"&gt;                 &lt;li&gt;Kullanıcı hesabına Okuma, Yazma, Okuma ve Yürütme ile Değiştirme izinleri verilmelidir.&lt;/li&gt;             &lt;/ol&gt;             &lt;br/&gt;         &lt;/li&gt;         &lt;li&gt;&lt;strong&gt;"ApplicationPoolIdentity" kullanılıyorsa (önerilir)&lt;/strong&gt;&lt;br/&gt;             &lt;ol style="list-style-type: circle;"&gt;                 &lt;li&gt;IIS AppPool\[AppPool Name] kullanıcı hesabına ([AppPool Name] ifadesini IIS uygulama havuzunun gerçek adıyla değiştirin) Okuma, Yazma, Okuma ve Yürütme ile Değiştirme izinleri verilmelidir.&lt;/li&gt;            &lt;/ol&gt;         &lt;/li&gt;     &lt;/ul&gt;     &lt;p&gt;&lt;img alt="Web sitesinin kök klasörüne ilişkin güvenlik ayarlarının, adlandırılmış bir hesap için Okuma, Yazma ve Değiştirme Denetimi olarak ayarlanması gerektiğini gösteren görsel." src="images/403-3.gif"&gt;&lt;/p&gt; &lt;/div&gt;</value>
+  </data>
+  <data name="Error.Text" xml:space="preserve">
+    <value>Bir hata oluştu.</value>
+  </data>
+  <data name="EMAIL_BulkMailConf_Subject.Text" xml:space="preserve">
+    <value>'{0}' için Toplu E-posta Raporu.</value>
+  </data>
+  <data name="EMAIL_BulkMailConf_Html_Body.Text" xml:space="preserve">
+    <value>&lt;h1&gt;Toplu E-posta Raporu&lt;/h1&gt;
+    İşlem başlangıcı: [Custom:0]&lt;br /&gt;
+    E-posta alıcıları: [Custom:1]&lt;br /&gt;
+    E-posta mesajları: [Custom:2]&lt;br /&gt;
+    İşlem bitişi: [Custom:3]&lt;br /&gt;
+    [Custom:4|Hata sayısı:{0}&lt;br /&gt;]
+    &lt;br /&gt;
+    Durum Raporu: &lt;br /&gt;
+           &lt;pre&gt;[Custom:5]&lt;/pre&gt;
+    [Custom:6|&lt;hr /&gt;&lt;strong&gt;Alıcılar:&lt;/strong&gt;&lt;br /&gt;{0}]</value>
+  </data>
+  <data name="EMAIL_BulkMailConf_Text_Body.Text" xml:space="preserve">
+    <value>İşlem başlangıcı:    [Custom:0]
+E-posta alıcıları:   [Custom:1]
+E-posta mesajları:   [Custom:2]
+İşlem bitişi:        [Custom:3]
+
+[Custom:4|Hata sayısı:         {0}
+]Durum Raporu:
+[Custom:5]
+--------------------------------
+[Custom:6|Alıcılar:
+===========
+{0}]
+    </value>
+  </data>
+  <data name="NoErrorsSending.Text" xml:space="preserve">
+    <value>Gönderme sırasında hata oluşmadı.</value>
+  </data>
+  <data name="Return.Text" xml:space="preserve">
+    <value>Siteye Dön</value>
+  </data>
+  <data name="UnhandledError.Text" xml:space="preserve">
+    <value>İşlenmemiş bir hata oluştu.</value>
+  </data>
+  <data name="TokenReplaceUnknownObject.Text" xml:space="preserve">
+    <value>[{0}:{1}] erişim hatası, {0} bilinmeyen bir nesne kaynak belirteci.</value>
+  </data>
+  <data name="TokenReplaceRestrictedProperty.Text" xml:space="preserve">
+    <value>[{0}:{1}] erişim hatası, {0} veri kaynağı için {1} erişimi kısıtlı.</value>
+  </data>
+  <data name="TokenReplaceUnknownProperty.Text" xml:space="preserve">
+    <value>[{0}:{1}] erişim hatası, {0} veri kaynağı için {1} bilinmiyor.</value>
+  </data>
+  <data name="Can Deploy.Permission" xml:space="preserve">
+    <value>Modülü Dağıt</value>
+  </data>
+  <data name="Authentication.String" xml:space="preserve">
+    <value>Kimlik Doğrulama</value>
+  </data>
+  <data name="License.Text" xml:space="preserve">
+    <value>&lt;h2&gt;The MIT License (MIT)&lt;/h2&gt;
+
+&lt;h3&gt;Copyright (c) .NET Foundation and Contributors&lt;/h3&gt;
+&lt;p&gt;All Rights Reserved&lt;/p&gt;
+
+&lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:&lt;/p&gt;
+
+&lt;p&gt;The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.&lt;/p&gt;
+
+&lt;p&gt;THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.&lt;/p&gt;</value>
+  </data>
+  <data name="SkinLoadError.Text" xml:space="preserve">
+    <value>Tema Yüklenemedi: {0}, Hata: {1}&lt;br/&gt;</value>
+  </data>
+  <data name="EMAIL_ROLE_UPDATE_SUBJECT.Text" xml:space="preserve">
+    <value>[Portal:PortalName] Kullanıcı Hesabı Güncellemesi</value>
+  </data>
+  <data name="EMAIL_ROLE_UPDATE_BODY.Text" xml:space="preserve">
+    <value>Sayın [User:DisplayName],
+
+[Portal:PortalName] sitesindeki kullanıcı hesabınız, aşağıdaki Güvenlik Rolüne erişiminizi değiştirecek şekilde güncellendi:
+
+Rol: [Custom:0]
+Açıklama: [Custom:1]
+Geçerlilik Tarihi: [Custom:2]
+Bitiş Tarihi: [Custom:3]
+
+Desteğiniz için teşekkür ederiz...
+[Portal:PortalName]
+</value>
+  </data>
+  <data name="PurgeCacheUnsupported.Text" xml:space="preserve">
+    <value>Bu Önbellek Sağlayıcısı PurgeCache özelliğini gerektirmez.</value>
+  </data>
+  <data name="NoLoginControl.Text" xml:space="preserve">
+    <value>Bu web sitesi için ayarlanan Giriş Sayfası geçerli bir DNN Hesap Giriş modülü içermediği için varsayılan Giriş Sayfasına yönlendirildiniz...</value>
+  </data>
+  <data name="EMAIL_USER_UPDATED_OWN_PASSWORD_BODY.Text" xml:space="preserve">
+    <value>Sayın [User:DisplayName],
+
+[Portal:PortalName] sitesindeki şifrenizi değiştirdiniz.
+
+Lütfen aşağıdaki bilgileri kullanarak giriş yapın:
+
+Web Sitesi Adresi: [Portal:URL]
+Kullanıcı Adı:   [User:Username]
+
+Saygılarımızla,
+[Portal:PortalName]</value>
+  </data>
+  <data name="EMAIL_USER_UPDATED_OWN_PASSWORD_SUBJECT.Text" xml:space="preserve">
+    <value>[Portal:PortalName] Şifre Güncellendi</value>
+  </data>
+  <data name="ViewSource.Action" xml:space="preserve">
+    <value>Geliştir</value>
+  </data>
+  <data name="EnglishName.Text" xml:space="preserve">
+    <value>İngilizce Ad</value>
+  </data>
+  <data name="NativeName.Text" xml:space="preserve">
+    <value>Yerel Ad</value>
+  </data>
+  <data name="NeutralCulture.Text" xml:space="preserve">
+    <value>Nötr Kültür</value>
+  </data>
+  <data name="DeLocalize.Action" xml:space="preserve">
+    <value>Yerelleştirmeyi Kaldır</value>
+  </data>
+  <data name="Localize.Action" xml:space="preserve">
+    <value>Yerelleştir</value>
+  </data>
+  <data name="Translate.Action" xml:space="preserve">
+    <value>Çevrilmiş Olarak İşaretle</value>
+  </data>
+  <data name="UnTranslate.Action" xml:space="preserve">
+    <value>Çevrilmedi Olarak İşaretle</value>
+  </data>
+  <data name="SearchCrawler Admin.String" xml:space="preserve">
+    <value>Arama Tarayıcısı Yöneticisi</value>
+  </data>
+  <data name="Manage.Text" xml:space="preserve">
+    <value>Yönet</value>
+  </data>
+  <data name="ModuleGenericActions.Action" xml:space="preserve">
+    <value>Yönetici</value>
+  </data>
+  <data name="ModuleSpecificActions.Action" xml:space="preserve">
+    <value>Düzenle</value>
+  </data>
+  <data name="//AboutUs.String" xml:space="preserve">
+    <value>Hakkımızda</value>
+  </data>
+  <data name="//Home.String" xml:space="preserve">
+    <value>Ana Sayfa</value>
+  </data>
+  <data name="//Host//HTMLEditorManager.String" xml:space="preserve">
+    <value>HTML Düzenleyici Yöneticisi</value>
+  </data>
+  <data name="//SearchResults.String" xml:space="preserve">
+    <value>Arama Sonuçları</value>
+  </data>
+  <data name="//UserProfile.String" xml:space="preserve">
+    <value>Kullanıcı Profili</value>
+  </data>
+  <data name="EMAIL_BulkMailStart_Body.Text" xml:space="preserve">
+    <value>{1} kullanıcısı '{0}' adlı toplu e-postayı {2} alıcıya gönderdi. Başarısız iletimler için gönderim raporunu, geri dönen iletiler için de gönderenin gelen kutusunu inceleyin.</value>
+  </data>
+  <data name="EMAIL_BulkMailStart_Subject.Text" xml:space="preserve">
+    <value>'{0}' adlı toplu e-posta gönderildi</value>
+  </data>
+  <data name="//NewsPromotions.String" xml:space="preserve">
+    <value>Haberler ve Kampanyalar</value>
+  </data>
+  <data name="//OurProducts.String" xml:space="preserve">
+    <value>Ürünlerimiz</value>
+  </data>
+  <data name="//Modules.Text" xml:space="preserve">
+    <value>Modüller</value>
+  </data>
+  <data name="//Pages.Text" xml:space="preserve">
+    <value>Sayfalar</value>
+  </data>
+  <data name="//Tools.Text" xml:space="preserve">
+    <value>Araçlar</value>
+  </data>
+  <data name="RelationshipType_Added.Text" xml:space="preserve">
+    <value>İlişki türü eklendi: {0}</value>
+  </data>
+  <data name="RelationshipType_Deleted.Text" xml:space="preserve">
+    <value>İlişki türü silindi: {0} : ID {1}</value>
+  </data>
+  <data name="RelationshipType_Updated.Text" xml:space="preserve">
+    <value>İlişki türü güncellendi: {0}</value>
+  </data>
+  <data name="Relationship_Added.Text" xml:space="preserve">
+    <value>İlişki {0} Eklendi</value>
+  </data>
+  <data name="Relationship_Deleted.Text" xml:space="preserve">
+    <value>İlişki {0} Silindi : Kimlik {1}</value>
+  </data>
+  <data name="Relationship_Updated.Text" xml:space="preserve">
+    <value>İlişki {0} Güncellendi</value>
+  </data>
+  <data name="UserRelationshipPreference_Added.Text" xml:space="preserve">
+    <value>Kullanıcı ilişkisi tercihi eklendi: ID {0}, Kullanıcı ID {1}, İlişki ID {2}</value>
+  </data>
+  <data name="UserRelationshipPreference_Deleted.Text" xml:space="preserve">
+    <value>Kullanıcı ilişkisi tercihi silindi: ID {0}, Kullanıcı ID {1}, İlişki ID {2}</value>
+  </data>
+  <data name="UserRelationshipPreference_Updated.Text" xml:space="preserve">
+    <value>Kullanıcı ilişkisi tercihi güncellendi: ID {0}, Kullanıcı ID {1}, İlişki ID {2}</value>
+  </data>
+  <data name="UserRelationship_Added.Text" xml:space="preserve">
+    <value>Kullanıcı ilişkisi eklendi: ID {0}, UserID {1}, RelatedUserID {2}</value>
+  </data>
+  <data name="UserRelationship_Deleted.Text" xml:space="preserve">
+    <value>Kullanıcı ilişkisi silindi: ID {0}, UserID {1}, RelatedUserID {2}</value>
+  </data>
+  <data name="UserRelationship_Updated.Text" xml:space="preserve">
+    <value>Kullanıcı ilişkisi güncellendi: ID {0}, UserID {1}, RelatedUserID {2}</value>
+  </data>
+  <data name="AddFriendRequestSubject.Text" xml:space="preserve">
+    <value>{0} arkadaş olmak istiyor</value>
+  </data>
+  <data name="AddFriendRequestBody.Text" xml:space="preserve">
+    <value>{0} sizinle arkadaş olmak istiyor</value>
+  </data>
+  <data name="AddFollowerRequestSubject.Text" xml:space="preserve">
+    <value>{0} artık sizi takip ediyor</value>
+  </data>
+  <data name="AddFollowerRequestBody.Text" xml:space="preserve">
+    <value>{0} tarafından takip ediliyorsunuz</value>
+  </data>
+  <data name="//ActivityFeed.String" xml:space="preserve">
+    <value>Etkinlik Akışı</value>
+  </data>
+  <data name="//ActivityFeed//Friends.String" xml:space="preserve">
+    <value>Arkadaşlar</value>
+  </data>
+  <data name="//ActivityFeed//Messages.String" xml:space="preserve">
+    <value>Mesajlar</value>
+  </data>
+  <data name="//ActivityFeed//MyProfile.String" xml:space="preserve">
+    <value>Profilim</value>
+  </data>
+  <data name="EMAIL_SUBJECT_FORMAT.Text" xml:space="preserve">
+    <value>Yeni mesaj (gönderen: {0})</value>
+  </data>
+  <data name="EMAIL_BODY_FORMAT.Text" xml:space="preserve">
+    <value>Konu: {0} {1} Lütfen bu e-postaya cevap vermeyin.</value>
+  </data>
+  <data name="PortalLinks.Text" xml:space="preserve">
+    <value>Site Bağlantıları</value>
+  </data>
+  <data name="LogClicks.Text" xml:space="preserve">
+    <value>Her tıklama için kullanıcıyı, tarihi ve saati kaydet</value>
+  </data>
+  <data name="TrackClicks.Text" xml:space="preserve">
+    <value>Bu bağlantının kaç kez tıklandığını takip et</value>
+  </data>
+  <data name="ApplicationUpgrades.Text" xml:space="preserve">
+    <value>Uygulama Yükseltmeleri</value>
+  </data>
+  <data name="GeneralUpgrades.Text" xml:space="preserve">
+    <value>Genel Yükseltmeler Yapılıyor</value>
+  </data>
+  <data name="ExecutingScript.Text" xml:space="preserve">
+    <value>Betik Çalıştırılıyor</value>
+  </data>
+  <data name="LogStart.Text" xml:space="preserve">
+    <value>Başlangıç </value>
+  </data>
+  <data name="LogEnd.Text" xml:space="preserve">
+    <value>Bitiş </value>
+  </data>
+  <data name="ModulePermissions.Action" xml:space="preserve">
+    <value>İzinler</value>
+  </data>
+  <data name="MoveToPane.Action" xml:space="preserve">
+    <value>{0}'a</value>
+  </data>
+  <data name="DropModuleTarget.Text" xml:space="preserve">
+    <value>Modülü Buraya Bırakın</value>
+  </data>
+  <data name="DragModuleHint.Text" xml:space="preserve">
+    <value>Bu Modülü Yeni Bir Konuma Sürükleyin</value>
+  </data>
+  <data name="DraggingHintText.Text" xml:space="preserve">
+    <value>Fareyi bırakma alanının üzerine taşıyın.</value>
+  </data>
+  <data name="DropModuleHint.Text" xml:space="preserve">
+    <value>Modülü Buraya Bırakın</value>
+  </data>
+  <data name="//AboutUs//StyleGuide.String" xml:space="preserve">
+    <value>Stil Kılavuzu</value>
+  </data>
+  <data name="//ContactUs.String" xml:space="preserve">
+    <value>İletişim</value>
+  </data>
+  <data name="//Admin//FileManagement.String" xml:space="preserve">
+    <value>Dosya Yönetimi</value>
+  </data>
+  <data name="CustomUrlPathCleaned.Error" xml:space="preserve">
+    <value>Girilen Sayfa URL'si, URL'lerde kullanılamayan veya URL için geçersiz olan karakterler içeriyor. Bu karakterler kaldırıldı. Değiştirilmiş URL'yi kabul etmek için 'Güncelle' düğmesine yeniden tıklayın.&lt;br&gt;[NOT: Geçersiz karakterler listesi şöyledir: &lt;&gt;\?:&amp;=+|%# ]</value>
+  </data>
+  <data name="UrlPathNotUnique.Error" xml:space="preserve">
+    <value>Gönderilen URL mevcut değil. Önerilen alternatifi kabul etmek istiyorsanız, Kaydet'i tıklayın.</value>
+  </data>
+  <data name="EMAIL_MESSAGING_DISPATCH_BODY.Text" xml:space="preserve">
+    <value>&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
+&lt;html xmlns="https://www.w3.org/1999/xhtml"&gt;
+&lt;head&gt;
+    &lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /&gt;
+    &lt;style type="text/css"&gt;
+            /* Reset Styles */
+        html, body{height:100%;width:100%;}
+        body{
+            margin:0; padding:0;
+            font-family:sans-serif;
+            font-size:0.83em;
+            color:#333;
+        }
+        img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
+        table td{border-collapse:collapse;}
+        p{margin: 0 0 1.6em 0;}
+        a{color:#417CD3;}
+        #backgroundTable{height:100% !important; margin:0; padding:0; width:100% !important;}
+        body{ background-color:#fafafa; }
+
+        #templateContainer{
+            border: 1px solid #eeeeee;
+            box-shadow: 0px 0px 3px 0px #eee;
+        }
+
+            /* Pre Header Styles */
+        .preheaderContent{
+            padding:15px 0 5px 0;
+            font-size:0.9em;
+            color:#999;
+        }
+        .headerContent {background-color:#bbb;}
+        .headerContent a{display:block;}
+        .headerContent img{ margin-bottom:0;}
+
+            /* Sub Header Styles */
+        #templateSubHeader{ color:#ffffff; }
+        #templateSubHeader td{ padding:5px 20px; }
+
+            /* Template Footer Styles */
+        .footerContent table td{
+            padding-top:20px;
+            border-top:1px solid #ddd;
+            font-size:0.8em;
+        }
+
+            /* Body Template Footer Styles */
+        #bodyTemplateFooter{
+            padding:15px 0 5px 0;
+            font-size:0.9em;
+            color:#999;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0"&gt;
+&lt;table cellpadding="0" cellspacing="0" border="0" width="100%" height="100%" id="backgroundTable"&gt;
+    &lt;tr&gt;
+        &lt;td align="center" valign="top"&gt;
+            &lt;!-- // Begin Template Preheader \\ --&gt;
+            &lt;table border="0" cellpadding="0" cellspacing="0" id="templatePreheader" width="600"&gt;
+                &lt;tr align="right"&gt;
+                    &lt;td valign="top" class="preheaderContent" style="border-top:5px solid #417CD3;"&gt;
+
+                        &lt;!-- // Begin Module: Standard Preheader \ --&gt;
+                        &lt;table border="0" cellpadding="0" cellspacing="0" &gt;
+                            &lt;tr&gt;
+                                &lt;td align="right"&gt;
+                                    &lt;p&gt;E-postayı görüntülemekte sorun mu yaşıyorsunuz? &lt;a href="[NOTIFICATIONURL]"&gt;&lt;span&gt;Çevrimiçi görüntülemek için buraya tıklayın.&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+                                &lt;/td&gt;
+                            &lt;/tr&gt;
+                        &lt;/table&gt;
+                        &lt;!-- // End Module: Standard Preheader \ --&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/table&gt;
+            &lt;!-- // End Template Preheader \\ --&gt;
+            &lt;!-- // Begin Template body \\ --&gt;
+            &lt;table border="0" cellpadding="0" cellspacing="0" width="600" id="templateContainer" style="border:1px solid #eeeeee; " &gt;
+                &lt;tr &gt;
+                    &lt;td align="center" valign="top"&gt;
+                        &lt;!-- // Begin Template Header \\ --&gt;
+                        &lt;table border="0" cellpadding="30" cellspacing="0" width="600" id="templateHeader"&gt;
+                            &lt;tr&gt;
+                                &lt;td class="headerContent"&gt;
+                                    &lt;a href="[SITEURL]"&gt;
+                                        &lt;!--&lt;img src="[LOGOURL]" style="max-width:600px;" id="headerImage campaign-icon" /&gt;--&gt;
+                                        &lt;img src="[LOGOURL]" style="max-width:600px;" id="headerImage campaign-icon" width="200" /&gt;
+                                    &lt;/a&gt;
+
+                                &lt;/td&gt;
+                            &lt;/tr&gt;
+                        &lt;/table&gt;
+                        &lt;!-- // End Template Header \\ --&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr &gt;
+                    &lt;td align="center" valign="top"&gt;
+                        &lt;!-- // Begin Template Sub Header \\ --&gt;
+                        &lt;table border="0" cellpadding="0" cellspacing="0" width="600" id="templateSubHeader"&gt;
+                            &lt;tr&gt;
+                                &lt;td class="subHeaderContent" bgcolor="#417CD3" width="66%" align="left"&gt;
+                                    &lt;h2 style="color:#fff; font-weight:100; font-size:24px;"&gt;Bildirimler&lt;/h2&gt;
+                                &lt;/td&gt;&lt;!--close subHeaderContent--&gt;
+                                &lt;td width="33%" bgcolor="#417CD3" align="right"&gt;
+                                    &lt;p style="color:#fff;"&gt;&lt;/p&gt;
+                                &lt;/td&gt;
+                            &lt;/tr&gt;
+                        &lt;/table&gt;
+                        &lt;!-- // End Template Sub Header \\ --&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td align="center" valign="top" bgcolor="#ffffff"&gt;
+                        &lt;!-- // Begin Template Body \\ --&gt;
+                        &lt;table border="0" cellpadding="0" cellspacing="0" width="600" id="templateBody"&gt;
+                            &lt;tr&gt;
+                                &lt;td valign="top" class="bodyContent"&gt;
+                                    &lt;!-- // Begin Module: Standard Content \\ --&gt;
+                                    &lt;table border="0" cellpadding="30" cellspacing="0" width="100%"&gt;
+                                        &lt;tr&gt;
+                                            &lt;td valign="top"&gt;
+                                                [MESSAGEBODY]
+                                            &lt;/td&gt;
+                                        &lt;/tr&gt;
+                                    &lt;/table&gt;
+                                    &lt;!-- // End Module: Standard Content \\ --&gt;
+                                &lt;/td&gt;
+                            &lt;/tr&gt;
+                        &lt;/table&gt;
+                        &lt;!-- // End Template Body \\ --&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td align="center" valign="top"&gt;
+                        &lt;table border="0" cellpadding="30" cellspacing="0" width="600" id="templateFooter"&gt;
+                            &lt;tr&gt;
+                                &lt;td valign="top" class="footerContent"&gt;
+                                    &lt;table border="0" cellpadding="0" cellspacing="0" width="100%"&gt;
+                                        &lt;tr&gt;
+                                            &lt;td align="center"&gt;
+                                                &lt;a href="[UNSUBSCRIBEURL]" &gt; Aboneliklerinizi Yönetin&lt;/a&gt; &amp;nbsp; |  &amp;nbsp;&lt;a href="[NOTIFICATIONURL]" &gt; Çevrimiçi Görüntüle&lt;/a&gt;
+                                            &lt;/td&gt;
+                                        &lt;/tr&gt;
+                                    &lt;/table&gt;
+                                &lt;/td&gt;
+                            &lt;/tr&gt;
+                        &lt;/table&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/table&gt;&lt;!-- // End Template Body \\ --&gt;
+            &lt;!-- // Begin Template footer \\ --&gt;
+            &lt;table border="0" cellpadding="0" cellspacing="0" id="bodyTemplateFooter" width="600"&gt;
+                &lt;tr&gt;
+                    &lt;td valign="top" class="bodyFooterContent"&gt;
+
+                        &lt;!-- // Begin Module: Standard Preheader \ --&gt;
+                        &lt;table border="0" cellpadding="0" cellspacing="0" align="center" &gt;
+
+                            &lt;tr&gt;
+                                &lt;td align="center"&gt;
+                                    &lt;p&gt;Telif Hakkı [YEAR] &lt;a href="[SITEURL]"&gt;[PORTALNAME]&lt;/a&gt; Tüm hakları saklıdır.&lt;/p&gt;
+                                    &lt;p&gt;Bundan sonra e-posta almak istemiyorsanız buradan &lt;a href="[UNSUBSCRIBEURL]"&gt;aboneliğinizi iptal edebilirsiniz&lt;/a&gt;.&lt;/p&gt;
+                                &lt;/td&gt;
+                            &lt;/tr&gt;
+                        &lt;/table&gt;
+                        &lt;!-- // End Module: Standard Preheader \ --&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/table&gt;
+            &lt;!-- // End Template footer \\ --&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;&lt;!-- wrapper table --&gt;
+&lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
+  <data name="EMAIL_MESSAGING_DISPATCH_ITEM.Text" xml:space="preserve">
+    <value>&lt;div style="width:100%;"&gt;&lt;h5&gt;[TITLE]&lt;/h5&gt;&lt;table width="600" border="0" cellpadding="0" cellspacing="0" class="contenttable" style="background:#fafafa;"&gt;
+    &lt;tr&gt;
+        &lt;td&gt;
+            &lt;table width="80" border="0" cellspacing="0" cellpadding="8" align="left"&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;&lt;a href="[PROFILEURL]"&gt;&lt;img src="[PROFILEPICURL]" /&gt;&lt;/a&gt;&lt;br/&gt;[DISPLAYNAME]&lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/table&gt;
+            &lt;table width="350" border="0" cellspacing="0" cellpadding="8" align="left"&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;[CONTENT][FRIENDREQUESTACTIONS][FOLLOWREQUESTACTIONS]&lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/table&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</value>
+  </data>
+  <data name="EMAIL_PASSWORD_UPDATED_BODY.Text" xml:space="preserve">
+    <value>Sayın [User:DisplayName],
+
+[Portal:PortalName] sitesindeki şifreniz değiştirildi.
+
+Lütfen aşağıdaki e-posta adresinden site yöneticisiyle iletişime geçin - [Portal:Email]
+
+Saygılarımızla,
+[Portal:PortalName]</value>
+  </data>
+  <data name="EMAIL_PASSWORD_UPDATED_SUBJECT.Text" xml:space="preserve">
+    <value>[Portal:PortalName] - Şifre Güncellendi</value>
+  </data>
+  <data name="//Host//FileManagement.String" xml:space="preserve">
+    <value>Dosya Yönetimi</value>
+  </data>
+  <data name="AspNetHostingPermission.Text" xml:space="preserve">
+    <value>Bu uzantı Tam Güven (Full Trust) gerektirir.</value>
+  </data>
+  <data name="ReflectionPermission.Text" xml:space="preserve">
+    <value>Bu uzantı Yansıma (Reflection) izni gerektirir.</value>
+  </data>
+  <data name="WebPermission.Text" xml:space="preserve">
+    <value>Bu uzantı Web izni gerektirir.</value>
+  </data>
+  <data name="EMAIL_SOCIAL_FRIENDREQUESTACTIONS.Text" xml:space="preserve">
+    <value>&lt;p&gt;&lt;a href="{0}"&gt;Kabul Et&lt;/a&gt; | &lt;a href="{1}"&gt;Profili Görüntüle&lt;/a&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="EMAIL_SOCIAL_FOLLOWREQUESTACTIONS.Text" xml:space="preserve">
+    <value>&lt;p&gt;&lt;a href="{0}"&gt;Siz de Takip Edin&lt;/a&gt; | &lt;a href="{1}"&gt;Profili Görüntüle&lt;/a&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="MESSAGE_USERNAME_CHANGED_INSTRUCTIONS.Text" xml:space="preserve">
+    <value>E-posta adresi değişikliğinizi doğrulamak için lütfen şifrenizi yeniden girin.</value>
+  </data>
+  <data name="EMAIL_PASSWORD_REMINDER_USER_ISNOT_APPROVED_BODY.Text" xml:space="preserve">
+    <value>Sayın [User:DisplayName],
+
+[Portal:PortalName] sitesinden bir Şifre Sıfırlama Belirteci talep ettiniz, ancak hesabınız onay beklemektedir.
+[Portal:PortalName] yöneticisine inceleme için bildirim gönderildi; hesabınız onaylanırsa size yeni bir şifre sıfırlama e-postası gönderilecektir.
+
+Saygılarımızla,
+[Portal:PortalName]
+
+*Not: Şifre Sıfırlama Belirteci talep etmediyseniz lütfen bu mesajı dikkate almayın.
+    </value>
+  </data>
+  <data name="EMAIL_PASSWORD_REMINDER_USER_ISNOT_APPROVED_SUBJECT.Text" xml:space="preserve">
+    <value>[Portal:PortalName] - Şifre Hatırlatma</value>
+  </data>
+  <data name="EMAIL_PASSWORD_REMINDER_USER_ISNOT_APPROVED_ADMINISTRATOR_BODY.Text" xml:space="preserve">
+    <value>
+Aşağıdaki kullanıcı [Portal:PortalName] sitesinden bir Şifre Sıfırlama Belirteci talep etti, ancak kullanıcı hesabı onay beklemektedir.
+Kullanıcı Adı: [User:UserName]
+Görünen Ad: [User:DisplayName]
+
+Bu kullanıcıyı inceledikten sonra hesap yetkilendirilirse kullanıcıya yeniden bir şifre sıfırlama e-postası gönderin.
+    </value>
+  </data>
+  <data name="EMAIL_PASSWORD_REMINDER_USER_ISNOT_APPROVED_ADMINISTRATOR_SUBJECT.Text" xml:space="preserve">
+    <value>[Portal:PortalName] - Onaylanmamış kullanıcı için Şifre Hatırlatma talebi: [User:Username]</value>
+  </data>
+  <data name="503.Error" xml:space="preserve">
+    <value>{0} - 503 Hizmet Kullanılamıyor</value>
+  </data>
+  <data name="NoSitesForThisInstallation.Error" xml:space="preserve">
+    <value>Bu kurulum için şu anda hiçbir site bulunmuyor.</value>
+  </data>
+  <data name="SiteAccessedWhileInstallationWasInProgress.Error" xml:space="preserve">
+    <value>Bir kurulum/yükseltme işlemi sürerken siteye erişildi.</value>
+  </data>
+  <data name="ThereIsAInstallationCurrentlyInProgress.Error" xml:space="preserve">
+    <value>Şu anda devam eden bir kurulum var. Lütfen daha sonra tekrar deneyin.</value>
+  </data>
+  <data name="EMAIL_USER_UNAUTHORIZED_BODY.Text" xml:space="preserve">
+    <value>Sayın [User:DisplayName],
+
+[Portal:PortalName] sitesindeki hesabınızın yetkisi kaldırıldı.
+
+Web Sitesi Adresi: [Portal:URL]
+Kullanıcı Adı: [User:UserName]
+
+Herhangi bir sorunuz olursa [Portal:Email] adresinden yöneticiyle iletişime geçebilirsiniz.
+
+Saygılarımızla,
+[Portal:PortalName]</value>
+  </data>
+  <data name="EMAIL_USER_UNAUTHORIZED_SUBJECT.Text" xml:space="preserve">
+    <value>Hesabınızın [Portal:URL] için yetkisi kaldırıldı</value>
+  </data>
+  <data name="DefaultStopwordGroup.Text" xml:space="preserve">
+    <value>ve,ile,ama,fakat,ancak,için,gibi,bu,şu,o,bir,da,de,ki,mi,daha,çok,her,ise,veya,ya,olan,olarak</value>
+  </data>
+  <data name="DefaultSynonymGroup.Text" xml:space="preserve">
+    <value>dnn,dotnetnuke</value>
+  </data>
+  <data name="cc_dismiss.Text" xml:space="preserve">
+    <value>Anladım!</value>
+  </data>
+  <data name="cc_link.Text" xml:space="preserve">
+    <value>Daha fazla bilgi</value>
+  </data>
+  <data name="cc_message.Text" xml:space="preserve">
+    <value>Bu web sitesi, sitemizde en iyi deneyimi yaşamanız için çerezler kullanır.</value>
+  </data>
+  <data name="StartWorkflowSubject.Text" xml:space="preserve">
+    <value>Sayfa Gönderildi</value>
+  </data>
+  <data name="StartWorkflowBody.Text" xml:space="preserve">
+    <value>'{0}' sayfası '{1}' durumunda ve gönderilmeyi bekliyor.</value>
+  </data>
+  <data name="CompleteStateSubject.Text" xml:space="preserve">
+    <value>Sayfa Onayı</value>
+  </data>
+  <data name="CompleteStateBody.Text" xml:space="preserve">
+    <value>'{0}' sayfası '{1}' durumunda ve inceleme ile onay bekliyor.</value>
+  </data>
+  <data name="DiscardStateSubject.Text" xml:space="preserve">
+    <value>Sayfa Reddedildi</value>
+  </data>
+  <data name="DiscardStateBody.Text" xml:space="preserve">
+    <value>'{0}' sayfasındaki düzenlemeler reddedildi ve sayfa şu anda '{1}' durumunda.</value>
+  </data>
+  <data name="CompleteWorkflowSubject.Text" xml:space="preserve">
+    <value>Sayfa Yayınlandı</value>
+  </data>
+  <data name="CompleteWorkflowBody.Text" xml:space="preserve">
+    <value>'{0}' sayfası yayınlandı ve artık yayında.</value>
+  </data>
+  <data name="DiscardWorkflowSubject.Text" xml:space="preserve">
+    <value>Sayfa Reddedildi</value>
+  </data>
+  <data name="DiscardWorkflowBody.Text" xml:space="preserve">
+    <value>'{0}' sayfasındaki düzenlemeler iptal edildi.</value>
+  </data>
+  <data name="Administrators.Role" xml:space="preserve">
+    <value>Yöneticiler</value>
+  </data>
+  <data name="All Users.Role" xml:space="preserve">
+    <value>Herkes</value>
+  </data>
+  <data name="Superuser.Role" xml:space="preserve">
+    <value>Süper Kullanıcılar</value>
+  </data>
+  <data name="Unauthenticated Users.Role" xml:space="preserve">
+    <value>Kimliği Doğrulanmamış Kullanıcılar</value>
+  </data>
+  <data name="Registered Users.Role" xml:space="preserve">
+    <value>Kayıtlı Kullanıcılar</value>
+  </data>
+  <data name="Unverified Users.Role" xml:space="preserve">
+    <value>Doğrulanmamış Kullanıcılar</value>
+  </data>
+  <data name="Subscribers.Role" xml:space="preserve">
+    <value>Aboneler</value>
+  </data>
+  <data name="Content Editors.Role" xml:space="preserve">
+    <value>İçerik Editörleri</value>
+  </data>
+  <data name="Content Managers.Role" xml:space="preserve">
+    <value>İçerik Yöneticileri</value>
+  </data>
+  <data name="Administrators.RoleDescription" xml:space="preserve">
+    <value>Yöneticiler bu sitedeki tüm içeriğe erişebilir, içeriği değiştirebilir ve tüm site ayarlarını yönetebilir. Kullanıcıların siteye erişimini ve diğer yöneticileri de yönetebilirler.  Bu kullanıcı türü, Süper Kullanıcıların yapabildiği sistem düzeyindeki değişiklikleri veya ayrıcalıklı yönetim görevlerini gerçekleştiremez.</value>
+  </data>
+  <data name="All Users.RoleDescription" xml:space="preserve">
+    <value>Bu, platform tarafından yönetilen bir roldür (yani bu role kullanıcı ekleyemez veya bu rolden kullanıcı kaldıramazsınız). Bu rol, giriş/hesap durumundan bağımsız olarak web sitesinin HERHANGİ bir ziyaretçisini temsil eder.</value>
+  </data>
+  <data name="Content Editors.RoleDescription" xml:space="preserve">
+    <value>İçerik editörleri bu sitede içerik ekleyebilir ve içeriği değiştirebilir. Tam işlevsellik, bu sitede kullanılan modüllerin neyi desteklediğine bağlıdır.</value>
+  </data>
+  <data name="Content Managers.RoleDescription" xml:space="preserve">
+    <value>İçerik yöneticileri web sitesinde neyin görüntüleneceğine karar verebilir. İçerik editörlerinin eklediği içeriği değiştirebilir ve bu içeriğin yayınlanıp yayınlanmayacağına karar verebilirler. Tam işlevsellik, bu sitede kullanılan modüllerin neyi desteklediğine bağlıdır.</value>
+  </data>
+  <data name="Subscribers.RoleDescription" xml:space="preserve">
+    <value>Aboneler, bu web sitesinden kendileriyle e-posta yoluyla iletişim kurulmasına izin verir. Kullanıcılar bunu denetleyebilmek için kendilerini bu rolden çıkarabilir.</value>
+  </data>
+  <data name="Superuser.RoleDescription" xml:space="preserve">
+    <value>Süper Kullanıcılar (bazen sunucu kullanıcıları olarak da adlandırılır) siteye "sunucu" düzeyinde erişime sahiptir; yani bu kurulumdaki sitelerin herhangi birindeki her türlü içeriğe erişebilir ve bu içeriği değiştirebilirler. Buna yöneticileri ve diğer süper kullanıcıları ekleme ve kaldırma da dahildir. Ayrıca önbelleği temizleme, uygulamayı yeniden başlatma, yapılandırma dosyalarını yönetme ve genel ayarları yapılandırma gibi sistem düzeyindeki görevleri de gerçekleştirebilirler.</value>
+  </data>
+  <data name="Unauthenticated Users.RoleDescription" xml:space="preserve">
+    <value>Bu, platform tarafından yönetilen bir roldür (yani bu role kullanıcı atayamazsınız). Giriş yapmamış kullanıcıları belirtmek için kullanılır.</value>
+  </data>
+  <data name="Unverified Users.RoleDescription" xml:space="preserve">
+    <value>Bu site hesap doğrulaması kullanıyorsa, kaydolan her kullanıcı önce "kayıtlı kullanıcılar" yerine bu rolün bir parçası olur. Kullanıcı doğrulandığı anda (ayara bağlı olarak bir e-posta bağlantısına tıklayarak veya bir yönetici tarafından), artık bu rolün üyesi olmaz ve normal bir "kayıtlı kullanıcı" olur.</value>
+  </data>
+  <data name="Registered Users.RoleDescription" xml:space="preserve">
+    <value>Bu sitede hesabı olan ve (doğrulama etkinleştirilmişse) doğrulanmış tüm kullanıcılar.</value>
+  </data>
+</root>

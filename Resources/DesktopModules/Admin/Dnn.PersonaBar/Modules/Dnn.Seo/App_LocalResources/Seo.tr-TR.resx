@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="nav_Seo.Text" xml:space="preserve">
+    <value>S E O</value>
+  </data>
+  <data name="URLManagementTab.Text" xml:space="preserve">
+    <value>URL Yönetimi</value>
+  </data>
+  <data name="GeneralSettingsTab.Text" xml:space="preserve">
+    <value>GENEL AYARLAR</value>
+  </data>
+  <data name="ExtensionUrlProvidersTab.Text" xml:space="preserve">
+    <value>UZANTI URL SAĞLAYICILARI</value>
+  </data>
+  <data name="ExpressionsTab.Text" xml:space="preserve">
+    <value>İFADELER</value>
+  </data>
+  <data name="TestURLTab.Text" xml:space="preserve">
+    <value>URL TESTİ</value>
+  </data>
+  <data name="SitemapSettingsTab.Text" xml:space="preserve">
+    <value>Site Haritası Ayarları</value>
+  </data>
+  <data name="minusCharacter.Text" xml:space="preserve">
+    <value>"-" örn. sayfa-adi</value>
+  </data>
+  <data name="underscoreCharacter.Text" xml:space="preserve">
+    <value>"_" örn. sayfa_adi</value>
+  </data>
+  <data name="Do301RedirectToPortalHome.Text" xml:space="preserve">
+    <value>Site Ana Sayfası</value>
+  </data>
+  <data name="Do404Error.Text" xml:space="preserve">
+    <value>404 Hatası</value>
+  </data>
+  <data name="ReplacementCharacter.Text" xml:space="preserve">
+    <value>Standart Değiştirme Karakteri</value>
+  </data>
+  <data name="ReplacementCharacter.Help" xml:space="preserve">
+    <value>Standart Değiştirme Karakteri</value>
+  </data>
+  <data name="enableSystemGeneratedUrlsLabel.Text" xml:space="preserve">
+    <value>Sayfa URL'lerini Birleştir</value>
+  </data>
+  <data name="enableSystemGeneratedUrlsLabel.Help" xml:space="preserve">
+    <value>Sistemin URL'leri nasıl oluşturacağını yapılandırabilirsiniz.</value>
+  </data>
+  <data name="enableLowerCaseLabel.Help" xml:space="preserve">
+    <value>URL'lerin küçük harfe dönüştürülmesini zorunlu kılmak için bu kutuyu işaretleyin.</value>
+  </data>
+  <data name="enableLowerCaseLabel.Text" xml:space="preserve">
+    <value>URL'leri Küçük Harfe Dönüştür</value>
+  </data>
+  <data name="autoAsciiConvertLabel.Help" xml:space="preserve">
+    <value>İşaretlendiğinde, å ve è gibi aksanlı (diakritik) karakterler düz ASCII karşılıklarına dönüştürülür.  Örnek: å -&gt; a ve è -&gt; e.</value>
+  </data>
+  <data name="autoAsciiConvertLabel.Text" xml:space="preserve">
+    <value>Aksanlı Karakterleri Dönüştür</value>
+  </data>
+  <data name="setDefaultSiteLanguageLabel.Help" xml:space="preserve">
+    <value>İşaretlendiğinde, başka bir dil bulunamazsa bu sitenin varsayılan dili yeniden yazılan URL'de her zaman belirtilir.</value>
+  </data>
+  <data name="setDefaultSiteLanguageLabel.Text" xml:space="preserve">
+    <value>Varsayılan Site Dilini Ayarla</value>
+  </data>
+  <data name="UrlRewriter.Text" xml:space="preserve">
+    <value>URL YENİDEN YAZICI</value>
+  </data>
+  <data name="UrlRedirects.Text" xml:space="preserve">
+    <value>URL YÖNLENDİRMELERİ</value>
+  </data>
+  <data name="plDeletedPages.Help" xml:space="preserve">
+    <value>Bir kullanıcı silinmiş, süresi dolmuş veya devre dışı bırakılmış bir sayfaya gittiğinde gerçekleşecek davranışı seçin.</value>
+  </data>
+  <data name="plDeletedPages.Text" xml:space="preserve">
+    <value>Silinmiş, süresi dolmuş, devre dışı sayfaları şuraya yönlendir</value>
+  </data>
+  <data name="enable301RedirectsLabel.Help" xml:space="preserve">
+    <value>Eski "kullanıcı dostu olmayan" URL'lerin yeni URL'lere yönlendirilmesini istiyorsanız bu kutuyu işaretleyin.</value>
+  </data>
+  <data name="enable301RedirectsLabel.Text" xml:space="preserve">
+    <value>Kullanıcı Dostu URL'lere Yönlendir</value>
+  </data>
+  <data name="redirectOnWrongCaseLabel.Help" xml:space="preserve">
+    <value>İşaretlendiğinde, küçük harf olmayan tüm URL'ler o URL'nin küçük harfli sürümüne yönlendirilir.</value>
+  </data>
+  <data name="redirectOnWrongCaseLabel.Text" xml:space="preserve">
+    <value>Karışık Harfli URL'leri Yönlendir</value>
+  </data>
+  <data name="GlobalSetting.Text" xml:space="preserve">
+    <value>Bu genel bir ayardır. Bu ayarda yapılan değişiklikler tüm sitelerinizi etkiler.</value>
+  </data>
+  <data name="ignoreRegExLabel.Help" xml:space="preserve">
+    <value>Yok Sayılacak URL Regex deseni, URL'lerin URL Yeniden Yazma modülü tarafından işlenmesini durdurmak için kullanılır.  Söz konusu URL'nin yeniden yazılması, yönlendirilmesi veya URL Yeniden Yazıcı tarafından başka şekilde işlenmesi gerekmediğinde bu kullanılmalıdır.  Örnekler arasında resimler, css dosyaları, pdf dosyaları, hizmet istekleri ve DotNetNuke ile ilişkili olmayan kaynaklara yönelik istekler bulunur.</value>
+  </data>
+  <data name="ignoreRegExLabel.Text" xml:space="preserve">
+    <value>Yok Sayılacak URL Normal İfadesi</value>
+  </data>
+  <data name="ignoreRegExInvalidPattern.Text" xml:space="preserve">
+    <value>Yok Sayılacak URL Normal İfadesi geçersiz</value>
+  </data>
+  <data name="RegularExpressions.Text" xml:space="preserve">
+    <value>NORMAL İFADELER</value>
+  </data>
+  <data name="ExtensionUrlProviders.Text" xml:space="preserve">
+    <value>UZANTI URL SAĞLAYICILARI</value>
+  </data>
+  <data name="SettingsUpdateSuccess.Text" xml:space="preserve">
+    <value>Ayarlar güncellendi.</value>
+  </data>
+  <data name="SettingsError.Text" xml:space="preserve">
+    <value>Ayarlar güncellenemedi. Daha sonra yeniden deneyin.</value>
+  </data>
+  <data name="SettingsRestoreWarning.Text" xml:space="preserve">
+    <value>Değişikliklerinizi iptal etmek istediğinizden emin misiniz?</value>
+  </data>
+  <data name="Yes.Text" xml:space="preserve">
+    <value>Evet</value>
+  </data>
+  <data name="No.Text" xml:space="preserve">
+    <value>Hayır</value>
+  </data>
+  <data name="doNotRewriteRegExLabel.Help" xml:space="preserve">
+    <value>Yeniden Yazılmayacak URL normal ifadesi, eşleşen tüm URL'lerde URL yeniden yazma işleminin gerçekleşmesini engeller.  Bir URL, DotNetNuke sayfası olarak yorumlanıyor ancak yorumlanmaması gerekiyorsa bu değeri kullanın.</value>
+  </data>
+  <data name="doNotRewriteRegExLabel.Text" xml:space="preserve">
+    <value>Yeniden Yazılmayacak URL Normal İfadesi</value>
+  </data>
+  <data name="doNotRewriteRegExInvalidPattern.Text" xml:space="preserve">
+    <value>Yeniden Yazılmayacak URL Normal İfadesi geçersiz</value>
+  </data>
+  <data name="siteUrlsOnlyRegExInvalidPattern.Text" xml:space="preserve">
+    <value>Yalnızca Site URL'leri Normal İfadesi geçersiz</value>
+  </data>
+  <data name="siteUrlsOnlyRegExLabel.Help" xml:space="preserve">
+    <value>Yalnızca Site URL'leri normal ifade deseni, eşleşen URL'lerin işlenme sırasını değiştirir.  Eşleştiğinde URL'ler, önce sitenin kullanıcı dostu URL listesiyle karşılaştırılmadan doğrudan siteURLs.config dosyasındaki normal ifadelerle değerlendirilir.  Bu dosyada yer alan açık bir URL Yeniden Yazma veya Yönlendirme kuralı için işlemi siteURLs.config dosyası üzerinden zorlamak amacıyla bu deseni kullanın.</value>
+  </data>
+  <data name="siteUrlsOnlyRegExLabel.Text" xml:space="preserve">
+    <value>Yalnızca Site URL'leri Normal İfadesi</value>
+  </data>
+  <data name="doNotRedirectUrlRegExInvalidPattern.Text" xml:space="preserve">
+    <value>Yönlendirilmeyecek URL Normal İfadesi geçersiz</value>
+  </data>
+  <data name="doNotRedirectUrlRegExLabel.Help" xml:space="preserve">
+    <value>Yönlendirilmeyecek URL normal ifade deseni, eşleşen URL'lerin hiçbir durumda yönlendirilmesini engeller.  Bir URL yanlış şekilde yönlendiriliyorsa bu deseni kullanın.</value>
+  </data>
+  <data name="doNotRedirectUrlRegExLabel.Text" xml:space="preserve">
+    <value>Yönlendirilmeyecek URL Normal İfadesi</value>
+  </data>
+  <data name="doNotRedirectHttpsUrlRegExInvalidPattern.Text" xml:space="preserve">
+    <value>Yönlendirilmeyecek Https URL Normal İfadesi geçersiz</value>
+  </data>
+  <data name="doNotRedirectHttpsUrlRegExLabel.Help" xml:space="preserve">
+    <value>Yönlendirilmeyecek https URL normal ifadesi, http ve https URL'leri arasındaki istenmeyen yönlendirmeleri durdurmak için kullanılır.  Eşleşen tüm URL'ler için yönlendirmeyi engeller ve hem http-&gt;https hem de https-&gt;http yönlendirmelerinde çalışır.</value>
+  </data>
+  <data name="doNotRedirectHttpsUrlRegExLabel.Text" xml:space="preserve">
+    <value>Yönlendirilmeyecek Https URL Normal İfadesi</value>
+  </data>
+  <data name="preventLowerCaseUrlRegExLabel.Help" xml:space="preserve">
+    <value>Küçük Harfe Dönüştürülmeyecek URL normal ifadesi, eşleşen URL'lerin otomatik olarak küçük harfe dönüştürülmesini durdurur.  Karışık/büyük harfli kalması gereken URL'lerin küçük harfe dönüştürülmesini engellemek için bu deseni kullanın.  Bu genellikle içeriğinde kodlanmış bir karakter veya büyük/küçük harfe duyarlı bir değer bulunan URL'lerin dönüştürülmesini durdurmak için kullanılır.</value>
+  </data>
+  <data name="preventLowerCaseUrlRegExLabel.Text" xml:space="preserve">
+    <value>Küçük Harfe Dönüştürülmeyecek URL Normal İfadesi</value>
+  </data>
+  <data name="preventLowerCaseUrlRegExInvalidPattern.Text" xml:space="preserve">
+    <value>Küçük Harfe Dönüştürülmeyecek URL Normal İfadesi geçersiz</value>
+  </data>
+  <data name="doNotUseFriendlyUrlsRegExLabel.Help" xml:space="preserve">
+    <value>Kullanıcı Dostu URL Kullanılmayacak normal ifade deseni, belirli DotNetNuke sayfalarını daha uzun bir URL kullanmaya zorlamak için kullanılır.  Bu genellikle geriye dönük uyumluluk davranışı sağlamak için kullanılır.</value>
+  </data>
+  <data name="doNotUseFriendlyUrlsRegExLabel.Text" xml:space="preserve">
+    <value>Kullanıcı Dostu URL Kullanılmayacak Normal İfade</value>
+  </data>
+  <data name="doNotUseFriendlyUrlsRegExInvalidPattern.Text" xml:space="preserve">
+    <value>Kullanıcı Dostu URL Kullanılmayacak Normal İfade geçersiz</value>
+  </data>
+  <data name="keepInQueryStringRegExInvalidPattern.Text" xml:space="preserve">
+    <value>Sorgu Dizesinde Tutulacak Normal İfade geçersiz</value>
+  </data>
+  <data name="keepInQueryStringRegExLabel.Help" xml:space="preserve">
+    <value>Sorgu Dizesinde Tutulacak normal ifadesi, kullanıcı dostu URL yolunun bir bölümünü eşleştirerek o bölümün sorgu dizesinde kalmasını sağlar.  /pagename/key/value biçiminde bir DotNetNuke URL'si oluşturulduğunda, /key/value şeklindeki bir ‘Sorgu Dizesinde Tutulacak Normal İfade’ deseni yolun bu bölümüyle eşleşir ve onu oluşturulan URL'de sorgu dizesinin parçası olarak bırakır; örn. /pagename?key=value.</value>
+  </data>
+  <data name="keepInQueryStringRegExLabel.Text" xml:space="preserve">
+    <value>Sorgu Dizesinde Tutulacak Normal İfade</value>
+  </data>
+  <data name="urlsWithNoExtensionRegExLabel.Help" xml:space="preserve">
+    <value>Uzantısız URL'ler normal ifade deseni, sunucudaki bir kaynağa işaret etmeyen, DotNetNuke sayfası olmayan ancak URL uzantısı olmadan istenebilen URL'leri doğrulamak için kullanılır.  Bu normal ifadeyle eşleşen URL'ler, eşleşen bir DotNetNuke sayfası bulunamadığında 404 olarak değerlendirilmez.</value>
+  </data>
+  <data name="urlsWithNoExtensionRegExLabel.Text" xml:space="preserve">
+    <value>Uzantısız URL'ler Normal İfadesi</value>
+  </data>
+  <data name="urlsWithNoExtensionRegExInvalidPattern.Text" xml:space="preserve">
+    <value>Uzantısız URL'ler Normal İfadesi geçersiz</value>
+  </data>
+  <data name="validFriendlyUrlRegExLabel.Help" xml:space="preserve">
+    <value>Bu desen, bir sayfa adını veya URL bölümünü oluşturan karakterlerin kullanıcı dostu bir URL yolu oluşturmak için geçerli olup olmadığını belirlemek amacıyla kullanılır. Desenle eşleşmeyen karakterler sayfa adlarından kaldırılır</value>
+  </data>
+  <data name="validFriendlyUrlRegExLabel.Text" xml:space="preserve">
+    <value>Geçerli Kullanıcı Dostu URL Normal İfadesi</value>
+  </data>
+  <data name="validFriendlyUrlRegExInvalidPattern.Text" xml:space="preserve">
+    <value>Geçerli Kullanıcı Dostu URL Normal İfadesi geçersiz</value>
+  </data>
+  <data name="TestPageUrl.Text" xml:space="preserve">
+    <value>SAYFA URL'SİNİ TEST ET</value>
+  </data>
+  <data name="TestUrlRewriting.Text" xml:space="preserve">
+    <value>URL YENİDEN YAZMAYI TEST ET</value>
+  </data>
+  <data name="selectPageToTestLabel.Help" xml:space="preserve">
+    <value>URL oluşturmayı test etmek için bu siteden bir sayfa seçin.   Sayfa listesini filtrelemek için ‘Ara’ kutusunu kullanabilirsiniz.</value>
+  </data>
+  <data name="selectPageToTestLabel.Text" xml:space="preserve">
+    <value>Test Edilecek Sayfa</value>
+  </data>
+  <data name="NoneSpecified.Text" xml:space="preserve">
+    <value>Belirtilmedi</value>
+  </data>
+  <data name="None.Text" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="queryStringLabel.Help" xml:space="preserve">
+    <value>Yolda ek bilgi içeren bir URL oluşturmak için yol bilgisini sorgu dizesi biçiminde ekleyin.  Örneğin &amp;key=value girildiğinde, oluşturulan URL'nin yolu /key/value içerecek şekilde değişir.  Üçüncü taraf URL'lerin oluşturduğu örnek URL'leri test etmek için bu özelliği kullanın.</value>
+  </data>
+  <data name="queryStringLabel.Text" xml:space="preserve">
+    <value>Sorgu Dizesi Ekle (isteğe bağlı)</value>
+  </data>
+  <data name="pageNameLabel.Help" xml:space="preserve">
+    <value>Bazı modüller, URL'nin son bölümünü açıkça tanımlayarak kullanıcı dostu bir URL oluşturur.  Böyle bir durumda, URL oluşturulurken kullanılan ‘pagename’ değerini girin.  Açık bir değeriniz yoksa veya bu değeri ne zaman kullanacağınızı bilmiyorsanız alanı boş bırakın.</value>
+  </data>
+  <data name="pageNameLabel.Text" xml:space="preserve">
+    <value>Özel Sayfa Adı / URL Bitiş Dizesi (isteğe bağlı)</value>
+  </data>
+  <data name="resultingUrlsLabel.Text" xml:space="preserve">
+    <value>Oluşan URL'ler</value>
+  </data>
+  <data name="resultingUrlsLabel.Help" xml:space="preserve">
+    <value>Seçilen sayfadan, takma ada ve/veya dile bağlı olarak oluşturulabilecek URL'lerin listesini gösterir.</value>
+  </data>
+  <data name="TestUrlButtonCaption.Text" xml:space="preserve">
+    <value>URL'yi Test Et</value>
+  </data>
+  <data name="testUrlRewritingButton.Text" xml:space="preserve">
+    <value>URL Yeniden Yazmayı Test Et</value>
+  </data>
+  <data name="testUrlRewritingLabel.Text" xml:space="preserve">
+    <value>Test Edilecek URL</value>
+  </data>
+  <data name="testUrlRewritingLabel.Help" xml:space="preserve">
+    <value>URL Yeniden Yazma / Yönlendirme işlemini test etmek için bu kutuya tam bir URL (http:// veya https:// dahil) girin.</value>
+  </data>
+  <data name="rewritingResultLabel.Help" xml:space="preserve">
+    <value>Yeniden yazılan URL'yi, DNN platformu ve üçüncü taraf uzantılar tarafından görülecek ham biçimde gösterir.</value>
+  </data>
+  <data name="rewritingResultLabel.Text" xml:space="preserve">
+    <value>Yeniden Yazma Sonucu</value>
+  </data>
+  <data name="languageLabel.Help" xml:space="preserve">
+    <value>URL Yeniden Yazma işlemi sırasında belirlenen kültür kodunu gösterir.</value>
+  </data>
+  <data name="languageLabel.Text" xml:space="preserve">
+    <value>Belirlenen Dil / Kültür</value>
+  </data>
+  <data name="identifiedTabLabel.Help" xml:space="preserve">
+    <value>URL Yeniden Yazma işlemi sırasında belirlenen DNN sayfasının adı.</value>
+  </data>
+  <data name="identifiedTabLabel.Text" xml:space="preserve">
+    <value>Belirlenen Sayfa</value>
+  </data>
+  <data name="redirectionResultLabel.Help" xml:space="preserve">
+    <value>Test edilen URL yönlendirilecekse, URL'nin yönlendirileceği konumu gösterir.</value>
+  </data>
+  <data name="redirectionResultLabel.Text" xml:space="preserve">
+    <value>Yönlendirme Sonucu</value>
+  </data>
+  <data name="redirectionReasonLabel.Help" xml:space="preserve">
+    <value>Bu URL'nin yönlendirilme nedeni</value>
+  </data>
+  <data name="redirectionReasonLabel.Text" xml:space="preserve">
+    <value>Yönlendirme Nedeni</value>
+  </data>
+  <data name="operationMessagesLabel.Help" xml:space="preserve">
+    <value>URL Yeniden Yazma testi sırasında oluşturulan hata ayıklama mesajları.</value>
+  </data>
+  <data name="operationMessagesLabel.Text" xml:space="preserve">
+    <value>İşlem Mesajları</value>
+  </data>
+  <data name="Alias_In_Url.Text" xml:space="preserve">
+    <value>URL'de Takma Ad</value>
+  </data>
+  <data name="Built_In_Url.Text" xml:space="preserve">
+    <value>Yerleşik URL</value>
+  </data>
+  <data name="Custom_Tab_Alias.Text" xml:space="preserve">
+    <value>Özel Sayfa Takma Adı</value>
+  </data>
+  <data name="Deleted_Page.Text" xml:space="preserve">
+    <value>Silinmiş Sayfa</value>
+  </data>
+  <data name="Diacritic_Characters.Text" xml:space="preserve">
+    <value>Diakritik Karakterler</value>
+  </data>
+  <data name="Disabled_Page.Text" xml:space="preserve">
+    <value>Devre Dışı Sayfa</value>
+  </data>
+  <data name="Error_Event.Text" xml:space="preserve">
+    <value>Hata Olayı</value>
+  </data>
+  <data name="Exception.Text" xml:space="preserve">
+    <value>Özel Durum</value>
+  </data>
+  <data name="File_Url.Text" xml:space="preserve">
+    <value>Dosya URL'si</value>
+  </data>
+  <data name="Host_Portal_Used.Text" xml:space="preserve">
+    <value>Sunucu Sitesi Kullanıldı</value>
+  </data>
+  <data name="Module_Provider_Redirect.Text" xml:space="preserve">
+    <value>Modül Sağlayıcı Yönlendirmesi</value>
+  </data>
+  <data name="Module_Provider_Rewrite_Redirect.Text" xml:space="preserve">
+    <value>Modül Sağlayıcı Yeniden Yazma Yönlendirmesi</value>
+  </data>
+  <data name="Not_Redirected.Text" xml:space="preserve">
+    <value>Yönlendirilmedi</value>
+  </data>
+  <data name="No_Portal_Alias.Text" xml:space="preserve">
+    <value>Site Takma Adı Yok</value>
+  </data>
+  <data name="Page_404.Text" xml:space="preserve">
+    <value>404 Sayfası</value>
+  </data>
+  <data name="Requested_404.Text" xml:space="preserve">
+    <value>404 İstendi</value>
+  </data>
+  <data name="Requested_404_In_Url.Text" xml:space="preserve">
+    <value>URL'de 404 İstendi</value>
+  </data>
+  <data name="Requested_SplashPage.Text" xml:space="preserve">
+    <value>Açılış Sayfası İstendi</value>
+  </data>
+  <data name="Secure_Page_Requested.Text" xml:space="preserve">
+    <value>Güvenli Sayfa İstendi</value>
+  </data>
+  <data name="SiteUrls_Config_Rule.Text" xml:space="preserve">
+    <value>SiteUrls Yapılandırma Kuralı</value>
+  </data>
+  <data name="Site_Root_Home.Text" xml:space="preserve">
+    <value>Site Kök Ana Sayfası</value>
+  </data>
+  <data name="Spaces_Replaced.Text" xml:space="preserve">
+    <value>Boşluklar Değiştirildi</value>
+  </data>
+  <data name="Tab_External_Url.Text" xml:space="preserve">
+    <value>Sayfa Harici URL'si</value>
+  </data>
+  <data name="Tab_Permanent_Redirect.Text" xml:space="preserve">
+    <value>Sayfa Kalıcı Yönlendirmesi</value>
+  </data>
+  <data name="Unfriendly_Url_Child_Portal.Text" xml:space="preserve">
+    <value>Kullanıcı Dostu Olmayan URL Alt Sitesi</value>
+  </data>
+  <data name="Unfriendly_Url_TabId.Text" xml:space="preserve">
+    <value>Kullanıcı Dostu Olmayan URL TabId</value>
+  </data>
+  <data name="User_Profile_Url.Text" xml:space="preserve">
+    <value>Kullanıcı Profili URL'si</value>
+  </data>
+  <data name="Wrong_Portal_Alias.Text" xml:space="preserve">
+    <value>Yanlış Site Takma Adı</value>
+  </data>
+  <data name="Wrong_Portal_Alias_For_Browser_Type.Text" xml:space="preserve">
+    <value>Tarayıcı Türü İçin Yanlış Site Takma Adı</value>
+  </data>
+  <data name="Wrong_Portal_Alias_For_Culture.Text" xml:space="preserve">
+    <value>Kültür İçin Yanlış Site Takma Adı</value>
+  </data>
+  <data name="Wrong_Portal_Alias_For_Culture_And_Browser.Text" xml:space="preserve">
+    <value>Kültür ve Tarayıcı İçin Yanlış Site Takma Adı</value>
+  </data>
+  <data name="Wrong_Sub_Domain.Text" xml:space="preserve">
+    <value>Yanlış Alt Alan Adı</value>
+  </data>
+  <data name="SitemapSettings.Text" xml:space="preserve">
+    <value>GENEL SİTE HARİTASI AYARLARI</value>
+  </data>
+  <data name="SitemapProviders.Text" xml:space="preserve">
+    <value>SİTE HARİTASI SAĞLAYICILARI</value>
+  </data>
+  <data name="SiteSubmission.Text" xml:space="preserve">
+    <value>SİTE GÖNDERİMİ</value>
+  </data>
+  <data name="sitemapUrlLabel.Help" xml:space="preserve">
+    <value>Daha iyi arama optimizasyonu için Site Haritasını Google'a gönderin. Bir Google Search Console hesabı edinmek ve site sahipliğinizi doğrulamak için (aşağıdaki Doğrulama seçeneğini kullanarak) Gönder'e tıklayın. Doğrulandıktan sonra Google Sitemaps sekmesinde Add General Web Sitemap seçeneğini belirleyip görüntülenen Site Haritası URL'sini yapıştırabilirsiniz.</value>
+  </data>
+  <data name="sitemapUrlLabel.Text" xml:space="preserve">
+    <value>Site Haritası URL'si</value>
+  </data>
+  <data name="lblCache.Help" xml:space="preserve">
+    <value>Site Haritasının her istendiğinde yeniden oluşturulmaması için önbelleğe alınmasını istiyorsanız bu seçeneği etkinleştirin. Bu, özellikle büyük siteler için gereklidir. Sitenizde 50.000'den fazla URL varsa Site Haritası varsayılan olarak 1 gün süreyle önbelleğe alınır. Önbelleğe almayı devre dışı bırakmak için bu değeri 0 olarak ayarlayın.</value>
+  </data>
+  <data name="lblCache.Text" xml:space="preserve">
+    <value>Site Haritasının Önbellekte Tutulacağı Gün Sayısı</value>
+  </data>
+  <data name="lnkResetCache.Text" xml:space="preserve">
+    <value>Önbelleği Temizle</value>
+  </data>
+  <data name="lblExcludePriority.Help" xml:space="preserve">
+    <value>Bu seçenek, belirli sayfaları Site Haritasından çıkarmak için kullanılabilir. Örneğin bir sayfa için 0.1 önceliği ayarlayıp burada 0.1 seçerek sayfanın oluşturulan Site Haritasına dahil edilmemesini sağlayabilirsiniz.</value>
+  </data>
+  <data name="lblExcludePriority.Text" xml:space="preserve">
+    <value>Önceliği Şundan Düşük Olan URL'leri Hariç Tut</value>
+  </data>
+  <data name="lblMinPagePriority.Help" xml:space="preserve">
+    <value>"Sayfa düzeyine dayalı öncelikler" kullanıldığında, alt düzey sayfalarda kullanılacak en düşük önceliği belirlemek için sayfalar için asgari öncelik kullanılabilir</value>
+  </data>
+  <data name="lblMinPagePriority.Text" xml:space="preserve">
+    <value>Sayfalar İçin Asgari Öncelik</value>
+  </data>
+  <data name="lblIncludeHidden.Help" xml:space="preserve">
+    <value>İşaretlendiğinde gizli sayfalar (menüde görünmeyenler) da Site Haritasına dahil edilir. Varsayılan olarak gizli sayfalar dahil edilmez.</value>
+  </data>
+  <data name="lblIncludeHidden.Text" xml:space="preserve">
+    <value>Gizli Sayfaları Dahil Et</value>
+  </data>
+  <data name="lblLevelPriority.Help" xml:space="preserve">
+    <value>İşaretlendiğinde, her sayfanın önceliği sayfanın hiyerarşi düzeyine göre hesaplanır. Üst düzey sayfalar 1, ikinci düzey 0.9, üçüncü düzey 0.8 ... değerini alır.  Bu ayar, sayfada kayıtlı değeri değiştirmez ancak gerektiğinde hesaplanan değeri kullanır.</value>
+  </data>
+  <data name="lblLevelPriority.Text" xml:space="preserve">
+    <value>Sayfa Düzeyine Dayalı Öncelikleri Kullan</value>
+  </data>
+  <data name="1Day.Text" xml:space="preserve">
+    <value>1 Gün</value>
+  </data>
+  <data name="2Days.Text" xml:space="preserve">
+    <value>2 Gün</value>
+  </data>
+  <data name="3Days.Text" xml:space="preserve">
+    <value>3 Gün</value>
+  </data>
+  <data name="4Days.Text" xml:space="preserve">
+    <value>4 Gün</value>
+  </data>
+  <data name="5Days.Text" xml:space="preserve">
+    <value>5 Gün</value>
+  </data>
+  <data name="6Days.Text" xml:space="preserve">
+    <value>6 Gün</value>
+  </data>
+  <data name="7Days.Text" xml:space="preserve">
+    <value>7 Gün</value>
+  </data>
+  <data name="DisableCaching.Text" xml:space="preserve">
+    <value>Önbelleğe Almayı Devre Dışı Bırak</value>
+  </data>
+  <data name="enableSitemapProvider.Help" xml:space="preserve">
+    <value>Site Haritası Sağlayıcısını Etkinleştir</value>
+  </data>
+  <data name="enableSitemapProvider.Text" xml:space="preserve">
+    <value>Site Haritası Sağlayıcısını Etkinleştir</value>
+  </data>
+  <data name="overridePriority.Help" xml:space="preserve">
+    <value>Önceliği Geçersiz Kıl</value>
+  </data>
+  <data name="overridePriority.Text" xml:space="preserve">
+    <value>Önceliği Geçersiz Kıl</value>
+  </data>
+  <data name="Name.Header" xml:space="preserve">
+    <value>AD</value>
+  </data>
+  <data name="Enabled.Header" xml:space="preserve">
+    <value>Etkin</value>
+  </data>
+  <data name="Priority.Header" xml:space="preserve">
+    <value>Öncelik</value>
+  </data>
+  <data name="lblSearchEngine.Help" xml:space="preserve">
+    <value>Dizine eklenmesi için sitenizi seçilen arama motoruna gönderin.</value>
+  </data>
+  <data name="lblSearchEngine.Text" xml:space="preserve">
+    <value>Arama Motoru</value>
+  </data>
+  <data name="lblVerification.Help" xml:space="preserve">
+    <value>Google Search Console'a kaydolurken site sahipliğinizi doğrulamanız gerekir. Google Doğrulama ekranından "Upload an HTML File" yöntemini seçin. Görüntülenen dosya adını (örn. google53c0cef435b2b81e.html) Doğrulama metin kutusuna girip Oluştur'a tıklayın. Ardından Google'a dönüp Verify düğmesini seçin.</value>
+  </data>
+  <data name="lblVerification.Text" xml:space="preserve">
+    <value>Doğrulama</value>
+  </data>
+  <data name="Submit.Text" xml:space="preserve">
+    <value>Gönder</value>
+  </data>
+  <data name="Create.Text" xml:space="preserve">
+    <value>Oluştur</value>
+  </data>
+  <data name="VerificationValidity.ErrorMessage" xml:space="preserve">
+    <value>Geçerli bir dosya adının .html uzantısı olmalıdır (örn. google53c0cef435b2b81e.html)</value>
+  </data>
+  <data name="NoExtensionUrlProviders.Text" xml:space="preserve">
+    <value>Uzantı URL sağlayıcısı bulunamadı</value>
+  </data>
+</root>

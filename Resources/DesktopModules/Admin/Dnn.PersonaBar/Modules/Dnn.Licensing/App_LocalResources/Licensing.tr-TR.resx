@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="nav_Licensing.Text" xml:space="preserve">
+    <value>Hakkında</value>
+  </data>
+  <data name="LicenseType.Header" xml:space="preserve">
+    <value>LİSANS TÜRÜ</value>
+  </data>
+  <data name="InvoiceNumber.Header" xml:space="preserve">
+    <value>FATURA NUMARASI</value>
+  </data>
+  <data name="WebServer.Header" xml:space="preserve">
+    <value>WEB SUNUCUSU</value>
+  </data>
+  <data name="Activated.Header" xml:space="preserve">
+    <value>ETKİNLEŞTİRİLME</value>
+  </data>
+  <data name="Expires.Header" xml:space="preserve">
+    <value>SONA ERME</value>
+  </data>
+  <data name="LicenseType.Development" xml:space="preserve">
+    <value>Geliştirme</value>
+  </data>
+  <data name="LicenseType.Production" xml:space="preserve">
+    <value>Üretim</value>
+  </data>
+  <data name="LicenseType.Failover" xml:space="preserve">
+    <value>Yük Devretme</value>
+  </data>
+  <data name="LicenseType.Staging" xml:space="preserve">
+    <value>Hazırlık</value>
+  </data>
+  <data name="LicenseType.Test" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="Error.Unknown.Activation" xml:space="preserve">
+    <value>İstek işlenemedi. Lütfen daha sonra yeniden deneyin veya manuel etkinleştirmeyi kullanın.</value>
+  </data>
+  <data name="Error.LicenseAlreadyExists" xml:space="preserve">
+    <value>Lisans etkinleştirilemedi. {0} sunucusunda zaten bir {1} lisansı bulunuyor.</value>
+  </data>
+  <data name="Error.ContactServer.activate" xml:space="preserve">
+    <value>Lisans etkinleştirilemedi. Lisans sunucusuyla bağlantı kurulamadı. Lütfen daha sonra yeniden deneyin veya manuel etkinleştirmeyi kullanın. Sorun yaşamaya devam ederseniz Teknik Destek ile iletişime geçin.</value>
+  </data>
+  <data name="Error.ContactServer.canrenew" xml:space="preserve">
+    <value>Lisans sunucusuyla bağlantı kurulamadı. Lisansları otomatik olarak etkinleştiremez veya yenileyemezsiniz. Bir lisansı etkinleştirmek için manuel etkinleştirmeyi kullanabilirsiniz.&lt;br /&gt;&lt;br /&gt;
+Lisans yenileme için &lt;a href="mailto:customercare@dnnsoftware.com"&gt;customercare@dnnsoftware.com&lt;/a&gt; adresiyle iletişime geçin.</value>
+  </data>
+  <data name="Error.ContactServer.deactivate" xml:space="preserve">
+    <value>Lisansınız silindi.&lt;br /&gt;&lt;br /&gt;
+Lisans sunucusuyla bağlantı kurulamadığından etkinleştirme hakkı faturanıza geri eklenemedi. Lisans etkinleştirme için lütfen Teknik Destek ile iletişime geçin.</value>
+  </data>
+  <data name="Error.ContactServer.renew" xml:space="preserve">
+    <value>Lisans yenilenemedi. Lisans sunucusuyla bağlantı kurulamadı. Lütfen daha sonra yeniden deneyin veya &lt;a href="mailto:customercare@dnnsoftware.com"&gt;customercare@dnnsoftware.com&lt;/a&gt; adresiyle iletişime geçin</value>
+  </data>
+  <data name="Error.ACT1.Text" xml:space="preserve">
+    <value>Lisans etkinleştirilemedi. Girilen lisans bilgileri geçerli bir lisansla eşleşmiyor.&lt;br /&gt;&lt;br /&gt;Lisans bilgilerinizi &lt;a href="{0}" target="_blank"&gt;dnnsoftware.com üzerindeki lisanslarınız sayfasında&lt;/a&gt; doğrulayıp yeniden deneyin. Sorun yaşamaya devam ederseniz Teknik Destek ile iletişime geçin.</value>
+  </data>
+  <data name="Error.ACT2.Text" xml:space="preserve">
+    <value>Lisans etkinleştirilemedi. {0} için üretim etkinleştirmesi zaten kullanımda.</value>
+  </data>
+  <data name="Error.ACT3.Text" xml:space="preserve">
+    <value>Bu istemci adresinden yapılabilecek etkinleştirme sınırını aştınız</value>
+  </data>
+  <data name="Error.ACT4.Text" xml:space="preserve">
+    <value>Lisans etkinleştirilemedi. {0} için üretim etkinleştirmesi zaten kullanımda.</value>
+  </data>
+  <data name="Error.ACT6.Text" xml:space="preserve">
+    <value>Lisans etkinleştirilemedi. Bu lisansın hizmet süresi {0:d} tarihinde sona erdi. Lütfen &lt;a href="mailto:customercare@dnnsoftware.com"&gt;customercare@dnnsoftware.com&lt;/a&gt; adresiyle iletişime geçin.</value>
+  </data>
+  <data name="Error.DEA1.Text" xml:space="preserve">
+    <value>Lisans silinemedi. Lisans bulunamadı.</value>
+  </data>
+  <data name="WebLicenseList.url" xml:space="preserve">
+    <value>http://www.dnnsoftware.com/Support/Success-Network/License-Management</value>
+  </data>
+  <data name="Error.Unknown" xml:space="preserve">
+    <value>İstek işlenemedi. Lütfen daha sonra yeniden deneyin.</value>
+  </data>
+  <data name="Error.ExpiredLicense" xml:space="preserve">
+    <value>Lisans etkinleştirilemedi. Lisansınızın süresi {0:d} tarihinde doldu. Lisanslarınızı &lt;a href="{1}" target="_blank"&gt;dnnsoftware.com üzerindeki lisanslarınız sayfasında&lt;/a&gt; kontrol edin. Ürünü ilk satın aldığınızda size verilen hesapla giriş yapın.</value>
+  </data>
+  <data name="Success.DevLicenseActivated" xml:space="preserve">
+    <value>Geliştirme lisansı başarıyla etkinleştirildi.</value>
+  </data>
+  <data name="Success.FailoverLicenseActivated" xml:space="preserve">
+    <value>Yük devretme lisansı başarıyla etkinleştirildi</value>
+  </data>
+  <data name="Success.LicenseActivated" xml:space="preserve">
+    <value>Üretim lisansı başarıyla etkinleştirildi</value>
+  </data>
+  <data name="Success.LicenseDeactivated" xml:space="preserve">
+    <value>Lisansınız başarıyla silindi.</value>
+  </data>
+  <data name="Success.LicenseDeactivatedContactServerErr" xml:space="preserve">
+    <value>Lisansınız silindi.&lt;br /&gt;&lt;br /&gt;Lisans sunucusuyla bağlantı kurulamadığından etkinleştirme hakkı faturanıza geri eklenemedi. Üretim lisansı olarak etkinleştirmeniz gerekiyorsa lütfen Teknik Destek ile iletişime geçin.</value>
+  </data>
+  <data name="Success.LicenseDeactivatedNoActivationIncrease" xml:space="preserve">
+    <value>Lisansınız silindi.&lt;br /&gt;&lt;br /&gt;Etkinleştirme hakkı faturaya geri eklenemedi. Üretim lisansı olarak etkinleştirmeniz gerekiyorsa lütfen Teknik Destek ile iletişime geçin.</value>
+  </data>
+  <data name="Success.LicenseRenewed" xml:space="preserve">
+    <value>Lisansınız başarıyla yenilendi.</value>
+  </data>
+  <data name="Success.StagingLicenseActivated" xml:space="preserve">
+    <value>Hazırlık lisansı başarıyla etkinleştirildi</value>
+  </data>
+  <data name="Success.TestLicenseActivated" xml:space="preserve">
+    <value>Test lisansı başarıyla etkinleştirildi</value>
+  </data>
+  <data name="Success.TrialActivation" xml:space="preserve">
+    <value>Uzatılmış deneme lisansınız başarıyla yüklendi.</value>
+  </data>
+  <data name="Success.TrialExtensionRequest" xml:space="preserve">
+    <value>Deneme lisansı uzatma talebiniz gönderildi. 1 iş günü içinde lisansınızı uzatmaya ilişkin talimatları içeren bir e-posta almanız gerekir. Deneme lisansı uzatmalarıyla ilgili sorularınız için DNN Corp. Satış Departmanı'nı 650-288-3150 numaralı telefondan arayabilirsiniz.</value>
+  </data>
+  <data name="Intro.Header" xml:space="preserve">
+    <value>DNN Platform</value>
+  </data>
+  <data name="Intro" xml:space="preserve">
+    <value>DNN® (eski adıyla DotNetNuke®), Microsoft ekosistemindeki önde gelen açık kaynaklı web içerik yönetim platformudur (CMS). Ürün; profesyonel görünümlü ve kullanımı kolay ticari web siteleri, sosyal intranetler, topluluk portalları veya iş ortağı extranetleri oluşturmak için kullanılır. Her türden dinamik içerik barındıran DNN sitelerinin dağıtımı ve güncellenmesi kolaydır. DNN Platform 8 milyondan fazla kez indirilmiş olup dünya genelinde 750.000'den fazla web sitesine güç vermektedir. 1 milyonu aşkın üyeden oluşan topluluk, güçlü bir destek ağı oluşturur.</value>
+  </data>
+  <data name="GitHub.Header" xml:space="preserve">
+    <value>KOD</value>
+  </data>
+  <data name="GitHub" xml:space="preserve">
+    <value>Açık kaynaklı DNN Platform projesi GitHub üzerinde yönetilmektedir. Bizi orada ziyaret edin ve katkıda bulunun. Sorunları bildirin, değerli geri bildirimlerinizi paylaşın ve projeye katkı sağlayın.</value>
+  </data>
+  <data name="Community.Header" xml:space="preserve">
+    <value>TOPLULUK</value>
+  </data>
+  <data name="Community" xml:space="preserve">
+    <value>DNN Topluluğu aktif ve canlıdır. Bizi ziyaret edin ve etkinliklere katılın. Yardım alın, projeleri tartışın ve başkalarının yaptığı harika çalışmaları takip edin.</value>
+  </data>
+  <data name="Docs.Header" xml:space="preserve">
+    <value>BELGELER</value>
+  </data>
+  <data name="Docs" xml:space="preserve">
+    <value>DNN Belgeleri de açık kaynaklıdır! DNN'e nasıl başlayacağınızı öğrenin, adım adım öğreticileri izleyin ve hatta API belgelerini inceleyin.</value>
+  </data>
+</root>

@@ -1,0 +1,449 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="nav_Recyclebin.Text" xml:space="preserve">
+    <value>Geri Dönüşüm Kutusu</value>
+  </data>
+  <data name="recyclebin_Actions.Text" xml:space="preserve">
+    <value>İşlemler</value>
+  </data>
+  <data name="recyclebin_CancelConfirm.Text" xml:space="preserve">
+    <value>Hayır</value>
+  </data>
+  <data name="recyclebin_Delete.Text" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="recyclebin_DeleteConfirm.Text" xml:space="preserve">
+    <value>Evet</value>
+  </data>
+  <data name="recyclebin_DeletedDate.Text" xml:space="preserve">
+    <value>Silinme Tarihi</value>
+  </data>
+  <data name="recyclebin_EmptyRecycleBin.Text" xml:space="preserve">
+    <value>Geri Dönüşüm Kutusunu Boşalt</value>
+  </data>
+  <data name="recyclebin_EmptyRecycleBinConfirm.Text" xml:space="preserve">
+    <value>Geri dönüşüm kutusundaki tüm öğeleri boşaltmak istiyor musunuz?</value>
+  </data>
+  <data name="recyclebin_Modules.Text" xml:space="preserve">
+    <value>Modüller</value>
+  </data>
+  <data name="recyclebin_Users.Text" xml:space="preserve">
+    <value>Kullanıcılar</value>
+  </data>
+  <data name="recyclebin_ModuleTitle.Text" xml:space="preserve">
+    <value>Modül Başlığı</value>
+  </data>
+  <data name="recyclebin_Username.Text" xml:space="preserve">
+    <value>Kullanıcı Adı</value>
+  </data>
+  <data name="recyclebin_UserDisplayName.Text" xml:space="preserve">
+    <value>Görünen Ad</value>
+  </data>
+  <data name="recyclebin_NoConfirm.Text" xml:space="preserve">
+    <value>Hayır</value>
+  </data>
+  <data name="recyclebin_NoItems.Text" xml:space="preserve">
+    <value>Geri dönüşüm kutusu şu anda boş</value>
+  </data>
+  <data name="recyclebin_NoModules.Text" xml:space="preserve">
+    <value>Geri Dönüşüm Kutusunda Modül Yok</value>
+  </data>
+  <data name="recyclebin_NoPages.Text" xml:space="preserve">
+    <value>Geri Dönüşüm Kutusunda Sayfa Yok</value>
+  </data>
+  <data name="recyclebin_NoUsers.Text" xml:space="preserve">
+    <value>Geri Dönüşüm Kutusunda Kullanıcı Yok</value>
+  </data>
+  <data name="recyclebin_Page.Text" xml:space="preserve">
+    <value>Sayfa</value>
+  </data>
+  <data name="recyclebin_Pages.Text" xml:space="preserve">
+    <value>Sayfalar</value>
+  </data>
+  <data name="recyclebin_RemoveModuleConfirm.Text" xml:space="preserve">
+    <value>&lt;p&gt;Bu modülü silmek istediğinizi onaylayın.&lt;/p&gt;</value>
+  </data>
+  <data name="recyclebin_RemoveModulesConfirm.Text" xml:space="preserve">
+    <value>&lt;p&gt;Seçili modülleri silmek istediğinizi onaylayın.&lt;/p&gt;</value>
+  </data>
+  <data name="recyclebin_RemovePageConfirm.Text" xml:space="preserve">
+    <value>&lt;p&gt;Bu sayfayı silmek istediğinizi onaylayın.&lt;/p&gt;</value>
+  </data>
+  <data name="recyclebin_RemovePagesConfirm.Text" xml:space="preserve">
+    <value>&lt;p&gt;Seçili sayfaları silmek istediğinizi onaylayın.&lt;/p&gt;</value>
+  </data>
+  <data name="recyclebin_Restore.Text" xml:space="preserve">
+    <value>Geri Yükle</value>
+  </data>
+  <data name="recyclebin_RestoreModuleConfirm.Text" xml:space="preserve">
+    <value>&lt;p&gt;Bu modülü geri yüklemek istediğinizi onaylayın.&lt;/p&gt;</value>
+  </data>
+  <data name="recyclebin_RestoreModulesConfirm.Text" xml:space="preserve">
+    <value>&lt;p&gt;Seçili modülleri geri yüklemek istediğinizi onaylayın.&lt;/p&gt;</value>
+  </data>
+  <data name="recyclebin_RestorePageConfirm.Text" xml:space="preserve">
+    <value>&lt;p&gt;Bu sayfayı geri yüklemek istediğinizi onaylayın.&lt;/p&gt;</value>
+  </data>
+  <data name="recyclebin_RestorePageInvalid.Text" xml:space="preserve">
+    <value>Önce bu sayfanın üst sayfasını geri yüklemeniz gerekir.</value>
+  </data>
+  <data name="recyclebin_RestorePagesConfirm.Text" xml:space="preserve">
+    <value>&lt;p&gt;Seçili sayfaları geri yüklemek istediğinizi onaylayın.&lt;/p&gt;</value>
+  </data>
+  <data name="recyclebin_RestorePagesInvalid.Text" xml:space="preserve">
+    <value>Geri yüklemeye çalıştığınız sayfaların üst sayfaları da aynı anda seçilmelidir.</value>
+  </data>
+  <data name="recyclebin_RestoreUserConfirm.Text" xml:space="preserve">
+    <value>&lt;p&gt;Bu kullanıcıyı geri yüklemek istediğinizi onaylayın.&lt;/p&gt;</value>
+  </data>
+  <data name="recyclebin_RestoreUsersConfirm.Text" xml:space="preserve">
+    <value>&lt;p&gt;Seçili kullanıcıları geri yüklemek istediğinizi onaylayın.&lt;/p&gt;</value>
+  </data>
+  <data name="recyclebin_RemoveUserConfirm.Text" xml:space="preserve">
+    <value>&lt;p&gt;Bu kullanıcıyı silmek istediğinizi onaylayın.&lt;/p&gt;</value>
+  </data>
+  <data name="recyclebin_RemoveUsersConfirm.Text" xml:space="preserve">
+    <value>&lt;p&gt;Seçili kullanıcıları silmek istediğinizi onaylayın.&lt;/p&gt;</value>
+  </data>
+  <data name="recyclebin_Title.Text" xml:space="preserve">
+    <value>Geri Dönüşüm Kutusu</value>
+  </data>
+  <data name="recyclebin_UnableToSelectAllModules.Text" xml:space="preserve">
+    <value>Sayfası Geri Dönüşüm Kutusunda bulunan bir modül kalıcı olarak silinemez veya geri yüklenemez.</value>
+  </data>
+  <data name="recyclebin_YesConfirm.Text" xml:space="preserve">
+    <value>Evet</value>
+  </data>
+  <data name="Service_RemoveTabError.Text" xml:space="preserve">
+    <value>Sayfa kaldırılırken bir hata oluştu:{0}</value>
+  </data>
+  <data name="Service_RemoveTabModuleError.Text" xml:space="preserve">
+    <value>Sayfa modülleri kaldırılırken bir hata oluştu:{0}</value>
+  </data>
+  <data name="Service_RemoveUserError.Text" xml:space="preserve">
+    <value>Kullanıcı kaldırılırken bir hata oluştu:{0}</value>
+  </data>
+  <data name="Service_RestoreModuleError.Text" xml:space="preserve">
+    <value>{1} sayfasındaki {0} modülü geri yüklenirken hata oluştu. Sayfa silinmiş.</value>
+  </data>
+  <data name="Service_RestoreTabError.Text" xml:space="preserve">
+    <value>{0} sayfası, üst sayfası geri yüklenmeden geri yüklenemez.</value>
+  </data>
+  <data name="Service_RestoreTabModuleError.Text" xml:space="preserve">
+    <value>Sayfa geri yüklenirken bir hata oluştu:{0}</value>
+  </data>
+  <data name="Service_EmptyRecycleBinError.Text" xml:space="preserve">
+    <value>Öğelerin bazıları silinemedi.</value>
+  </data>
+  <data name="Service_RestoreUserError.Text" xml:space="preserve">
+    <value>Kullanıcı geri yüklenirken hata oluştu.</value>
+  </data>
+  <data name="CanNotDeleteModule.Text" xml:space="preserve">
+    <value>"{0}" kimlikli modülü silme izniniz yok.</value>
+  </data>
+  <data name="ModuleNotSoftDeleted.Text" xml:space="preserve">
+    <value>"{0}" kimlikli modül geçici olarak silinmemiş.</value>
+  </data>
+  <data name="Prompt_FlagNotInt.Text" xml:space="preserve">
+    <value>--{0} bir tamsayı olmalıdır\n</value>
+  </data>
+  <data name="Prompt_FlagNotPositiveInt.Text" xml:space="preserve">
+    <value>--{0} değeri 0'dan büyük olmalıdır\n</value>
+  </data>
+  <data name="Prompt_MainParamRequired.Text" xml:space="preserve">
+    <value>{0} zorunludur. --{1} bayrağını kullanın veya değeri komut adından sonraki ilk bağımsız değişken olarak verin\n</value>
+  </data>
+  <data name="ModuleNotFound.Text" xml:space="preserve">
+    <value>"{0}" kimlikli modül "{1}" sayfasında bulunamadı.</value>
+  </data>
+  <data name="Prompt_ModulePurgedSuccessfully.Text" xml:space="preserve">
+    <value>"{0}" kimlikli modül başarıyla temizlendi.</value>
+  </data>
+  <data name="Service_RemoveTabWithChildError.Text" xml:space="preserve">
+    <value>{0} sayfası, alt sayfaları silinmeden silinemez.</value>
+  </data>
+  <data name="Prompt_FlagRequired.Text" xml:space="preserve">
+    <value>--{0} zorunludur\n</value>
+  </data>
+  <data name="Prompt_ModuleRestoredSuccessfully.Text" xml:space="preserve">
+    <value>"{0}" kimlikli modül başarıyla geri yüklendi.</value>
+  </data>
+  <data name="CanNotDeleteTab.Text" xml:space="preserve">
+    <value>"{0}" kimlikli sayfayı silme izniniz yok.</value>
+  </data>
+  <data name="PageNotFound.Text" xml:space="preserve">
+    <value>"{0}" kimlikli sayfa bulunamadı.&gt;br/&gt;</value>
+  </data>
+  <data name="Prompt_PagePurgedSuccessfully.Text" xml:space="preserve">
+    <value>"{0}" kimlikli sayfa başarıyla temizlendi.</value>
+  </data>
+  <data name="Prompt_PageRestoredSuccessfully.Text" xml:space="preserve">
+    <value>"{0}" kimlikli ve "{1}" adlı sayfa başarıyla geri yüklendi.</value>
+  </data>
+  <data name="TabNotSoftDeleted.Text" xml:space="preserve">
+    <value>"{0}" kimlikli sayfa geçici olarak silinmemiş.</value>
+  </data>
+  <data name="PageNotFoundWithName.Text" xml:space="preserve">
+    <value>"{0}" adlı sayfa bulunamadı.&gt;br/&gt;</value>
+  </data>
+  <data name="Prompt_RestorePageNoParams.Text" xml:space="preserve">
+    <value>Bir Sayfa Kimliği (Page ID) veya Sayfa Adı belirtmelisiniz.</value>
+  </data>
+  <data name="UserNotFound.Text" xml:space="preserve">
+    <value>"{0}" kimlikli kullanıcı bulunamadı.</value>
+  </data>
+  <data name="Prompt_PurgeModule_Description.Text" xml:space="preserve">
+    <value>Bir modülü kalıcı olarak siler. Modülün önce geçici olarak silinmiş olması gerekir.</value>
+  </data>
+  <data name="Prompt_PurgeModule_FlagId.Text" xml:space="preserve">
+    <value>Kalıcı olarak silinecek modülün Modül Kimliğini (Module ID) açıkça belirtir. Bayrağın kullanılması zorunlu değildir. Kimlik değerini doğrudan ilk bağımsız değişken olarak verebilirsiniz.</value>
+  </data>
+  <data name="Prompt_PurgeModule_FlagPageId.Text" xml:space="preserve">
+    <value>Modülün başlangıçta eklendiği sayfanın Sayfa Kimliğini (Page Id) açıkça belirtir.</value>
+  </data>
+  <data name="Prompt_PurgeModule_ResultHtml.Text" xml:space="preserve">
+    <value>&lt;h4&gt;Belirli Bir Modülü Temizleme&lt;/h4&gt;
+        &lt;p&gt;Aşağıdaki kod, Modül Kimliği (Module ID) 359 olan modülü temizler&lt;/p&gt;
+        &lt;code class="block"&gt;purge-module 359 --pageid 20&lt;/code&gt;
+
+        &lt;h4&gt;Sonuçlar&lt;/h4&gt;
+        "359" kimlikli modül başarıyla temizlendi.</value>
+  </data>
+  <data name="Prompt_PurgePage_Description.Text" xml:space="preserve">
+    <value>Daha önce silinip DNN Geri Dönüşüm Kutusuna gönderilmiş bir sayfayı siteden kalıcı olarak siler.</value>
+  </data>
+  <data name="Prompt_PurgePage_FlagDeleteChildren.Text" xml:space="preserve">
+    <value>Sayfanın alt sayfaları varsa komutun bunların tümünü mü sileceğini yoksa hata mı göstereceğini belirtir.</value>
+  </data>
+  <data name="Prompt_PurgePage_FlagId.Text" xml:space="preserve">
+    <value>Temizlenecek Sayfa Kimliğini (Page ID) açıkça belirtir. Bayrak adının kullanılması zorunlu değildir. Kimlik değerini doğrudan ilk bağımsız değişken olarak verebilirsiniz.</value>
+  </data>
+  <data name="Prompt_PurgePage_ResultHtml.Text" xml:space="preserve">
+    <value>&lt;div&gt;
+        &lt;h4&gt;Silinmiş Bir Sayfayı Sayfa Kimliğine (Page ID) Göre Temizleme&lt;/h4&gt;
+        &lt;code class="block"&gt;
+            purge-page 999
+        &lt;/code&gt;
+        VEYA
+        &lt;code class="block"&gt;
+            purge-page --id 999
+        &lt;/code&gt;
+
+        &lt;h4&gt;Silinmiş Bir Sayfayı ve Tüm Alt Sayfalarını Temizleme&lt;/h4&gt;
+        &lt;code class="block"&gt;
+            purge-page --id 999 --deletechildren true
+        &lt;/code&gt;
+    &lt;/div&gt;</value>
+  </data>
+  <data name="Prompt_PurgeUser_Description.Text" xml:space="preserve">
+    <value>Belirtilen kullanıcıyı siteden kalıcı olarak siler. Kullanıcının daha önce silinmiş &lt;strong&gt;olması gerekir&lt;/strong&gt;. Bir &lt;code&gt;get-user&lt;/code&gt; komutu çalıştırdığınızda &lt;code&gt;IsDeleted&lt;/code&gt; özelliği &lt;code&gt;true&lt;/code&gt; değilse, bu komutu denediğinizde hata alırsınız. Önce kullanıcı üzerinde &lt;code&gt;delete-user&lt;/code&gt; komutunu kullanmalısınız.</value>
+  </data>
+  <data name="Prompt_PurgeUser_FlagId.Text" xml:space="preserve">
+    <value>Kullanıcının Kullanıcı Kimliği (User ID). Bayrak kullanılmazsa kullanıcı kimliği ilk bağımsız değişken olmalıdır.</value>
+  </data>
+  <data name="Prompt_PurgeUser_ResultHtml.Text" xml:space="preserve">
+    <value>&lt;h4&gt;Bir Kullanıcıyı Kalıcı Olarak Silme&lt;/h4&gt;
+    &lt;p&gt;Kullanıcı Kimliği (User ID) 345 olan kullanıcıyı kalıcı olarak siler. Ardından &lt;code&gt;get-user 345&lt;/code&gt; komutunu çalıştırırsanız 'kullanıcı bulunamadı' mesajı alırsınız. &lt;/p&gt;
+    &lt;code class="block"&gt;purge-user 345&lt;/code&gt;
+    &lt;p&gt;Bu, yukarıdaki kodun daha açık biçimidir.&lt;/p&gt;
+    &lt;code class="block"&gt;purge-user --id 345&lt;/code&gt;</value>
+  </data>
+  <data name="Prompt_UserPurged.Text" xml:space="preserve">
+    <value>Kullanıcı siteden kalıcı olarak kaldırıldı.</value>
+  </data>
+  <data name="Prompt_CannotPurgeUser.Text" xml:space="preserve">
+    <value>Önce silinmemiş bir kullanıcı temizlenemez. delete-user komutunu deneyin.</value>
+  </data>
+  <data name="Prompt_RestoreModule_Description.Text" xml:space="preserve">
+    <value>Bir modülü DNN Geri Dönüşüm Kutusundan geri yükler.</value>
+  </data>
+  <data name="Prompt_RestoreModule_FlagId.Text" xml:space="preserve">
+    <value>Geri alınacak modülün Modül Kimliğini (Module ID) açıkça belirtir. Bayrağın kullanılması zorunlu değildir. Kimlik değerini doğrudan ilk bağımsız değişken olarak verebilirsiniz.</value>
+  </data>
+  <data name="Prompt_RestoreModule_FlagPageId.Text" xml:space="preserve">
+    <value>Geri yüklemek istediğiniz modülün silinmeden önce bulunduğu sayfanın Sayfa Kimliği (Page ID).</value>
+  </data>
+  <data name="Prompt_RestoreModule_ResultHtml.Text" xml:space="preserve">
+    <value>&lt;h4&gt;Geri Dönüşüm Kutusundan Bir Modülü Geri Yükleme&lt;/h4&gt;
+        &lt;code class="block"&gt;restore-module 359 --pageid 71&lt;/code&gt;
+
+        &lt;h4&gt;Sonuçlar&lt;/h4&gt;
+        "359" kimlikli modül başarıyla geri yüklendi.</value>
+  </data>
+  <data name="Prompt_RestorePage_Description.Text" xml:space="preserve">
+    <value>Bir sayfayı DNN Geri Dönüşüm Kutusundan geri yükler.</value>
+  </data>
+  <data name="Prompt_RestorePage_FlagId.Text" xml:space="preserve">
+    <value>Geri yüklenecek Sayfa Kimliğini (Page ID) açıkça belirtir. Bayrak adının kullanılması zorunlu değildir. Kimlik değerini doğrudan ilk bağımsız değişken olarak verebilirsiniz. &lt;span class="mono"&gt;--parentid&lt;/span&gt; ve &lt;span class="mono"&gt;--name&lt;/span&gt; belirtilmemişse zorunludur.</value>
+  </data>
+  <data name="Prompt_RestorePage_FlagName.Text" xml:space="preserve">
+    <value>Geri yüklenmesi gereken sayfanın adını (başlığını değil) belirtir. Belirli bir üst sayfaya sahip bir sayfa adını hedeflemek için &lt;span class="mono"&gt;--parentid&lt;/span&gt; ile birlikte kullanılabilir. &lt;span class="mono"&gt;--parentid&lt;/span&gt; ve &lt;span class="mono"&gt;--name&lt;/span&gt; belirtilmemişse zorunludur.</value>
+  </data>
+  <data name="Prompt_RestorePage_FlagParentId.Text" xml:space="preserve">
+    <value>Bir sayfayı adına göre geri yüklemek istiyorsanız ve sayfa başka bir sayfanın alt sayfasıysa zorunludur. Bu durumda üst sayfanın kimliğini belirtin.</value>
+  </data>
+  <data name="Prompt_RestorePage_ResultHtml.Text" xml:space="preserve">
+    <value>&lt;div&gt;
+        &lt;h4&gt;Silinmiş Bir Sayfayı Sayfa Kimliğine (Page ID) Göre Geri Yükleme&lt;/h4&gt;
+        &lt;code class="block"&gt;
+            restore-page 999
+        &lt;/code&gt;
+        VEYA
+        &lt;code class="block"&gt;
+            restore-page --id 999
+        &lt;/code&gt;
+
+        &lt;h4&gt;Belirli Bir Sayfa Adına Sahip Sayfayı Geri Yükleme&lt;/h4&gt;
+        &lt;code class="block"&gt;
+            restore-page --name "Page1"
+        &lt;/code&gt;
+
+        &lt;h4&gt;Belirli Bir Sayfa Adına ve Üst Sayfaya Sahip Sayfayı Geri Yükleme&lt;/h4&gt;
+        &lt;code class="block"&gt;
+            restore-page --name "Page1" --parentid 30
+        &lt;/code&gt;
+    &lt;/div&gt;</value>
+  </data>
+  <data name="Prompt_RestoreUser_Description.Text" xml:space="preserve">
+    <value>Silinmiş ancak temizlenmemiş bir kullanıcıyı kurtarır.</value>
+  </data>
+  <data name="Prompt_RestoreUser_FlagId.Text" xml:space="preserve">
+    <value>Kullanıcının Kullanıcı Kimliği (User ID). Bayrak kullanılmazsa kullanıcı kimliği ilk bağımsız değişken olmalıdır.</value>
+  </data>
+  <data name="Prompt_RestoreUser_ResultHtml.Text" xml:space="preserve">
+    <value>&lt;h4&gt;Silinmiş Bir Kullanıcıyı Kurtarma&lt;/h4&gt;
+        &lt;p&gt;Kullanıcı Kimliği (User ID) 345 olan kullanıcıyı geri yükler. Kullanıcı silinmemişse geri yüklenecek bir şey olmadığını belirten bir mesaj alırsınız. Kullanıcı zaten temizlenmişse (veya DNN kullanıcı arayüzü üzerinden 'kaldırılmışsa') 'kullanıcı bulunamadı' mesajı alırsınız. &lt;/p&gt;
+        &lt;code class="block"&gt;restore-user 345&lt;/code&gt;
+        &lt;p&gt;Bu, yukarıdaki kodun daha açık biçimidir.&lt;/p&gt;
+        &lt;code class="block"&gt;restore-user --id 345&lt;/code&gt;</value>
+  </data>
+  <data name="Prompt_RecylcleBinCategory.Text" xml:space="preserve">
+    <value>Geri Dönüşüm Kutusu Komutları</value>
+  </data>
+  <data name="UserRestored.Text" xml:space="preserve">
+    <value>Kullanıcı başarıyla geri yüklendi.</value>
+  </data>
+  <data name="Prompt_RestoreNotRequired.Text" xml:space="preserve">
+    <value>Kullanıcı silinmemiş. Geri yükleme gerekmiyor.</value>
+  </data>
+  <data name="Service_RemoveTabParentTabError" xml:space="preserve">
+    <value>{0} sayfası, alt sayfaları silinmeden silinemez.</value>
+  </data>
+</root>

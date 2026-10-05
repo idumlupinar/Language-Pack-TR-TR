@@ -1,0 +1,794 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Create.Text" xml:space="preserve">
+    <value>Yeni Rol Oluştur</value>
+  </data>
+  <data name="DuplicateRole.Text" xml:space="preserve">
+    <value>Bu Rol Adı Zaten Mevcut.</value>
+  </data>
+  <data name="nav_Roles.Text" xml:space="preserve">
+    <value>Roller</value>
+  </data>
+  <data name="SearchPlaceHolder.Text" xml:space="preserve">
+    <value>Rolleri Anahtar Kelimeye Göre Ara</value>
+  </data>
+  <data name="Actions.Header" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AllGroups.Text" xml:space="preserve">
+    <value>[Tüm Gruplar]</value>
+  </data>
+  <data name="Auto.Header" xml:space="preserve">
+    <value>Otomatik</value>
+  </data>
+  <data name="GlobalRolesGroup.Text" xml:space="preserve">
+    <value>[Genel Roller]</value>
+  </data>
+  <data name="GroupName.Header" xml:space="preserve">
+    <value>Grup</value>
+  </data>
+  <data name="LoadMore.Text" xml:space="preserve">
+    <value>Daha Fazla Yükle</value>
+  </data>
+  <data name="RoleName.Header" xml:space="preserve">
+    <value>Rol Adı</value>
+  </data>
+  <data name="Users.Header" xml:space="preserve">
+    <value>Kullanıcılar</value>
+  </data>
+  <data name="AutoAssignment.Text" xml:space="preserve">
+    <value>Otomatik Atama</value>
+  </data>
+  <data name="Cancel.Text" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="Delete.Text" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="Description.Text" xml:space="preserve">
+    <value>Açıklama</value>
+  </data>
+  <data name="NewGroup.Text" xml:space="preserve">
+    <value>Yeni Grup</value>
+  </data>
+  <data name="Public.Text" xml:space="preserve">
+    <value>Herkese Açık</value>
+  </data>
+  <data name="plRoleGroups.Text" xml:space="preserve">
+    <value>Rol Grubu</value>
+  </data>
+  <data name="Save.Text" xml:space="preserve">
+    <value>Kaydet</value>
+  </data>
+  <data name="DuplicateRoleGroup.Text" xml:space="preserve">
+    <value>Bu Grup Adı Zaten Mevcut.</value>
+  </data>
+  <data name="GroupName.Required" xml:space="preserve">
+    <value>Bu alan zorunludur.</value>
+  </data>
+  <data name="GroupName.Text" xml:space="preserve">
+    <value>Grup Adı</value>
+  </data>
+  <data name="RoleName.Text" xml:space="preserve">
+    <value>Rol Adı</value>
+  </data>
+  <data name="RoleId.Text" xml:space="preserve">
+    <value>Rol Kimliği</value>
+  </data>
+  <data name="securityModeListLabel.Text" xml:space="preserve">
+    <value>Güvenlik Modu</value>
+  </data>
+  <data name="statusListLabel.Text" xml:space="preserve">
+    <value>Durum</value>
+  </data>
+  <data name="DeleteRole.Confirm" xml:space="preserve">
+    <value>Bu rolü silmek istediğinizden emin misiniz?</value>
+  </data>
+  <data name="NoData.Text" xml:space="preserve">
+    <value>Bu rol grubunda rol yok.</value>
+  </data>
+  <data name="RoleName.Required" xml:space="preserve">
+    <value>Bu alan zorunludur.</value>
+  </data>
+  <data name="UpdateGroup.Text" xml:space="preserve">
+    <value>Grubu Güncelle</value>
+  </data>
+  <data name="Add.Text" xml:space="preserve">
+    <value>Ekle</value>
+  </data>
+  <data name="AddUserPlaceHolder.Text" xml:space="preserve">
+    <value>Bu role kullanıcı eklemek için yazmaya başlayın</value>
+  </data>
+  <data name="Expires.Header" xml:space="preserve">
+    <value>Bitiş</value>
+  </data>
+  <data name="Members.Header" xml:space="preserve">
+    <value>Üyeler</value>
+  </data>
+  <data name="PageInfo.Text" xml:space="preserve">
+    <value>Sayfa {0} / {1}</value>
+  </data>
+  <data name="PageSummary.Text" xml:space="preserve">
+    <value>{2} kayıttan {0}-{1} arası gösteriliyor</value>
+  </data>
+  <data name="Start.Header" xml:space="preserve">
+    <value>Başlangıç</value>
+  </data>
+  <data name="Users.Text" xml:space="preserve">
+    <value>Kullanıcılar</value>
+  </data>
+  <data name="NoUsers.Text" xml:space="preserve">
+    <value>Bu rolde kullanıcı yok.</value>
+  </data>
+  <data name="Search.Text" xml:space="preserve">
+    <value>Ara</value>
+  </data>
+  <data name="DeleteUser.Confirm" xml:space="preserve">
+    <value>Bu kullanıcıyı rolden kaldırmak istediğinizden emin misiniz?</value>
+  </data>
+  <data name="DeleteRoleGroup.Confirm" xml:space="preserve">
+    <value>Bu rol grubunu silmek istediğinizden emin misiniz?</value>
+  </data>
+  <data name="Approved.Text" xml:space="preserve">
+    <value>Onaylandı</value>
+  </data>
+  <data name="Both.Text" xml:space="preserve">
+    <value>Her İkisi</value>
+  </data>
+  <data name="Disabled.Text" xml:space="preserve">
+    <value>Devre Dışı</value>
+  </data>
+  <data name="Pending.Text" xml:space="preserve">
+    <value>Beklemede</value>
+  </data>
+  <data name="SecurityRole.Text" xml:space="preserve">
+    <value>Güvenlik Rolü</value>
+  </data>
+  <data name="SocialGroup.Text" xml:space="preserve">
+    <value>Sosyal Grup</value>
+  </data>
+  <data name="AssignToExistUsers.Text" xml:space="preserve">
+    <value>Mevcut Kullanıcılara Ata</value>
+  </data>
+  <data name="ActionCancelled.Message" xml:space="preserve">
+    <value>İptal edildi.</value>
+  </data>
+  <data name="AssignToExistUsers.Help" xml:space="preserve">
+    <value>Bu rolü mevcut tüm kullanıcılara atayın.</value>
+  </data>
+  <data name="DeleteInconsistency.Error" xml:space="preserve">
+    <value>Bir tutarsızlık oluştu. Sayfayı yenileyip tekrar deneyin.</value>
+  </data>
+  <data name="DeleteRole.Error" xml:space="preserve">
+    <value>Rol silinemedi. Daha sonra tekrar deneyin</value>
+  </data>
+  <data name="DeleteRole.Message" xml:space="preserve">
+    <value>Rol başarıyla silindi.</value>
+  </data>
+  <data name="DeleteRoleGroup.Error" xml:space="preserve">
+    <value>Rol grubu silinemedi. Daha sonra tekrar deneyin.</value>
+  </data>
+  <data name="DeleteRoleGroup.Message" xml:space="preserve">
+    <value>Rol Grubu başarıyla silindi.</value>
+  </data>
+  <data name="Description.Help" xml:space="preserve">
+    <value>Rolün açıklamasını girin.</value>
+  </data>
+  <data name="lblNewGroup.Text" xml:space="preserve">
+    <value>[Yeni Grup]</value>
+  </data>
+  <data name="plRoleGroups.Help" xml:space="preserve">
+    <value>Bu rolün ait olduğu rol grubunu seçin.</value>
+  </data>
+  <data name="PublicRole.Help" xml:space="preserve">
+    <value>Kullanıcılar kendi hesaplarındaki Hizmetleri Yönet sayfası üzerinden bu role abone olabiliyorsa bu kutuyu işaretleyin.</value>
+  </data>
+  <data name="RoleAdded.Error" xml:space="preserve">
+    <value>Rol oluşturulamadı. Daha sonra tekrar deneyin.</value>
+  </data>
+  <data name="RoleAdded.Message" xml:space="preserve">
+    <value>Rol başarıyla oluşturuldu.</value>
+  </data>
+  <data name="RoleName.Help" xml:space="preserve">
+    <value>Rolün adını girin.</value>
+  </data>
+  <data name="RoleUpdated.Error" xml:space="preserve">
+    <value>Rol güncellenemedi. Daha sonra tekrar deneyin.</value>
+  </data>
+  <data name="RoleUpdated.Message" xml:space="preserve">
+    <value>Rol başarıyla güncellendi.</value>
+  </data>
+  <data name="RoleUpdated.SystemRoleError" xml:space="preserve">
+    <value>Sistem Rolleri değiştirilemez.</value>
+  </data>
+  <data name="securityModeListLabel.Help" xml:space="preserve">
+    <value>Bu rol/grup için güvenlik modunu seçin.</value>
+  </data>
+  <data name="statusListLabel.Help" xml:space="preserve">
+    <value>Bu rol/grup için durumu seçin.</value>
+  </data>
+  <data name="RoleGroupUpdated.Error" xml:space="preserve">
+    <value>Rol grubu güncellenemedi. Daha sonra tekrar deneyin.</value>
+  </data>
+  <data name="RoleGroupUpdated.Message" xml:space="preserve">
+    <value>Rol Grubu başarıyla güncellendi.</value>
+  </data>
+  <data name="AutoAssignment.Help" xml:space="preserve">
+    <value>Kullanıcılar bu role otomatik olarak atanıyorsa bu kutuyu işaretleyin.</value>
+  </data>
+  <data name="GroupDescription.Help" xml:space="preserve">
+    <value>Rol grubunun açıklamasını girin.</value>
+  </data>
+  <data name="GroupDescription.Text" xml:space="preserve">
+    <value>Açıklama</value>
+  </data>
+  <data name="GroupName.Help" xml:space="preserve">
+    <value>Rol grubu için bir ad girin.</value>
+  </data>
+  <data name="PermissionsByRole.Text" xml:space="preserve">
+    <value>Roldeki Kullanıcılar</value>
+  </data>
+  <data name="SendEmail.Text" xml:space="preserve">
+    <value>E-posta Gönder</value>
+  </data>
+  <data name="isOwner.Text" xml:space="preserve">
+    <value>Sahip</value>
+  </data>
+  <data name="InSufficientPermissions.Text" xml:space="preserve">
+    <value>Bu işlemi gerçekleştirmek için yeterli izniniz yok.</value>
+  </data>
+  <data name="UserNotFound.Text" xml:space="preserve">
+    <value>Kullanıcı bulunamadı.</value>
+  </data>
+  <data name="InvalidRequest.Text" xml:space="preserve">
+    <value>Geçersiz istek.</value>
+  </data>
+  <data name="SecurityRoleDeleteNotAllowed.Text" xml:space="preserve">
+    <value>Sistem rolleri silinemez.</value>
+  </data>
+  <data name="CannotAssginUserToUnApprovedRole.Text" xml:space="preserve">
+    <value>Kullanıcı onaylanmamış bir role atanamaz.</value>
+  </data>
+  <data name="EditRole.Text" xml:space="preserve">
+    <value>Rolü Düzenle</value>
+  </data>
+  <data name="UsersInRole.Text" xml:space="preserve">
+    <value>Roldeki Kullanıcılar</value>
+  </data>
+  <data name="Prompt_ListRolesFailed.Text" xml:space="preserve">
+    <value>Roller listelenemedi.</value>
+  </data>
+  <data name="Prompt_NoRoles.Text" xml:space="preserve">
+    <value>Rol bulunamadı.</value>
+  </data>
+  <data name="Prompt_FlagEmpty.Text" xml:space="preserve">
+    <value>--{0} boş olamaz.</value>
+  </data>
+  <data name="Prompt_InvalidRoleStatus.Text" xml:space="preserve">
+    <value>--{0} için geçersiz değer girildi. Beklenen değerler: 'pending', 'approved' veya 'disabled'</value>
+  </data>
+  <data name="Prompt_NoRoleWithId.Text" xml:space="preserve">
+    <value>{0} kimlikli rol bulunamadı</value>
+  </data>
+  <data name="Prompt_RoleFound.Text" xml:space="preserve">
+    <value>'{0}' rolü bulundu.</value>
+  </data>
+  <data name="Prompt_NothingToUpdate.Text" xml:space="preserve">
+    <value>Güncellenecek Bir Şey Yok!</value>
+  </data>
+  <data name="Prompt_RoleIdIsRequired.Text" xml:space="preserve">
+    <value>İlk bağımsız değişken olarak veya --id bayrağını kullanarak geçerli bir Rol Kimliği (Role ID) belirtmelisiniz.</value>
+  </data>
+  <data name="Prompt_RoleIdNegative.Text" xml:space="preserve">
+    <value>RoleId değeri sıfırdan (0) büyük veya sıfıra eşit olmalıdır</value>
+  </data>
+  <data name="Prompt_RoleIdNotInt.Text" xml:space="preserve">
+    <value>RoleId bir tamsayı olmalıdır.</value>
+  </data>
+  <data name="Prompt_RoleNameRequired.Text" xml:space="preserve">
+    <value>Rol için ilk bağımsız değişken olarak veya --{0} bayrağını kullanarak bir ad belirtmelisiniz. Boşluk ve özel karakter içeren adlar çift tırnak içine alınmalıdır.</value>
+  </data>
+  <data name="Prompt_UnableToParseBool.Text" xml:space="preserve">
+    <value>--{0} bayrağının '{1}' değeri ayrıştırılamadı. Değer True veya False olmalıdır</value>
+  </data>
+  <data name="plRSVPCode.Text" xml:space="preserve">
+    <value>RSVP Kodu</value>
+  </data>
+  <data name="plRSVPCode.Help" xml:space="preserve">
+    <value>Rol için bir RSVP Kodu girin. Kullanıcılar, hesaplarındaki Hizmetleri Yönet sayfasında bu kodu girerek role kolayca abone olabilir.</value>
+  </data>
+  <data name="plRSVPLink.Text" xml:space="preserve">
+    <value>RSVP Bağlantısı</value>
+  </data>
+  <data name="plRSVPLink.Help" xml:space="preserve">
+    <value>Bu rol için bir RSVP Kodu kaydedildiğinde, kullanıcıların bu role abone olmasını sağlayan bir bağlantı görüntülenir.</value>
+  </data>
+  <data name="Prompt_DeleteRole_Description.Text" xml:space="preserve">
+    <value>Belirtilen DNN Güvenlik Rolünü kalıcı olarak siler. Yerleşik DNN güvenlik rolleri olan Administrator, RegisteredUser,
+    Subscriber ve UnverifiedUser silinemez. &lt;small&gt;&lt;strong class="text-danger"&gt;UYARI: Bu kalıcı bir işlemdir ve geri alınamaz&lt;/strong&gt;&lt;/small&gt;</value>
+  </data>
+  <data name="Prompt_DeleteRole_FlagId.Text" xml:space="preserve">
+    <value>Silinecek güvenlik rolünün kimliği (ID). Bu değer zorunludur. Ancak kimliği komuttan sonraki ilk bağımsız değişken olarak verirseniz &lt;span class="mono"&gt;--id&lt;/span&gt; bayrağını açıkça kullanmanız gerekmez.</value>
+  </data>
+  <data name="Prompt_DeleteRole_ResultHtml.Text" xml:space="preserve">
+    <value>&lt;h4&gt;Bir DNN Güvenlik Rolünü Kalıcı Olarak Silme&lt;/h4&gt;
+  &lt;code class="block"&gt;
+    delete-role 11
+  &lt;/code&gt;
+
+  &lt;h4&gt;Sonuçlar&lt;/h4&gt;
+  &lt;table class="command-result-tbl"&gt;
+    &lt;tr&gt;
+      &lt;td&gt;'Public' (11) rolü başarıyla silindi&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;</value>
+  </data>
+  <data name="Prompt_GetRole_Description.Text" xml:space="preserve">
+    <value>Belirtilen DNN Güvenlik Rolünün ayrıntılarını getirir.</value>
+  </data>
+  <data name="Prompt_GetRole_FlagId.Text" xml:space="preserve">
+    <value>Güvenlik rolünün kimliği (ID). Bu değer zorunludur. Ancak kimliği komuttan sonraki ilk bağımsız değişken olarak verirseniz &lt;span class="mono"&gt;--id&lt;/span&gt; bayrağını açıkça kullanmanız gerekmez.</value>
+  </data>
+  <data name="Prompt_GetRole_ResultHtml.Text" xml:space="preserve">
+    <value>&lt;h4&gt;Bir DNN Güvenlik Rolünü Getirme&lt;/h4&gt;
+  &lt;code class="block"&gt;
+    get-role 11
+  &lt;/code&gt;
+
+  &lt;h4&gt;Sonuçlar&lt;/h4&gt;
+  &lt;table class="command-result-tbl"&gt;
+    &lt;tr&gt;
+      &lt;td&gt;RoleId&lt;/td&gt;&lt;td&gt;:&lt;/td&gt;&lt;td&gt;11&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;RoleGroupId&lt;/td&gt;&lt;td&gt;:&lt;/td&gt;&lt;td&gt;-1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;RoleName&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;Public&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Description&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;Role for all users&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;IsPublic&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;true&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;AutoAssign&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;true&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;UserCount&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;5&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CreatedDate&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;2016-12-31T14:53:44.033&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CreatedBy&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ModifiedDate&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;2017-01-02T08:07:39.233&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ModifiedBy&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td colspan="3"&gt;1 rol bulundu&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;</value>
+  </data>
+  <data name="Prompt_ListRoles_Description.Text" xml:space="preserve">
+    <value>Sitedeki DNN güvenlik rollerinin listesini getirir.</value>
+  </data>
+  <data name="Prompt_ListRoles_FlagMax.Text" xml:space="preserve">
+    <value>Sayfa başına kayıt sayısı. En fazla 500.</value>
+  </data>
+  <data name="Prompt_ListRoles_FlagPage.Text" xml:space="preserve">
+    <value>Kayıtların gösterileceği sayfa numarası.</value>
+  </data>
+  <data name="Prompt_ListRoles_ResultHtml.Text" xml:space="preserve">
+    <value>&lt;div&gt;
+        &lt;h4&gt;Geçerli Sitedeki Rolleri Listeleme&lt;/h4&gt;
+        &lt;code class="block"&gt;
+            list-roles
+        &lt;/code&gt;
+        &lt;h4&gt;Sonuçlar&lt;/h4&gt;
+        &lt;table class="command-result-tbl"&gt;
+            &lt;thead&gt;
+                &lt;tr&gt;
+                    &lt;th&gt;RoleId&lt;/th&gt;
+                    &lt;th&gt;RoleGroupId&lt;/th&gt;
+                    &lt;th&gt;RoleName&lt;/th&gt;
+                    &lt;th&gt;Description&lt;/th&gt;
+                    &lt;th&gt;IsPublic&lt;/th&gt;
+                    &lt;th&gt;AutoAssign&lt;/th&gt;
+                    &lt;th&gt;UserCount&lt;/th&gt;
+                    &lt;th&gt;CreatedDate&lt;/th&gt;
+                &lt;/tr&gt;
+            &lt;/thead&gt;
+            &lt;tbody&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;0&lt;/td&gt;
+                    &lt;td&gt;-1&lt;/td&gt;
+                    &lt;td&gt;Administrators&lt;/td&gt;
+                    &lt;td&gt;Administrators of this Website&lt;/td&gt;
+                    &lt;td&gt;false&lt;/td&gt;
+                    &lt;td&gt;false&lt;/td&gt;
+                    &lt;td&gt;1&lt;/td&gt;
+                    &lt;td&gt;2016-12-01T06:03:11.35&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;5&lt;/td&gt;
+                    &lt;td&gt;-1&lt;/td&gt;
+                    &lt;td&gt;My New Role&lt;/td&gt;
+                    &lt;td&gt;A test role&lt;/td&gt;
+                    &lt;td&gt;false&lt;/td&gt;
+                    &lt;td&gt;false&lt;/td&gt;
+                    &lt;td&gt;0&lt;/td&gt;
+                    &lt;td&gt;2016-12-15T07:28:16.49&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;1&lt;/td&gt;
+                    &lt;td&gt;-1&lt;/td&gt;
+                    &lt;td&gt;Registered Users&lt;/td&gt;
+                    &lt;td&gt;Registered Users&lt;/td&gt;
+                    &lt;td&gt;false&lt;/td&gt;
+                    &lt;td&gt;true&lt;/td&gt;
+                    &lt;td&gt;5&lt;/td&gt;
+                    &lt;td&gt;2016-12-01T06:03:11.357&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;2&lt;/td&gt;
+                    &lt;td&gt;-1&lt;/td&gt;
+                    &lt;td&gt;Subscribers&lt;/td&gt;
+                    &lt;td&gt;A public role for site subscriptions&lt;/td&gt;
+                    &lt;td&gt;true&lt;/td&gt;
+                    &lt;td&gt;true&lt;/td&gt;
+                    &lt;td&gt;5&lt;/td&gt;
+                    &lt;td&gt;2016-12-01T06:03:11.39&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;3&lt;/td&gt;
+                    &lt;td&gt;-1&lt;/td&gt;
+                    &lt;td&gt;Translator (en-US)&lt;/td&gt;
+                    &lt;td&gt;A role for English (United States) translators&lt;/td&gt;
+                    &lt;td&gt;false&lt;/td&gt;
+                    &lt;td&gt;false&lt;/td&gt;
+                    &lt;td&gt;0&lt;/td&gt;
+                    &lt;td&gt;2016-12-01T06:03:11.39&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;4&lt;/td&gt;
+                    &lt;td&gt;-1&lt;/td&gt;
+                    &lt;td&gt;Unverified Users&lt;/td&gt;
+                    &lt;td&gt;Unverified Users&lt;/td&gt;
+                    &lt;td&gt;false&lt;/td&gt;
+                    &lt;td&gt;false&lt;/td&gt;
+                    &lt;td&gt;0&lt;/td&gt;
+                    &lt;td&gt;2016-12-01T06:03:11.393&lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/tbody&gt;
+        &lt;/table&gt;
+    &lt;/div&gt;</value>
+  </data>
+  <data name="Prompt_NewRole_Description.Text" xml:space="preserve">
+    <value>Site için yeni bir DNN güvenlik rolü oluşturur.</value>
+  </data>
+  <data name="Prompt_NewRole_FlagAutoAssign.Text" xml:space="preserve">
+    <value>True olduğunda bu rol, mevcut kullanıcılar dahil sitenin kullanıcılarına otomatik olarak atanır.</value>
+  </data>
+  <data name="Prompt_NewRole_FlagDescription.Text" xml:space="preserve">
+    <value>Rolün açıklaması.</value>
+  </data>
+  <data name="Prompt_NewRole_FlagIsPublic.Text" xml:space="preserve">
+    <value>True olduğunda kullanıcılar rolü görebilir ve kendilerini bu role atayabilir.</value>
+  </data>
+  <data name="Prompt_NewRole_FlagRoleName.Text" xml:space="preserve">
+    <value>Güvenlik rolünün adı. Bu değer zorunludur. Ancak adı komuttan sonraki ilk bağımsız değişken olarak verirseniz &lt;span class="mono"&gt;--name&lt;/span&gt; bayrağını açıkça kullanmanız gerekmez.</value>
+  </data>
+  <data name="Prompt_NewRole_FlagStatus.Text" xml:space="preserve">
+    <value>Rolün durumu. Olası değerler: "approved", "pending" ve "disabled".</value>
+  </data>
+  <data name="Prompt_NewRole_ResultHtml.Text" xml:space="preserve">
+    <value>&lt;h4&gt;Yeni Bir DNN Güvenlik Rolü Oluşturma (En Kısa Söz Dizimi)&lt;/h4&gt;
+  &lt;code class="block"&gt;
+    new-role Role1
+  &lt;/code&gt;
+  &lt;h4&gt;Sonuçlar&lt;/h4&gt;
+  &lt;table class="command-result-tbl"&gt;
+    &lt;tr&gt;
+      &lt;td&gt;RoleId&lt;/td&gt;&lt;td&gt;:&lt;/td&gt;&lt;td&gt;9&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;RoleGroupId&lt;/td&gt;&lt;td&gt;:&lt;/td&gt;&lt;td&gt;-1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;RoleName&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;Role1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Description&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;IsPublic&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;false&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;AutoAssign&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;false&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;UserCount&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CreatedDate&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;2016-12-31T14:53:44.033&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td colspan="3"&gt;Rol başarıyla oluşturuldu.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+
+
+  &lt;h4&gt;Yeni Bir DNN Güvenlik Rolü Oluşturma&lt;/h4&gt;
+  &lt;code class="block"&gt;
+    new-role "General Public" --description "Role for all users" --public true --autoassign true
+  &lt;/code&gt;
+  &lt;h4&gt;Sonuçlar&lt;/h4&gt;
+  &lt;table class="command-result-tbl"&gt;
+    &lt;tr&gt;
+      &lt;td&gt;RoleId&lt;/td&gt;&lt;td&gt;:&lt;/td&gt;&lt;td&gt;10&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;RoleGroupId&lt;/td&gt;&lt;td&gt;:&lt;/td&gt;&lt;td&gt;-1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;RoleName&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;General Public&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Description&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;Role for all users&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;IsPublic&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;true&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;AutoAssign&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;true&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;UserCount&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;5&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CreatedDate&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;2016-12-31T15:06:02.563&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td colspan="3"&gt;Rol başarıyla oluşturuldu.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;</value>
+  </data>
+  <data name="Prompt_SetRole_Description.Text" xml:space="preserve">
+    <value>Bir DNN Güvenlik Rolünün özelliklerini ayarlar veya günceller. Rolde yalnızca belirttiğiniz özellikler güncellenir.</value>
+  </data>
+  <data name="Prompt_SetRole_FlagAutoAssign.Text" xml:space="preserve">
+    <value>True olduğunda bu rol, mevcut kullanıcılar dahil sitenin kullanıcılarına otomatik olarak atanır.</value>
+  </data>
+  <data name="Prompt_SetRole_FlagDescription.Text" xml:space="preserve">
+    <value>Rolün açıklaması.</value>
+  </data>
+  <data name="Prompt_SetRole_FlagId.Text" xml:space="preserve">
+    <value>Güvenlik rolünün kimliği (ID). Bu değer zorunludur. Ancak kimliği komuttan sonraki ilk bağımsız değişken olarak verirseniz &lt;span class="mono"&gt;--id&lt;/span&gt; bayrağını açıkça kullanmanız gerekmez.</value>
+  </data>
+  <data name="Prompt_SetRole_FlagIsPublic.Text" xml:space="preserve">
+    <value>True olduğunda kullanıcılar rolü görebilir ve kendilerini bu role atayabilir.</value>
+  </data>
+  <data name="Prompt_SetRole_FlagRoleName.Text" xml:space="preserve">
+    <value>Güvenlik rolünün adı.</value>
+  </data>
+  <data name="Prompt_SetRole_FlagStatus.Text" xml:space="preserve">
+    <value>Rolün durumu. Olası değerler: "approved", "pending" ve "disabled".</value>
+  </data>
+  <data name="Prompt_SetRole_ResultHtml.Text" xml:space="preserve">
+    <value>&lt;h4&gt;Bir DNN Güvenlik Rolünü Güncelleme&lt;/h4&gt;
+  &lt;code class="block"&gt;
+    set-role 10 --name Public
+  &lt;/code&gt;
+
+  &lt;h4&gt;Sonuçlar&lt;/h4&gt;
+  &lt;table class="command-result-tbl"&gt;
+    &lt;tr&gt;
+      &lt;td&gt;RoleId&lt;/td&gt;&lt;td&gt;:&lt;/td&gt;&lt;td&gt;10&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;RoleGroupId&lt;/td&gt;&lt;td&gt;:&lt;/td&gt;&lt;td&gt;-1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;RoleName&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;Public&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Description&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;Role for all users&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;IsPublic&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;true&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;AutoAssign&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;true&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;UserCount&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;5&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CreatedDate&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;2016-12-31T14:53:44.033&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td colspan="3"&gt;Rol başarıyla oluşturuldu.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;</value>
+  </data>
+  <data name="Prompt_RolesCategory.Text" xml:space="preserve">
+    <value>Rol Komutları</value>
+  </data>
+</root>

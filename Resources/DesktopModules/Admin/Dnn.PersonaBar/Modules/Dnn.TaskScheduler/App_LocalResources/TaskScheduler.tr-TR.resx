@@ -1,0 +1,998 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ContentOptions.Action" xml:space="preserve">
+    <value>Zamanlama Durumunu Görüntüle</value>
+  </data>
+  <data name="ScheduleHistory.Action" xml:space="preserve">
+    <value>Zamanlama Geçmişini Görüntüle</value>
+  </data>
+  <data name="plType.Text" xml:space="preserve">
+    <value>Tam Sınıf Adı ve Derleme</value>
+  </data>
+  <data name="plEnabled.Text" xml:space="preserve">
+    <value>Zamanlamayı Etkinleştir</value>
+  </data>
+  <data name="plTimeLapse.Text" xml:space="preserve">
+    <value>Sıklık</value>
+  </data>
+  <data name="plTimeLapse.Help" xml:space="preserve">
+    <value>Bu görevin ne sıklıkla çalışacağını belirleyen zaman aralığını ayarlayın.</value>
+  </data>
+  <data name="Minutes.Text" xml:space="preserve">
+    <value>Dakika</value>
+  </data>
+  <data name="Days.Text" xml:space="preserve">
+    <value>Gün</value>
+  </data>
+  <data name="Hours.Text" xml:space="preserve">
+    <value>Saat</value>
+  </data>
+  <data name="Weeks.Text" xml:space="preserve">
+    <value>Hafta</value>
+  </data>
+  <data name="Months.Text" xml:space="preserve">
+    <value>Ay</value>
+  </data>
+  <data name="Years.Text" xml:space="preserve">
+    <value>Yıl</value>
+  </data>
+  <data name="plRetryTimeLapse.Text" xml:space="preserve">
+    <value>Yeniden Deneme Aralığı</value>
+  </data>
+  <data name="plRetryTimeLapse.Help" xml:space="preserve">
+    <value>Bir hatadan sonra bu görevin yeniden çalıştırılacağı zaman aralığını ayarlayın.</value>
+  </data>
+  <data name="plRetainHistoryNum.Text" xml:space="preserve">
+    <value>Zamanlama Geçmişini Sakla</value>
+  </data>
+  <data name="plRetainHistoryNum.Help" xml:space="preserve">
+    <value>Zamanlama geçmişinde saklanacak öğe sayısını seçin.</value>
+  </data>
+  <data name="plAttachToEvent.Text" xml:space="preserve">
+    <value>Olayda Çalıştır</value>
+  </data>
+  <data name="plAttachToEvent.Help" xml:space="preserve">
+    <value>Bu olayı web uygulaması başladığında çalıştırmak için "Application Start" seçeneğini belirleyin. APPLICATION_END üzerinde çalışan   olayların bazı barındırma ortamlarında güvenilir şekilde çalışmayabileceğini unutmayın.</value>
+  </data>
+  <data name="None.Text" xml:space="preserve">
+    <value>Yok</value>
+  </data>
+  <data name="All.Text" xml:space="preserve">
+    <value>Tümü</value>
+  </data>
+  <data name="APPLICATION_START.Text" xml:space="preserve">
+    <value>APPLICATION_START</value>
+  </data>
+  <data name="plCatchUpEnabled.Text" xml:space="preserve">
+    <value>Kaçırılan Görevleri Telafi Et</value>
+  </data>
+  <data name="plCatchUpEnabled.Help" xml:space="preserve">
+    <value>Sunucunun kapalı kaldığı süre boyunca kaçırılan her çalışma aralığı için bu olayı bir kez çalıştırmak üzere bu kutuyu işaretleyin.</value>
+  </data>
+  <data name="plObjectDependencies.Text" xml:space="preserve">
+    <value>Nesne Bağımlılıkları</value>
+  </data>
+  <data name="plObjectDependencies.Help" xml:space="preserve">
+    <value>Bu olayın bağımlı olduğu tabloları veya diğer nesneleri girin.  Örn. "Users,UsersOnline"</value>
+  </data>
+  <data name="UpdateSuccess.Text" xml:space="preserve">
+    <value>Değişiklikleriniz kaydedildi.</value>
+  </data>
+  <data name="DeleteSuccess.Text" xml:space="preserve">
+    <value>Zamanlama öğesi silindi.</value>
+  </data>
+  <data name="DeleteError.Text" xml:space="preserve">
+    <value>Zamanlama öğesi silinemedi. Lütfen daha sonra tekrar deneyin.</value>
+  </data>
+  <data name="ControlTitle_edit.Text" xml:space="preserve">
+    <value>Görevi Düzenle</value>
+  </data>
+  <data name="ModuleHelp.Text" xml:space="preserve">
+    <value>&lt;h1&gt;Zamanlama Hakkında&lt;/h1&gt;&lt;p&gt;Görevleri belirli aralıklarla çalışacak şekilde zamanlamanızı sağlar.&lt;/p&gt;</value>
+  </data>
+  <data name="plType.Help" xml:space="preserve">
+    <value>Tam sınıf adı ve ardından derleme adıdır.  Örn. "DotNetNuke.Entities.Users.PurgeUsersOnline, DOTNETNUKE"</value>
+  </data>
+  <data name="plServers.Text" xml:space="preserve">
+    <value>Sunucu Adı:</value>
+  </data>
+  <data name="plServers.Help" xml:space="preserve">
+    <value>Zamanlanmış görevleri tek bir sunucuya göre filtreleyin veya tüm görevleri görüntülemek için Tümü seçeneğini belirleyin.</value>
+  </data>
+  <data name="Seconds.Text" xml:space="preserve">
+    <value>Saniye</value>
+  </data>
+  <data name="plEnabled.Help" xml:space="preserve">
+    <value>Bu işin zamanlamasını etkinleştirmek için bu kutuyu işaretleyin.</value>
+  </data>
+  <data name="plFriendlyName.Help" xml:space="preserve">
+    <value>Zamanlanmış iş için bir ad girin.</value>
+  </data>
+  <data name="plFriendlyName.Text" xml:space="preserve">
+    <value>Görünen Ad</value>
+  </data>
+  <data name="cmdRun.Text" xml:space="preserve">
+    <value>Şimdi Çalıştır</value>
+  </data>
+  <data name="cmdDelete.Text" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="RunNow.Text" xml:space="preserve">
+    <value>Öğe, hemen çalıştırılmak üzere zamanlamaya eklendi.</value>
+  </data>
+  <data name="TypeRequired.Text" xml:space="preserve">
+    <value>Zamanlama öğesinin türü zorunludur.</value>
+  </data>
+  <data name="TimeLapseValidator.ErrorMessage" xml:space="preserve">
+    <value>Sıklık aralığı 1 ile 999999 arasındadır.</value>
+  </data>
+  <data name="TimeLapseRequired.ErrorMessage" xml:space="preserve">
+    <value>Sıklık değerini 1 ile 999999 arasında ayarlamalısınız.</value>
+  </data>
+  <data name="RetryTimeLapseValidator.ErrorMessage" xml:space="preserve">
+    <value>Yeniden deneme sıklığı aralığı 1 ile 999999 arasındadır.</value>
+  </data>
+  <data name="plScheduleStartDate.Text" xml:space="preserve">
+    <value>Zamanlama Başlangıç Tarihi/Saati</value>
+  </data>
+  <data name="plScheduleStartDate.Help" xml:space="preserve">
+    <value>Zamanlanmış iş için başlangıç tarihini/saatini girin.  Not: Zamanlanan saatte sunucu kapalıysa veya başka işler zaten çalışıyorsa iş, sunucu yeniden çevrimiçi olur olmaz çalıştırılır.</value>
+  </data>
+  <data name="InvalidFrequencyAndRetry.Text" xml:space="preserve">
+    <value>Yeniden deneme aralığı sıklık aralığını aştığı için sıklık ve yeniden deneme değerleri geçersiz.</value>
+  </data>
+  <data name="AddContent.Action" xml:space="preserve">
+    <value>Zamanlamaya Öğe Ekle</value>
+  </data>
+  <data name="Type.Header" xml:space="preserve">
+    <value>Tür</value>
+  </data>
+  <data name="Enabled.Header" xml:space="preserve">
+    <value>ETKİN</value>
+  </data>
+  <data name="Enabled.Label" xml:space="preserve">
+    <value>Etkin</value>
+  </data>
+  <data name="Frequency.Header" xml:space="preserve">
+    <value>SIKLIK</value>
+  </data>
+  <data name="RetryTimeLapse.Header" xml:space="preserve">
+    <value>YENİDEN DENEME ARALIĞI</value>
+  </data>
+  <data name="NextStart.Header" xml:space="preserve">
+    <value>Sonraki Başlangıç</value>
+  </data>
+  <data name="NextStart.Label" xml:space="preserve">
+    <value>Sonraki Başlangıç</value>
+  </data>
+  <data name="lnkHistory.Text" xml:space="preserve">
+    <value>Geçmiş</value>
+  </data>
+  <data name="TimeLapsePrefix.Text" xml:space="preserve">
+    <value>Her</value>
+  </data>
+  <data name="Minute.Text" xml:space="preserve">
+    <value>Dakika</value>
+  </data>
+  <data name="Hour.Text" xml:space="preserve">
+    <value>Saat</value>
+  </data>
+  <data name="Day.Text" xml:space="preserve">
+    <value>Gün</value>
+  </data>
+  <data name="n/a.Text" xml:space="preserve">
+    <value>yok</value>
+  </data>
+  <data name="ControlTitle_.Text" xml:space="preserve">
+    <value>Zamanlama</value>
+  </data>
+  <data name="Name.Header" xml:space="preserve">
+    <value>Görev Adı</value>
+  </data>
+  <data name="History.Text" xml:space="preserve">
+    <value>Geçmişi Görüntüle</value>
+  </data>
+  <data name="Status.Text" xml:space="preserve">
+    <value>Durumu Görüntüle</value>
+  </data>
+  <data name="ViewLog.Header" xml:space="preserve">
+    <value>Günlük</value>
+  </data>
+  <data name="plSchedulerMode.Text" xml:space="preserve">
+    <value>Zamanlayıcı Modu:</value>
+  </data>
+  <data name="plSchedulerMode.Help" xml:space="preserve">
+    <value>Zamanlayıcı Yöntemi, çalışan işlem etkin olduğu sürece zamanlanmış görevleri yürütmek için ayrı bir iş parçacığı kullanır. Alternatif olarak İstek Yöntemi, görevleri HTTP istekleri yapıldığında yürütür.  Devre Dışı seçeneğini belirleyerek zamanlayıcıyı devre dışı da bırakabilirsiniz.</value>
+  </data>
+  <data name="Disabled.Text" xml:space="preserve">
+    <value>Devre Dışı</value>
+  </data>
+  <data name="TimerMethod.Text" xml:space="preserve">
+    <value>Zamanlayıcı Yöntemi</value>
+  </data>
+  <data name="RequestMethod.Text" xml:space="preserve">
+    <value>İstek Yöntemi</value>
+  </data>
+  <data name="Settings.Text" xml:space="preserve">
+    <value>Ayarlar</value>
+  </data>
+  <data name="plScheduleAppStartDelay.Text" xml:space="preserve">
+    <value>Zamanlama Gecikmesi:</value>
+  </data>
+  <data name="plScheduleAppStartDelay.Help" xml:space="preserve">
+    <value>Sistemin yeniden başlatmanın ardından zamanlanmış işleri çalıştırmadan önce beklemesi gereken dakika sayısı. Varsayılan değer 1 dakikadır.</value>
+  </data>
+  <data name="ScheduleAppStartDelayValidation.Text" xml:space="preserve">
+    <value>Değer dakika cinsinden olmalıdır.</value>
+  </data>
+  <data name="Started.Header" xml:space="preserve">
+    <value>Başlangıç</value>
+  </data>
+  <data name="Ended.Header" xml:space="preserve">
+    <value>Bitiş</value>
+  </data>
+  <data name="Duration.Header" xml:space="preserve">
+    <value>Süre (saniye)</value>
+  </data>
+  <data name="Succeeded.Header" xml:space="preserve">
+    <value>Başarılı</value>
+  </data>
+  <data name="Start/End/Next Start.Header" xml:space="preserve">
+    <value>Başlangıç/Bitiş/Sonraki Başlangıç</value>
+  </data>
+  <data name="Notes.Header" xml:space="preserve">
+    <value>Notlar</value>
+  </data>
+  <data name="ControlTitle_history.Text" xml:space="preserve">
+    <value>Görev Geçmişi</value>
+  </data>
+  <data name="Description.Header" xml:space="preserve">
+    <value>Açıklama</value>
+  </data>
+  <data name="Start.Header" xml:space="preserve">
+    <value>Başlangıç/Bitiş/Sonraki</value>
+  </data>
+  <data name="Server.Header" xml:space="preserve">
+    <value>Çalıştığı Sunucu</value>
+  </data>
+  <data name="lblStatusLabel.Text" xml:space="preserve">
+    <value>Durum:</value>
+  </data>
+  <data name="lblMaxThreadsLabel.Text" xml:space="preserve">
+    <value>Maks. İş Parçacığı:</value>
+  </data>
+  <data name="lblActiveThreadsLabel.Text" xml:space="preserve">
+    <value>Etkin İş Parçacıkları:</value>
+  </data>
+  <data name="lblFreeThreadsLabel.Text" xml:space="preserve">
+    <value>Boş İş Parçacıkları:</value>
+  </data>
+  <data name="lblCommand.Text" xml:space="preserve">
+    <value>Komut:</value>
+  </data>
+  <data name="lblProcessing.Text" xml:space="preserve">
+    <value>İşlenen Öğeler</value>
+  </data>
+  <data name="ScheduleID.Header" xml:space="preserve">
+    <value>Kimlik: </value>
+  </data>
+  <data name="ObjectDependencies.Header" xml:space="preserve">
+    <value>Nesne Bağımlılıkları: </value>
+  </data>
+  <data name="TriggeredBy.Header" xml:space="preserve">
+    <value>Tetikleyen: </value>
+  </data>
+  <data name="Thread.Header" xml:space="preserve">
+    <value>İş Parçacığı: </value>
+  </data>
+  <data name="Servers.Header" xml:space="preserve">
+    <value>Sunucular: </value>
+  </data>
+  <data name="lblQueue.Text" xml:space="preserve">
+    <value>Kuyruktaki Öğeler</value>
+  </data>
+  <data name="Overdue.Header" xml:space="preserve">
+    <value>Gecikme (saniye): </value>
+  </data>
+  <data name="TimeRemaining.Header" xml:space="preserve">
+    <value>Kalan Süre: </value>
+  </data>
+  <data name="NoTasks.Text" xml:space="preserve">
+    <value>Kuyrukta görev yok</value>
+  </data>
+  <data name="NoTasksMessage.Text" xml:space="preserve">
+    <value>Kuyrukta bekleyen veya işlenen görevler olduğunda burada görünür.</value>
+  </data>
+  <data name="DisabledMessage.Text" xml:space="preserve">
+    <value>Zamanlayıcı şu anda devre dışı.</value>
+  </data>
+  <data name="ManuallyStopped.Text" xml:space="preserve">
+    <value>Zamanlayıcı durum sayfasından elle durduruldu</value>
+  </data>
+  <data name="cmdStart.Text" xml:space="preserve">
+    <value>Başlat</value>
+  </data>
+  <data name="cmdStop.Text" xml:space="preserve">
+    <value>Durdur</value>
+  </data>
+  <data name="cmdSave.Text" xml:space="preserve">
+    <value>Kaydet</value>
+  </data>
+  <data name="ControlTitle_status.Text" xml:space="preserve">
+    <value>Zamanlama Durumu</value>
+  </data>
+  <data name="Stop.Header" xml:space="preserve">
+    <value>Durdur</value>
+  </data>
+  <data name="TabTaskQueue.Text" xml:space="preserve">
+    <value>GÖREV KUYRUĞU</value>
+  </data>
+  <data name="TabScheduler.Text" xml:space="preserve">
+    <value>ZAMANLAYICI</value>
+  </data>
+  <data name="TabHistory.Text" xml:space="preserve">
+    <value>GEÇMİŞ</value>
+  </data>
+  <data name="TabHistoryTitle.Text" xml:space="preserve">
+    <value>Zamanlama Geçmişi</value>
+  </data>
+  <data name="HistoryModalTitle.Text" xml:space="preserve">
+    <value>Görev Geçmişi: </value>
+  </data>
+  <data name="Cancel.Text" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="Update.Text" xml:space="preserve">
+    <value>Güncelle</value>
+  </data>
+  <data name="NOT_SET.Text" xml:space="preserve">
+    <value>AYARLANMADI</value>
+  </data>
+  <data name="WAITING_FOR_OPEN_THREAD.Text" xml:space="preserve">
+    <value>BOŞ İŞ PARÇACIĞI BEKLENİYOR</value>
+  </data>
+  <data name="RUNNING_EVENT_SCHEDULE.Text" xml:space="preserve">
+    <value>OLAY ZAMANLAMASI ÇALIŞIYOR</value>
+  </data>
+  <data name="RUNNING_TIMER_SCHEDULE.Text" xml:space="preserve">
+    <value>ZAMANLAYICI ZAMANLAMASI ÇALIŞIYOR</value>
+  </data>
+  <data name="RUNNING_REQUEST_SCHEDULE.Text" xml:space="preserve">
+    <value>İSTEK ZAMANLAMASI ÇALIŞIYOR</value>
+  </data>
+  <data name="WAITING_FOR_REQUEST.Text" xml:space="preserve">
+    <value>İSTEK BEKLENİYOR</value>
+  </data>
+  <data name="SHUTTING_DOWN.Text" xml:space="preserve">
+    <value>KAPATILIYOR</value>
+  </data>
+  <data name="STOPPED.Text" xml:space="preserve">
+    <value>DURDURULDU</value>
+  </data>
+  <data name="SchedulerUpdateSuccess.Text" xml:space="preserve">
+    <value>Zamanlayıcı ayarları başarıyla güncellendi.</value>
+  </data>
+  <data name="SchedulerUpdateError.Text" xml:space="preserve">
+    <value>Zamanlama ayarları güncellenemedi. Lütfen daha sonra tekrar deneyin.</value>
+  </data>
+  <data name="SchedulerStartSuccess.Text" xml:space="preserve">
+    <value>Zamanlayıcı başarıyla başlatıldı.</value>
+  </data>
+  <data name="SchedulerStartError.Text" xml:space="preserve">
+    <value>Zamanlayıcı başlatılamadı. Lütfen daha sonra tekrar deneyin.</value>
+  </data>
+  <data name="SchedulerStopSuccess.Text" xml:space="preserve">
+    <value>Zamanlayıcı başarıyla durduruldu.</value>
+  </data>
+  <data name="SchedulerStopError.Text" xml:space="preserve">
+    <value>Zamanlayıcı durdurulamadı. Lütfen daha sonra tekrar deneyin.</value>
+  </data>
+  <data name="StartSchedule.Text" xml:space="preserve">
+    <value>Zamanlamayı Başlat</value>
+  </data>
+  <data name="StopSchedule.Text" xml:space="preserve">
+    <value>Zamanlamayı Durdur</value>
+  </data>
+  <data name="RecommendServers.Text" xml:space="preserve">
+    <value>Hataları önlemek için bu zamanlamanın aşağıdaki web sunucularında çalışacak şekilde ayarlanması önemle tavsiye edilir:&lt;br/&gt;&lt;br/&gt;{0}&lt;br/&gt;&lt;br/&gt;Yine de devam edilsin mi?</value>
+  </data>
+  <data name="lblStartDelay.Text" xml:space="preserve">
+    <value>Zamanlama Başlangıç Gecikmesi (dk):</value>
+  </data>
+  <data name="processing.Text" xml:space="preserve">
+    <value>İşleniyor ...</value>
+  </data>
+  <data name="RunNowError.Text" xml:space="preserve">
+    <value>Bu öğe zamanlamaya eklenemedi. Lütfen daha sonra tekrar deneyin.</value>
+  </data>
+  <data name="DescriptionColumn.Text" xml:space="preserve">
+    <value>AÇIKLAMA</value>
+  </data>
+  <data name="RanOnServerColumn.Text" xml:space="preserve">
+    <value>ÇALIŞTIĞI SUNUCU</value>
+  </data>
+  <data name="DurationColumn.Text" xml:space="preserve">
+    <value>SÜRE (SN)</value>
+  </data>
+  <data name="SucceededColumn.Text" xml:space="preserve">
+    <value>BAŞARILI</value>
+  </data>
+  <data name="StartEndColumn.Text" xml:space="preserve">
+    <value>BAŞLANGIÇ/BİTİŞ</value>
+  </data>
+  <data name="nav_TaskScheduler.Text" xml:space="preserve">
+    <value>Zamanlayıcı</value>
+  </data>
+  <data name="ScheduleItemUpdateSuccess.Text" xml:space="preserve">
+    <value>Zamanlama öğesi başarıyla güncellendi.</value>
+  </data>
+  <data name="ScheduleItemUpdateError.Text" xml:space="preserve">
+    <value>Zamanlama öğesi güncellenemedi. Lütfen daha sonra tekrar deneyin.</value>
+  </data>
+  <data name="ScheduleItemCreateSuccess.Text" xml:space="preserve">
+    <value>Zamanlama öğesi başarıyla oluşturuldu.</value>
+  </data>
+  <data name="ScheduleItemCreateError.Text" xml:space="preserve">
+    <value>Zamanlama öğesi oluşturulamadı. Lütfen daha sonra tekrar deneyin.</value>
+  </data>
+  <data name="ScheduleItemDeletedWarning.Text" xml:space="preserve">
+    <value>Bu zamanlama öğesini silmek istediğinizden emin misiniz?</value>
+  </data>
+  <data name="Yes.Text" xml:space="preserve">
+    <value>Evet</value>
+  </data>
+  <data name="No.Text" xml:space="preserve">
+    <value>Hayır</value>
+  </data>
+  <data name="SettingsRestoreWarning.Text" xml:space="preserve">
+    <value>Değişikliklerinizi iptal etmek istediğinizden emin misiniz?</value>
+  </data>
+  <data name="ServerTime.Text" xml:space="preserve">
+    <value>Sunucu Saati:</value>
+  </data>
+  <data name="cmdAddTask.Text" xml:space="preserve">
+    <value>Görev Ekle</value>
+  </data>
+  <data name="pageSizeOption.Text" xml:space="preserve">
+    <value>Sayfa başına {0} sonuç</value>
+  </data>
+  <data name="pagerSummary.Text" xml:space="preserve">
+    <value>{2} sonuçtan {0}-{1} arası gösteriliyor</value>
+  </data>
+  <data name="Servers.Text" xml:space="preserve">
+    <value>Sunucular</value>
+  </data>
+  <data name="LessThanMinute.Text" xml:space="preserve">
+    <value>bir dakikadan az</value>
+  </data>
+  <data name="MinuteSingular.Text" xml:space="preserve">
+    <value>dakika</value>
+  </data>
+  <data name="MinutePlural.Text" xml:space="preserve">
+    <value>dakika</value>
+  </data>
+  <data name="HourSingular.Text" xml:space="preserve">
+    <value>saat</value>
+  </data>
+  <data name="HourPlural.Text" xml:space="preserve">
+    <value>saat</value>
+  </data>
+  <data name="DaySingular.Text" xml:space="preserve">
+    <value>gün</value>
+  </data>
+  <data name="DayPlural.Text" xml:space="preserve">
+    <value>gün</value>
+  </data>
+  <data name="Prompt_FetchTaskFailed.Text" xml:space="preserve">
+    <value>Görev ayrıntıları alınamadı. Daha fazla ayrıntı için olay günlüğüne bakın.</value>
+  </data>
+  <data name="Prompt_FlagCantBeEmpty.Text" xml:space="preserve">
+    <value>--{0} bayrağı belirtildiğinde boş olamaz.\n</value>
+  </data>
+  <data name="Prompt_FlagMustBeNumber.Text" xml:space="preserve">
+    <value>--{0} bayrağı belirtildiğinde bir sayı olmalıdır.\n</value>
+  </data>
+  <data name="Prompt_FlagMustBeTrueFalse.Text" xml:space="preserve">
+    <value>--{0} bayrağı belirtildiğinde True veya False olmalıdır.\n</value>
+  </data>
+  <data name="Prompt_FlagRequired.Text" xml:space="preserve">
+    <value>--{0} bayrağı zorunludur.\n</value>
+  </data>
+  <data name="Prompt_ScheduleFlagRequired.Text" xml:space="preserve">
+    <value>Zamanlanmış öğenin kimliğini --{0} bayrağıyla ya da sayıyı ilk bağımsız değişken olarak geçirerek belirtmelisiniz.\n</value>
+  </data>
+  <data name="Prompt_TaskAlreadyDisabled.Text" xml:space="preserve">
+    <value>Görev zaten devre dışı.</value>
+  </data>
+  <data name="Prompt_TaskAlreadyEnabled.Text" xml:space="preserve">
+    <value>Görev zaten etkin.</value>
+  </data>
+  <data name="Prompt_TaskNotFound.Text" xml:space="preserve">
+    <value>{0} kimliğine sahip görev bulunamadı.</value>
+  </data>
+  <data name="Prompt_TaskFound.Text" xml:space="preserve">
+    <value>{0} görevi bulundu.</value>
+  </data>
+  <data name="Prompt_TasksFound.Text" xml:space="preserve">
+    <value>{0} görev bulundu.</value>
+  </data>
+  <data name="Prompt_TaskUpdated.Text" xml:space="preserve">
+    <value>Görev başarıyla güncellendi.</value>
+  </data>
+  <data name="Prompt_TaskUpdateFailed.Text" xml:space="preserve">
+    <value>Görev güncellenemedi.</value>
+  </data>
+  <data name="Prompt_GetTask_Description.Text" xml:space="preserve">
+    <value>Belirtilen Zamanlayıcı Görevinin ayrıntılarını getirir. DNN bunlara zamanlama veya zamanlayıcı öğeleri, Prompt ise görev adını verir.</value>
+  </data>
+  <data name="Prompt_GetTask_FlagId.Text" xml:space="preserve">
+    <value>Getirmek istediğiniz öğenin Zamanlama Kimliği. Kimliği komut adından sonraki ilk değer olarak geçirirseniz &lt;span class="mono"&gt;--id&lt;/span&gt; bayrak adını açıkça kullanmanız gerekmez.</value>
+  </data>
+  <data name="Prompt_GetTask_ResultHtml.Text" xml:space="preserve">
+    <value>&lt;h4&gt;Bir Görevi Getir&lt;/h4&gt;
+  &lt;code class="block"&gt;
+    get-task 11
+  &lt;/code&gt;
+  VEYA
+  &lt;code class="block"&gt;
+    get-task --id 11
+  &lt;/code&gt;
+
+  &lt;h4&gt;Sonuçlar&lt;/h4&gt;
+  &lt;table class="command-result-tbl"&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ScheduleId&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;11&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;FriendlyName&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;Messaging Dispatch&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;TypeName&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;DotNteNuke.Services.Social.Messaging.Scheduler.CoreMessagingScheduler,DotNetNuke&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;NextStart&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;2017-01-02T08:19:49.53&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Enabled&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;true&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CatchUp&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;false&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Created&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;0001-01-01T00:00:00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;StartDate&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;0001-01-01T00:00:00&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;</value>
+  </data>
+  <data name="Prompt_ListTasks_Description.Text" xml:space="preserve">
+    <value>Belirtilen ölçütlere göre zamanlanmış görevlerin listesini getirir. DNN bunlara zamanlama veya zamanlayıcı öğeleri, Prompt ise görev adını verir.</value>
+  </data>
+  <data name="Prompt_ListTasks_FlagEnabled.Text" xml:space="preserve">
+    <value>Belirtildiğinde Prompt, etkin (bu bayrak true olarak ayarlanırsa) veya devre dışı (false olarak ayarlanırsa) görevleri döndürür. Bu bayrak belirtilmezse Prompt, etkinlik durumundan bağımsız olarak tüm görevleri döndürür.</value>
+  </data>
+  <data name="Prompt_ListTasks_FlagName.Text" xml:space="preserve">
+    <value>Belirtildiğinde Prompt, Görünen Adı ifadeyle eşleşen görevleri döndürür. Sıfır (0) veya daha fazla karakteri temsil etmek için yıldız ( &lt;span class="mono"&gt;*&lt;/span&gt; ) ile joker karakter eşleştirmesi desteklenir.</value>
+  </data>
+  <data name="Prompt_ListTasks_ResultHtml.Text" xml:space="preserve">
+    <value>&lt;h4&gt;Tüm Görevleri Listele&lt;/h4&gt;
+  &lt;code class="block"&gt;
+    list-tasks
+  &lt;/code&gt;
+
+  &lt;h4&gt;Sonuçlar&lt;/h4&gt;
+  &lt;table class="command-result-tbl"&gt;
+    &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;ScheduleId&lt;/th&gt;
+      &lt;th&gt;FriendlyName&lt;/th&gt;
+      &lt;th&gt;NextStart&lt;/th&gt;
+      &lt;th&gt;Enabled&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;11&lt;/td&gt;
+      &lt;td&gt;MessagingDispatch&lt;/td&gt;
+      &lt;td&gt;2017-01-02T08:19:49.53&lt;/td&gt;
+      &lt;td&gt;true&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;9&lt;/td&gt;
+      &lt;td&gt;Purge Cache&lt;/td&gt;
+      &lt;td&gt;2017-01-02T08:08:07.4342281-07:00&lt;/td&gt;
+      &lt;td&gt;false&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;Purge Client Dependency Files&lt;/td&gt;
+      &lt;td&gt;2017-01-02T08:08:07.4342281-07:00&lt;/td&gt;
+      &lt;td&gt;false&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;Purge Log Buffer&lt;/td&gt;
+      &lt;td&gt;2017-01-02T08:08:07.4342281-07:00&lt;/td&gt;
+      &lt;td&gt;false&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;10&lt;/td&gt;
+      &lt;td&gt;Purge Module Cache&lt;/td&gt;
+      &lt;td&gt;2017-01-02T08:19:50.533&lt;/td&gt;
+      &lt;td&gt;true&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td colspan="4"&gt;...&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td colspan="4"&gt;10 görev bulundu&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;/tbody&gt;
+  &lt;/table&gt;
+
+  &lt;h4&gt;Tüm Etkin Görevleri Listele&lt;/h4&gt;
+  &lt;code class="block"&gt;
+    list-tasks true
+  &lt;/code&gt;
+  VEYA
+  &lt;code class="block"&gt;
+    list-tasks --enabled true
+  &lt;/code&gt;
+
+  &lt;h4&gt;Sonuçlar&lt;/h4&gt;
+  &lt;table class="command-result-tbl"&gt;
+    &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;ScheduleId&lt;/th&gt;
+      &lt;th&gt;FriendlyName&lt;/th&gt;
+      &lt;th&gt;NextStart&lt;/th&gt;
+      &lt;th&gt;Enabled&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;11&lt;/td&gt;
+      &lt;td&gt;MessagingDispatch&lt;/td&gt;
+      &lt;td&gt;2017-01-02T08:19:49.53&lt;/td&gt;
+      &lt;td class="bg-info"&gt;true&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;10&lt;/td&gt;
+      &lt;td&gt;Purge Module Cache&lt;/td&gt;
+      &lt;td&gt;2017-01-02T08:19:50.533&lt;/td&gt;
+      &lt;td class="bg-info"&gt;true&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;Purge Schedule History&lt;/td&gt;
+      &lt;td&gt;2017-01-03T08:08:10.45&lt;/td&gt;
+      &lt;td class="bg-info"&gt;true&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;6&lt;/td&gt;
+      &lt;td&gt;Search: Site Crawler&lt;/td&gt;
+      &lt;td&gt;2017-01-02T09:09:09.94&lt;/td&gt;
+      &lt;td class="bg-info"&gt;true&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td colspan="4"&gt;4 görev bulundu&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;/tbody&gt;
+  &lt;/table&gt;
+
+  &lt;h4&gt;Adı &amp;quot;purge&amp;quot; ile Başlayan Tüm Görevleri Listele&lt;/h4&gt;
+  &lt;code class="block"&gt;
+    list-tasks purge*
+  &lt;/code&gt;
+  VEYA
+  &lt;code class="block"&gt;
+    list-tasks --name purge*
+  &lt;/code&gt;
+
+  &lt;h4&gt;Sonuçlar&lt;/h4&gt;
+  &lt;table class="command-result-tbl"&gt;
+    &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;ScheduleId&lt;/th&gt;
+      &lt;th&gt;FriendlyName&lt;/th&gt;
+      &lt;th&gt;NextStart&lt;/th&gt;
+      &lt;th&gt;Enabled&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;9&lt;/td&gt;
+      &lt;td class="bg-info"&gt;Purge Cache&lt;/td&gt;
+      &lt;td&gt;2017-01-02T09:08:55.2867143-07:00&lt;/td&gt;
+      &lt;td&gt;false&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td class="bg-info"&gt;Purge Client Dependency Files&lt;/td&gt;
+      &lt;td&gt;2017-01-02T09:08:55.2867143-07:00&lt;/td&gt;
+      &lt;td&gt;false&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td class="bg-info"&gt;Purge Log Buffer&lt;/td&gt;
+      &lt;td&gt;2017-01-02T09:08:55.2867143-07:00&lt;/td&gt;
+      &lt;td&gt;false&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;10&lt;/td&gt;
+      &lt;td class="bg-info"&gt;Purge Module Cache&lt;/td&gt;
+      &lt;td&gt;2017-01-02T09:17:20.48&lt;/td&gt;
+      &lt;td&gt;true&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;13&lt;/td&gt;
+      &lt;td class="bg-info"&gt;Purge Output Cache&lt;/td&gt;
+      &lt;td&gt;2017-01-02T09:08:55.2867143-07:00&lt;/td&gt;
+      &lt;td&gt;false&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td class="bg-info"&gt;Purge Schedule History&lt;/td&gt;
+      &lt;td&gt;2017-01-03T08:08:10.45&lt;/td&gt;
+      &lt;td&gt;true&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td class="bg-info"&gt;Purge Users Online&lt;/td&gt;
+      &lt;td&gt;2017-01-02T09:08:55.2867143-07:00&lt;/td&gt;
+      &lt;td&gt;false&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td colspan="4"&gt;7 görev bulundu&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;/tbody&gt;
+  &lt;/table&gt;
+
+  &lt;h4&gt;Adı &amp;quot;purge&amp;quot; ile Başlayan Tüm Etkin Görevleri Listele&lt;/h4&gt;
+  &lt;code class="block"&gt;
+    list-tasks purge* --enabled true
+  &lt;/code&gt;
+  VEYA
+  &lt;code class="block"&gt;
+    list-tasks true --name purge*
+  &lt;/code&gt;
+  VEYA
+  &lt;code class="block"&gt;
+    list-tasks --enabled true --name purge*
+  &lt;/code&gt;
+
+  &lt;h4&gt;Sonuçlar&lt;/h4&gt;
+  &lt;table class="command-result-tbl"&gt;
+    &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;ScheduleId&lt;/th&gt;
+      &lt;th&gt;FriendlyName&lt;/th&gt;
+      &lt;th&gt;NextStart&lt;/th&gt;
+      &lt;th&gt;Enabled&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;10&lt;/td&gt;
+      &lt;td class="bg-info"&gt;Purge Module Cache&lt;/td&gt;
+      &lt;td&gt;2017-01-02T09:17:20.48&lt;/td&gt;
+      &lt;td class="bg-info"&gt;true&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td class="bg-info"&gt;Purge Schedule History&lt;/td&gt;
+      &lt;td&gt;2017-01-03T08:08:10.45&lt;/td&gt;
+      &lt;td class="bg-info"&gt;true&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td colspan="4"&gt;2 görev bulundu&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;/tbody&gt;
+  &lt;/table&gt;</value>
+  </data>
+  <data name="Prompt_SetTask_Description.Text" xml:space="preserve">
+    <value>Belirtilen Zamanlanmış görevin özelliklerini ayarlar veya günceller.</value>
+  </data>
+  <data name="Prompt_SetTask_FlagEnabled.Text" xml:space="preserve">
+    <value>true olduğunda belirtilen görev etkinleştirilir. false olduğunda belirtilen görev devre dışı bırakılır.</value>
+  </data>
+  <data name="Prompt_SetTask_FlagId.Text" xml:space="preserve">
+    <value>Güncellemek istediğiniz görevin Zamanlama Kimliği. Zamanlama Kimliğini ilk bağımsız değişken olarak geçirerek &lt;span class="mono"&gt;--id&lt;/span&gt; bayrağıni açıkça yazmaktan kaçınabilirsiniz.</value>
+  </data>
+  <data name="Prompt_SetTask_ResultHtml.Text" xml:space="preserve">
+    <value>&lt;h4&gt;&amp;quot;Purge Schedule History&amp;quot; Görevini Devre Dışı Bırak&lt;/h4&gt;
+  &lt;code class="block"&gt;
+    set-task 3 --enabled false
+  &lt;/code&gt;
+  VEYA
+  &lt;code class="block"&gt;
+    set-task --id 3 --enabled false
+  &lt;/code&gt;
+
+  &lt;h4&gt;Sonuçlar&lt;/h4&gt;
+  &lt;table class="command-result-tbl"&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ScheduleId&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;FriendlyName&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;Purge Schedule History&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;TypeName&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;DotNetNuke.Services.Scheduling.PurgeScheduleHistory, DOTNETNUKE&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;NextStart&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;2017-01-02T09:08:55.2867143-07:00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Enabled&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;false&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CatchUp&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;false&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Created&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;0001-01-01T00:00:00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;StartDate&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;2017-01-02T09:47:31.79&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td colspan="3"&gt;
+        1 görev güncellendi
+      &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;</value>
+  </data>
+  <data name="Prompt_SchedulerCategory.Text" xml:space="preserve">
+    <value>Zamanlayıcı Komutları</value>
+  </data>
+</root>

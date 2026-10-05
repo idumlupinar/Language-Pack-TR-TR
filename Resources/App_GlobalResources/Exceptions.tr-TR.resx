@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddFileExtensionNotAllowed.Text" xml:space="preserve">
+    <value>'{0}' uzantısına izin verilmiyor. Dosya eklenmedi.</value>
+  </data>
+  <data name="AddFilenameNotAllowed.Text" xml:space="preserve">
+    <value>'{0}' dosya adına izin verilmiyor. Dosya eklenmedi.</value>
+  </data>
+  <data name="AddFileInvalidContent.Text" xml:space="preserve">
+    <value>'{0}' içeriği geçerli değil. Dosya eklenmedi.</value>
+  </data>
+  <data name="AddFileNoSpaceAvailable.Text" xml:space="preserve">
+    <value>Belirtilen dosyayı saklamak için sitede boş alan yok. Dosya eklenmedi.</value>
+  </data>
+  <data name="AddFilePermissionsNotMet.Text" xml:space="preserve">
+    <value>İzinler karşılanmadı. Dosya eklenmedi.</value>
+  </data>
+  <data name="AddFileUnderlyingSystemError.Text" xml:space="preserve">
+    <value>Alt sistem bir özel durum oluşturdu. Dosya eklenmedi.</value>
+  </data>
+  <data name="AddFolderAlreadyExists.Text" xml:space="preserve">
+    <value>Sağlanan klasör yolu zaten mevcut. Klasör eklenmedi.</value>
+  </data>
+  <data name="AddFolderParentCannotBeFound.Text" xml:space="preserve">
+    <value>Üst klasör bulunamadı.</value>
+  </data>
+  <data name="AddFolderUnderlyingSystemError.Text" xml:space="preserve">
+    <value>Alt sistem bir özel durum oluşturdu. Klasör eklenmedi.</value>
+  </data>
+  <data name="ArgumentCannotBeNullOrEmpty.Text" xml:space="preserve">
+    <value>'{0}' bağımsız değişkeni boş veya null olamaz.</value>
+  </data>
+  <data name="CopyFileNoSpaceAvailable.Text" xml:space="preserve">
+    <value>Belirtilen dosyayı saklamak için sitede boş alan yok. Dosya kopyalanmadı.</value>
+  </data>
+  <data name="CopyFilePermissionsNotMet.Text" xml:space="preserve">
+    <value>İzinler karşılanmadı. Dosya kopyalanmadı.</value>
+  </data>
+  <data name="CopyFileUnderlyingSystemError.Text" xml:space="preserve">
+    <value>Alt sistem bir özel durum oluşturdu. Dosya kopyalanmadı.</value>
+  </data>
+  <data name="DeleteFileUnderlyingSystemError.Text" xml:space="preserve">
+    <value>Alt sistem bir özel durum oluşturdu. Dosya silinmedi.</value>
+  </data>
+  <data name="DeleteFolderUnderlyingSystemError.Text" xml:space="preserve">
+    <value>Alt sistem bir özel durum oluşturdu. Klasör silinmedi.</value>
+  </data>
+  <data name="InvalidZipFile.Text" xml:space="preserve">
+    <value>Belirtilen dosya bir zip sıkıştırılmış dosya değil.</value>
+  </data>
+  <data name="MoveFolderCannotComplete.Text" xml:space="preserve">
+    <value>İşlem tamamlanamadı.</value>
+  </data>
+  <data name="MoveFolderUnderlyingSystemError.Text" xml:space="preserve">
+    <value>Alt sistem bir özel durum oluşturdu. Taşıma işlemi tamamlanamadı. Manuel klasör eşitlemesi gerekebilir.</value>
+  </data>
+  <data name="NoNetworkAvailableError.Text" xml:space="preserve">
+    <value>Ağ bağlantısı gerekli ancak mevcut bir ağ yok.</value>
+  </data>
+  <data name="PropertyCannotBeNegative.Text" xml:space="preserve">
+    <value>'{0}' nesnesindeki '{1}' özelliği negatif olamaz.</value>
+  </data>
+  <data name="PropertyCannotBeNull.Text" xml:space="preserve">
+    <value>'{0}' nesnesindeki '{1}' özelliği null olamaz.</value>
+  </data>
+  <data name="PropertyCannotBeNullOrEmpty.Text" xml:space="preserve">
+    <value>'{0}' nesnesindeki '{1}' özelliği boş veya null olamaz.</value>
+  </data>
+  <data name="RenameFileAlreadyExists.Text" xml:space="preserve">
+    <value>Bu klasör zaten aynı ada sahip bir dosya içeriyor. Dosya yeniden adlandırılamadı.</value>
+  </data>
+  <data name="RenameFileUnderlyingSystemError.Text" xml:space="preserve">
+    <value>Alt sistem bir özel durum oluşturdu. Dosya yeniden adlandırılamadı.</value>
+  </data>
+  <data name="RenameFolderAlreadyExists.Text" xml:space="preserve">
+    <value>Hedef klasör zaten mevcut. Klasör yeniden adlandırılamadı.</value>
+  </data>
+  <data name="RenameFolderUnderlyingSystemError.Text" xml:space="preserve">
+    <value>Alt sistem bir özel durum oluşturdu. Klasör yeniden adlandırılamadı.</value>
+  </data>
+  <data name="UnderlyingSystemError.Text" xml:space="preserve">
+    <value>Alt sistem bir özel durum oluşturdu.</value>
+  </data>
+  <data name="ValueCannotBeNegative.Text" xml:space="preserve">
+    <value>'{0}' bağımsız değişkeni negatif olamaz.</value>
+  </data>
+  <data name="ValueMustBeOfType.Text" xml:space="preserve">
+    <value>'{0}' bağımsız değişkeni '{1}' türünde olmalıdır.</value>
+  </data>
+  <data name="WriteFileToResponsePermissionsNotMet.Text" xml:space="preserve">
+    <value>İzinler karşılanmadı. Dosya indirilemez.</value>
+  </data>
+  <data name="UserRelationshipForSameUsersError.Text" xml:space="preserve">
+    <value>Başlatan ve Hedef Kullanıcıların aynı Kullanıcı Kimliğine '{0}' sahip olması mümkün değildir.</value>
+  </data>
+  <data name="UserRelationshipForDifferentPortalError.Text" xml:space="preserve">
+    <value>Başlatan Kullanıcının Web Sitesi Kimliği '{0}', Hedef Kullanıcının Web Sitesi Kimliği '{1}' ile farklıdır.</value>
+  </data>
+  <data name="UserRelationshipBlockedError.Text" xml:space="preserve">
+    <value>Hedef Kullanıcı '{0}', Hedef Kullanıcı '{2}' tarafından '{1}' İlişkisini engelledi.</value>
+  </data>
+  <data name="UserRelationshipExistsError.Text" xml:space="preserve">
+    <value>Başlatan Kullanıcı '{0}' ve Hedef Kullanıcı '{1}' için İlişki Kimliği '{2}' zaten mevcut.</value>
+  </data>
+  <data name="UserRelationshipDoesNotExistError.Text" xml:space="preserve">
+    <value>Kullanıcıİlişkisi Kimliği '{0}' mevcut değil.</value>
+  </data>
+  <data name="MsgSubjectOrBodyRequiredError.Text" xml:space="preserve">
+    <value>Ne konu ne de gövde boş veya null olamaz.</value>
+  </data>
+  <data name="MsgBodyRequiredError.Text" xml:space="preserve">
+    <value>Gövde boş veya null olamaz.</value>
+  </data>
+  <data name="MsgRolesOrUsersRequiredError.Text" xml:space="preserve">
+    <value>Ne roller ne de kullanıcılar boş veya null listeler olamaz.</value>
+  </data>
+  <data name="MsgSubjectTooBigError.Text" xml:space="preserve">
+    <value>Sağlanan konu çok büyük. Maksimum {0}, Gerçek {1}.</value>
+  </data>
+  <data name="MsgToListTooBigError.Text" xml:space="preserve">
+    <value>Sağlanan alıcı listesi çok büyük. Maksimum {0}, Gerçek {1}.</value>
+  </data>
+  <data name="MsgEmptyToListFoundError.Text" xml:space="preserve">
+    <value>Kullanıcı ve Roller Listesi analiz edilirken Boş Alıcı Listesi bulundu.</value>
+  </data>
+  <data name="MsgSenderRequiredError.Text" xml:space="preserve">
+    <value>Ya Gönderici null ya da Gönderici.KullanıcıKimliği negatiftir.</value>
+  </data>
+  <data name="PrivateMessageDisabledError.Text" xml:space="preserve">
+    <value>Mevcut mesajlaşma ayarları diğer kullanıcılara/gruplara mesaj gönderilmesine izin vermiyor.</value>
+  </data>
+  <data name="MsgOnlyHostOrAdminOrUserInGroupCanSendToRoleError.Text" xml:space="preserve">
+    <value>Bu role yalnızca Süper Kullanıcılar, Yöneticiler ve grup üyeleri mesaj gönderebilir.</value>
+  </data>
+  <data name="MsgThrottlingIntervalNotMet.Text" xml:space="preserve">
+    <value>Yönetici, aynı kullanıcıdan gönderilen mesajlar arasında en az {0} dakika beklenmesini zorunlu kıldığından mesaj şu anda gönderilemiyor.</value>
+  </data>
+  <data name="MsgAttachmentsNotAllowed.Text" xml:space="preserve">
+    <value>Eklere izin verilmiyor.</value>
+  </data>
+  <data name="MsgMessageOrRecipientNotFound.Text" xml:space="preserve">
+    <value>Mesaj bulunamadı ya da mesajın alıcısı mevcut değil.</value>
+  </data>
+  <data name="MsgRecipientLimitExceeded.Text" xml:space="preserve">
+    <value>En fazla alıcı sınırına ulaşıldı. Mesajı göndermek için Alıcı listesinden bazı alıcıları kaldırın.</value>
+  </data>
+  <data name="MsgMessageRequiredError.Text" xml:space="preserve">
+    <value>Sağlanan mesaj nesnesi null olamaz.</value>
+  </data>
+  <data name="TabNotInPortal.Text" xml:space="preserve">
+    <value>Belirtilen sayfa bu sitede değil.</value>
+  </data>
+  <data name="TabModuleNotExist.Text" xml:space="preserve">
+    <value>Belirtilen modül örneği mevcut değil.</value>
+  </data>
+  <data name="ControllerNotFound.Text" xml:space="preserve">
+    <value>{0} için bir denetleyici bulunamadı. Ad alanlarında arandı: {1}.</value>
+  </data>
+  <data name="AmbiguousController.Text" xml:space="preserve">
+    <value>Ad alanlarında {1} '{0}' adlı denetleyiciyle eşleşen birden fazla tür bulundu.</value>
+  </data>
+  <data name="MaxLengthExceeded.Text" xml:space="preserve">
+    <value>{0} Alanının maksimum uzunluğu aşıldı.</value>
+  </data>
+  <data name="InvalidPublishPeriod.Text" xml:space="preserve">
+    <value>Bitiş Tarihi Başlangıç Tarihinden sonra olmalıdır.</value>
+  </data>
+  <data name="ProfileService_UpdateVanityUrl.Error" xml:space="preserve">
+    <value>Profil URL'si güncellenirken bir hata oluştu. Bu mesajı görmeye devam ederseniz lütfen Yönetici ile iletişime geçin.</value>
+  </data>
+  <data name="StartDateMustNotBeInThePast.Text" xml:space="preserve">
+    <value>Başlangıç Tarihi geçmişte olmamalıdır.</value>
+  </data>
+  <data name="StartDateRequired.Text" xml:space="preserve">
+    <value>Başlangıç Tarihi gereklidir.</value>
+  </data>
+  <data name="FileLockedRunningWorkflowError.Text" xml:space="preserve">
+    <value>Dosya kilitli. Dosya şu anda bir iş akışının parçası olduğundan güncellenemez.</value>
+  </data>
+  <data name="InstallPackageError.Text" xml:space="preserve">
+    <value>Paket {0} Yükleme başarısız çünkü '{1}'.</value>
+  </data>
+  <data name="FileLockedOutOfPublishPeriodError.Text" xml:space="preserve">
+    <value>Dosya kilitli. Dosya yayınlama için geçerli bir başlangıç ve bitiş tarihi arasında olmadığından güncellenemez.</value>
+  </data>
+  <data name="CannotMoveFolderAlreadyExists.Text" xml:space="preserve">
+    <value>'{0}' klasörü taşınamaz. '{1}' klasörü altında bu ada sahip bir klasör zaten mevcut.</value>
+  </data>
+  <data name="CannotMoveFolderBetweenFolderType.Text" xml:space="preserve">
+    <value>'{0}' adlı klasör taşınamaz. Bu iki klasör türü arasında Klasör Taşıma işlemine izin verilmez.</value>
+  </data>
+  <data name="ErrorCreatingBusinessControllerClass.Text" xml:space="preserve">
+    <value>BusinessControllerClass '{0}' oluşturulurken hata: modül({1}) id=({2}), sayfa({3}), site({4})</value>
+  </data>
+  <data name="InvalidAnalyzerClass.Text" xml:space="preserve">
+    <value>'{0}' sınıfı geçersiz olduğu için veya analizci olmadığından oluşturulamaz, varsayılan analizci kullanılacak.</value>
+  </data>
+  <data name="LuceneControllerIsDisposed.Text" xml:space="preserve">
+    <value>LuceneDenetleyici sonlandırıldı ve artık kullanılamaz.</value>
+  </data>
+  <data name="ModuleDefIdMustBeGreaterThanZero.Text" xml:space="preserve">
+    <value>SearchTypeId bir modül için olduğunda ModuleDefId sıfırdan büyük olmalıdır.</value>
+  </data>
+  <data name="ModuleDefIdWhenSearchTypeForModule.Text" xml:space="preserve">
+    <value>ModuleDefId sadece SearchTypeId bir modül için olduğunda gereklidir.</value>
+  </data>
+  <data name="ModuleIdMustBeGreaterThanZero.Text" xml:space="preserve">
+    <value>SearchTypeId bir modül için olduğunda ModuleId sıfırdan büyük olmalıdır.</value>
+  </data>
+  <data name="ModuleIdMustHaveSearchTypeIdForModule.Text" xml:space="preserve">
+    <value>ModuleId tabanlı arama sadece bir modül için SearchTypeId'ye sahip olmalıdır.</value>
+  </data>
+  <data name="ModuleIdWhenSearchTypeForModule.Text" xml:space="preserve">
+    <value>ModuleId sadece SearchTypeId bir modül için olduğunda gereklidir.</value>
+  </data>
+  <data name="SearchAnalyzerMinWordLength.Text" xml:space="preserve">
+    <value>Arama Analizcisi: minimum kelime uzunluğu ({0}), maksimum kelime uzunluğu ({1}) değerinden büyük.</value>
+  </data>
+  <data name="SearchIndexingDirectoryNoValid.Text" xml:space="preserve">
+    <value>Arama dizinleme dizini ya boş ya da mevcut değil.</value>
+  </data>
+  <data name="UnableToCreateLuceneWriter.Text" xml:space="preserve">
+    <value>Lucene yazıcısı oluşturulamadı (kilit dosyası kullanımda). Lütfen kilidi kaldırmak için IIS'de AppPool'u yeniden başlatın.</value>
+  </data>
+  <data name="PublishPagePermissionsNotMet" xml:space="preserve">
+    <value>İzinler karşılanmadı. Sayfa yayınlanmadı.</value>
+  </data>
+  <data name="TabHasNotAnUnpublishedVersion.Text" xml:space="preserve">
+    <value>Sekme {0} yayınlanmamış bir sürüme sahip değil.</value>
+  </data>
+  <data name="TabVersionAlreadyPublished.Text" xml:space="preserve">
+    <value>Sekme {0} için {1} sürümü zaten yayınlanmış.</value>
+  </data>
+  <data name="TabVersionCannotBeDeleted_UnpublishedVersion.Text" xml:space="preserve">
+    <value>Sekme {0} için {1} sürümü yayınlanmamış bir sürüm olduğu için silinemez.</value>
+  </data>
+  <data name="TabVersionCannotBeDiscarded_OnlyOneVersion.Text" xml:space="preserve">
+    <value>Sekme {0} için sadece bir sürüm oluşturuldu. Reddedilemez.</value>
+  </data>
+  <data name="TabVersionCannotBeRolledBack_UnpublishedVersionExists.Text" xml:space="preserve">
+    <value>Sekme {0} için {1} sürümü yayınlanmamış bir sürüm mevcut olduğu için geri alınamaz.</value>
+  </data>
+  <data name="TabVersionCannotBeCreated_UnpublishedVersionAlreadyExistsConcurrencyProblem.Text" xml:space="preserve">
+    <value>Sekme {0} için yeni yayınlanmamış sürüm oluşturulamaz çünkü başka bir yayınlanmamış sürüm mevcut. Belki başka bir kullanıcı sayfada işlem yaptı ve durumu değiştirdi. Lütfen mevcut durumu görmek için sayfayı yenileyin.</value>
+  </data>
+  <data name="TabVersionCannotBeCreated_UnpublishedVersionAlreadyExists.Text" xml:space="preserve">
+    <value>Sekme {0} için yeni yayınlanmamış sürüm oluşturulamaz çünkü başka bir yayınlanmamış sürüm mevcut.</value>
+  </data>
+  <data name="TabVersioningNotEnabled.Text" xml:space="preserve">
+    <value>Sekme Sürümleme etkin değil.</value>
+  </data>
+  <data name="WorkflowInUsageException.Text" xml:space="preserve">
+    <value>Kullanımda olan bir iş akışı silinemez.</value>
+  </data>
+  <data name="WorkflowNameAlreadyExistsException.Text" xml:space="preserve">
+    <value>Bu ada sahip bir iş akışı zaten mevcut.</value>
+  </data>
+  <data name="SystemWorkflowDeletionException.Text" xml:space="preserve">
+    <value>Sistem iş akışı silinemez.</value>
+  </data>
+  <data name="WorkflowDoesNotExistException.Text" xml:space="preserve">
+    <value>İş akışı mevcut değil.</value>
+  </data>
+  <data name="WorkflowStateNameAlreadyExistsException.Text" xml:space="preserve">
+    <value>Bu ada sahip bir iş akışı durumu zaten mevcut.</value>
+  </data>
+  <data name="WorkflowConcurrencyException.Text" xml:space="preserve">
+    <value>İş akışının mevcut durumu, girdi parametresinde belirtilen mevcut durumla aynı değil.</value>
+  </data>
+  <data name="UserCannotReviewWorkflowState.Text" xml:space="preserve">
+    <value>Kullanıcı iş akışı durumunu inceleyemez.</value>
+  </data>
+  <data name="WorkflowAlreadyStarted.Text" xml:space="preserve">
+    <value>İş akışı bu İçerik Öğesi için başlatılamaz. Zaten başlatılmış bir iş akışına sahip.</value>
+  </data>
+  <data name="WorkflowAuthorNotFound.Text" xml:space="preserve">
+    <value>Yazar bulunamadı. Bildirim gönderilmeyecek.</value>
+  </data>
+  <data name="WorkflowCannotDiscard.Text" xml:space="preserve">
+    <value>Son iş akışı durumu reddedilemez.</value>
+  </data>
+  <data name="WorkflowStateInUsageException.Text" xml:space="preserve">
+    <value>Kullanımda olan bir durum silinemez.</value>
+  </data>
+  <data name="WorkflowNewStateCannotBeAddedToSystemWorkflows.Text" xml:space="preserve">
+    <value>Yeni durumlar sistem iş akışlarına eklenemez.</value>
+  </data>
+  <data name="WorkflowStateCannotBeMoved.Text" xml:space="preserve">
+    <value>İş akışı durumu taşınamaz.</value>
+  </data>
+  <data name="WorkflowSystemWorkflowStateCannotBeDeleted.Text" xml:space="preserve">
+    <value>Sistem iş akışı durumu silinemez.</value>
+  </data>
+  <data name="WorkflowSystemWorkflowStateCannotComplete.Text" xml:space="preserve">
+    <value>Sistem iş akışı durumu tamamlanamaz.</value>
+  </data>
+  <data name="ModuleDoesNotBelongToPage.Text" xml:space="preserve">
+    <value>Bu modül sayfaya ait değil. Lütfen modülü değiştirmek için ana sayfaya geçin.</value>
+  </data>
+  <data name="TabVersionCannotBeRolledBack_LastVersion.Text" xml:space="preserve">
+    <value>Sekme {0} için {1} sürümü son sürüm olduğu için geri alınamaz.</value>
+  </data>
+  <data name="FolderFileNameHasInvalidcharacters.Text" xml:space="preserve">
+    <value>Ad geçersiz karakter(ler) içeriyor. Lütfen {0} içermeyen bir ad belirtin.</value>
+  </data>
+  <data name="FolderFileNameIsReserved.Text" xml:space="preserve">
+    <value>Ad ayrılmış. Farklı bir ad deneyin.</value>
+  </data>
+  <data name="UserHasNoPermissionToEditFile.Text" xml:space="preserve">
+    <value>Kullanıcının bu dosyayı düzenlemek için gerekli izinleri yok.</value>
+  </data>
+  <data name="FolderAlreadyExists.Text" xml:space="preserve">
+    <value>Klasör oluşturulamadı ({0}), klasör bu konumda zaten mevcut.</value>
+  </data>
+  <data name="UserHasNoPermissionToEditFolder.Text" xml:space="preserve">
+    <value>Kullanıcının bu klasörü düzenlemek için gerekli izinleri yok.</value>
+  </data>
+  <data name="UserHasNoPermissionToAdd.Text" xml:space="preserve">
+    <value>Kullanıcının bu konuma klasör eklemek için gerekli izinleri yok.</value>
+  </data>
+  <data name="InvalidMappedPath.Text" xml:space="preserve">
+    <value>Eşleştirilmiş Yol geçersiz.</value>
+  </data>
+  <data name="FileNameInvalid.Text" xml:space="preserve">
+    <value>Belirtilen ad ({0}) geçerli değil.</value>
+  </data>
+  <data name="FolderDoesNotExists.Text" xml:space="preserve">
+    <value>Klasör mevcut değil.</value>
+  </data>
+  <data name="UserHasNoPermissionToBrowseFolder.Text" xml:space="preserve">
+    <value>Kullanıcının bu klasörde gezinmek için gerekli izinleri yok.</value>
+  </data>
+  <data name="SitemapProviderError.Text" xml:space="preserve">
+    <value>URL site haritası sağlayıcısı '{0}' şu hata ile başarısız oldu: {1}.</value>
+  </data>
+  <data name="SitemapUrlGenerationError.Text" xml:space="preserve">
+    <value>'{0} - {1}' sayfası için URL site haritası oluşturma bir özel duruma neden oldu: {2}.</value>
+  </data>
+  <data name="DynamicContentEntityInUse.Text" xml:space="preserve">
+    <value>{0} Kimlik {1} ile kullanımda olduğu için silinemez.</value>
+  </data>
+  <data name="PropertyCannotBeEmpty.Text" xml:space="preserve">
+    <value>'{0}' nesnesindeki '{1}' özelliği boş olamaz (sayı = 0).</value>
+  </data>
+  <data name="ErrorMessageCannotBeNullOrEmpty.Text" xml:space="preserve">
+    <value>ErrorKey ve ErrorMessage değerleri null veya boş olamaz.</value>
+  </data>
+  <data name="JsonContentTypeInvalid.Text" xml:space="preserve">
+    <value>json belgesinde belirtilen contentTypeId - {0} - mevcut değil.</value>
+  </data>
+  <data name="JsonInvalidField.Text" xml:space="preserve">
+    <value>İçerik türü - {0} alanını belirtmiyor.</value>
+  </data>
+  <data name="JsonMissingContent.Text" xml:space="preserve">
+    <value>json belgesinde içerik düğümü yok.</value>
+  </data>
+  <data name="CreateValidatorException.Text" xml:space="preserve">
+    <value>Doğrulayıcı örneklenemedi - {0}.</value>
+  </data>
+  <data name="InvalidValidatorException.Text" xml:space="preserve">
+    <value>ValidatorType oluşturulamadı - {0}.</value>
+  </data>
+  <data name="UpdateUserMembershipFailed.Text" xml:space="preserve">
+    <value>Asp.net üyelik kullanıcı güncellemesi başarısız. Olası Neden(ler): üyelik yapılandırmasında requiresUniqueEmail'i etkinleştirdiniz ancak farklı kullanıcı(lar) mevcut kullanıcıyla aynı e-posta adresini kullanıyor.</value>
+  </data>
+  <data name="SystemDataTypesSecurityException.Text" xml:space="preserve">
+    <value>Sistem Veri Türleri sadece Süper Kullanıcılar tarafından oluşturulabilir, değiştirilebilir veya silinebilir.</value>
+  </data>
+  <data name="SystemContentTypesSecurityException.Text" xml:space="preserve">
+    <value>Sistem İçerik Türleri sadece Süper Kullanıcılar tarafından oluşturulabilir, değiştirilebilir veya silinebilir.</value>
+  </data>
+  <data name="EntityIsNotValid.Text" xml:space="preserve">
+    <value>'{0}' türündeki varlık geçerli değil.</value>
+  </data>
+  <data name="FieldDefinitionInvalidDeadLoop.Text" xml:space="preserve">
+    <value>{0} adlı alan oluşturulamaz çünkü bu bir sonsuz döngü tanımı oluşturacaktır.</value>
+  </data>
+  <data name="ContentTypeFieldDefinitionDoesNotExist.Text" xml:space="preserve">
+    <value>Alan tanımının ait olduğu içerik türü geçerli değil.</value>
+  </data>
+  <data name="ContentTypeDoesNotExist.Text" xml:space="preserve">
+    <value>Belirtilen içerik türü geçerli değil.</value>
+  </data>
+  <data name="UserDoesNotExist.Text" xml:space="preserve">
+    <value>Takip etmeye çalıştığınız kullanıcı artık mevcut değil.</value>
+  </data>
+  <data name="AlreadyFollowingUser.Text" xml:space="preserve">
+    <value>Bu kullanıcıyı zaten takip ediyorsunuz.</value>
+  </data>
+  <data name="IPAddressIncorrect.Text" xml:space="preserve">
+    <value>IP adresi doğru formatta değil</value>
+  </data>
+  <data name="SubnetMaskIncorrect.Text" xml:space="preserve">
+    <value>Ağ alt maskesi doğru formatta değil</value>
+  </data>
+  <data name="AddFolderNotAllowed.Text" xml:space="preserve">
+    <value>'{0}' klasör yoluna izin verilmiyor. Klasör eklenmedi.</value>
+  </data>
+</root>

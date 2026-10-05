@@ -1,0 +1,1172 @@
+<dotnetnuke type="Package" version="5.0">
+  <packages>
+    <package name="Core_tr-TR" type="CoreLanguagePack" version="10.04.00">
+      <friendlyName>DNN Core Türkçe (Türkiye)</friendlyName>
+      <description>Turkish (Türkiye) core language pack for DNN Platform.</description>
+      <iconFile />
+      <owner>
+        <name>DNN Platform</name>
+        <organization>.NET Foundation</organization>
+        <url>https://www.dnncommunity.org</url>
+        <email>info@dnncommunity.org</email>
+      </owner>
+      <license src="license.txt" />
+      <releaseNotes src="ReleaseNotes.txt" />
+      <components>
+        <component type="CoreLanguage">
+          <languageFiles>
+            <code>tr-TR</code>
+            <displayName>Türkçe (Türkiye)</displayName>
+            <fallback>en-US</fallback>
+            <languageFile>
+              <path>admin\Modules\App_LocalResources</path>
+              <name>Export.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>admin\Modules\App_LocalResources</path>
+              <name>Import.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>admin\Modules\App_LocalResources</path>
+              <name>ModuleLocalization.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>admin\Modules\App_LocalResources</path>
+              <name>ModulePermissions.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>admin\Modules\App_LocalResources</path>
+              <name>ModuleSettings.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>admin\Modules\App_LocalResources</path>
+              <name>ViewSource.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>admin\Portal\App_LocalResources</path>
+              <name>Privacy.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>admin\Portal\App_LocalResources</path>
+              <name>Terms.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>admin\Security\App_LocalResources</path>
+              <name>AccessDenied.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>admin\Security\App_LocalResources</path>
+              <name>PasswordReset.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>admin\Security\App_LocalResources</path>
+              <name>SendPassword.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>admin\Skins\App_LocalResources</path>
+              <name>BreadCrumb.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>admin\Skins\App_LocalResources</path>
+              <name>Copyright.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>admin\Skins\App_LocalResources</path>
+              <name>Language.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>admin\Skins\App_LocalResources</path>
+              <name>LinkToFullSite.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>admin\Skins\App_LocalResources</path>
+              <name>LinkToMobileSite.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>admin\Skins\App_LocalResources</path>
+              <name>LinkToTabletSite.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>admin\Skins\App_LocalResources</path>
+              <name>Login.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>admin\Skins\App_LocalResources</path>
+              <name>Privacy.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>admin\Skins\App_LocalResources</path>
+              <name>Search.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>admin\Skins\App_LocalResources</path>
+              <name>Tags.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>admin\Skins\App_LocalResources</path>
+              <name>Terms.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>admin\Skins\App_LocalResources</path>
+              <name>Toast.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>admin\Skins\App_LocalResources</path>
+              <name>TreeViewMenu.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>admin\Skins\App_LocalResources</path>
+              <name>User.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>admin\Skins\App_LocalResources</path>
+              <name>UserAndLogin.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>admin\Tabs\App_LocalResources</path>
+              <name>Export.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>admin\Tabs\App_LocalResources</path>
+              <name>Import.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>admin\Users\App_LocalResources</path>
+              <name>ViewProfile.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>App_GlobalResources</path>
+              <name>Exceptions.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>App_GlobalResources</path>
+              <name>FileUpload.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>App_GlobalResources</path>
+              <name>GlobalResources.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>App_GlobalResources</path>
+              <name>List_Country.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>App_GlobalResources</path>
+              <name>Prompt.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>App_GlobalResources</path>
+              <name>SharedResources.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>App_GlobalResources</path>
+              <name>WebControls.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>controls\App_LocalResources</path>
+              <name>Address.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>controls\App_LocalResources</path>
+              <name>DualListControl.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>controls\App_LocalResources</path>
+              <name>filepickeruploader.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>controls\App_LocalResources</path>
+              <name>Help.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>controls\App_LocalResources</path>
+              <name>LocaleSelectorControl.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>controls\App_LocalResources</path>
+              <name>ModuleAuditControl.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>controls\App_LocalResources</path>
+              <name>SkinControl.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>controls\App_LocalResources</path>
+              <name>TextEditor.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>controls\App_LocalResources</path>
+              <name>URLControl.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>controls\App_LocalResources</path>
+              <name>UrlTrackingControl.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>controls\App_LocalResources</path>
+              <name>User.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\Admin\Authentication\App_LocalResources</path>
+              <name>Authentication.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\Admin\Authentication\App_LocalResources</path>
+              <name>Login.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\Admin\Authentication\App_LocalResources</path>
+              <name>Logoff.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\Admin\EditExtension\App_LocalResources</path>
+              <name>AuthenticationEditor.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\Admin\EditExtension\App_LocalResources</path>
+              <name>EditExtension.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\Admin\SearchResults\App_LocalResources</path>
+              <name>ResultsSettings.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\Admin\SearchResults\App_LocalResources</path>
+              <name>SearchableModules.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\Admin\SearchResults\App_LocalResources</path>
+              <name>SearchResults.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\Admin\Security\App_LocalResources</path>
+              <name>DataConsent.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\Admin\Security\App_LocalResources</path>
+              <name>EditGroups.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\Admin\Security\App_LocalResources</path>
+              <name>EditProfileDefinition.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\Admin\Security\App_LocalResources</path>
+              <name>EditRoles.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\Admin\Security\App_LocalResources</path>
+              <name>EditUser.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\Admin\Security\App_LocalResources</path>
+              <name>ManageUsers.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\Admin\Security\App_LocalResources</path>
+              <name>MemberServices.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\Admin\Security\App_LocalResources</path>
+              <name>Membership.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\Admin\Security\App_LocalResources</path>
+              <name>Password.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\Admin\Security\App_LocalResources</path>
+              <name>Profile.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\Admin\Security\App_LocalResources</path>
+              <name>ProfileDefinitions.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\Admin\Security\App_LocalResources</path>
+              <name>Register.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\Admin\Security\App_LocalResources</path>
+              <name>Roles.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\Admin\Security\App_LocalResources</path>
+              <name>SecurityRoles.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\Admin\Security\App_LocalResources</path>
+              <name>SharedResources.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\Admin\Security\App_LocalResources</path>
+              <name>User.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\Admin\Security\App_LocalResources</path>
+              <name>Users.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\Admin\Security\App_LocalResources</path>
+              <name>UserSettings.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\Admin\ViewProfile\App_LocalResources</path>
+              <name>Settings.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\Admin\ViewProfile\App_LocalResources</path>
+              <name>SharedResources.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\Admin\ViewProfile\App_LocalResources</path>
+              <name>ViewProfile.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>Install\App_LocalResources</path>
+              <name>Installwizard.aspx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>Install\App_LocalResources</path>
+              <name>UpgradeWizard.aspx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>Portals\_default</path>
+              <name>Blank Website.template.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>Portals\_default</path>
+              <name>Default Website.template.tr-TR.resx</name>
+            </languageFile>
+          </languageFiles>
+        </component>
+      </components>
+    </package>
+    <package name="Dnn.EditBar.UI_tr-TR" type="ExtensionLanguagePack" version="10.04.00">
+      <friendlyName>Dnn.EditBar.UI Türkçe (Türkiye)</friendlyName>
+      <description>Turkish (Türkiye) language pack for Dnn.EditBar.UI.</description>
+      <iconFile />
+      <owner>
+        <name>DNN Platform</name>
+        <organization>.NET Foundation</organization>
+        <url>https://www.dnncommunity.org</url>
+        <email>info@dnncommunity.org</email>
+      </owner>
+      <license src="license.txt" />
+      <releaseNotes src="ReleaseNotes.txt" />
+      <components>
+        <component type="ExtensionLanguage">
+          <languageFiles>
+            <code>tr-TR</code>
+            <package>Dnn.EditBar.UI</package>
+            <basePath />
+            <languageFile>
+              <path>DesktopModules\Admin\Dnn.EditBar\App_LocalResources</path>
+              <name>AddExistingModule.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\Admin\Dnn.EditBar\App_LocalResources</path>
+              <name>AddModule.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\Admin\Dnn.EditBar\App_LocalResources</path>
+              <name>Common.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\Admin\Dnn.EditBar\App_LocalResources</path>
+              <name>EditBar.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\Admin\Dnn.EditBar\App_LocalResources</path>
+              <name>QuickAddModule.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\Admin\Dnn.EditBar\Resources\ContentEditorManager\App_LocalResources</path>
+              <name>SharedResources.tr-TR.resx</name>
+            </languageFile>
+          </languageFiles>
+        </component>
+      </components>
+    </package>
+    <package name="Dnn.PersonaBar.UI_tr-TR" type="ExtensionLanguagePack" version="10.04.00">
+      <friendlyName>Dnn.PersonaBar.UI Türkçe (Türkiye)</friendlyName>
+      <description>Turkish (Türkiye) language pack for Dnn.PersonaBar.UI.</description>
+      <iconFile />
+      <owner>
+        <name>DNN Platform</name>
+        <organization>.NET Foundation</organization>
+        <url>https://www.dnncommunity.org</url>
+        <email>info@dnncommunity.org</email>
+      </owner>
+      <license src="license.txt" />
+      <releaseNotes src="ReleaseNotes.txt" />
+      <components>
+        <component type="ExtensionLanguage">
+          <languageFiles>
+            <code>tr-TR</code>
+            <package>Dnn.PersonaBar.UI</package>
+            <basePath />
+            <languageFile>
+              <path>DesktopModules\Admin\Dnn.PersonaBar\App_LocalResources</path>
+              <name>PersonaBar.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\Admin\Dnn.PersonaBar\App_LocalResources</path>
+              <name>SharedResources.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\Admin\Dnn.PersonaBar\App_LocalResources</path>
+              <name>Tabs.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\Admin\Dnn.PersonaBar\Modules\Dnn.AdminLogs\App_LocalResources</path>
+              <name>AdminLogs.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\Admin\Dnn.PersonaBar\Modules\Dnn.BulkInstall\App_LocalResources</path>
+              <name>BulkInstall.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\Admin\Dnn.PersonaBar\Modules\Dnn.ConfigConsole\App_LocalResources</path>
+              <name>ConfigConsole.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\Admin\Dnn.PersonaBar\Modules\Dnn.Connectors\App_LocalResources</path>
+              <name>Connectors.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\Admin\Dnn.PersonaBar\Modules\Dnn.CssEditor\App_LocalResources</path>
+              <name>CssEditor.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\Admin\Dnn.PersonaBar\Modules\Dnn.Extensions\App_LocalResources</path>
+              <name>Extensions.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\Admin\Dnn.PersonaBar\Modules\Dnn.Licensing\App_LocalResources</path>
+              <name>Licensing.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\Admin\Dnn.PersonaBar\Modules\Dnn.Pages\App_LocalResources</path>
+              <name>Pages.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\Admin\Dnn.PersonaBar\Modules\Dnn.Prompt\App_LocalResources</path>
+              <name>Prompt.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\Admin\Dnn.PersonaBar\Modules\Dnn.Recyclebin\App_LocalResources</path>
+              <name>Recyclebin.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\Admin\Dnn.PersonaBar\Modules\Dnn.Roles\App_LocalResources</path>
+              <name>Roles.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\Admin\Dnn.PersonaBar\Modules\Dnn.Security\App_LocalResources</path>
+              <name>Security.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\Admin\Dnn.PersonaBar\Modules\Dnn.Seo\App_LocalResources</path>
+              <name>Seo.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\Admin\Dnn.PersonaBar\Modules\Dnn.Servers\App_LocalResources</path>
+              <name>Servers.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\Admin\Dnn.PersonaBar\Modules\Dnn.SiteGroups\App_LocalResources</path>
+              <name>SiteGroups.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\Admin\Dnn.PersonaBar\Modules\Dnn.SiteImportExport\App_LocalResources</path>
+              <name>SiteImportExport.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\Admin\Dnn.PersonaBar\Modules\Dnn.Sites\App_LocalResources</path>
+              <name>Sites.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\Admin\Dnn.PersonaBar\Modules\Dnn.SiteSettings\App_LocalResources</path>
+              <name>SiteSettings.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\Admin\Dnn.PersonaBar\Modules\Dnn.SqlConsole\App_LocalResources</path>
+              <name>SqlConsole.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\Admin\Dnn.PersonaBar\Modules\Dnn.Styles\App_LocalResources</path>
+              <name>Styles.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\Admin\Dnn.PersonaBar\Modules\Dnn.TaskScheduler\App_LocalResources</path>
+              <name>TaskScheduler.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\Admin\Dnn.PersonaBar\Modules\Dnn.Themes\App_LocalResources</path>
+              <name>Themes.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\Admin\Dnn.PersonaBar\Modules\Dnn.Users\App_LocalResources</path>
+              <name>Users.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\Admin\Dnn.PersonaBar\Modules\Dnn.Vocabularies\App_LocalResources</path>
+              <name>Vocabularies.tr-TR.resx</name>
+            </languageFile>
+          </languageFiles>
+        </component>
+      </components>
+    </package>
+    <package name="DotNetNuke.Console_tr-TR" type="ExtensionLanguagePack" version="10.04.00">
+      <friendlyName>DotNetNuke.Console Türkçe (Türkiye)</friendlyName>
+      <description>Turkish (Türkiye) language pack for DotNetNuke.Console.</description>
+      <iconFile />
+      <owner>
+        <name>DNN Platform</name>
+        <organization>.NET Foundation</organization>
+        <url>https://www.dnncommunity.org</url>
+        <email>info@dnncommunity.org</email>
+      </owner>
+      <license src="license.txt" />
+      <releaseNotes src="ReleaseNotes.txt" />
+      <components>
+        <component type="ExtensionLanguage">
+          <languageFiles>
+            <code>tr-TR</code>
+            <package>DotNetNuke.Console</package>
+            <basePath />
+            <languageFile>
+              <path>DesktopModules\Admin\Console\App_LocalResources</path>
+              <name>Settings.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\Admin\Console\App_LocalResources</path>
+              <name>ViewConsole.ascx.tr-TR.resx</name>
+            </languageFile>
+          </languageFiles>
+        </component>
+      </components>
+    </package>
+    <package name="DotNetNuke.HtmlEditorManager_tr-TR" type="ExtensionLanguagePack" version="10.04.00">
+      <friendlyName>DotNetNuke.HtmlEditorManager Türkçe (Türkiye)</friendlyName>
+      <description>Turkish (Türkiye) language pack for DotNetNuke.HtmlEditorManager.</description>
+      <iconFile />
+      <owner>
+        <name>DNN Platform</name>
+        <organization>.NET Foundation</organization>
+        <url>https://www.dnncommunity.org</url>
+        <email>info@dnncommunity.org</email>
+      </owner>
+      <license src="license.txt" />
+      <releaseNotes src="ReleaseNotes.txt" />
+      <components>
+        <component type="ExtensionLanguage">
+          <languageFiles>
+            <code>tr-TR</code>
+            <package>DotNetNuke.HtmlEditorManager</package>
+            <basePath />
+            <languageFile>
+              <path>DesktopModules\Admin\HtmlEditorManager\App_LocalResources</path>
+              <name>ProviderConfiguration.ascx.tr-TR.resx</name>
+            </languageFile>
+          </languageFiles>
+        </component>
+      </components>
+    </package>
+    <package name="DefaultAuthentication_tr-TR" type="ExtensionLanguagePack" version="10.04.00">
+      <friendlyName>DefaultAuthentication Türkçe (Türkiye)</friendlyName>
+      <description>Turkish (Türkiye) language pack for DefaultAuthentication.</description>
+      <iconFile />
+      <owner>
+        <name>DNN Platform</name>
+        <organization>.NET Foundation</organization>
+        <url>https://www.dnncommunity.org</url>
+        <email>info@dnncommunity.org</email>
+      </owner>
+      <license src="license.txt" />
+      <releaseNotes src="ReleaseNotes.txt" />
+      <components>
+        <component type="ExtensionLanguage">
+          <languageFiles>
+            <code>tr-TR</code>
+            <package>DefaultAuthentication</package>
+            <basePath />
+            <languageFile>
+              <path>DesktopModules\AuthenticationServices\DNN\App_LocalResources</path>
+              <name>Login.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\AuthenticationServices\DNN\App_LocalResources</path>
+              <name>Settings.ascx.tr-TR.resx</name>
+            </languageFile>
+          </languageFiles>
+        </component>
+      </components>
+    </package>
+    <package name="Dnn.AzureConnector_tr-TR" type="ExtensionLanguagePack" version="10.04.00">
+      <friendlyName>Dnn.AzureConnector Türkçe (Türkiye)</friendlyName>
+      <description>Turkish (Türkiye) language pack for Dnn.AzureConnector.</description>
+      <iconFile />
+      <owner>
+        <name>DNN Platform</name>
+        <organization>.NET Foundation</organization>
+        <url>https://www.dnncommunity.org</url>
+        <email>info@dnncommunity.org</email>
+      </owner>
+      <license src="license.txt" />
+      <releaseNotes src="ReleaseNotes.txt" />
+      <components>
+        <component type="ExtensionLanguage">
+          <languageFiles>
+            <code>tr-TR</code>
+            <package>Dnn.AzureConnector</package>
+            <basePath />
+            <languageFile>
+              <path>DesktopModules\Connectors\Azure\App_LocalResources</path>
+              <name>SharedResources.tr-TR.resx</name>
+            </languageFile>
+          </languageFiles>
+        </component>
+      </components>
+    </package>
+    <package name="DNN.Connectors.GoogleAnalytics4_tr-TR" type="ExtensionLanguagePack" version="10.04.00">
+      <friendlyName>DNN.Connectors.GoogleAnalytics4 Türkçe (Türkiye)</friendlyName>
+      <description>Turkish (Türkiye) language pack for DNN.Connectors.GoogleAnalytics4.</description>
+      <iconFile />
+      <owner>
+        <name>DNN Platform</name>
+        <organization>.NET Foundation</organization>
+        <url>https://www.dnncommunity.org</url>
+        <email>info@dnncommunity.org</email>
+      </owner>
+      <license src="license.txt" />
+      <releaseNotes src="ReleaseNotes.txt" />
+      <components>
+        <component type="ExtensionLanguage">
+          <languageFiles>
+            <code>tr-TR</code>
+            <package>DNN.Connectors.GoogleAnalytics4</package>
+            <basePath />
+            <languageFile>
+              <path>DesktopModules\Connectors\GoogleAnalytics4\App_LocalResources</path>
+              <name>SharedResources.tr-TR.resx</name>
+            </languageFile>
+          </languageFiles>
+        </component>
+      </components>
+    </package>
+    <package name="DNN.Connectors.GoogleAnalytics_tr-TR" type="ExtensionLanguagePack" version="10.04.00">
+      <friendlyName>DNN.Connectors.GoogleAnalytics Türkçe (Türkiye)</friendlyName>
+      <description>Turkish (Türkiye) language pack for DNN.Connectors.GoogleAnalytics.</description>
+      <iconFile />
+      <owner>
+        <name>DNN Platform</name>
+        <organization>.NET Foundation</organization>
+        <url>https://www.dnncommunity.org</url>
+        <email>info@dnncommunity.org</email>
+      </owner>
+      <license src="license.txt" />
+      <releaseNotes src="ReleaseNotes.txt" />
+      <components>
+        <component type="ExtensionLanguage">
+          <languageFiles>
+            <code>tr-TR</code>
+            <package>DNN.Connectors.GoogleAnalytics</package>
+            <basePath />
+            <languageFile>
+              <path>DesktopModules\Connectors\GoogleAnalytics\App_LocalResources</path>
+              <name>SharedResources.tr-TR.resx</name>
+            </languageFile>
+          </languageFiles>
+        </component>
+      </components>
+    </package>
+    <package name="DNN.Connectors.GoogleTagManager_tr-TR" type="ExtensionLanguagePack" version="10.04.00">
+      <friendlyName>DNN.Connectors.GoogleTagManager Türkçe (Türkiye)</friendlyName>
+      <description>Turkish (Türkiye) language pack for DNN.Connectors.GoogleTagManager.</description>
+      <iconFile />
+      <owner>
+        <name>DNN Platform</name>
+        <organization>.NET Foundation</organization>
+        <url>https://www.dnncommunity.org</url>
+        <email>info@dnncommunity.org</email>
+      </owner>
+      <license src="license.txt" />
+      <releaseNotes src="ReleaseNotes.txt" />
+      <components>
+        <component type="ExtensionLanguage">
+          <languageFiles>
+            <code>tr-TR</code>
+            <package>DNN.Connectors.GoogleTagManager</package>
+            <basePath />
+            <languageFile>
+              <path>DesktopModules\Connectors\GoogleTagManager\App_LocalResources</path>
+              <name>SharedResources.tr-TR.resx</name>
+            </languageFile>
+          </languageFiles>
+        </component>
+      </components>
+    </package>
+    <package name="DotNetNuke.Modules.CoreMessaging_tr-TR" type="ExtensionLanguagePack" version="10.04.00">
+      <friendlyName>DotNetNuke.Modules.CoreMessaging Türkçe (Türkiye)</friendlyName>
+      <description>Turkish (Türkiye) language pack for DotNetNuke.Modules.CoreMessaging.</description>
+      <iconFile />
+      <owner>
+        <name>DNN Platform</name>
+        <organization>.NET Foundation</organization>
+        <url>https://www.dnncommunity.org</url>
+        <email>info@dnncommunity.org</email>
+      </owner>
+      <license src="license.txt" />
+      <releaseNotes src="ReleaseNotes.txt" />
+      <components>
+        <component type="ExtensionLanguage">
+          <languageFiles>
+            <code>tr-TR</code>
+            <package>DotNetNuke.Modules.CoreMessaging</package>
+            <basePath />
+            <languageFile>
+              <path>DesktopModules\CoreMessaging\App_LocalResources</path>
+              <name>SharedResources.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\CoreMessaging\App_LocalResources</path>
+              <name>View.ascx.tr-TR.resx</name>
+            </languageFile>
+          </languageFiles>
+        </component>
+      </components>
+    </package>
+    <package name="DDRMenu_tr-TR" type="ExtensionLanguagePack" version="10.04.00">
+      <friendlyName>DDRMenu Türkçe (Türkiye)</friendlyName>
+      <description>Turkish (Türkiye) language pack for DDRMenu.</description>
+      <iconFile />
+      <owner>
+        <name>DNN Platform</name>
+        <organization>.NET Foundation</organization>
+        <url>https://www.dnncommunity.org</url>
+        <email>info@dnncommunity.org</email>
+      </owner>
+      <license src="license.txt" />
+      <releaseNotes src="ReleaseNotes.txt" />
+      <components>
+        <component type="ExtensionLanguage">
+          <languageFiles>
+            <code>tr-TR</code>
+            <package>DDRMenu</package>
+            <basePath />
+            <languageFile>
+              <path>DesktopModules\DDRMenu\App_LocalResources</path>
+              <name>MenuSettings.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\DDRMenu\App_LocalResources</path>
+              <name>MenuView.ascx.tr-TR.resx</name>
+            </languageFile>
+          </languageFiles>
+        </component>
+      </components>
+    </package>
+    <package name="DNN_HTML_tr-TR" type="ExtensionLanguagePack" version="10.04.00">
+      <friendlyName>DNN_HTML Türkçe (Türkiye)</friendlyName>
+      <description>Turkish (Türkiye) language pack for DNN_HTML.</description>
+      <iconFile />
+      <owner>
+        <name>DNN Platform</name>
+        <organization>.NET Foundation</organization>
+        <url>https://www.dnncommunity.org</url>
+        <email>info@dnncommunity.org</email>
+      </owner>
+      <license src="license.txt" />
+      <releaseNotes src="ReleaseNotes.txt" />
+      <components>
+        <component type="ExtensionLanguage">
+          <languageFiles>
+            <code>tr-TR</code>
+            <package>DNN_HTML</package>
+            <basePath />
+            <languageFile>
+              <path>DesktopModules\HTML\App_LocalResources</path>
+              <name>EditHtml.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\HTML\App_LocalResources</path>
+              <name>HtmlModule.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\HTML\App_LocalResources</path>
+              <name>MyWork.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\HTML\App_LocalResources</path>
+              <name>Settings.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\HTML\App_LocalResources</path>
+              <name>SharedResources.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\HTML\App_LocalResources</path>
+              <name>Workflow.ascx.tr-TR.resx</name>
+            </languageFile>
+          </languageFiles>
+        </component>
+      </components>
+    </package>
+    <package name="Journal_tr-TR" type="ExtensionLanguagePack" version="10.04.00">
+      <friendlyName>Journal Türkçe (Türkiye)</friendlyName>
+      <description>Turkish (Türkiye) language pack for Journal.</description>
+      <iconFile />
+      <owner>
+        <name>DNN Platform</name>
+        <organization>.NET Foundation</organization>
+        <url>https://www.dnncommunity.org</url>
+        <email>info@dnncommunity.org</email>
+      </owner>
+      <license src="license.txt" />
+      <releaseNotes src="ReleaseNotes.txt" />
+      <components>
+        <component type="ExtensionLanguage">
+          <languageFiles>
+            <code>tr-TR</code>
+            <package>Journal</package>
+            <basePath />
+            <languageFile>
+              <path>DesktopModules\Journal\App_LocalResources</path>
+              <name>Edit.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\Journal\App_LocalResources</path>
+              <name>Settings.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\Journal\App_LocalResources</path>
+              <name>SharedResources.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\Journal\App_LocalResources</path>
+              <name>View.ascx.tr-TR.resx</name>
+            </languageFile>
+          </languageFiles>
+        </component>
+      </components>
+    </package>
+    <package name="DotNetNuke.Modules.MemberDirectory_tr-TR" type="ExtensionLanguagePack" version="10.04.00">
+      <friendlyName>DotNetNuke.Modules.MemberDirectory Türkçe (Türkiye)</friendlyName>
+      <description>Turkish (Türkiye) language pack for DotNetNuke.Modules.MemberDirectory.</description>
+      <iconFile />
+      <owner>
+        <name>DNN Platform</name>
+        <organization>.NET Foundation</organization>
+        <url>https://www.dnncommunity.org</url>
+        <email>info@dnncommunity.org</email>
+      </owner>
+      <license src="license.txt" />
+      <releaseNotes src="ReleaseNotes.txt" />
+      <components>
+        <component type="ExtensionLanguage">
+          <languageFiles>
+            <code>tr-TR</code>
+            <package>DotNetNuke.Modules.MemberDirectory</package>
+            <basePath />
+            <languageFile>
+              <path>DesktopModules\MemberDirectory\App_LocalResources</path>
+              <name>Settings.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\MemberDirectory\App_LocalResources</path>
+              <name>View.ascx.tr-TR.resx</name>
+            </languageFile>
+          </languageFiles>
+        </component>
+      </components>
+    </package>
+    <package name="DNNCorp.RazorHost_tr-TR" type="ExtensionLanguagePack" version="10.04.00">
+      <friendlyName>DNNCorp.RazorHost Türkçe (Türkiye)</friendlyName>
+      <description>Turkish (Türkiye) language pack for DNNCorp.RazorHost.</description>
+      <iconFile />
+      <owner>
+        <name>DNN Platform</name>
+        <organization>.NET Foundation</organization>
+        <url>https://www.dnncommunity.org</url>
+        <email>info@dnncommunity.org</email>
+      </owner>
+      <license src="license.txt" />
+      <releaseNotes src="ReleaseNotes.txt" />
+      <components>
+        <component type="ExtensionLanguage">
+          <languageFiles>
+            <code>tr-TR</code>
+            <package>DNNCorp.RazorHost</package>
+            <basePath />
+            <languageFile>
+              <path>DesktopModules\RazorModules\RazorHost\App_LocalResources</path>
+              <name>AddScript.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\RazorModules\RazorHost\App_LocalResources</path>
+              <name>CreateModule.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\RazorModules\RazorHost\App_LocalResources</path>
+              <name>EditScript.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\RazorModules\RazorHost\App_LocalResources</path>
+              <name>RazorHost.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\RazorModules\RazorHost\App_LocalResources</path>
+              <name>Settings.ascx.tr-TR.resx</name>
+            </languageFile>
+          </languageFiles>
+        </component>
+      </components>
+    </package>
+    <package name="ResourceManager_tr-TR" type="ExtensionLanguagePack" version="10.04.00">
+      <friendlyName>ResourceManager Türkçe (Türkiye)</friendlyName>
+      <description>Turkish (Türkiye) language pack for ResourceManager.</description>
+      <iconFile />
+      <owner>
+        <name>DNN Platform</name>
+        <organization>.NET Foundation</organization>
+        <url>https://www.dnncommunity.org</url>
+        <email>info@dnncommunity.org</email>
+      </owner>
+      <license src="license.txt" />
+      <releaseNotes src="ReleaseNotes.txt" />
+      <components>
+        <component type="ExtensionLanguage">
+          <languageFiles>
+            <code>tr-TR</code>
+            <package>ResourceManager</package>
+            <basePath />
+            <languageFile>
+              <path>DesktopModules\ResourceManager\App_LocalResources</path>
+              <name>EditFolderMapping.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\ResourceManager\App_LocalResources</path>
+              <name>ResourceManager.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\ResourceManager\App_LocalResources</path>
+              <name>Settings.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\ResourceManager\App_LocalResources</path>
+              <name>View.ascx.tr-TR.resx</name>
+            </languageFile>
+          </languageFiles>
+        </component>
+      </components>
+    </package>
+    <package name="SiteExportImport_tr-TR" type="ExtensionLanguagePack" version="10.04.00">
+      <friendlyName>SiteExportImport Türkçe (Türkiye)</friendlyName>
+      <description>Turkish (Türkiye) language pack for SiteExportImport.</description>
+      <iconFile />
+      <owner>
+        <name>DNN Platform</name>
+        <organization>.NET Foundation</organization>
+        <url>https://www.dnncommunity.org</url>
+        <email>info@dnncommunity.org</email>
+      </owner>
+      <license src="license.txt" />
+      <releaseNotes src="ReleaseNotes.txt" />
+      <components>
+        <component type="ExtensionLanguage">
+          <languageFiles>
+            <code>tr-TR</code>
+            <package>SiteExportImport</package>
+            <basePath />
+            <languageFile>
+              <path>DesktopModules\SiteExportImport\App_LocalResources</path>
+              <name>ExportImport.tr-TR.resx</name>
+            </languageFile>
+          </languageFiles>
+        </component>
+      </components>
+    </package>
+    <package name="Social Groups_tr-TR" type="ExtensionLanguagePack" version="10.04.00">
+      <friendlyName>Social Groups Türkçe (Türkiye)</friendlyName>
+      <description>Turkish (Türkiye) language pack for Social Groups.</description>
+      <iconFile />
+      <owner>
+        <name>DNN Platform</name>
+        <organization>.NET Foundation</organization>
+        <url>https://www.dnncommunity.org</url>
+        <email>info@dnncommunity.org</email>
+      </owner>
+      <license src="license.txt" />
+      <releaseNotes src="ReleaseNotes.txt" />
+      <components>
+        <component type="ExtensionLanguage">
+          <languageFiles>
+            <code>tr-TR</code>
+            <package>Social Groups</package>
+            <basePath />
+            <languageFile>
+              <path>DesktopModules\SocialGroups\App_LocalResources</path>
+              <name>CreateSettings.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\SocialGroups\App_LocalResources</path>
+              <name>Edit.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\SocialGroups\App_LocalResources</path>
+              <name>ListSettings.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\SocialGroups\App_LocalResources</path>
+              <name>SharedResources.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\SocialGroups\App_LocalResources</path>
+              <name>View.ascx.tr-TR.resx</name>
+            </languageFile>
+          </languageFiles>
+        </component>
+      </components>
+    </package>
+    <package name="AspNetClientCapabilityProvider_tr-TR" type="ExtensionLanguagePack" version="10.04.00">
+      <friendlyName>AspNetClientCapabilityProvider Türkçe (Türkiye)</friendlyName>
+      <description>Turkish (Türkiye) language pack for AspNetClientCapabilityProvider.</description>
+      <iconFile />
+      <owner>
+        <name>DNN Platform</name>
+        <organization>.NET Foundation</organization>
+        <url>https://www.dnncommunity.org</url>
+        <email>info@dnncommunity.org</email>
+      </owner>
+      <license src="license.txt" />
+      <releaseNotes src="ReleaseNotes.txt" />
+      <components>
+        <component type="ExtensionLanguage">
+          <languageFiles>
+            <code>tr-TR</code>
+            <package>AspNetClientCapabilityProvider</package>
+            <basePath />
+            <languageFile>
+              <path>Providers\ClientCapabilityProviders\AspNetClientCapabilityProvider\App_LocalResources</path>
+              <name>SharedResources.tr-TR.resx</name>
+            </languageFile>
+          </languageFiles>
+        </component>
+      </components>
+    </package>
+    <package name="DotNetNuke.Providers.FolderProviders_tr-TR" type="ExtensionLanguagePack" version="10.04.00">
+      <friendlyName>DotNetNuke.Providers.FolderProviders Türkçe (Türkiye)</friendlyName>
+      <description>Turkish (Türkiye) language pack for DotNetNuke.Providers.FolderProviders.</description>
+      <iconFile />
+      <owner>
+        <name>DNN Platform</name>
+        <organization>.NET Foundation</organization>
+        <url>https://www.dnncommunity.org</url>
+        <email>info@dnncommunity.org</email>
+      </owner>
+      <license src="license.txt" />
+      <releaseNotes src="ReleaseNotes.txt" />
+      <components>
+        <component type="ExtensionLanguage">
+          <languageFiles>
+            <code>tr-TR</code>
+            <package>DotNetNuke.Providers.FolderProviders</package>
+            <basePath />
+            <languageFile>
+              <path>Providers\FolderProviders\AzureFolderProvider\App_LocalResources</path>
+              <name>Settings.ascx.tr-TR.resx</name>
+            </languageFile>
+          </languageFiles>
+        </component>
+      </components>
+    </package>
+    <package name="DNNConnect.CKEditorProvider_tr-TR" type="ExtensionLanguagePack" version="10.04.00">
+      <friendlyName>DNNConnect.CKEditorProvider Türkçe (Türkiye)</friendlyName>
+      <description>Turkish (Türkiye) language pack for DNNConnect.CKEditorProvider.</description>
+      <iconFile />
+      <owner>
+        <name>DNN Platform</name>
+        <organization>.NET Foundation</organization>
+        <url>https://www.dnncommunity.org</url>
+        <email>info@dnncommunity.org</email>
+      </owner>
+      <license src="license.txt" />
+      <releaseNotes src="ReleaseNotes.txt" />
+      <components>
+        <component type="ExtensionLanguage">
+          <languageFiles>
+            <code>tr-TR</code>
+            <package>DNNConnect.CKEditorProvider</package>
+            <basePath />
+            <languageFile>
+              <path>Providers\HtmlEditorProviders\DNNConnect.CKE\App_LocalResources</path>
+              <name>Browser.aspx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>Providers\HtmlEditorProviders\DNNConnect.CKE\App_LocalResources</path>
+              <name>EditorConfigManager.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>Providers\HtmlEditorProviders\DNNConnect.CKE\App_LocalResources</path>
+              <name>Options.aspx.tr-TR.resx</name>
+            </languageFile>
+          </languageFiles>
+        </component>
+      </components>
+    </package>
+    <package name="Dnn.ExchangeOnlineAuthProvider_tr-TR" type="ExtensionLanguagePack" version="10.04.00">
+      <friendlyName>Dnn.ExchangeOnlineAuthProvider Türkçe (Türkiye)</friendlyName>
+      <description>Turkish (Türkiye) language pack for Dnn.ExchangeOnlineAuthProvider.</description>
+      <iconFile />
+      <owner>
+        <name>DNN Platform</name>
+        <organization>.NET Foundation</organization>
+        <url>https://www.dnncommunity.org</url>
+        <email>info@dnncommunity.org</email>
+      </owner>
+      <license src="license.txt" />
+      <releaseNotes src="ReleaseNotes.txt" />
+      <components>
+        <component type="ExtensionLanguage">
+          <languageFiles>
+            <code>tr-TR</code>
+            <package>Dnn.ExchangeOnlineAuthProvider</package>
+            <basePath />
+            <languageFile>
+              <path>Providers\SmtpOAuthProviders\ExchangeOnline\App_LocalResources</path>
+              <name>SharedResources.tr-TR.resx</name>
+            </languageFile>
+          </languageFiles>
+        </component>
+      </components>
+    </package>
+    <package name="Dnn.GoogleMailAuthProvider_tr-TR" type="ExtensionLanguagePack" version="10.04.00">
+      <friendlyName>Dnn.GoogleMailAuthProvider Türkçe (Türkiye)</friendlyName>
+      <description>Turkish (Türkiye) language pack for Dnn.GoogleMailAuthProvider.</description>
+      <iconFile />
+      <owner>
+        <name>DNN Platform</name>
+        <organization>.NET Foundation</organization>
+        <url>https://www.dnncommunity.org</url>
+        <email>info@dnncommunity.org</email>
+      </owner>
+      <license src="license.txt" />
+      <releaseNotes src="ReleaseNotes.txt" />
+      <components>
+        <component type="ExtensionLanguage">
+          <languageFiles>
+            <code>tr-TR</code>
+            <package>Dnn.GoogleMailAuthProvider</package>
+            <basePath />
+            <languageFile>
+              <path>Providers\SmtpOAuthProviders\GoogleMail\App_LocalResources</path>
+              <name>SharedResources.tr-TR.resx</name>
+            </languageFile>
+          </languageFiles>
+        </component>
+      </components>
+    </package>
+  </packages>
+</dotnetnuke>

@@ -1,0 +1,1307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="All.Text" xml:space="preserve">
+    <value>Tümü</value>
+  </data>
+  <data name="Deleted.Text" xml:space="preserve">
+    <value>Silinmiş</value>
+  </data>
+  <data name="nav_Users.Text" xml:space="preserve">
+    <value>Kullanıcılar</value>
+  </data>
+  <data name="RegisteredUsers.Text" xml:space="preserve">
+    <value>Kayıtlı Kullanıcılar</value>
+  </data>
+  <data name="SuperUsers.Text" xml:space="preserve">
+    <value>Süper Kullanıcılar</value>
+  </data>
+  <data name="UnAuthorized.Text" xml:space="preserve">
+    <value>Yetkilendirilmemiş</value>
+  </data>
+  <data name="SearchPlaceHolder.Text" xml:space="preserve">
+    <value>Kullanıcı Ara</value>
+  </data>
+  <data name="AccountSettings.Text" xml:space="preserve">
+    <value>Hesap Ayarları</value>
+  </data>
+  <data name="Add.Text" xml:space="preserve">
+    <value>Ekle</value>
+  </data>
+  <data name="AddRolePlaceHolder.Text" xml:space="preserve">
+    <value>Bu kullanıcıya rol eklemek için yazmaya başlayın.</value>
+  </data>
+  <data name="Approved.Help" xml:space="preserve">
+    <value>Bu kullanıcının site için yetkilendirilip yetkilendirilmediğini gösterir.</value>
+  </data>
+  <data name="Approved.Text" xml:space="preserve">
+    <value>Yetkilendirildi:</value>
+  </data>
+  <data name="Authorized.Header" xml:space="preserve">
+    <value>Durum</value>
+  </data>
+  <data name="Authorized.Text" xml:space="preserve">
+    <value>Yetkilendirildi</value>
+  </data>
+  <data name="btnApply.Text" xml:space="preserve">
+    <value>Uygula</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="btnCreate.Text" xml:space="preserve">
+    <value>Oluştur</value>
+  </data>
+  <data name="btnSave.Text" xml:space="preserve">
+    <value>Kaydet</value>
+  </data>
+  <data name="Cancel.Text" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="CannotAddUser.Text" xml:space="preserve">
+    <value>Bu site, kullanıcıların şifre hatırlatıcısı alabilmek için bir Soru ve Cevap girmesini gerektirecek şekilde yapılandırılmıştır.  Bu yapılandırma, Yöneticilerin kullanıcı eklemesiyle uyumlu olmadığından bu site için devre dışı bırakılmıştır.</value>
+  </data>
+  <data name="CannotChangePassword.Text" xml:space="preserve">
+    <value>Yapılandırmanız, kullanıcının Şifre hatırlatıcısı için bir Soru ve Cevap girmesini gerektiriyor.  Bu ayar uygulandığında Yöneticiler bir kullanıcının şifresini değiştiremez; bu nedenle bu özellik bu site için devre dışı bırakılmıştır.</value>
+  </data>
+  <data name="ChangePassword.Text" xml:space="preserve">
+    <value>Şifreyi Değiştir</value>
+  </data>
+  <data name="ChangeSuccessful.Text" xml:space="preserve">
+    <value>Şifre Başarıyla Değiştirildi</value>
+  </data>
+  <data name="cmdAuthorize.Text" xml:space="preserve">
+    <value>Kullanıcıyı Yetkilendir</value>
+  </data>
+  <data name="cmdPassword.Text" xml:space="preserve">
+    <value>Şifre Değişikliğini Zorunlu Kıl</value>
+  </data>
+  <data name="cmdUnAuthorize.Text" xml:space="preserve">
+    <value>Kullanıcının Yetkisini Kaldır</value>
+  </data>
+  <data name="cmdUnLock.Text" xml:space="preserve">
+    <value>Hesabın Kilidini Aç</value>
+  </data>
+  <data name="Created.Header" xml:space="preserve">
+    <value>Katılma</value>
+  </data>
+  <data name="CreatedDate.Help" xml:space="preserve">
+    <value>Bu kullanıcı hesabının oluşturulduğu tarih.</value>
+  </data>
+  <data name="CreatedDate.Text" xml:space="preserve">
+    <value>Oluşturulma Tarihi:</value>
+  </data>
+  <data name="Delete.Text" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="DeleteRole.Confirm" xml:space="preserve">
+    <value>'{0}' rolünü '{1}' kullanıcısından kaldırmak istediğinizden emin misiniz?</value>
+  </data>
+  <data name="DeleteUser.Confirm" xml:space="preserve">
+    <value>Bu kullanıcıyı silmek istediğinizden emin misiniz?</value>
+  </data>
+  <data name="DeleteUser.Text" xml:space="preserve">
+    <value>Kullanıcıyı Sil</value>
+  </data>
+  <data name="DemoteFromSuperUser.Text" xml:space="preserve">
+    <value>Normal Kullanıcı Yap</value>
+  </data>
+  <data name="DisplayName.Help" xml:space="preserve">
+    <value>Bir görünen ad girin.</value>
+  </data>
+  <data name="DisplayName.Text" xml:space="preserve">
+    <value>Görünen Ad:</value>
+  </data>
+  <data name="Email.Header" xml:space="preserve">
+    <value>E-posta</value>
+  </data>
+  <data name="Email.Help" xml:space="preserve">
+    <value>Geçerli bir e-posta adresi girin.</value>
+  </data>
+  <data name="Email.Text" xml:space="preserve">
+    <value>E-posta Adresi:</value>
+  </data>
+  <data name="Expires.Header" xml:space="preserve">
+    <value>Bitiş</value>
+  </data>
+  <data name="FirstName.Help" xml:space="preserve">
+    <value>Bir ad girin.</value>
+  </data>
+  <data name="FirstName.Text" xml:space="preserve">
+    <value>Ad:</value>
+  </data>
+  <data name="ForceChangePassword.Text" xml:space="preserve">
+    <value>Şifre Değişikliğini Zorunlu Kıl</value>
+  </data>
+  <data name="IsDeleted.Help" xml:space="preserve">
+    <value>Bu kullanıcının silinip silinmediğini gösterir.</value>
+  </data>
+  <data name="IsDeleted.Text" xml:space="preserve">
+    <value>Silinmiş:</value>
+  </data>
+  <data name="IsOnLine.Help" xml:space="preserve">
+    <value>Kullanıcının şu anda çevrimiçi olup olmadığını gösterir.</value>
+  </data>
+  <data name="IsOnLine.Text" xml:space="preserve">
+    <value>Kullanıcı Çevrimiçi:</value>
+  </data>
+  <data name="IsOwner.Text" xml:space="preserve">
+    <value>Sahip mi</value>
+  </data>
+  <data name="LastActivityDate.Help" xml:space="preserve">
+    <value>Bu kullanıcının sitede en son etkin olduğu tarih.</value>
+  </data>
+  <data name="LastActivityDate.Text" xml:space="preserve">
+    <value>Son Etkinlik Tarihi:</value>
+  </data>
+  <data name="LastLockoutDate.Help" xml:space="preserve">
+    <value>Bu kullanıcının art arda başarısız giriş denemeleri nedeniyle siteye erişiminin en son kilitlendiği tarih.</value>
+  </data>
+  <data name="LastLockoutDate.Text" xml:space="preserve">
+    <value>Son Kilitlenme Tarihi:</value>
+  </data>
+  <data name="LastLoginDate.Help" xml:space="preserve">
+    <value>Bu kullanıcının siteye en son giriş yaptığı tarih.</value>
+  </data>
+  <data name="LastLoginDate.Text" xml:space="preserve">
+    <value>Son Giriş Tarihi:</value>
+  </data>
+  <data name="LastPasswordChangeDate.Help" xml:space="preserve">
+    <value>Bu kullanıcının şifresini en son değiştirdiği tarih.</value>
+  </data>
+  <data name="LastPasswordChangeDate.Text" xml:space="preserve">
+    <value>Son Şifre Değişikliği:</value>
+  </data>
+  <data name="LockedOut.Help" xml:space="preserve">
+    <value>Kullanıcının art arda başarısız giriş denemeleri nedeniyle şu anda siteye erişiminin kilitli olup olmadığını gösterir.</value>
+  </data>
+  <data name="LockedOut.Text" xml:space="preserve">
+    <value>Kilitli:</value>
+  </data>
+  <data name="UserId.Text" xml:space="preserve">
+    <value>Kullanıcı Kimliği:</value>
+  </data>
+  <data name="UserId.Help" xml:space="preserve">
+    <value>Kullanıcının benzersiz tanımlayıcısı.</value>
+  </data>
+  <data name="ManageProfile.title" xml:space="preserve">
+    <value>Profil Ayarları</value>
+  </data>
+  <data name="ManageRoles.title" xml:space="preserve">
+    <value>Kullanıcı Rolleri</value>
+  </data>
+  <data name="ManageSettings.title" xml:space="preserve">
+    <value>Hesap Ayarları</value>
+  </data>
+  <data name="Name.Header" xml:space="preserve">
+    <value>Ad</value>
+  </data>
+  <data name="Never.Text" xml:space="preserve">
+    <value>Hiçbir zaman</value>
+  </data>
+  <data name="NoRoles.Text" xml:space="preserve">
+    <value>Rol bulunamadı.</value>
+  </data>
+  <data name="OptionUnavailable.Text" xml:space="preserve">
+    <value>Şifre Sıfırlama seçeneği şu anda kullanılamıyor.</value>
+  </data>
+  <data name="PasswordInvalid.Text" xml:space="preserve">
+    <value>Geçerli bir şifre girmelisiniz.  Şifre gereksinimlerini bilmiyorsanız Site Yöneticisine danışın.</value>
+  </data>
+  <data name="PasswordManagement.Text" xml:space="preserve">
+    <value>Şifre Yönetimi</value>
+  </data>
+  <data name="PasswordResetFailed.Text" xml:space="preserve">
+    <value>Yeni şifreniz güvenlik nedeniyle kabul edilmedi.  Daha önce kullanmadığınız ve sitenin şifre karmaşıklığı gereksinimlerini karşılayacak kadar uzun ve karmaşık bir şifre girin.</value>
+  </data>
+  <data name="PasswordResetFailed_PasswordInHistory.Text" xml:space="preserve">
+    <value>Yeni şifreniz güvenlik nedeniyle kabul edilmedi. Daha önce kullanılmamış bir şifre seçin.</value>
+  </data>
+  <data name="PasswordSent.Text" xml:space="preserve">
+    <value>Girilen kullanıcı adı doğruysa, kısa süre içinde şifrenizi sıfırlamanız için bağlantı içeren yeni bir e-posta almanız gerekir.</value>
+  </data>
+  <data name="NewConfirmMismatch.ErrorMessage" xml:space="preserve">
+    <value>Yeni Şifre ile Şifre Onayı eşleşmelidir.</value>
+  </data>
+  <data name="NewConfirm.Help" xml:space="preserve">
+    <value>Onaylamak için yeni şifrenizi yeniden girin.</value>
+  </data>
+  <data name="NewConfirm.Text" xml:space="preserve">
+    <value>Şifreyi Onayla:</value>
+  </data>
+  <data name="NewPassword.Help" xml:space="preserve">
+    <value>Yeni şifrenizi girin.</value>
+  </data>
+  <data name="NewPassword.Text" xml:space="preserve">
+    <value>Yeni Şifre:</value>
+  </data>
+  <data name="PromoteToSuperUser.Text" xml:space="preserve">
+    <value>Süper Kullanıcı Yap</value>
+  </data>
+  <data name="RemoveUser.Confirm" xml:space="preserve">
+    <value>Bu kullanıcıyı kalıcı olarak kaldırmak istediğinizden emin misiniz?</value>
+  </data>
+  <data name="RemoveUser.Text" xml:space="preserve">
+    <value>Kullanıcıyı Kalıcı Olarak Kaldır</value>
+  </data>
+  <data name="ResetPassword.Text" xml:space="preserve">
+    <value>Şifre Sıfırlama Bağlantısı Gönder</value>
+  </data>
+  <data name="RestoreUser.Text" xml:space="preserve">
+    <value>Kullanıcıyı Geri Yükle</value>
+  </data>
+  <data name="Role.Header" xml:space="preserve">
+    <value>Rol</value>
+  </data>
+  <data name="Roles.Title" xml:space="preserve">
+    <value>Roller</value>
+  </data>
+  <data name="rolesPageInfoText.Text" xml:space="preserve">
+    <value>Sayfa {0} / {1}</value>
+  </data>
+  <data name="rolesSummaryText.Text" xml:space="preserve">
+    <value>{0}-{1} gösteriliyor (toplam {2})</value>
+  </data>
+  <data name="SendEmail.Text" xml:space="preserve">
+    <value>E-posta Gönder</value>
+  </data>
+  <data name="Start.Header" xml:space="preserve">
+    <value>Başlangıç</value>
+  </data>
+  <data name="UpdatePassword.Help" xml:space="preserve">
+    <value>Bu kullanıcının şifresini güncellemeye zorlanıp zorlanmadığını gösterir.</value>
+  </data>
+  <data name="UpdatePassword.Text" xml:space="preserve">
+    <value>Şifreyi Güncelle:</value>
+  </data>
+  <data name="UserAuthorized.Text" xml:space="preserve">
+    <value>Kullanıcı başarıyla yetkilendirildi.</value>
+  </data>
+  <data name="UserDeleted.Text" xml:space="preserve">
+    <value>Kullanıcı başarıyla silindi.</value>
+  </data>
+  <data name="UserFolder.Help" xml:space="preserve">
+    <value>Bu kullanıcının dosyalarının depolandığı klasör.</value>
+  </data>
+  <data name="UserFolder.Text" xml:space="preserve">
+    <value>Kullanıcı Klasörü:</value>
+  </data>
+  <data name="Username.Help" xml:space="preserve">
+    <value>Bir kullanıcı adı girin. Kullanıcı adı en az yapılandırılmış minimum uzunlukta olmalı ve alfasayısal bir değer içermelidir.</value>
+  </data>
+  <data name="Username.Text" xml:space="preserve">
+    <value>Kullanıcı Adı:</value>
+  </data>
+  <data name="UserPasswordUpdateChanged.Text" xml:space="preserve">
+    <value>Kullanıcı bir sonraki girişte şifresini güncellemelidir.</value>
+  </data>
+  <data name="UserRestored.Text" xml:space="preserve">
+    <value>Kullanıcı başarıyla geri yüklendi</value>
+  </data>
+  <data name="usersPageSizeOptionText.Text" xml:space="preserve">
+    <value>Sayfa başına {0} kullanıcı</value>
+  </data>
+  <data name="usersSummaryText.Text" xml:space="preserve">
+    <value>{0}-{1} gösteriliyor (toplam {2})</value>
+  </data>
+  <data name="UserUnAuthorized.Text" xml:space="preserve">
+    <value>Kullanıcının yetkisi başarıyla kaldırıldı.</value>
+  </data>
+  <data name="UserUpdated.Text" xml:space="preserve">
+    <value>Kullanıcı başarıyla güncellendi.</value>
+  </data>
+  <data name="ViewProfile.Text" xml:space="preserve">
+    <value>Profili Görüntüle</value>
+  </data>
+  <data name="btnCreateUser.Text" xml:space="preserve">
+    <value>Kullanıcı Ekle</value>
+  </data>
+  <data name="Confirm.Help" xml:space="preserve">
+    <value>Onaylamak için şifreyi yeniden girin.</value>
+  </data>
+  <data name="Confirm.Text" xml:space="preserve">
+    <value>Şifreyi Onayla:</value>
+  </data>
+  <data name="ConfirmMismatch.ErrorMessage" xml:space="preserve">
+    <value>Şifre ile Şifre Onayı eşleşmelidir.</value>
+  </data>
+  <data name="LastName.Help" xml:space="preserve">
+    <value>Bir soyadı girin.</value>
+  </data>
+  <data name="LastName.Text" xml:space="preserve">
+    <value>Soyadı:</value>
+  </data>
+  <data name="Notify.Text" xml:space="preserve">
+    <value>Yeni Kullanıcıya E-posta Gönder</value>
+  </data>
+  <data name="Password.Help" xml:space="preserve">
+    <value>Bu kullanıcı için bir şifre girin.</value>
+  </data>
+  <data name="Password.Text" xml:space="preserve">
+    <value>Şifre:</value>
+  </data>
+  <data name="Random.Help" xml:space="preserve">
+    <value>Rastgele bir şifre oluşturmak için bu kutuyu işaretleyin.</value>
+  </data>
+  <data name="Random.Text" xml:space="preserve">
+    <value>Rastgele Şifre</value>
+  </data>
+  <data name="UserCreated.Text" xml:space="preserve">
+    <value>Kullanıcı başarıyla oluşturuldu.</value>
+  </data>
+  <data name="Confirm.Required" xml:space="preserve">
+    <value>Şifre onayı girmelisiniz.</value>
+  </data>
+  <data name="DisplayName.RegExError" xml:space="preserve">
+    <value>Görünen ad geçersiz.</value>
+  </data>
+  <data name="DisplayName.Required" xml:space="preserve">
+    <value>Görünen ad zorunludur.</value>
+  </data>
+  <data name="Email.RegExError" xml:space="preserve">
+    <value>Geçerli bir e-posta adresi girmelisiniz.</value>
+  </data>
+  <data name="Email.Required" xml:space="preserve">
+    <value>E-posta zorunludur.</value>
+  </data>
+  <data name="FirstName.RegExError" xml:space="preserve">
+    <value>Ad geçersiz.</value>
+  </data>
+  <data name="FirstName.Required" xml:space="preserve">
+    <value>Ad zorunludur.</value>
+  </data>
+  <data name="LastName.RegExError" xml:space="preserve">
+    <value>Soyadı geçersiz.</value>
+  </data>
+  <data name="LastName.Required" xml:space="preserve">
+    <value>Soyadı zorunludur.</value>
+  </data>
+  <data name="NewConfirm.Required" xml:space="preserve">
+    <value>Şifre onayı girmelisiniz.</value>
+  </data>
+  <data name="NewPassword.Required" xml:space="preserve">
+    <value>Bir şifre girmelisiniz.</value>
+  </data>
+  <data name="Password.Required" xml:space="preserve">
+    <value>Bir şifre girmelisiniz.</value>
+  </data>
+  <data name="Username.RegExError" xml:space="preserve">
+    <value>Girilen kullanıcı adı geçersiz.</value>
+  </data>
+  <data name="Username.Required" xml:space="preserve">
+    <value>Kullanıcı adı zorunludur.</value>
+  </data>
+  <data name="noUsers.Text" xml:space="preserve">
+    <value>Kullanıcı bulunamadı.</value>
+  </data>
+  <data name="ShowLabel.Text" xml:space="preserve">
+    <value>Göster: </value>
+  </data>
+  <data name="DemoteToRegularUser.Text" xml:space="preserve">
+    <value>Normal Kullanıcı Yap</value>
+  </data>
+  <data name="InSufficientPermissions.Text" xml:space="preserve">
+    <value>Bu işlemi gerçekleştirmek için yeterli izniniz yok.</value>
+  </data>
+  <data name="InvalidPasswordAnswer.Text" xml:space="preserve">
+    <value>Şifre cevabı geçersiz.</value>
+  </data>
+  <data name="RegisterationFailed.Text" xml:space="preserve">
+    <value>Kayıt başarısız oldu. Daha sonra yeniden deneyin.</value>
+  </data>
+  <data name="UserDeleteError.Text" xml:space="preserve">
+    <value>Kullanıcı silinemedi.</value>
+  </data>
+  <data name="UsernameNotUnique.Text" xml:space="preserve">
+    <value>Kullanıcı adı benzersiz olmalıdır.</value>
+  </data>
+  <data name="UserNotFound.Text" xml:space="preserve">
+    <value>Kullanıcı bulunamadı.</value>
+  </data>
+  <data name="UserRemoveError.Text" xml:space="preserve">
+    <value>Kullanıcı kaldırılamıyor.</value>
+  </data>
+  <data name="UserRestoreError.Text" xml:space="preserve">
+    <value>Kullanıcı geri yüklenemiyor.</value>
+  </data>
+  <data name="RoleIsNotApproved.Text" xml:space="preserve">
+    <value>Onaylanmamış bir rol atanamaz.</value>
+  </data>
+  <data name="UserUnlockError.Text" xml:space="preserve">
+    <value>Kullanıcının kilidi açılamadı.</value>
+  </data>
+  <data name="cmUnlockUser.Text" xml:space="preserve">
+    <value>Kullanıcının Kilidini Aç</value>
+  </data>
+  <data name="UserUnLocked.Text" xml:space="preserve">
+    <value>Kullanıcının kilidi başarıyla açıldı.</value>
+  </data>
+  <data name="AccountData.Text" xml:space="preserve">
+    <value>Hesap Verileri</value>
+  </data>
+  <data name="False.Text" xml:space="preserve">
+    <value>Yanlış</value>
+  </data>
+  <data name="SwitchOff.Text" xml:space="preserve">
+    <value>Kapalı</value>
+  </data>
+  <data name="SwitchOn.Text" xml:space="preserve">
+    <value>Açık</value>
+  </data>
+  <data name="True.Text" xml:space="preserve">
+    <value>Doğru</value>
+  </data>
+  <data name="Prompt_CannotPurgeUser.Text" xml:space="preserve">
+    <value>Önce silinmemiş bir kullanıcı temizlenemez. delete-user komutunu deneyin.</value>
+  </data>
+  <data name="Prompt_DateParseError.Text" xml:space="preserve">
+    <value>{0} tarihi '{1}' ayrıştırılamadı. YYYY-MM-DD biçimini kullanmayı deneyin.</value>
+  </data>
+  <data name="Prompt_EmailSent.Text" xml:space="preserve">
+    <value>Kullanıcıya bir e-posta gönderildi.</value>
+  </data>
+  <data name="Prompt_IfSpecifiedMustHaveValue.Text" xml:space="preserve">
+    <value>--{0} bayrağını belirtirseniz, değeri True veya False olarak ayarlanmalıdır.</value>
+  </data>
+  <data name="Prompt_InvalidFlag.Text" xml:space="preserve">
+    <value>Geçersiz bayrak: '--{0}'. --{1} mi demek istediniz?</value>
+  </data>
+  <data name="Prompt_NothingToSetUser.Text" xml:space="preserve">
+    <value>Güncellenecek bir şey yok. Kullanıcı üzerinde güncellenecek değerlerle birlikte bir veya daha fazla bayrak geçirin ya da daha fazla yardım için 'help set-user' yazın</value>
+  </data>
+  <data name="Prompt_NoUserId.Text" xml:space="preserve">
+    <value>Kullanıcı Kimliği geçirilmedi. Yapılacak bir şey yok.</value>
+  </data>
+  <data name="Prompt_OnlyOneFlagRequired.Text" xml:space="preserve">
+    <value>Yalnızca bir bayrak belirtmelisiniz: --{0}, --{1} veya --{2}.</value>
+  </data>
+  <data name="Prompt_PasswordReset.Text" xml:space="preserve">
+    <value>Kullanıcı şifresi sıfırlandı.</value>
+  </data>
+  <data name="Prompt_RestoreNotRequired.Text" xml:space="preserve">
+    <value>Bu kullanıcı silinmemiş. Geri yüklenecek bir şey yok.</value>
+  </data>
+  <data name="Prompt_RolesEmpty.Text" xml:space="preserve">
+    <value>--roles boş olamaz.</value>
+  </data>
+  <data name="Prompt_SearchUserParameterRequired.Text" xml:space="preserve">
+    <value>Bir kullanıcıyı aramak için --id (UserId), --email (Kullanıcı E-postası) veya --name (Kullanıcı Adı) bayraklarından birini belirtmelisiniz.</value>
+  </data>
+  <data name="Prompt_StartDateGreaterThanEnd.Text" xml:space="preserve">
+    <value>Başlangıç Tarihi Bitiş Tarihinden küçük olamaz.</value>
+  </data>
+  <data name="Prompt_UserAlreadyDeleted.Text" xml:space="preserve">
+    <value>Kullanıcı zaten silinmiş. Kalıcı olarak silmek mi istiyorsunuz? \"purge-user\" komutunu kullanın</value>
+  </data>
+  <data name="Prompt_UserDeletionFailed.Text" xml:space="preserve">
+    <value>Kullanıcı bulundu ancak sistem kullanıcıyı silemiyor.</value>
+  </data>
+  <data name="Prompt_UserIdIsRequired.Text" xml:space="preserve">
+    <value>İlk bağımsız değişken olarak veya --id bayrağını kullanarak geçerli bir Kullanıcı Kimliği belirtmelisiniz.</value>
+  </data>
+  <data name="Prompt_UserPurged.Text" xml:space="preserve">
+    <value>Kullanıcı siteden kalıcı olarak kaldırıldı.</value>
+  </data>
+  <data name="Prompt_AddRoles_ResultHtml.Text" xml:space="preserve">
+    <value>&lt;h4&gt;Kullanıcıya Rol Ekleme&lt;/h4&gt;
+    &lt;code class="block"&gt;add-roles --id 23 --roles Editor&lt;/code&gt; VEYA
+    &lt;code class="block"&gt;add-roles 23 --roles Editor&lt;/code&gt; VEYA
+    &lt;code class="block"&gt;add-roles --id 23 "Editor"&lt;/code&gt;
+    &lt;h4&gt;Kullanıcıya Birden Fazla Sözcükten Oluşan Rol Ekleme&lt;/h4&gt;
+    &lt;code class="block"&gt;add-roles --id 23 --roles "Article Reviewer"&lt;/code&gt;
+
+    &lt;h4&gt;Kullanıcıya Birden Fazla Rol Ekleme&lt;/h4&gt;
+    &lt;code class="block"&gt;add-roles --id 23 --roles "Editor, Writer, Article Reviewer"&lt;/code&gt;</value>
+  </data>
+  <data name="Prompt_AddRoles_Description.Text" xml:space="preserve">
+    <value>Bir kullanıcıya bir veya daha fazla DNN güvenlik rolü ekler.</value>
+  </data>
+  <data name="Prompt_AddRoles_FlagEnd.Text" xml:space="preserve">
+    <value>Rolün bitiş tarihi.</value>
+  </data>
+  <data name="Prompt_AddRoles_FlagId.Text" xml:space="preserve">
+    <value>Rollerin ekleneceği kullanıcının Kullanıcı Kimliği. İlk bağımsız değişken olarak bir sayı geçirilirse
+            &lt;span class="mono"&gt;--id&lt;/span&gt; bayrağını açıkça kullanmanız gerekmez</value>
+  </data>
+  <data name="Prompt_AddRoles_FlagRoles.Text" xml:space="preserve">
+    <value>Kullanıcıya uygulanacak DNN rol adlarının virgülle ayrılmış listesi.</value>
+  </data>
+  <data name="Prompt_AddRoles_FlagStart.Text" xml:space="preserve">
+    <value>Rolün geçerlilik başlangıç tarihi.</value>
+  </data>
+  <data name="Prompt_AddRoles_NotFound.Text" xml:space="preserve">
+    <value>Rol bulunamadı: '{1}'. --roles bayrağı yalnızca mevcut rolleri kabul eder.</value>
+  </data>
+  <data name="Prompt_DeleteUser_Description.Text" xml:space="preserve">
+    <value>Belirtilen kullanıcıyı siteden siler. Silme işleminden sonra kullanıcı yine de kurtarılabilir. Kullanıcıyı kalıcı olarak silmek için bu komutun ardından &lt;code&gt;purge-user&lt;/code&gt; komutunu çalıştırın.</value>
+  </data>
+  <data name="Prompt_DeleteUser_FlagId.Text" xml:space="preserve">
+    <value>Kullanıcının Kullanıcı Kimliği. Bayrak kullanılmazsa, kullanıcı kimliği ilk bağımsız değişken olmalıdır.</value>
+  </data>
+  <data name="Prompt_DeleteUser_FlagNotify.Text" xml:space="preserve">
+    <value>True ise, &amp;quot;Kullanıcı Kaydını Sil&amp;quot; bildirim e-postası gönderilir (genellikle site Yöneticisine)</value>
+  </data>
+  <data name="Prompt_DeleteUser_ResultHtml.Text" xml:space="preserve">
+    <value>&lt;h4&gt;Kullanıcı Silme&lt;/h4&gt;
+    &lt;p&gt;Bu komut, Kullanıcı Kimliği 345 olan kullanıcıyı siler. Kullanıcı bu aşamada kalıcı olarak silinmez; bir tür geri dönüşüm kutusunda bekler. Kullanıcı ayrıntılarını görmek için &lt;code&gt;get-user 345&lt;/code&gt; komutunu kullanabilirsiniz; &lt;code&gt;IsDeleted&lt;/code&gt; özelliğinin artık True olduğunu göreceksiniz.  Bu durumda kullanıcı kaydını kurtarmak için &lt;code&gt;restore-user&lt;/code&gt; komutunu kullanabilir veya kullanıcıyı DNN kullanıcı arayüzü üzerinden kurtarabilirsiniz. Kullanıcıyı kalıcı olarak silmek istiyorsanız ikinci bir komut çalıştırmanız gerekir: &lt;code&gt;purge-user&lt;/code&gt;&lt;/p&gt;
+    &lt;code class="block"&gt;delete-user 345&lt;/code&gt;
+    &lt;p&gt;Bu, yukarıdaki kodun daha açık biçimidir.&lt;/p&gt;
+    &lt;code class="block"&gt;delete-user --id 345&lt;/code&gt;
+
+    &lt;h4&gt;Kullanıcı Silme ve Bildirim Gönderme&lt;/h4&gt;
+    &lt;p&gt;Bu komut, Kullanıcı Kimliği 345 olan kullanıcıyı siler ve bir e-posta bildirimi gönderir. Yukarıdaki gibi, kullanıcı bu aşamada kalıcı olarak silinmez. Kullanıcıyı kalıcı olarak silmek istiyorsanız ikinci bir komut çalıştırmanız gerekir: &lt;code&gt;purge-user&lt;/code&gt;&lt;/p&gt;
+    &lt;code class="block"&gt;delete-user 345 --notify true&lt;/code&gt;
+    &lt;p&gt;Bu, yukarıdaki kodun daha açık biçimidir.&lt;/p&gt;
+    &lt;code class="block"&gt;delete-user --id 345 --notify true&lt;/code&gt;</value>
+  </data>
+  <data name="Prompt_GetUser_FlagEmail.Text" xml:space="preserve">
+    <value>Getirilecek kullanıcının e-posta adresi. 0 veya daha fazla karakteri belirtmek için yıldız işaretini (&lt;span class="mono"&gt; * &lt;/span&gt;) joker karakter
+          olarak kullanabilirsiniz.</value>
+  </data>
+  <data name="Prompt_GetUser_FlagId.Text" xml:space="preserve">
+    <value>Getirilecek kullanıcının UserId değerini açıkça belirtir.</value>
+  </data>
+  <data name="Prompt_GetUser_FlagUsername.Text" xml:space="preserve">
+    <value>Getirilecek kullanıcının kullanıcı adı. 0 veya daha fazla karakteri belirtmek için yıldız işaretini (&lt;span class="mono"&gt; * &lt;/span&gt;) joker karakter
+          olarak kullanabilirsiniz.</value>
+  </data>
+  <data name="Prompt_GetUser_ResultHtml.Text" xml:space="preserve">
+    <value>&lt;div&gt;
+    &lt;h4&gt;Geçerli Kullanıcıyı Getirme&lt;/h4&gt;
+    &lt;code class="block"&gt;
+      get-user
+    &lt;/code&gt;
+
+    &lt;h4&gt;Kullanıcıyı Kullanıcı Kimliğine Göre Getirme&lt;/h4&gt;
+
+    &lt;h5&gt;&lt;span class="mono"&gt;--id&lt;/span&gt; bayrağının örtük kullanımı&lt;/h5&gt;
+    &lt;p&gt;Komut adından sonra tek bir değer belirtildiğinde, değer bir tamsayıysa Prompt bunu Kullanıcı Kimliği olarak kabul eder&lt;/p&gt;
+    &lt;code class="block"&gt;get-user 345&lt;/code&gt;
+
+    &lt;h5&gt;&lt;span class="mono"&gt;--id&lt;/span&gt; bayrağının açık kullanımı&lt;/h5&gt;
+    &lt;p&gt;Herhangi bir karışıklığı önlemek için &lt;span class="mono"&gt;--id&lt;/span&gt; bayrağını açıkça kullanabilirsiniz&lt;/p&gt;
+    &lt;code class="block"&gt;get-user --id 345&lt;/code&gt;
+    &lt;table class="command-result-tbl"&gt;
+      &lt;tr&gt;
+        &lt;td&gt;UserId&lt;/td&gt;
+        &lt;td&gt;:&lt;/td&gt;
+        &lt;td&gt;345&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Username&lt;/td&gt;
+        &lt;td&gt;:&lt;/td&gt;
+        &lt;td&gt;jsmith&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Email&lt;/td&gt;
+        &lt;td&gt;:&lt;/td&gt;
+        &lt;td&gt;jsmith@sample.com&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;DisplayName&lt;/td&gt;
+        &lt;td&gt;:&lt;/td&gt;
+        &lt;td&gt;John Smith&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;FirstName&lt;/td&gt;
+        &lt;td&gt;:&lt;/td&gt;
+        &lt;td&gt;John&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;LastName&lt;/td&gt;
+        &lt;td&gt;:&lt;/td&gt;
+        &lt;td&gt;Smith&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;LastLogin&lt;/td&gt;
+        &lt;td&gt;:&lt;/td&gt;
+        &lt;td&gt;2016-12-06T09:31:38.413-07:00&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;IsAuthorized&lt;/td&gt;
+        &lt;td&gt;:&lt;/td&gt;
+        &lt;td&gt;true&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/table&gt;
+
+    &lt;h4&gt;Kullanıcıyı E-postaya Göre Getirme&lt;/h4&gt;
+
+    &lt;h5&gt;&lt;span class="mono"&gt;--email&lt;/span&gt; bayrağının örtük kullanımı&lt;/h5&gt;
+    &lt;p&gt;Komut adından sonra tek bir değer belirtildiğinde, değer @ işaretini (&lt;span class="mono"&gt; @ &lt;/span&gt;) içeriyorsa,
+      Prompt bunu E-posta olarak kabul eder&lt;/p&gt;
+    &lt;code class="block"&gt;get-user jsmith@sample.com&lt;/code&gt;
+
+    &lt;h5&gt;&lt;span class="mono"&gt;--email&lt;/span&gt; bayrağının açık kullanımı&lt;/h5&gt;
+    &lt;p&gt;Herhangi bir karışıklığı önlemek için &lt;span class="mono"&gt;--email&lt;/span&gt; bayrağını açıkça kullanabilirsiniz&lt;/p&gt;
+    &lt;code class="block"&gt;get-user --email jsmith@sample.com&lt;/code&gt;
+
+    &lt;table class="command-result-tbl"&gt;
+      &lt;tr&gt;
+        &lt;td&gt;UserId&lt;/td&gt;
+        &lt;td&gt;:&lt;/td&gt;
+        &lt;td&gt;345&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Username&lt;/td&gt;
+        &lt;td&gt;:&lt;/td&gt;
+        &lt;td&gt;jsmith&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Email&lt;/td&gt;
+        &lt;td&gt;:&lt;/td&gt;
+        &lt;td&gt;jsmith@sample.com&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;DisplayName&lt;/td&gt;
+        &lt;td&gt;:&lt;/td&gt;
+        &lt;td&gt;John Smith&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;FirstName&lt;/td&gt;
+        &lt;td&gt;:&lt;/td&gt;
+        &lt;td&gt;John&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;LastName&lt;/td&gt;
+        &lt;td&gt;:&lt;/td&gt;
+        &lt;td&gt;Smith&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;LastLogin&lt;/td&gt;
+        &lt;td&gt;:&lt;/td&gt;
+        &lt;td&gt;2016-12-06T09:31:38.413-07:00&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;IsAuthorized&lt;/td&gt;
+        &lt;td&gt;:&lt;/td&gt;
+        &lt;td&gt;true&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/table&gt;
+
+    &lt;h4&gt;Joker Karakterlerle E-postaya Göre Kullanıcı Arama&lt;/h4&gt;
+    &lt;h5&gt;&lt;span class="mono"&gt;--email&lt;/span&gt; bayrağının örtük kullanımı&lt;/h5&gt;
+    &lt;p&gt;
+      Komut adından sonra tek bir değer belirtildiğinde, değer @ işaretini (&lt;span class="mono"&gt; @ &lt;/span&gt;) içeriyorsa,
+      Prompt bunu E-posta olarak kabul eder. Yalnızca eşleşen ilk kullanıcı kaydı döndürülür. Eşleşen tüm kullanıcıları bulmak istiyorsanız &lt;span class="mono"&gt;list-users&lt;/span&gt;      komutunu kullanmayı deneyin.
+    &lt;/p&gt;
+    &lt;code class="block"&gt;get-user jsmith*@sample.com&lt;/code&gt;
+    &lt;h5&gt;&lt;span class="mono"&gt;--email&lt;/span&gt; bayrağının açık kullanımı&lt;/h5&gt;
+    &lt;code class="block"&gt;get-user --email jsmith*@sample.com&lt;/code&gt;
+
+    &lt;table class="command-result-tbl"&gt;
+      &lt;tr&gt;
+        &lt;td&gt;UserId&lt;/td&gt;
+        &lt;td&gt;:&lt;/td&gt;
+        &lt;td&gt;345&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Username&lt;/td&gt;
+        &lt;td&gt;:&lt;/td&gt;
+        &lt;td&gt;jsmith&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Email&lt;/td&gt;
+        &lt;td&gt;:&lt;/td&gt;
+        &lt;td&gt;jsmith@sample.com&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;DisplayName&lt;/td&gt;
+        &lt;td&gt;:&lt;/td&gt;
+        &lt;td&gt;John Smith&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;FirstName&lt;/td&gt;
+        &lt;td&gt;:&lt;/td&gt;
+        &lt;td&gt;John&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;LastName&lt;/td&gt;
+        &lt;td&gt;:&lt;/td&gt;
+        &lt;td&gt;Smith&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;LastLogin&lt;/td&gt;
+        &lt;td&gt;:&lt;/td&gt;
+        &lt;td&gt;2016-12-06T09:31:38.413-07:00&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;IsAuthorized&lt;/td&gt;
+        &lt;td&gt;:&lt;/td&gt;
+        &lt;td&gt;true&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/table&gt;
+
+    &lt;h4&gt;Kullanıcıyı Kullanıcı Adına Göre Getirme&lt;/h4&gt;
+    &lt;h5&gt;&lt;span class="mono"&gt;--username&lt;/span&gt; bayrağının örtük kullanımı&lt;/h5&gt;
+    &lt;p&gt;Komut adından sonra tek bir değer belirtildiğinde, değer bir sayı değilse ve @ işaretini (
+      &lt;span class="mono"&gt; @ &lt;/span&gt;) içermiyorsa Prompt bunu Kullanıcı Adı olarak kabul eder&lt;/p&gt;
+    &lt;code class="block"&gt;get-user jsmith&lt;/code&gt;
+
+    &lt;h5&gt;&lt;span class="mono"&gt;--username&lt;/span&gt; bayrağının açık kullanımı&lt;/h5&gt;
+    &lt;p&gt;Herhangi bir karışıklığı önlemek için &lt;span class="mono"&gt;--username&lt;/span&gt; bayrağını açıkça kullanabilirsiniz&lt;/p&gt;
+    &lt;code class="block"&gt;get-user --username jsmith&lt;/code&gt;
+
+    &lt;table class="command-result-tbl"&gt;
+      &lt;tr&gt;
+        &lt;td&gt;UserId&lt;/td&gt;
+        &lt;td&gt;:&lt;/td&gt;
+        &lt;td&gt;345&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Username&lt;/td&gt;
+        &lt;td&gt;:&lt;/td&gt;
+        &lt;td&gt;jsmith&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Email&lt;/td&gt;
+        &lt;td&gt;:&lt;/td&gt;
+        &lt;td&gt;jsmith@sample.com&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;DisplayName&lt;/td&gt;
+        &lt;td&gt;:&lt;/td&gt;
+        &lt;td&gt;John Smith&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;FirstName&lt;/td&gt;
+        &lt;td&gt;:&lt;/td&gt;
+        &lt;td&gt;John&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;LastName&lt;/td&gt;
+        &lt;td&gt;:&lt;/td&gt;
+        &lt;td&gt;Smith&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;LastLogin&lt;/td&gt;
+        &lt;td&gt;:&lt;/td&gt;
+        &lt;td&gt;2016-12-06T09:31:38.413-07:00&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;IsAuthorized&lt;/td&gt;
+        &lt;td&gt;:&lt;/td&gt;
+        &lt;td&gt;true&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/table&gt;
+
+    &lt;h4&gt;Joker Karakterlerle Kullanıcı Adına Göre Kullanıcı Arama&lt;/h4&gt;
+    &lt;h5&gt;&lt;span class="mono"&gt;--username&lt;/span&gt; bayrağının örtük kullanımı&lt;/h5&gt;
+    &lt;p&gt;Komut adından sonra tek bir değer belirtildiğinde, değer bir sayı değilse ve @ işaretini (
+      &lt;span class="mono"&gt; @ &lt;/span&gt;) içermiyorsa Prompt bunu Kullanıcı Adı olarak kabul eder&lt;/p&gt;
+    &lt;code class="block"&gt;get-user --username jsmith*&lt;/code&gt;
+    &lt;h5&gt;&lt;span class="mono"&gt;--username&lt;/span&gt; bayrağının açık kullanımı&lt;/h5&gt;
+    &lt;code class="block"&gt;get-user jsmith*&lt;/code&gt; (bunun çalışması için değer @ işareti içermemeli ve Tamsayı olarak
+    yorumlanamamalıdır)
+
+    &lt;table class="command-result-tbl"&gt;
+      &lt;tr&gt;
+        &lt;td&gt;UserId&lt;/td&gt;
+        &lt;td&gt;:&lt;/td&gt;
+        &lt;td&gt;345&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Username&lt;/td&gt;
+        &lt;td&gt;:&lt;/td&gt;
+        &lt;td&gt;jsmith&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Email&lt;/td&gt;
+        &lt;td&gt;:&lt;/td&gt;
+        &lt;td&gt;jsmith@sample.com&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;DisplayName&lt;/td&gt;
+        &lt;td&gt;:&lt;/td&gt;
+        &lt;td&gt;John Smith&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;FirstName&lt;/td&gt;
+        &lt;td&gt;:&lt;/td&gt;
+        &lt;td&gt;John&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;LastName&lt;/td&gt;
+        &lt;td&gt;:&lt;/td&gt;
+        &lt;td&gt;Smith&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;LastLogin&lt;/td&gt;
+        &lt;td&gt;:&lt;/td&gt;
+        &lt;td&gt;2016-12-06T09:31:38.413-07:00&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;IsAuthorized&lt;/td&gt;
+        &lt;td&gt;:&lt;/td&gt;
+        &lt;td&gt;true&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/table&gt;
+  &lt;/div&gt;</value>
+  </data>
+  <data name="Prompt_ListUsers_Description.Text" xml:space="preserve">
+    <value>Kullanıcıları e-posta adresine veya kullanıcı adına göre bulur. E-posta veya Kullanıcı Adı üzerinde kısmi eşleşmeyi destekler. Aynı anda yalnızca bir bayrakla arama yapabilirsiniz. Bayraklar birlikte kullanılamaz.</value>
+  </data>
+  <data name="Prompt_ListUsers_FlagEmail.Text" xml:space="preserve">
+    <value>Kullanıcının e-posta adresinde aranacak arama deseni. 0 veya daha fazla karakteri belirtmek için yıldız işaretini (&lt;span class="mono"&gt; * &lt;/span&gt;) joker karakter olarak kullanabilirsiniz</value>
+  </data>
+  <data name="Prompt_ListUsers_FlagMax.Text" xml:space="preserve">
+    <value>Sayfa boyutu. En fazla 500.</value>
+  </data>
+  <data name="Prompt_ListUsers_FlagPage.Text" xml:space="preserve">
+    <value>Kayıtların gösterileceği sayfa numarası.</value>
+  </data>
+  <data name="Prompt_ListUsers_FlagRole.Text" xml:space="preserve">
+    <value>Üyelerini listelemek istediğiniz DNN Güvenlik Rolünün adı. ÖNEMLİ: Bu bayrak için joker karakterle arama şu anda ETKİN DEĞİLDİR. Rol adları büyük/küçük harfe duyarlı değildir ancak boşluklar eşleşmelidir.</value>
+  </data>
+  <data name="Prompt_ListUsers_FlagUsername.Text" xml:space="preserve">
+    <value>Kullanıcı adında aranacak arama deseni. 0 veya daha fazla karakteri belirtmek için yıldız işaretini (&lt;span class="mono"&gt; * &lt;/span&gt;) joker karakter olarak kullanabilirsiniz</value>
+  </data>
+  <data name="Prompt_ListUsers_ResultHtml.Text" xml:space="preserve">
+    <value>&lt;div&gt;
+        &lt;h4&gt;Geçerli Sitedeki Tüm Kullanıcıları Listeleme&lt;/h4&gt;
+        &lt;code class="block"&gt;
+            list-users
+        &lt;/code&gt;
+
+        &lt;h4&gt;E-postaya Göre Kullanıcı Arama&lt;/h4&gt;
+        &lt;h5&gt;&lt;span class="mono"&gt;--email&lt;/span&gt; bayrağının örtük kullanımı&lt;/h5&gt;
+        &lt;p&gt;Komut adından sonra tek bir değer belirtildiğinde, değer @ işaretini (&lt;span class="mono"&gt; @ &lt;/span&gt;) içeriyorsa, Prompt bunu E-posta olarak kabul eder&lt;/p&gt;
+        &lt;code class="block"&gt;list-users jsmith@sample.com&lt;/code&gt;
+        &lt;h5&gt;&lt;span class="mono"&gt;--email&lt;/span&gt; bayrağının açık kullanımı&lt;/h5&gt;
+        &lt;code class="block"&gt;list-users --email jsmith@sample.com&lt;/code&gt;
+        &lt;table class="command-result-tbl"&gt;
+            &lt;tr&gt;&lt;td&gt;UserId&lt;/td&gt;&lt;td&gt;:&lt;/td&gt;&lt;td&gt;345&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;Username&lt;/td&gt;&lt;td&gt;:&lt;/td&gt;&lt;td&gt;jsmith&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;Email&lt;/td&gt;&lt;td&gt;:&lt;/td&gt;&lt;td&gt;jsmith@sample.com&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;DisplayName&lt;/td&gt;&lt;td&gt;:&lt;/td&gt;&lt;td&gt;John Smith&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;FirstName&lt;/td&gt;&lt;td&gt;:&lt;/td&gt;&lt;td&gt;John&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;LastName&lt;/td&gt;&lt;td&gt;:&lt;/td&gt;&lt;td&gt;Smith&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;LastLogin&lt;/td&gt;&lt;td&gt;:&lt;/td&gt;&lt;td&gt;2016-12-06T09:31:38.413-07:00&lt;/td&gt;&lt;/tr&gt;
+        &lt;/table&gt;
+
+        &lt;h4&gt;Joker Karakterlerle E-postaya Göre Kullanıcı Arama&lt;/h4&gt;
+        &lt;h5&gt;&lt;span class="mono"&gt;--email&lt;/span&gt; bayrağının örtük kullanımı&lt;/h5&gt;
+        &lt;p&gt;Komut adından sonra tek bir değer belirtildiğinde, değer @ işaretini (&lt;span class="mono"&gt; @ &lt;/span&gt;) içeriyorsa, Prompt bunu E-posta olarak kabul eder&lt;/p&gt;
+        &lt;code class="block"&gt;list-users jsmith*@sample.com&lt;/code&gt;
+        &lt;h5&gt;&lt;span class="mono"&gt;--email&lt;/span&gt; bayrağının açık kullanımı&lt;/h5&gt;
+        &lt;code class="block"&gt;list-users --email jsmith*@sample.com&lt;/code&gt;
+
+        &lt;table class="command-result-tbl"&gt;
+            &lt;thead&gt;
+                &lt;tr&gt;
+                    &lt;th&gt;UserId&lt;/th&gt;
+                    &lt;th&gt;Username&lt;/th&gt;
+                    &lt;th&gt;Email&lt;/th&gt;
+                    &lt;th&gt;DisplayName&lt;/th&gt;
+                    &lt;th&gt;FirstName&lt;/th&gt;
+                    &lt;th&gt;LastName&lt;/th&gt;
+                    &lt;th&gt;LastLogin&lt;/th&gt;
+                    &lt;th&gt;IsAuthorized&lt;/th&gt;
+                &lt;/tr&gt;
+            &lt;/thead&gt;
+            &lt;tbody&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;345&lt;/td&gt;
+                    &lt;td&gt;jsmith&lt;/td&gt;
+                    &lt;td&gt;jsmith@sample.com&lt;/td&gt;
+                    &lt;td&gt;John Smith&lt;/td&gt;
+                    &lt;td&gt;John&lt;/td&gt;
+                    &lt;td&gt;Smith&lt;/td&gt;
+                    &lt;td&gt;2016-12-06T09:31:38.413-07:00&lt;/td&gt;
+                    &lt;td&gt;true&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;1095&lt;/td&gt;
+                    &lt;td&gt;jsmithson&lt;/td&gt;
+                    &lt;td&gt;jsmithson@sample.com&lt;/td&gt;
+                    &lt;td&gt;Jerry Smithson&lt;/td&gt;
+                    &lt;td&gt;Jerry&lt;/td&gt;
+                    &lt;td&gt;Smithson&lt;/td&gt;
+                    &lt;td&gt;2016-12-063T08:15:28.123-07:00&lt;/td&gt;
+                    &lt;td&gt;true&lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/tbody&gt;
+        &lt;/table&gt;
+
+        &lt;h4&gt;Kullanıcı Adına Göre Kullanıcı Arama&lt;/h4&gt;
+        &lt;h5&gt;&lt;span class="mono"&gt;--username&lt;/span&gt; bayrağının örtük kullanımı&lt;/h5&gt;
+        &lt;p&gt;Komut adından sonra tek bir değer belirtildiğinde, değer bir sayı değilse ve @ işaretini (&lt;span class="mono"&gt; @ &lt;/span&gt;) içermiyorsa Prompt bunu Kullanıcı Adı olarak kabul eder&lt;/p&gt;
+        &lt;code class="block"&gt;list-users jsmith&lt;/code&gt;
+        &lt;h5&gt;&lt;span class="mono"&gt;--username&lt;/span&gt; bayrağının açık kullanımı&lt;/h5&gt;
+        &lt;code class="block"&gt;list-users --username jsmith&lt;/code&gt;
+        &lt;table class="command-result-tbl"&gt;
+            &lt;tr&gt;&lt;td&gt;UserId&lt;/td&gt;&lt;td&gt;:&lt;/td&gt;&lt;td&gt;345&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;Username&lt;/td&gt;&lt;td&gt;:&lt;/td&gt;&lt;td&gt;jsmith&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;Email&lt;/td&gt;&lt;td&gt;:&lt;/td&gt;&lt;td&gt;jsmith@sample.com&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;DisplayName&lt;/td&gt;&lt;td&gt;:&lt;/td&gt;&lt;td&gt;John Smith&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;FirstName&lt;/td&gt;&lt;td&gt;:&lt;/td&gt;&lt;td&gt;John&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;LastName&lt;/td&gt;&lt;td&gt;:&lt;/td&gt;&lt;td&gt;Smith&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;LastLogin&lt;/td&gt;&lt;td&gt;:&lt;/td&gt;&lt;td&gt;2016-12-06T09:31:38.413-07:00&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;IsAuthorized&lt;/td&gt;&lt;td&gt;:&lt;/td&gt;&lt;td&gt;true&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;Created&lt;/td&gt;&lt;td&gt;:&lt;/td&gt;&lt;td&gt;2016-12-06T09:31:38&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;IsDeleted&lt;/td&gt;&lt;td&gt;:&lt;/td&gt;&lt;td&gt;false&lt;/td&gt;&lt;/tr&gt;
+        &lt;/table&gt;
+
+        &lt;h4&gt;Joker Karakterlerle Kullanıcı Adına Göre Kullanıcı Arama&lt;/h4&gt;
+        &lt;h5&gt;&lt;span class="mono"&gt;--username&lt;/span&gt; bayrağının örtük kullanımı&lt;/h5&gt;
+        &lt;p&gt;Komut adından sonra tek bir değer belirtildiğinde, değer bir sayı değilse ve @ işaretini (&lt;span class="mono"&gt; @ &lt;/span&gt;) içermiyorsa Prompt bunu Kullanıcı Adı olarak kabul eder&lt;/p&gt;
+        &lt;code class="block"&gt;list-users jsmith*&lt;/code&gt;
+        &lt;h5&gt;&lt;span class="mono"&gt;--username&lt;/span&gt; bayrağının açık kullanımı&lt;/h5&gt;
+        &lt;code class="block"&gt;list-users --username jsmith*&lt;/code&gt;
+
+        &lt;table class="command-result-tbl"&gt;
+            &lt;thead&gt;
+                &lt;tr&gt;
+                    &lt;th&gt;UserId&lt;/th&gt;
+                    &lt;th&gt;Username&lt;/th&gt;
+                    &lt;th&gt;Email&lt;/th&gt;
+                    &lt;th&gt;LastLogin&lt;/th&gt;
+                    &lt;th&gt;IsDeleted&lt;/th&gt;
+                    &lt;th&gt;IsAuthorized&lt;/th&gt;
+                &lt;/tr&gt;
+            &lt;/thead&gt;
+            &lt;tbody&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;345&lt;/td&gt;
+                    &lt;td&gt;jsmith&lt;/td&gt;
+                    &lt;td&gt;jsmith@sample.com&lt;/td&gt;
+                    &lt;td&gt;2016-12-06T09:31:38.413-07:00&lt;/td&gt;
+                    &lt;td&gt;false&lt;/td&gt;
+                    &lt;td&gt;true&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;1095&lt;/td&gt;
+                    &lt;td&gt;jsmithson&lt;/td&gt;
+                    &lt;td&gt;jsmithson@sample.com&lt;/td&gt;
+                    &lt;td&gt;2016-12-063T08:15:28.123-07:00&lt;/td&gt;
+                    &lt;td&gt;false&lt;/td&gt;
+                    &lt;td&gt;true&lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/tbody&gt;
+        &lt;/table&gt;
+
+        &lt;h4&gt;Bir DNN Güvenlik Rolündeki Kullanıcıları Listeleme&lt;/h4&gt;
+        &lt;code class="block"&gt;list-users --role "Registered Users"&lt;/code&gt;
+        &lt;table class="command-result-tbl"&gt;
+            &lt;thead&gt;
+                &lt;tr&gt;
+                    &lt;th&gt;UserId&lt;/th&gt;
+                    &lt;th&gt;Username&lt;/th&gt;
+                    &lt;th&gt;Email&lt;/th&gt;
+                    &lt;th&gt;LastLogin&lt;/th&gt;
+                    &lt;th&gt;IsDeleted&lt;/th&gt;
+                    &lt;th&gt;IsAuthorized&lt;/th&gt;
+                &lt;/tr&gt;
+            &lt;/thead&gt;
+            &lt;tbody&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;2&lt;/td&gt;
+                    &lt;td&gt;admin&lt;/td&gt;
+                    &lt;td&gt;admin@mysite.com&lt;/td&gt;
+                    &lt;td&gt;2016-12-01T06:03:10-07:00&lt;/td&gt;
+                    &lt;td&gt;false&lt;/td&gt;
+                    &lt;td&gt;true&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;3&lt;/td&gt;
+                    &lt;td&gt;tuser1&lt;/td&gt;
+                    &lt;td&gt;tuser1@mysite.com&lt;/td&gt;
+                    &lt;td&gt;2016-12-01T09:31:38.413-07:00&lt;/td&gt;
+                    &lt;td&gt;false&lt;/td&gt;
+                    &lt;td&gt;true&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;31&lt;/td&gt;
+                    &lt;td&gt;jsmith&lt;/td&gt;
+                    &lt;td&gt;jsmith@mysite.com&lt;/td&gt;
+                    &lt;td&gt;2016-12-19T12:23:39-07:00&lt;/td&gt;
+                    &lt;td&gt;false&lt;/td&gt;
+                    &lt;td&gt;true&lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/tbody&gt;
+        &lt;/table&gt;
+    &lt;/div&gt;</value>
+  </data>
+  <data name="Prompt_NewUser_Description.Text" xml:space="preserve">
+    <value>Sitede yeni bir Kullanıcı kaydı oluşturur</value>
+  </data>
+  <data name="Prompt_NewUser_FlagApproved.Text" xml:space="preserve">
+    <value>Kullanıcı hesabının yetkilendirilip yetkilendirilmediği. Belirtilmezse varsayılan değer true olur.</value>
+  </data>
+  <data name="Prompt_NewUser_FlagEmail.Text" xml:space="preserve">
+    <value>Kullanıcının E-posta adresi</value>
+  </data>
+  <data name="Prompt_NewUser_FlagFirstname.Text" xml:space="preserve">
+    <value>Kullanıcının Adı</value>
+  </data>
+  <data name="Prompt_NewUser_FlagLastname.Text" xml:space="preserve">
+    <value>Kullanıcının Soyadı</value>
+  </data>
+  <data name="Prompt_NewUser_FlagNotify.Text" xml:space="preserve">
+    <value>True ise, sistem e-postası kullanıcının e-posta adresine gönderilir. E-postanın türü kayıt türüne göre
+            belirlenir. Bu değer geçirilmezse varsayılan site ayarları uygulanır. Sitenin kayıt modu Yok olarak
+            ayarlanmışsa, &lt;code&gt;--notify&lt;/code&gt; değerinden bağımsız olarak hiçbir e-posta gönderilmez.</value>
+  </data>
+  <data name="Prompt_NewUser_FlagPassword.Text" xml:space="preserve">
+    <value>Kullanıcı hesabının Şifresi. Belirtilmezse rastgele bir şifre oluşturulur. Kullanıcıyı şifresini sıfırlamaya
+            zorlamıyorsanız, şifrenin &lt;em&gt;birine&lt;/em&gt; bildirildiğinden emin olmanız gerektiğini unutmayın.</value>
+  </data>
+  <data name="Prompt_NewUser_FlagUsername.Text" xml:space="preserve">
+    <value>Kullanıcının Kullanıcı Adı</value>
+  </data>
+  <data name="Prompt_NewUser_ResultHtml.Text" xml:space="preserve">
+    <value>&lt;h4&gt;Yalnızca Zorunlu Değerlerle Yeni Kullanıcı Oluşturma&lt;/h4&gt;
+    &lt;p&gt;Bu komut rastgele bir şifre oluşturur ve yeni oluşturulan kullanıcıya atar. Görünen ad, ad ve soyadı birleştirilerek
+      oluşturulur. "van Doorne" bir boşluk içerdiğinden çift tırnak içine alınması gerektiğini unutmayın. Ortaya
+      çıkan Görünen ad "Erik van Doorne" olacaktır.&lt;/p&gt;
+    &lt;code class="block"&gt;new-user --username edoorne --email edoorne@myemail.com --firstname Erik --lastname "van Doorne"&lt;/code&gt;</value>
+  </data>
+  <data name="Prompt_ResetPassword_Description.Text" xml:space="preserve">
+    <value>Kullanıcı için şifre sıfırlama belirtecini ayarlar. &lt;em&gt;Kullanıcının şifresini otomatik olarak sıfırlamaz&lt;/em&gt;. Varsayılan olarak
+    bu komut, kullanıcıya şifre sıfırlama e-postası gönderir. Bu davranışı, &lt;code&gt;--notify&lt;/code&gt;    bayrağını &lt;code&gt;false&lt;/code&gt; değeriyle belirterek geçersiz kılabilirsiniz</value>
+  </data>
+  <data name="Prompt_ResetPassword_FlagId.Text" xml:space="preserve">
+    <value>Şifre Sıfırlama bağlantısının gönderileceği kullanıcının Kullanıcı Kimliği.</value>
+  </data>
+  <data name="Prompt_ResetPassword_FlagNotify.Text" xml:space="preserve">
+    <value>True ise, sistem e-postası kullanıcının e-posta adresine gönderilir.</value>
+  </data>
+  <data name="Prompt_ResetPassword_ResultHtml.Text" xml:space="preserve">
+    <value>&lt;code class="block"&gt;
+    reset-password &lt;em&gt;userId&lt;/em&gt;
+  &lt;/code&gt;</value>
+  </data>
+  <data name="Prompt_SetUser_Description.Text" xml:space="preserve">
+    <value>Belirtilen kullanıcıyla ilgili çeşitli değerleri ayarlamanızı sağlar.</value>
+  </data>
+  <data name="Prompt_SetUser_FlagApproved.Text" xml:space="preserve">
+    <value>Kullanıcının onay durumu.</value>
+  </data>
+  <data name="Prompt_SetUser_FlagDisplayname.Text" xml:space="preserve">
+    <value>Kullanıcı için görüntülenecek ad.</value>
+  </data>
+  <data name="Prompt_SetUser_FlagEmail.Text" xml:space="preserve">
+    <value>Kullanıcı için ayarlanacak e-posta adresi.</value>
+  </data>
+  <data name="Prompt_SetUser_FlagFirstname.Text" xml:space="preserve">
+    <value>Kullanıcının adı.</value>
+  </data>
+  <data name="Prompt_SetUser_FlagId.Text" xml:space="preserve">
+    <value>Güncellenecek kullanıcının UserId değeri. Bu değer zorunludur, ancak değeri komut adından sonraki ilk bağımsız değişken olarak
+                    geçirirseniz &lt;span class="mono"&gt;--id&lt;/span&gt; bayrağını açıkça kullanmanız gerekmez. (aşağıdaki örneklere bakın)</value>
+  </data>
+  <data name="Prompt_SetUser_FlagLastname.Text" xml:space="preserve">
+    <value>Kullanıcının soyadı.</value>
+  </data>
+  <data name="Prompt_SetUser_FlagPassword.Text" xml:space="preserve">
+    <value>Kullanıcıya atanacak yeni şifre. Şifre, sitenin şifre kurallarına göre geçerli olmalıdır.</value>
+  </data>
+  <data name="Prompt_SetUser_FlagUsername.Text" xml:space="preserve">
+    <value>Kullanıcı için ayarlanacak kullanıcı adı.</value>
+  </data>
+  <data name="Prompt_SetUser_ResultHtml.Text" xml:space="preserve">
+    <value>&lt;div&gt;
+        &lt;h4&gt;Kullanıcıyı Onaylama/Onayını Kaldırma&lt;/h4&gt;
+        &lt;p&gt;
+            Kullanıcı Kimliği 345 olan kullanıcıyı onaylar/onayını kaldırır. Bu örnekte &lt;span class="mono"&gt;--approve&lt;/span&gt;            bayrağı için true geçirilmiştir.
+        &lt;/p&gt;
+        &lt;code class="block"&gt;
+            set-user 345 --approve true
+        &lt;/code&gt;
+
+        &lt;h4&gt;Kullanıcının Kullanıcı Adını Değiştirme&lt;/h4&gt;
+        &lt;p&gt;Kullanıcı Kimliği 345 olan kullanıcının kullanıcı adını &lt;em&gt;john.smith&lt;/em&gt; olarak değiştirir.&lt;/p&gt;
+        &lt;code class="block"&gt;
+            set-user 345 --username "john.smith"
+        &lt;/code&gt;
+
+        &lt;h4&gt;Kullanıcının Ad Özelliklerini Değiştirme&lt;/h4&gt;
+        &lt;p&gt;
+            Kimliği 345 olan kullanıcının adını, soyadını ve görünen adını ayarlar. &lt;em&gt;John&lt;/em&gt; ve &lt;em&gt;Smith&lt;/em&gt;            değerlerinin tırnak içine alınması gerekmez, ancak &lt;em&gt;Johnny Smith&lt;/em&gt; birden fazla sözcükten oluştuğu için tırnak içine alınmalıdır.
+        &lt;/p&gt;
+        &lt;code class="block"&gt;
+            set-user 345 --firstname John --lastname Smith --displayname "Johnny Smith"
+        &lt;/code&gt;
+
+    &lt;/div&gt;</value>
+  </data>
+  <data name="Prompt_GetUser_Description.Text" xml:space="preserve">
+    <value>Geçerli kullanıcının bilgilerini görüntülemenizi veya bir kullanıcıyı Kullanıcı Kimliği, Kullanıcı Adı ya da E-posta adresine göre getirmenizi sağlar.
+    Kısmi aramayı destekler. Bulunan ilk kullanıcıyı döndürür.</value>
+  </data>
+  <data name="Prompt_UsersCategory.Text" xml:space="preserve">
+    <value>Kullanıcı Komutları</value>
+  </data>
+  <data name="Answer.Help" xml:space="preserve">
+    <value>Şifre sorusu için bir cevap girin.</value>
+  </data>
+  <data name="Answer.Required" xml:space="preserve">
+    <value>Bir şifre cevabı girmelisiniz.</value>
+  </data>
+  <data name="Answer.Text" xml:space="preserve">
+    <value>Şifre Cevabı:</value>
+  </data>
+  <data name="Question.Help" xml:space="preserve">
+    <value>Şifre alınırken kullanılacak bir şifre sorusu girin.</value>
+  </data>
+  <data name="Question.Required" xml:space="preserve">
+    <value>Bir şifre sorusu girmelisiniz.</value>
+  </data>
+  <data name="Question.Text" xml:space="preserve">
+    <value>Şifre Sorusu:</value>
+  </data>
+  <data name="HasAgreedToTerms.Text" xml:space="preserve">
+    <value>Koşulları kabul etti</value>
+  </data>
+  <data name="HasNotAgreedToTerms.Text" xml:space="preserve">
+    <value>Koşulları kabul etmedi</value>
+  </data>
+  <data name="RequestedRemoval.Text" xml:space="preserve">
+    <value>Kaldırılma Talep Etti</value>
+  </data>
+  <data name="HasAgreedToTerms.title" xml:space="preserve">
+    <value>Kullanıcı kullanım koşullarını kabul etti</value>
+  </data>
+  <data name="HasNotAgreedToTerms.title" xml:space="preserve">
+    <value>Kullanıcı kullanım koşullarını kabul etmedi</value>
+  </data>
+  <data name="RequestsRemoval.title" xml:space="preserve">
+    <value>Kullanıcı siteden kaldırılmayı talep etti</value>
+  </data>
+  <data name="HasAgreedToTerms.Help" xml:space="preserve">
+    <value>Kullanıcı, veri onayı mekanizması aracılığıyla bu sitenin kullanım koşullarını ve gizlilik bildirimini kabul etti</value>
+  </data>
+  <data name="LastConsented.Help" xml:space="preserve">
+    <value>Kullanıcının bu sitenin koşullarını en son kabul ettiği zaman. Koşullar o tarihten sonra değiştiyse, kullanıcı onay vermemiş olarak işaretlenebilir</value>
+  </data>
+  <data name="LastConsented.Text" xml:space="preserve">
+    <value>Son onay tarihi</value>
+  </data>
+  <data name="RemoveDeleted.Btn" xml:space="preserve">
+    <value>Silinmiş Kullanıcıları Kaldır</value>
+  </data>
+  <data name="RemoveDeleted.Confirm" xml:space="preserve">
+    <value>Silinmiş kullanıcıları kalıcı olarak kaldırmak istiyor musunuz? Bu işlem geri alınamaz.</value>
+  </data>
+  <data name="RemoveDeleted.Done" xml:space="preserve">
+    <value>Tüm silinmiş kullanıcılar kaldırıldı</value>
+  </data>
+  <data name="CouldNotRemoveAll.Text" xml:space="preserve">
+    <value>Tüm kullanıcılar kaldırılamadı</value>
+  </data>
+</root>

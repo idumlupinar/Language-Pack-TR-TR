@@ -1,0 +1,34 @@
+name: Update Versions
+on: create
+
+permissions:
+  contents: write
+
+# Sets the manifest versions when a release branch is created
+jobs:
+  updateVersions:
+    runs-on: ubuntu-latest
+    if: ${{ github.event.ref_type == 'branch' && startsWith(github.event.ref, 'release/') }}
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+
+      - name: get-release-branch-version
+        uses: valadas/get-release-branch-version@c4a57e5584c40a2adc25ec1378c2114de701f8ff # v1.1.0
+        id: branchVersion
+
+      - name: set-dnn-manifest-versions
+        uses: valadas/set-dnn-manifest-versions@36e719995c5c1511859b19462e4b4f9f64a0c412 # v1.3.0
+        with:
+          # Version to set in the manifests, should be a manifest save version string as in 09.06.00
+          version: ${{ steps.branchVersion.outputs.manifestSafeVersionString }}
+      - run: git add .
+      - run: git config user.name "$ACTOR"
+        env:
+          ACTOR: ${{ github.actor }}
+      - run: git config user.email "${{ github.actor }}@users.noreply.github.com"
+      - run: git diff --quiet && git diff --staged --quiet || git commit -m 'Commit new manifest versions'
+      - run: git push https://$ACTOR:$TOKEN@github.com/$REPOSITORY.git
+        env:
+          ACTOR: ${{ github.actor }}
+          TOKEN: ${{ github.token }}
+          REPOSITORY: ${{ github.repository }}

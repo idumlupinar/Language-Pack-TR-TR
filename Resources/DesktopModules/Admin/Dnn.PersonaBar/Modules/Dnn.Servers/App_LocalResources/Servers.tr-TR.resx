@@ -1,0 +1,828 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="nav_Servers.Text" xml:space="preserve">
+    <value>Sunucular</value>
+  </data>
+  <data name="Servers.Text" xml:space="preserve">
+    <value>Sunucular</value>
+  </data>
+  <data name="tabApplicationTitle.Text" xml:space="preserve">
+    <value>Uygulama</value>
+  </data>
+  <data name="tabDatabaseTitle.Text" xml:space="preserve">
+    <value>Veritabanı</value>
+  </data>
+  <data name="tabLogsTitle.Text" xml:space="preserve">
+    <value>Günlükler</value>
+  </data>
+  <data name="tabPerformanceTitle.Text" xml:space="preserve">
+    <value>Performans</value>
+  </data>
+  <data name="tabServerSettingsTitle.Text" xml:space="preserve">
+    <value>Sunucu Ayarları</value>
+  </data>
+  <data name="tabSmtpServerTitle.Text" xml:space="preserve">
+    <value>Smtp Sunucusu</value>
+  </data>
+  <data name="tabSystemInfoTitle.Text" xml:space="preserve">
+    <value>Sistem Bilgisi</value>
+  </data>
+  <data name="tabWebTitle.Text" xml:space="preserve">
+    <value>Web</value>
+  </data>
+  <data name="ServerInfo_Framework.Help" xml:space="preserve">
+    <value>Bu, CLR sürümüdür. İlk iki bölüm (örn. 4.0) CLR'nin ana sürümünü, kalan kısım ise derleme numarasını belirtir.</value>
+  </data>
+  <data name="ServerInfo_Framework.Text" xml:space="preserve">
+    <value>.NET Framework CLR Sürümü:</value>
+  </data>
+  <data name="ServerInfo_Framework_Product.Help" xml:space="preserve">
+    <value>Bu, .NET Framework'e bir ürün olarak atıfta bulunurken genellikle kullanılan sürüm numarasıdır (örn. 4.8.1).</value>
+  </data>
+  <data name="ServerInfo_Framework_Product.Text" xml:space="preserve">
+    <value>.NET Framework Ürün Sürümü:</value>
+  </data>
+  <data name="ServerInfo_HostName.Help" xml:space="preserve">
+    <value>Sunucu bilgisayarın adı.</value>
+  </data>
+  <data name="ServerInfo_HostName.Text" xml:space="preserve">
+    <value>Sunucu Adı:</value>
+  </data>
+  <data name="ServerInfo_Identity.Help" xml:space="preserve">
+    <value>Uygulamanın altında çalıştığı Windows kullanıcı hesabı.  Sunucuda klasör izinlerinin verilmesi gereken hesap budur.</value>
+  </data>
+  <data name="ServerInfo_Identity.Text" xml:space="preserve">
+    <value>ASP.NET Kimliği:</value>
+  </data>
+  <data name="ServerInfo_IISVersion.Help" xml:space="preserve">
+    <value>Internet Information Server (IIS) sürümü.</value>
+  </data>
+  <data name="ServerInfo_IISVersion.Text" xml:space="preserve">
+    <value>Web Sunucusu Sürümü:</value>
+  </data>
+  <data name="ServerInfo_OSVersion.Help" xml:space="preserve">
+    <value>Sunucudaki Windows sürümü.</value>
+  </data>
+  <data name="ServerInfo_OSVersion.Text" xml:space="preserve">
+    <value>İşletim Sistemi Sürümü:</value>
+  </data>
+  <data name="ServerInfo_PhysicalPath.Help" xml:space="preserve">
+    <value>Site kök dizininin sunucudaki fiziksel konumu.</value>
+  </data>
+  <data name="ServerInfo_PhysicalPath.Text" xml:space="preserve">
+    <value>Fiziksel Yol:</value>
+  </data>
+  <data name="ServerInfo_RelativePath.Help" xml:space="preserve">
+    <value>Uygulamanın, sitenin köküne göre konumu.</value>
+  </data>
+  <data name="ServerInfo_RelativePath.Text" xml:space="preserve">
+    <value>Göreli Yol:</value>
+  </data>
+  <data name="ServerInfo_ServerTime.Help" xml:space="preserve">
+    <value>Web sunucusunun geçerli tarihi ve saati.</value>
+  </data>
+  <data name="ServerInfo_ServerTime.Text" xml:space="preserve">
+    <value>Sunucu Saati:</value>
+  </data>
+  <data name="ServerInfo_Url.Help" xml:space="preserve">
+    <value>Bu sitenin asıl URL'si.</value>
+  </data>
+  <data name="ServerInfo_Url.Text" xml:space="preserve">
+    <value>Site URL'si:</value>
+  </data>
+  <data name="errorMessageLoadingWebTab.Text" xml:space="preserve">
+    <value>Web sekmesi yüklenirken hata oluştu</value>
+  </data>
+  <data name="clearCacheButtonLabel.Text" xml:space="preserve">
+    <value>Önbelleği Temizle</value>
+  </data>
+  <data name="errorMessageClearingCache.Text" xml:space="preserve">
+    <value>Önbellek temizlenmeye çalışılırken hata oluştu</value>
+  </data>
+  <data name="errorMessageLoadingApplicationTab.Text" xml:space="preserve">
+    <value>Uygulama sekmesi yüklenirken hata oluştu</value>
+  </data>
+  <data name="errorMessageRestartingApplication.Text" xml:space="preserve">
+    <value>Uygulama yeniden başlatılmaya çalışılırken hata oluştu</value>
+  </data>
+  <data name="HostInfo_CachingProvider.Help" xml:space="preserve">
+    <value>Site için varsayılan önbellek sağlayıcısı.</value>
+  </data>
+  <data name="HostInfo_CachingProvider.Text" xml:space="preserve">
+    <value>Önbellek Sağlayıcısı:</value>
+  </data>
+  <data name="HostInfo_FriendlyUrlEnabled.Help" xml:space="preserve">
+    <value>Site için Kullanıcı Dostu URL'lerin etkin olup olmadığını gösterir.</value>
+  </data>
+  <data name="HostInfo_FriendlyUrlEnabled.Text" xml:space="preserve">
+    <value>Kullanıcı Dostu URL'ler Etkin:</value>
+  </data>
+  <data name="HostInfo_FriendlyUrlProvider.Help" xml:space="preserve">
+    <value>Site için varsayılan Kullanıcı Dostu URL sağlayıcısı.</value>
+  </data>
+  <data name="HostInfo_FriendlyUrlProvider.Text" xml:space="preserve">
+    <value>Kullanıcı Dostu URL Sağlayıcısı:</value>
+  </data>
+  <data name="HostInfo_FriendlyUrlType.Help" xml:space="preserve">
+    <value>Site için kullanılan Kullanıcı Dostu URL türünü gösterir.</value>
+  </data>
+  <data name="HostInfo_FriendlyUrlType.Text" xml:space="preserve">
+    <value>Kullanıcı Dostu URL Türü:</value>
+  </data>
+  <data name="HostInfo_HtmlEditorProvider.Help" xml:space="preserve">
+    <value>Site için varsayılan HTML Düzenleyici sağlayıcısı.</value>
+  </data>
+  <data name="HostInfo_HtmlEditorProvider.Text" xml:space="preserve">
+    <value>HTML Düzenleyici Sağlayıcısı:</value>
+  </data>
+  <data name="HostInfo_LoggingProvider.Help" xml:space="preserve">
+    <value>Site için varsayılan günlük kaydı sağlayıcısı.</value>
+  </data>
+  <data name="HostInfo_LoggingProvider.Text" xml:space="preserve">
+    <value>Günlük Kaydı Sağlayıcısı:</value>
+  </data>
+  <data name="HostInfo_Permissions.Help" xml:space="preserve">
+    <value>Bu site için kullanılabilen Kod Erişim Güvenliği (CAS) İzinleri.</value>
+  </data>
+  <data name="HostInfo_Permissions.Text" xml:space="preserve">
+    <value>CAS İzinleri:</value>
+  </data>
+  <data name="HostInfo_SchedulerMode.Help" xml:space="preserve">
+    <value>Zamanlama için ayarlanan mod. Zamanlayıcı Yöntemi, çalışan işlem etkin olduğu sürece zamanlanmış görevleri yürütmek için ayrı bir iş parçacığı kullanır.  Buna alternatif olarak İstek Yöntemi, görevleri HTTP istekleri yapıldığında yürütür.  Zamanlayıcı devre dışı da bırakılabilir.</value>
+  </data>
+  <data name="HostInfo_SchedulerMode.Text" xml:space="preserve">
+    <value>Zamanlayıcı Modu:</value>
+  </data>
+  <data name="HostInfo_WebFarmEnabled.Help" xml:space="preserve">
+    <value>Sitenin Web Grubu (Web Farm) modunda çalışıp çalışmadığını belirtir. </value>
+  </data>
+  <data name="HostInfo_WebFarmEnabled.Text" xml:space="preserve">
+    <value>Web Grubu Etkin:</value>
+  </data>
+  <data name="infoMessageClearingCache.Text" xml:space="preserve">
+    <value>Önbellek Temizleniyor</value>
+  </data>
+  <data name="infoMessageRestartingApplication.Text" xml:space="preserve">
+    <value>Uygulama Yeniden Başlatılıyor</value>
+  </data>
+  <data name="plDataProvider.Help" xml:space="preserve">
+    <value>Bu uygulama için varsayılan veri sağlayıcısı.</value>
+  </data>
+  <data name="plDataProvider.Text" xml:space="preserve">
+    <value>Veri Sağlayıcısı:</value>
+  </data>
+  <data name="plGUID.Help" xml:space="preserve">
+    <value>Bu uygulamayı tanımlamak için kullanılabilecek genel benzersiz tanımlayıcı.</value>
+  </data>
+  <data name="plGUID.Text" xml:space="preserve">
+    <value>Sunucu GUID:</value>
+  </data>
+  <data name="plProduct.Help" xml:space="preserve">
+    <value>Çalıştırdığınız uygulama</value>
+  </data>
+  <data name="plProduct.Text" xml:space="preserve">
+    <value>Ürün:</value>
+  </data>
+  <data name="plVersion.Help" xml:space="preserve">
+    <value>Bu uygulamanın sürümü.</value>
+  </data>
+  <data name="plVersion.Text" xml:space="preserve">
+    <value>Sürüm:</value>
+  </data>
+  <data name="restartApplicationButtonLabel.Text" xml:space="preserve">
+    <value>Uygulamayı Yeniden Başlat</value>
+  </data>
+  <data name="UserRestart.Text" xml:space="preserve">
+    <value>Kullanıcı Uygulamanın Yeniden Başlatılmasını tetikledi</value>
+  </data>
+  <data name="DbInfo_ProductEdition.Help" xml:space="preserve">
+    <value>Yüklü SQL Server sürümü (edition).</value>
+  </data>
+  <data name="DbInfo_ProductEdition.Text" xml:space="preserve">
+    <value>Ürün Sürümü:</value>
+  </data>
+  <data name="DbInfo_ProductVersion.Help" xml:space="preserve">
+    <value>SQL Server sürümü</value>
+  </data>
+  <data name="DbInfo_ProductVersion.Text" xml:space="preserve">
+    <value>Veritabanı Sürümü:</value>
+  </data>
+  <data name="DbInfo_ServicePack.Help" xml:space="preserve">
+    <value>Yüklü hizmet paketleri.</value>
+  </data>
+  <data name="DbInfo_ServicePack.Text" xml:space="preserve">
+    <value>Hizmet Paketi:</value>
+  </data>
+  <data name="DbInfo_SoftwarePlatform.Help" xml:space="preserve">
+    <value>Yüklü SQL Server Yazılım Platformunun tam açıklaması.</value>
+  </data>
+  <data name="DbInfo_SoftwarePlatform.Text" xml:space="preserve">
+    <value>Yazılım Platformu:</value>
+  </data>
+  <data name="errorMessageLoadingDatabaseTab.Text" xml:space="preserve">
+    <value>Veritabanı sekmesi yüklenirken hata oluştu</value>
+  </data>
+  <data name="BackupFinished.Text" xml:space="preserve">
+    <value>Bitiş</value>
+  </data>
+  <data name="BackupName.Text" xml:space="preserve">
+    <value> Yedek Adı</value>
+  </data>
+  <data name="BackupSize.Text" xml:space="preserve">
+    <value>Boyut (Kb)</value>
+  </data>
+  <data name="BackupStarted.Text" xml:space="preserve">
+    <value>Başlangıç</value>
+  </data>
+  <data name="BackupType.Text" xml:space="preserve">
+    <value>Yedek Türü</value>
+  </data>
+  <data name="FileName.Text" xml:space="preserve">
+    <value>Dosya Adı</value>
+  </data>
+  <data name="FileType.Text" xml:space="preserve">
+    <value>Dosya Türü</value>
+  </data>
+  <data name="Name.Text" xml:space="preserve">
+    <value>Ad</value>
+  </data>
+  <data name="NoBackups.Text" xml:space="preserve">
+    <value>Bu veritabanı henüz yedeklenmedi.</value>
+  </data>
+  <data name="plBackups.Text" xml:space="preserve">
+    <value>Veritabanı Yedekleme Geçmişi:</value>
+  </data>
+  <data name="plFiles.Text" xml:space="preserve">
+    <value>Veritabanı Dosyaları:</value>
+  </data>
+  <data name="Size.Text" xml:space="preserve">
+    <value>Boyut</value>
+  </data>
+  <data name="EmailTest.Text" xml:space="preserve">
+    <value>SMTP Ayarlarını Test Et</value>
+  </data>
+  <data name="errorMessageLoadingSmtpServerTab.Text" xml:space="preserve">
+    <value>Smtp Sunucusu sekmesi yüklenirken hata oluştu</value>
+  </data>
+  <data name="GlobalSettings.Text" xml:space="preserve">
+    <value>Bunlar genel ayarlardır. Ayarlarda yapılan değişiklikler tüm sitelerinizi etkiler.</value>
+  </data>
+  <data name="GlobalSmtpHostSetting.Text" xml:space="preserve">
+    <value>Genel</value>
+  </data>
+  <data name="plBatch.Help" xml:space="preserve">
+    <value>Mesajlaşma zamanlayıcısı tarafından her toplu işte gönderilen mesaj sayısı.</value>
+  </data>
+  <data name="plBatch.Text" xml:space="preserve">
+    <value>Her toplu işte gönderilen mesaj sayısı:</value>
+  </data>
+  <data name="plConnectionLimit.Help" xml:space="preserve">
+    <value>Bu ServicePoint nesnesinde izin verilen azami bağlantı sayısı. En büyük değer 2147483647'dir. Varsayılan değer 2'dir.</value>
+  </data>
+  <data name="plConnectionLimit.Text" xml:space="preserve">
+    <value>Bağlantı Sınırı:</value>
+  </data>
+  <data name="plMaxIdleTime.Help" xml:space="preserve">
+    <value>ServicePoint nesnesiyle ilişkili bir bağlantının kapatılıp başka bir bağlantı için yeniden kullanılmadan önce boşta kalabileceği süre (milisaniye cinsinden). En büyük değer 2147483647'dir. Varsayılan değer 100.000'dir (100 saniye).</value>
+  </data>
+  <data name="plMaxIdleTime.Text" xml:space="preserve">
+    <value>Azami Boşta Kalma Süresi:</value>
+  </data>
+  <data name="plSMTPAuthentication.Help" xml:space="preserve">
+    <value>SMTP sunucusu kimlik doğrulama yöntemini girin. Varsayılan değer Anonim'dir.</value>
+  </data>
+  <data name="plSMTPAuthentication.Text" xml:space="preserve">
+    <value>SMTP Kimlik Doğrulaması:</value>
+  </data>
+  <data name="plSMTPEnableSSL.Help" xml:space="preserve">
+    <value>E-posta sağlayıcısı tarafından destekleniyorsa, güvenli bir bağlantının gerekli olduğunu belirtir. MailKit sağlayıcısı bağlantı güvenliğini otomatik olarak yönetir; bu nedenle bu sağlayıcı kullanıldığında bu ayarın hiçbir etkisi olmaz.</value>
+  </data>
+  <data name="plSMTPEnableSSL.Text" xml:space="preserve">
+    <value>SMTP SSL'yi Etkinleştir:</value>
+  </data>
+  <data name="plSMTPMode.Help" xml:space="preserve">
+    <value>Sunucu modu, uygulama düzeyinde ayarlanan tüm SMTP ayarlarını kullanır. Site düzeyi ise kendi SMTP sunucunuzu, bağlantı noktanızı ve kimlik doğrulama yönteminizi seçmenize olanak tanır.</value>
+  </data>
+  <data name="plSMTPMode.Text" xml:space="preserve">
+    <value>SMTP Sunucusu Modu:</value>
+  </data>
+  <data name="plSMTPPassword.Help" xml:space="preserve">
+    <value>SMTP sunucusunun şifresini girin. Değiştirmemek için boş bırakın.</value>
+  </data>
+  <data name="plSMTPPassword.Text" xml:space="preserve">
+    <value>SMTP Şifresi:</value>
+  </data>
+  <data name="plSMTPServer.Help" xml:space="preserve">
+    <value>Bu siteden e-posta göndermek için kullanılacak SMTP sunucusunun adını (adresini) ve bağlantı noktasını girin.</value>
+  </data>
+  <data name="plSMTPServer.Text" xml:space="preserve">
+    <value>SMTP Sunucusu ve bağlantı noktası:</value>
+  </data>
+  <data name="plSMTPUsername.Help" xml:space="preserve">
+    <value>SMTP sunucusunun kullanıcı adını girin.</value>
+  </data>
+  <data name="plSMTPUsername.Text" xml:space="preserve">
+    <value>SMTP Kullanıcı Adı:</value>
+  </data>
+  <data name="SaveButtonText.Text" xml:space="preserve">
+    <value>Kaydet</value>
+  </data>
+  <data name="SiteSmtpHostSetting.Text" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="SMTPAnonymous.Text" xml:space="preserve">
+    <value>Anonim</value>
+  </data>
+  <data name="SMTPBasic.Text" xml:space="preserve">
+    <value>Temel</value>
+  </data>
+  <data name="SMTPNTLM.Text" xml:space="preserve">
+    <value>NTLM</value>
+  </data>
+  <data name="SMTPOAUTH.Text" xml:space="preserve">
+    <value>OAuth</value>
+  </data>
+  <data name="errorMessageLoadingLog.Text" xml:space="preserve">
+    <value>Günlük yüklenirken hata oluştu.</value>
+  </data>
+  <data name="errorMessageLoadingLogsTab.Text" xml:space="preserve">
+    <value>Günlükler sekmesi yüklenirken hata oluştu</value>
+  </data>
+  <data name="Logs_LogFiles.Text" xml:space="preserve">
+    <value>Günlük Dosyaları:</value>
+  </data>
+  <data name="Logs_LogFilesDefaultOption.Text" xml:space="preserve">
+    <value>Görüntülemek için bir günlük dosyası seçin</value>
+  </data>
+  <data name="Logs_LogFilesTooltip.Text" xml:space="preserve">
+    <value>Görüntülenebilecek günlük dosyalarının listesi.</value>
+  </data>
+  <data name="Logs_Type.Header" xml:space="preserve">
+    <value>Tür</value>
+  </data>
+  <data name="Logs_Name.Header" xml:space="preserve">
+    <value>Ad</value>
+  </data>
+  <data name="Logs_Date.Header" xml:space="preserve">
+    <value>Son Değiştirilme Tarihi</value>
+  </data>
+  <data name="Logs_Size.Header" xml:space="preserve">
+    <value>Boyut</value>
+  </data>
+  <data name="Logs_ServerLog.Text" xml:space="preserve">
+    <value>Sunucu Günlüğü</value>
+  </data>
+  <data name="Logs_UpgradeLog.Text" xml:space="preserve">
+    <value>Yükseltme Günlüğü</value>
+  </data>
+  <data name="Logs_Type.Text" xml:space="preserve">
+    <value>Tür</value>
+  </data>
+  <data name="Logs_Date.Text" xml:space="preserve">
+    <value>Tarih</value>
+  </data>
+  <data name="Logs_Name.Text" xml:space="preserve">
+    <value>Ad</value>
+  </data>
+  <data name="errorMessageUpdatingSmtpServerTab.Text" xml:space="preserve">
+    <value>Smtp Sunucusu ayarları güncellenirken hata oluştu</value>
+  </data>
+  <data name="errorMessageLoadingPerformanceTab.Text" xml:space="preserve">
+    <value>Performans sekmesi yüklenirken hata oluştu</value>
+  </data>
+  <data name="PerformanceTab_CacheSetting.Help" xml:space="preserve">
+    <value>Performansın nasıl optimize edileceğini seçin.</value>
+  </data>
+  <data name="PerformanceTab_CacheSetting.Text" xml:space="preserve">
+    <value>Önbellek Ayarı</value>
+  </data>
+  <data name="PerformanceTab_Heavy.Text" xml:space="preserve">
+    <value>Yoğun</value>
+  </data>
+  <data name="PerformanceTab_Light.Text" xml:space="preserve">
+    <value>Hafif</value>
+  </data>
+  <data name="PerformanceTab_Memory.Text" xml:space="preserve">
+    <value>Bellek</value>
+  </data>
+  <data name="PerformanceTab_Moderate.Text" xml:space="preserve">
+    <value>Orta</value>
+  </data>
+  <data name="PerformanceTab_None.Text" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="PerformanceTab_Page.Text" xml:space="preserve">
+    <value>Sayfa</value>
+  </data>
+  <data name="PerformanceTab_PageStatePersistenceMode.Help" xml:space="preserve">
+    <value>Sayfa durumunun saklanması için kullanılacak modu seçin. Bu, Sayfadaki gizli bir alan (Varsayılan) veya Bellek (Önbellek) olabilir.</value>
+  </data>
+  <data name="PerformanceTab_PageStatePersistenceMode.Text" xml:space="preserve">
+    <value>Sayfa Durumu Saklama:</value>
+  </data>
+  <data name="PerformanceTab_AuthCacheability.Help" xml:space="preserve">
+    <value>Kimliği doğrulanmış kullanıcılar için Cache-Control HTTP üst bilgisi değerini ayarlar.</value>
+  </data>
+  <data name="PerformanceTab_AuthCacheability.Text" xml:space="preserve">
+    <value>Kimliği Doğrulanmış Kullanıcılar İçin Önbelleğe Alınabilirlik</value>
+  </data>
+  <data name="PerformanceTab_CachingProvider.Help" xml:space="preserve">
+    <value>Önbellek Sağlayıcısı</value>
+  </data>
+  <data name="PerformanceTab_CachingProvider.Text" xml:space="preserve">
+    <value>Önbellek Sağlayıcısı</value>
+  </data>
+  <data name="PerformanceTab_ClientResourceManagementInfo.Text" xml:space="preserve">
+    <value>DNN, İstemci Kaynak Yönetimi aracılığıyla sunulan her istemci kaynağına (örn. css, js dosyası) bir sürüm numarası (CDV olarak adlandırılır) ekler.
+İstemciler (yani tarayıcılar), sitenizin performansını artırmak için genellikle bu dosyaları önbelleğe alır.
+Sürüm numarasının değiştirilmesi, url (hafifçe) farklı olacağından tüm istemcileri bu kaynakları yeniden yüklemeye zorlar.
+CDV varsayılan olarak sunucu düzeyinde (yani tüm siteler için tek bir sürüm numarası) yönetilir.
+Bunu site düzeyinde yönetmeyi seçebilirsiniz; böylece siteye özgü kaynaklarda (örn. portal.css) yapılan değişiklikler yalnızca bu siteye erişen istemciler için kaynakların yeniden yüklenmesini zorunlu kılar.</value>
+  </data>
+  <data name="PerformanceTab_ClientResourceManagementTitle.Text" xml:space="preserve">
+    <value>İstemci Kaynak Yönetimi</value>
+  </data>
+  <data name="PerformanceTab_CurrentHostVersion.Text" xml:space="preserve">
+    <value>Geçerli Sunucu Sürümü:</value>
+  </data>
+  <data name="PerformanceTab_GlobalClientResourcesManagementMode.Text" xml:space="preserve">
+    <value>Genel</value>
+  </data>
+  <data name="PerformanceTab_IncrementVersion.Text" xml:space="preserve">
+    <value>Sürümü Artır</value>
+  </data>
+  <data name="PerformanceTab_ModuleCacheProviders.Help" xml:space="preserve">
+    <value>Varsayılan modül önbellek sağlayıcısını seçin. Bu ayar her modül tarafından ayrı ayrı geçersiz kılınabilir.</value>
+  </data>
+  <data name="PerformanceTab_ModuleCacheProviders.Text" xml:space="preserve">
+    <value>Modül Önbellek Sağlayıcısı</value>
+  </data>
+  <data name="PerformanceTab_PageCacheProviders.Help" xml:space="preserve">
+    <value>Varsayılan Sayfa Önbellek Sağlayıcısını seçin. Önbellek sağlayıcısının etkinleştirilmesi için her sayfada önbellek zaman aşımının ayarlanması gerekir.</value>
+  </data>
+  <data name="PerformanceTab_PageCacheProviders.Text" xml:space="preserve">
+    <value>Sayfa Çıktısı Önbellek Sağlayıcısı</value>
+  </data>
+  <data name="PerformanceTab_SiteClientResourcesManagementMode.Text" xml:space="preserve">
+    <value>Web Sitem {0}</value>
+  </data>
+  <data name="PerformanceTab_SslForCacheSyncrhonization.Help" xml:space="preserve">
+    <value>Varsayılan olarak önbellek eşitlemesi http üzerinden gerçekleşir. Önbellek eşitleme mesajları için SSL kullanmak istiyorsanız bunu işaretleyin.</value>
+  </data>
+  <data name="PerformanceTab_SslForCacheSyncrhonization.Text" xml:space="preserve">
+    <value>Önbellek Eşitlemesi İçin SSL</value>
+  </data>
+  <data name="PerformanceTab_UnauthCacheability.Help" xml:space="preserve">
+    <value>Kimliği doğrulanmamış kullanıcılar için Cache-Control HTTP üst bilgisi değerini ayarlar.</value>
+  </data>
+  <data name="PerformanceTab_UnauthCacheability.Text" xml:space="preserve">
+    <value>Kimliği Doğrulanmamış Kullanıcılar İçin Önbelleğe Alınabilirlik</value>
+  </data>
+  <data name="EmailSentMessage.Text" xml:space="preserve">
+    <value>E-posta başarıyla gönderildi (gönderen: {0}, alıcı: {1})</value>
+  </data>
+  <data name="errorMessageSendingTestEmail.Text" xml:space="preserve">
+    <value>Test e-postası gönderilmeye çalışılırken bir hata oluştu</value>
+  </data>
+  <data name="NoIntegerValueError.Text" xml:space="preserve">
+    <value>Pozitif bir tam sayı olmalıdır.</value>
+  </data>
+  <data name="PerformanceTab_CurrentPortalVersion.Text" xml:space="preserve">
+    <value>Site Sürümü:</value>
+  </data>
+  <data name="errorMessageIncrementingVersion.Text" xml:space="preserve">
+    <value>Sürüm numarası artırılırken hata oluştu.</value>
+  </data>
+  <data name="errorMessageSavingPerformanceSettingsTab.Text" xml:space="preserve">
+    <value>Performans ayarları kaydedilirken hata oluştu</value>
+  </data>
+  <data name="PerformanceTab_AjaxWarning.Text" xml:space="preserve">
+    <value>Uyarı: Sayfa durumunun bellekte saklanması Ajax sorunlarına neden olabilir.</value>
+  </data>
+  <data name="PerformanceTab_PortalVersionConfirmMessage.Text" xml:space="preserve">
+    <value>Bu işlem, tüm site ziyaretçilerini CSS ve JavaScript dosyalarının yeni sürümlerini indirmeye zorlar. Bunu yalnızca dosyaların değiştiğinden eminseniz ve bu değişikliklerin istemcinin tarayıcısına yansımasını istiyorsanız yapmalısınız.
+
+Sitenizin sürüm numarasını artırmak istediğinizden emin misiniz?</value>
+  </data>
+  <data name="PerformanceTab_PortalVersionConfirmNo.Text" xml:space="preserve">
+    <value>Hayır</value>
+  </data>
+  <data name="PerformanceTab_PortalVersionConfirmYes.Text" xml:space="preserve">
+    <value>Evet</value>
+  </data>
+  <data name="SaveConfirmationMessage.Text" xml:space="preserve">
+    <value>Başarıyla kaydedildi</value>
+  </data>
+  <data name="VersionIncrementedConfirmation.Text" xml:space="preserve">
+    <value>Sürüm başarıyla artırıldı</value>
+  </data>
+  <data name="plHostEmail.Help" xml:space="preserve">
+    <value>Sunucu e-posta adresi, e-posta sunucusu test edilirken kullanılır; ayrıca uzantılar tarafından barındırmadan sorumlu kişiye ulaşmak için de kullanılabilir.</value>
+  </data>
+  <data name="plHostEmail.Text" xml:space="preserve">
+    <value>Sunucu E-postası</value>
+  </data>
+  <data name="NonCoreMailProvider.Text" xml:space="preserve">
+    <value>Bu DNN kurulumu alternatif bir e-posta sağlayıcısı kullanıyor. Yapılandırma, sağlayıcının kendi arayüzünden yapılır.</value>
+  </data>
+  <data name="tabServersTitle.Text" xml:space="preserve">
+    <value>Web Sunucuları</value>
+  </data>
+  <data name="Actions.Text" xml:space="preserve">
+    <value>Eylemler</value>
+  </data>
+  <data name="errorMessageLoadingServers.Text" xml:space="preserve">
+    <value>Web sunucuları listesi yüklenirken hata oluştu</value>
+  </data>
+  <data name="LastActivityDate.Text" xml:space="preserve">
+    <value>Son Etkinlik</value>
+  </data>
+  <data name="plWebServers.Text" xml:space="preserve">
+    <value>Web Sunucuları:</value>
+  </data>
+  <data name="Servers_CurrentServerName.Help" xml:space="preserve">
+    <value>Bu isteği sunan sunucunun adıdır</value>
+  </data>
+  <data name="Servers_CurrentServerName.Text" xml:space="preserve">
+    <value>Geçerli Sunucu Adı</value>
+  </data>
+  <data name="Url.Text" xml:space="preserve">
+    <value>Url</value>
+  </data>
+  <data name="Cancel.Text" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="Confirm.Text" xml:space="preserve">
+    <value>Onayla</value>
+  </data>
+  <data name="Delete.Text" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="DeleteServerConfirm.Text" xml:space="preserve">
+    <value>Bu web sunucusunu silmek istediğinizden emin misiniz?</value>
+  </data>
+  <data name="Edit.Text" xml:space="preserve">
+    <value>Düzenle</value>
+  </data>
+  <data name="errorMessageDeleteServers.Text" xml:space="preserve">
+    <value>Bu sunucu silinirken bir hata oluştu</value>
+  </data>
+  <data name="Save.Text" xml:space="preserve">
+    <value>Kaydet</value>
+  </data>
+  <data name="ServerUpdateUrlError.Text" xml:space="preserve">
+    <value>Web sunucusu url'si güncellenemedi</value>
+  </data>
+  <data name="Url.Help" xml:space="preserve">
+    <value>Bu web sunucusuna doğrudan bağlantı için kullanılan URL.  Çok sunuculu ortamlarda bu genellikle tek bir sunucuyu doğrudan işaret eden bir IP adresi veya benzersiz bir DNS kaydıdır.</value>
+  </data>
+  <data name="DeleteNonActiveServers.Confirm" xml:space="preserve">
+    <value>Etkin olmayan tüm sunucuları silmek istiyor musunuz?</value>
+  </data>
+  <data name="DeleteNonActiveServers.Text" xml:space="preserve">
+    <value>Etkin Olmayan Sunucuları Sil</value>
+  </data>
+  <data name="DeleteNonActiveServers.Warning" xml:space="preserve">
+    <value>24 saattir etkin olmayan tüm sunucuları aşağıdan silebilirsiniz</value>
+  </data>
+  <data name="Change.Text" xml:space="preserve">
+    <value>Değiştir</value>
+  </data>
+  <data name="SmtpTab_OAuthProviders.Help" xml:space="preserve">
+    <value>SMTP OAuth sağlayıcısını seçin.</value>
+  </data>
+  <data name="SmtpTab_OAuthProviders.Text" xml:space="preserve">
+    <value>Kimlik Doğrulama Sağlayıcısı</value>
+  </data>
+  <data name="Authorize.Text" xml:space="preserve">
+    <value>Yetkilendir</value>
+  </data>
+  <data name="AuthorizeCompleted.Text" xml:space="preserve">
+    <value>OAuth sağlayıcınızın yapılandırması tamamlandı.</value>
+  </data>
+  <data name="CompleteAuthorize.Text" xml:space="preserve">
+    <value>OAuth sağlayıcı ayarlarınız kaydedildi. Yetkilendirme işlemini tamamlamak için Yetkilendir düğmesine tıklayın.</value>
+  </data>
+  <data name="OAuthConfigurationNotSaved.Text" xml:space="preserve">
+    <value>Sunucu veya web sitesi düzeyinde OAuth kimlik doğrulama modu etkinken, test etmeden önce ayarları kaydedin ve yetkilendirme işlemini tamamlayın.</value>
+  </data>
+  <data name="plAvailableUpgrades.Text" xml:space="preserve">
+    <value>Kullanılabilir Yükseltmeler</value>
+  </data>
+  <data name="plCurrentVersion.Help" xml:space="preserve">
+    <value>Bu uygulamanın geçerli sürümü.</value>
+  </data>
+  <data name="plCurrentVersion.Text" xml:space="preserve">
+    <value>Geçerli Sürüm:</value>
+  </data>
+  <data name="Backup.Confirm" xml:space="preserve">
+    <value>Yükseltmeden önce bu kurulumun yedeğini aldığınızı onaylayın.</value>
+  </data>
+  <data name="IsOutdated.Text" xml:space="preserve">
+    <value>Eski</value>
+  </data>
+  <data name="IsValid.Text" xml:space="preserve">
+    <value>Geçerli</value>
+  </data>
+  <data name="Version.Text" xml:space="preserve">
+    <value>Sürüm</value>
+  </data>
+  <data name="UploadPackage.Text" xml:space="preserve">
+    <value>Paket Yükle</value>
+  </data>
+  <data name="DeleteUpgradePackage.Confirm" xml:space="preserve">
+    <value>Bu yükseltme paketi silinsin mi?</value>
+  </data>
+  <data name="UploadPackage_FileUploadDefault.Text" xml:space="preserve">
+    <value>Bir Dosyayı Sürükleyip Bırakın veya Göz Atmak İçin Simgeye Tıklayın</value>
+  </data>
+  <data name="TryAgain.Text" xml:space="preserve">
+    <value>[Tekrar Dene]</value>
+  </data>
+  <data name="UploadPackage_FileUploadDragOver.Text" xml:space="preserve">
+    <value>Bir Dosyayı Sürükleyip Bırakın</value>
+  </data>
+  <data name="UploadPackage_UploadAFile.Text" xml:space="preserve">
+    <value>DNN Paketi Zip Dosyası Yükleyin</value>
+  </data>
+  <data name="UploadPackage_UploadComplete.Text" xml:space="preserve">
+    <value>Yükleme Tamamlandı</value>
+  </data>
+  <data name="UploadPackage_UploadFailedUnknown.Text" xml:space="preserve">
+    <value>Bu dosya yüklenirken bilinmeyen bir hata oluştu</value>
+  </data>
+  <data name="UploadPackage_Uploading.Text" xml:space="preserve">
+    <value>Yükleniyor</value>
+  </data>
+  <data name="Install.Text" xml:space="preserve">
+    <value>Kur</value>
+  </data>
+  <data name="No.Text" xml:space="preserve">
+    <value>Hayır</value>
+  </data>
+  <data name="tabUpgrades.Text" xml:space="preserve">
+    <value>Yükseltmeler</value>
+  </data>
+  <data name="UpgradeDoneLink.Text" xml:space="preserve">
+    <value>Yükseltme işlemini başlatmak için buraya tıklayın</value>
+  </data>
+  <data name="UpgradeDone.Text" xml:space="preserve">
+    <value>Dosya Kopyalama Tamamlandı</value>
+  </data>
+  <data name="Upgrading.Help" xml:space="preserve">
+    <value>Sunucunuz yükseltmeye hazırlanırken lütfen bekleyin.</value>
+  </data>
+  <data name="Upgrading.Text" xml:space="preserve">
+    <value>Yükseltiliyor ...</value>
+  </data>
+  <data name="Yes.Text" xml:space="preserve">
+    <value>Evet</value>
+  </data>
+  <data name="Upgrade_InvalidPackage.Text" xml:space="preserve">
+    <value>Yüklenen {0} dosyası geçerli bir DNN paketi değil.</value>
+  </data>
+  <data name="Upgrade_NoUpgrade.Text" xml:space="preserve">
+    <value>Uygulanacak yükseltme yok</value>
+  </data>
+  <data name="Upgrade_NoValidUpgrade.Text" xml:space="preserve">
+    <value>{0} paketi için geçerli bir yükseltme yok</value>
+  </data>
+  <data name="Upgrade_OutdatedPackage.Text" xml:space="preserve">
+    <value>Yüklenen {0} dosyası eski bir DNN paketi.</value>
+  </data>
+  <data name="Upgrade_UploadNotAllowed.Text" xml:space="preserve">
+    <value>DNN yükseltme paketlerinin yüklenmesi devre dışı bırakıldı.</value>
+  </data>
+  <data name="Upgrade_NoUpgradesAvailable.Text" xml:space="preserve">
+    <value>Kullanılabilir yükseltme yok.</value>
+  </data>
+  <data name="CanInstall.Text" xml:space="preserve">
+    <value>Kurulabilir</value>
+  </data>
+  <data name="MinDnnVersion.Text" xml:space="preserve">
+    <value>Gerekli DNN Sürümü</value>
+  </data>
+  <data name="PerformanceTab_CrmOverrideDefaultSettings.Help" xml:space="preserve">
+    <value>Açık olduğunda bu site kendi istemci kaynakları sürüm numarasını kullanır ve genel sürüm numarasını yok sayar.</value>
+  </data>
+  <data name="PerformanceTab_CrmOverrideDefaultSettings.Text" xml:space="preserve">
+    <value>Genel CDV'yi Geçersiz Kıl</value>
+  </data>
+</root>
