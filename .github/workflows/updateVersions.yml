@@ -4,7 +4,9 @@ on: create
 permissions:
   contents: write
 
-# Sets the manifest versions when a release branch is created
+# Sets the manifest versions when a release branch is created.
+# Branch names: release/X.Y.Z, or release/X.Y.Z-rcN for a pre-release. DNN Platform
+# manifests can't hold a pre-release suffix, so both set the manifest to XX.YY.ZZ.
 jobs:
   updateVersions:
     runs-on: ubuntu-latest
@@ -12,9 +14,17 @@ jobs:
     steps:
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
 
-      - name: get-release-branch-version
-        uses: valadas/get-release-branch-version@c4a57e5584c40a2adc25ec1378c2114de701f8ff # v1.1.0
+      - name: Get version from branch name
         id: branchVersion
+        env:
+          BRANCH: ${{ github.event.ref }}
+        run: |
+          if [[ ! "$BRANCH" =~ ^release/([0-9]{1,2})\.([0-9]{1,2})\.([0-9]{1,2})(-[0-9A-Za-z.]+)?$ ]]; then
+            echo "::error::Branch '$BRANCH' does not match release/X.Y.Z or release/X.Y.Z-rcN"
+            exit 1
+          fi
+          printf -v version '%02d.%02d.%02d' "$((10#${BASH_REMATCH[1]}))" "$((10#${BASH_REMATCH[2]}))" "$((10#${BASH_REMATCH[3]}))"
+          echo "manifestSafeVersionString=$version" >> "$GITHUB_OUTPUT"
 
       - name: set-dnn-manifest-versions
         uses: valadas/set-dnn-manifest-versions@36e719995c5c1511859b19462e4b4f9f64a0c412 # v1.3.0

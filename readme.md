@@ -5,13 +5,16 @@
 Turkish (Türkiye) language pack for [DNN Platform](https://github.com/dnnsoftware/Dnn.Platform).
 
 Versions available:
-* DNN Platform 10.04.00
+* DNN Platform 10.4.0-rc3 (pre-release)
 
 ## Installation
 
-Download the latest `Dnn_Platform_Language-Pack-TR-TR_<version>.zip` from the
-[Releases](../../releases) page and install it in DNN Platform under
-**Persona Bar > Settings > Extensions > Install Extension**.
+Download `Dnn_Platform_Language-Pack-TR-TR_<version>.zip` from the [Releases](../../releases) page and install it in
+DNN Platform under **Persona Bar > Settings > Extensions > Install Extension**. Each release also has a `.zip.sha256`
+file you can use to verify the download.
+
+Pick the release that matches your DNN Platform version. Pre-releases (e.g. `10.4.0-rc3`) are built for the matching
+DNN Platform release candidate and are meant for testing only.
 
 ## How to contribute
 
@@ -59,13 +62,35 @@ Add a mapping there when a new DNN Platform extension ships its own resources.
 
 ## New version release
 
-When the language pack is ready for a new version:
+Releases follow the DNN Platform version they are built for. Versions use [SemVer](https://semver.org/) tags
+(`v10.4.0`, `v10.4.0-rc3`); the `.dnn` manifest stores the DNN Platform form (`10.04.00`), which has no room for a
+pre-release suffix.
 
-* Create a branch called `release/x.x.x` where x.x.x is the version of the release (DNN Platform version).
+Before either kind of release, add an entry to `Resources/ReleaseNotes.txt` and to the version list above.
+
+### Stable release (e.g. 10.4.0)
+
+* Create a branch called `release/x.x.x` from `develop`, where x.x.x is the DNN Platform version.
 * Wait a few minutes and you should see a new commit on that branch that updates the manifest automatically with the version taken from that branch.
-* When that commit is in, create a pull request from `release/x.x.x` that targets `master`. Merging it packages the language pack and creates a **draft** GitHub release; review and publish it.
+* When that commit is in, create a pull request from `release/x.x.x` that targets `master`. Merging it packages the language pack and creates a **draft** release tagged `vx.x.x` on the merge commit.
+* Review the draft (assets, notes) and publish it. It becomes the **Latest** release.
 * Optionally create another pull request from `release/x.x.x` targeting `develop` so `develop` has the latest version number too.
-* Add an entry to `Resources/ReleaseNotes.txt` and to the version list above.
+
+### Pre-release (e.g. 10.4.0-rc3)
+
+Pre-releases are built from the release branch and never go to `master`.
+
+* Create a branch called `release/x.x.x-rcN` from `develop`, matching the DNN Platform release candidate.
+* Wait for the automatic manifest version commit, as above.
+* Create an annotated tag `vx.x.x-rcN` on that commit and push it:
+
+  ```powershell
+  git tag -a v10.4.0-rc3 -m "DNN Platform Language Pack tr-TR 10.4.0-rc3"
+  git push origin v10.4.0-rc3
+  ```
+
+* The Release workflow checks that the tag matches the manifest version, then creates a **draft pre-release**
+  with the zip and its SHA-256 checksum. Review it and publish it; it is never marked as Latest.
 
 ## License
 

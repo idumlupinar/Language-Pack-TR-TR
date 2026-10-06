@@ -3,6 +3,9 @@ on:
   push:
     branches:
       - master
+    tags:
+      # Pre-release tags matching a DNN Platform pre-release, e.g. v10.4.0-rc3
+      - 'v*-*'
 
 permissions:
   contents: write
@@ -22,17 +25,88 @@ jobs:
       uses: valadas/get-version-from-dnn-manifest@b2f479d682015f2c22cd506b4a42e90574fe42e8 # v1.0.1
       id: version
 
-    - name: Zip Release
-      run: cd Resources && zip -r $FILENAME.zip *
+    # master   -> stable release, tagged vX.Y.Z from the manifest version
+    # v*-* tag -> pre-release; the tag must match the manifest (v10.4.0-rc3 needs 10.04.00)
+    - name: Determine release version
+      id: release
       env:
-        FILENAME: Dnn_Platform_${{ github.event.repository.name }}_${{ steps.version.outputs.versionString }}
+        REF_TYPE: ${{ github.ref_type }}
+        REF_NAME: ${{ github.ref_name }}
+        BASE: ${{ steps.version.outputs.major }}.${{ steps.version.outputs.minor }}.${{ steps.version.outputs.patch }}
+      run: |
+        if [ "$REF_TYPE" = "tag" ]; then
+          if [[ ! "$REF_NAME" =~ ^v([0-9]+\.[0-9]+\.[0-9]+)-[0-9A-Za-z.]+$ ]]; then
+            echo "::error::Tag '$REF_NAME' is not a pre-release tag like v10.4.0-rc3"
+            exit 1
+          fi
+          if [ "${BASH_REMATCH[1]}" != "$BASE" ]; then
+            echo "::error::Tag '$REF_NAME' does not match the manifest version $BASE"
+            exit 1
+          fi
+          tag="$REF_NAME"
+          prerelease=true
+        else
+          tag="v$BASE"
+          prerelease=false
+        fi
+        {
+          echo "tag=$tag"
+          echo "version=${tag#v}"
+          echo "prerelease=$prerelease"
+        } >> "$GITHUB_OUTPUT"
+
+    - name: Package
+      id: package
+      env:
+        FILENAME: Dnn_Platform_${{ github.event.repository.name }}_${{ steps.release.outputs.version }}
+      run: |
+        (cd Resources && zip -r -X "../$FILENAME.zip" *)
+        sha256sum "$FILENAME.zip" > "$FILENAME.zip.sha256"
+        cat "$FILENAME.zip.sha256"
+        echo "filename=$FILENAME" >> "$GITHUB_OUTPUT"
+
+    - name: Write release notes
+      env:
+        TAG: ${{ steps.release.outputs.tag }}
+        PRERELEASE: ${{ steps.release.outputs.prerelease }}
+        FILENAME: ${{ steps.package.outputs.filename }}
+      run: |
+        packages=$(grep -c '<package ' Resources/DNNCE_tr-TR.dnn)
+        files=$(grep -c '<languageFile>' Resources/DNNCE_tr-TR.dnn)
+        {
+          echo "Turkish (Türkiye) language pack for [DNN Platform $TAG](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/$TAG)."
+          echo
+          if [ "$PRERELEASE" = "true" ]; then
+            echo "> [!WARNING]"
+            echo "> This is a **pre-release** for testing with DNN Platform $TAG. Do not use it on production sites."
+            echo
+          fi
+          echo "### Installation"
+          echo
+          echo "1. Download \`$FILENAME.zip\`."
+          echo "2. Optionally verify the download against \`$FILENAME.zip.sha256\`:"
+          echo "   \`sha256sum -c $FILENAME.zip.sha256\`, or \`Get-FileHash $FILENAME.zip -Algorithm SHA256\` in PowerShell."
+          echo "3. In DNN Platform, go to **Persona Bar > Settings > Extensions > Install Extension** and upload the zip."
+          echo
+          echo "### Contents"
+          echo
+          echo "$packages language packages (core and extensions) with $files resource files."
+        } > release-notes.md
+        cat release-notes.md
 
     - name: Create Release
       uses: ncipollo/release-action@339a81892b84b4eeb0f6e744e4574d79d0d9b8dd # v1.21.0
       with:
-        artifacts: Resources/*.zip
-        body: DNN Platform ${{ github.event.repository.name }} version ${{ steps.version.outputs.versionString }}
+        artifacts: ${{ steps.package.outputs.filename }}.zip,${{ steps.package.outputs.filename }}.zip.sha256
+        artifactErrorsFailBuild: true
+        name: DNN Platform Language Pack tr-TR ${{ steps.release.outputs.version }}
+        bodyFile: release-notes.md
+        generateReleaseNotes: true
+        # Created as a draft: review the assets and notes, then publish by hand
         draft: true
-        immutableCreate: true
-        tag: v${{ steps.version.outputs.major }}.${{ steps.version.outputs.minor }}.${{ steps.version.outputs.patch }}
+        prerelease: ${{ steps.release.outputs.prerelease }}
+        makeLatest: ${{ steps.release.outputs.prerelease == 'true' && 'false' || 'true' }}
+        tag: ${{ steps.release.outputs.tag }}
+        # Tag the commit that was built, not the head of the default branch
+        commit: ${{ github.sha }}
         token: ${{ secrets.GITHUB_TOKEN }}

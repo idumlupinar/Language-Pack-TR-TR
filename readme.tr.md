@@ -5,12 +5,16 @@
 [DNN Platform](https://github.com/dnnsoftware/Dnn.Platform) için Türkçe (Türkiye) dil paketi.
 
 Mevcut sürümler:
-* DNN Platform 10.04.00
+* DNN Platform 10.4.0-rc3 (ön sürüm)
 
 ## Kurulum
 
-[Releases](../../releases) sayfasından en güncel `Dnn_Platform_Language-Pack-TR-TR_<sürüm>.zip` dosyasını indirin ve
-DNN Platform'da **Persona Bar > Settings > Extensions > Install Extension** üzerinden yükleyin.
+[Releases](../../releases) sayfasından `Dnn_Platform_Language-Pack-TR-TR_<sürüm>.zip` dosyasını indirin ve
+DNN Platform'da **Persona Bar > Settings > Extensions > Install Extension** üzerinden yükleyin. Her sürümde, indirilen
+dosyayı doğrulamak için bir `.zip.sha256` dosyası da bulunur.
+
+DNN Platform sürümünüze uygun dil paketini seçin. Ön sürümler (ör. `10.4.0-rc3`) ilgili DNN Platform sürüm adayı için
+hazırlanır ve yalnızca test amaçlıdır.
 
 ## Nasıl katkıda bulunabilirsiniz?
 
