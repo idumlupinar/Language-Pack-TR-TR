@@ -99,7 +99,7 @@ jobs:
       with:
         artifacts: ${{ steps.package.outputs.filename }}.zip,${{ steps.package.outputs.filename }}.zip.sha256
         artifactErrorsFailBuild: true
-        name: DNN Platform Language Pack tr-TR ${{ steps.release.outputs.version }}
+        name: ${{ steps.release.outputs.version }}
         bodyFile: release-notes.md
         generateReleaseNotes: true
         # Created as a draft: review the assets and notes, then publish by hand
