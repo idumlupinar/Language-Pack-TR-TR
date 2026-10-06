@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: DNN Platform bugs (not translation related) / DNN Platform hataları
+    url: https://github.com/dnnsoftware/Dnn.Platform/issues
+    about: Problems that also happen in English belong in the DNN Platform repository.
+  - name: Turkish translation style guide / Türkçe çeviri kılavuzu
+    url: https://github.com/idumlupinar/Language-Pack-TR-TR/blob/develop/.github/COMMON_TERMS.md
+    about: Standard terms and writing rules used in this language pack.

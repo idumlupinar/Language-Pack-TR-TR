@@ -16,6 +16,12 @@ file you can use to verify the download.
 Pick the release that matches your DNN Platform version. Pre-releases (e.g. `10.4.0-rc3`) are built for the matching
 DNN Platform release candidate and are meant for testing only.
 
+## Reporting issues
+
+Found a wrong translation, or the pack doesn't install? [Open an issue](../../issues/new/choose) and pick the form
+that fits: **Translation issue**, **Bug report** or **Enhancement**. Bugs that also happen in English belong in the
+[DNN Platform repository](https://github.com/dnnsoftware/Dnn.Platform/issues).
+
 ## How to contribute
 
 **Important:** Before you start translating, please read the [Turkish translation style guide](.github/COMMON_TERMS.md)

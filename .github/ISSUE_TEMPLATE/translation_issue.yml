@@ -1,0 +1,95 @@
+name: Translation issue / Çeviri hatası
+description: Report a wrong, missing or inconsistent Turkish translation.
+title: "[Translation]: "
+labels: ["translation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve the Turkish translation of DNN Platform!
+        Please check the [Turkish translation style guide](https://github.com/idumlupinar/Language-Pack-TR-TR/blob/develop/.github/COMMON_TERMS.md) first. Standard terms and the form of address (*siz*) are defined there.
+
+        *Türkçe çeviri hatalarını bildirmek için bu formu kullanın. Lütfen önce çeviri kılavuzunu okuyun.*
+
+  - type: dropdown
+    id: problem
+    attributes:
+      label: Problem type / Sorun türü
+      options:
+        - Wrong or misleading translation / Yanlış veya yanıltıcı çeviri
+        - Untranslated (English) text / Çevrilmemiş (İngilizce) metin
+        - Spelling or grammar / Yazım veya dil bilgisi hatası
+        - Inconsistent term / Tutarsız terim
+        - Broken placeholder, token or HTML / Bozuk yer tutucu, token veya HTML
+        - Text cut off or too long for the layout / Metin kesiliyor veya çok uzun
+        - Other / Diğer
+    validations:
+      required: true
+
+  - type: textarea
+    id: location
+    attributes:
+      label: Where does it appear? / Metin nerede görünüyor?
+      description: The page or screen, e.g. *Persona Bar > Settings > Site Settings > Site Info*, or the login page.
+    validations:
+      required: true
+
+  - type: textarea
+    id: english
+    attributes:
+      label: Original English text / Orijinal İngilizce metin
+      description: If you know it. Switching the site language to English shows the original.
+      render: text
+
+  - type: textarea
+    id: current
+    attributes:
+      label: Current Turkish text / Mevcut Türkçe metin
+      render: text
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggested
+    attributes:
+      label: Suggested translation / Önerilen çeviri
+      description: Keep placeholders such as `{0}` or `[User:DisplayName]` and HTML tags unchanged.
+      render: text
+
+  - type: input
+    id: resource
+    attributes:
+      label: Resource file and key (optional) / Kaynak dosyası ve anahtar (isteğe bağlı)
+      description: If you know it, e.g. `App_GlobalResources/SharedResources.tr-TR.resx` → `Containers.Text`
+      placeholder: path/to/File.tr-TR.resx → Key.Text
+
+  - type: input
+    id: dnn-version
+    attributes:
+      label: DNN Platform version / DNN Platform sürümü
+      description: Shown in *Persona Bar > Settings > Servers*.
+      placeholder: e.g. 10.4.0
+    validations:
+      required: true
+
+  - type: input
+    id: pack-version
+    attributes:
+      label: Language pack version / Dil paketi sürümü
+      placeholder: e.g. 10.4.0-rc3
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots / Ekran görüntüleri
+      description: Drag and drop images here. A screenshot makes the context much clearer.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks / Kontroller
+      options:
+        - label: I searched the existing issues and this hasn't been reported yet. / Mevcut kayıtları aradım, bu sorun daha önce bildirilmemiş.
+          required: true
+        - label: I read the translation style guide. / Çeviri kılavuzunu okudum.
+          required: true

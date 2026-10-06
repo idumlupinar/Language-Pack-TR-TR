@@ -1,0 +1,89 @@
+name: Bug report / Hata bildirimi
+description: The language pack fails to install, files are missing, or it causes an error in DNN Platform.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for problems with the **language pack itself**: installation, packaging or errors it causes.
+        For a wrong or missing translation, use the **Translation issue** form instead.
+        Bugs in DNN Platform that also happen in English belong in the [DNN Platform repository](https://github.com/dnnsoftware/Dnn.Platform/issues).
+
+        *Dil paketinin kurulumu, paketlenmesi veya neden olduğu hatalar için bu formu kullanın.*
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened? / Ne oldu?
+      description: A clear description of the problem.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce / Sorunu yeniden oluşturma adımları
+      placeholder: |
+        1. Go to Persona Bar > Settings > Extensions > Install Extension
+        2. Upload Dnn_Platform_Language-Pack-TR-TR_10.4.0-rc3.zip
+        3. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior / Beklenen davranış
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Error messages or logs / Hata mesajları veya günlükler
+      description: Messages from the install log, or from the **Admin Logs** page in the Persona Bar. Remove any personal or sensitive data.
+      render: text
+
+  - type: input
+    id: dnn-version
+    attributes:
+      label: DNN Platform version / DNN Platform sürümü
+      description: Shown in *Persona Bar > Settings > Servers*.
+      placeholder: e.g. 10.4.0
+    validations:
+      required: true
+
+  - type: input
+    id: pack-version
+    attributes:
+      label: Language pack version / Dil paketi sürümü
+      placeholder: e.g. 10.4.0-rc3
+    validations:
+      required: true
+
+  - type: dropdown
+    id: install
+    attributes:
+      label: How was the language pack installed? / Dil paketi nasıl kuruldu?
+      options:
+        - Release zip via Install Extension / Release zip dosyası ile (Install Extension)
+        - Copied the resource files manually / Kaynak dosyaları elle kopyalayarak
+        - Other / Diğer
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots / Ekran görüntüleri
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks / Kontroller
+      options:
+        - label: I searched the existing issues and this hasn't been reported yet. / Mevcut kayıtları aradım, bu sorun daha önce bildirilmemiş.
+          required: true
+        - label: I removed passwords, connection strings and other sensitive data from logs and screenshots. / Günlük ve ekran görüntülerinden parola ve bağlantı bilgileri gibi hassas verileri çıkardım.
+          required: true

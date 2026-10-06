@@ -16,6 +16,12 @@ dosyayı doğrulamak için bir `.zip.sha256` dosyası da bulunur.
 DNN Platform sürümünüze uygun dil paketini seçin. Ön sürümler (ör. `10.4.0-rc3`) ilgili DNN Platform sürüm adayı için
 hazırlanır ve yalnızca test amaçlıdır.
 
+## Sorun bildirme
+
+Hatalı bir çeviri mi buldunuz veya paket kurulmuyor mu? [Yeni bir kayıt açın](../../issues/new/choose) ve uygun formu
+seçin: **Translation issue** (çeviri hatası), **Bug report** (hata bildirimi) veya **Enhancement** (iyileştirme önerisi).
+İngilizce arayüzde de görülen hatalar [DNN Platform deposuna](https://github.com/dnnsoftware/Dnn.Platform/issues) bildirilmelidir.
+
 ## Nasıl katkıda bulunabilirsiniz?
 
 **Önemli:** Çeviriye başlamadan önce lütfen [Türkçe çeviri kılavuzunu](.github/COMMON_TERMS.md) okuyun.

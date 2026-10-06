@@ -1,0 +1,52 @@
+name: Enhancement / İyileştirme önerisi
+description: Suggest a new standard term, a style guide change, a missing extension or an improvement to the tooling.
+title: "[Enhancement]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the suggestion! For a single wrong translation, the **Translation issue** form is quicker.
+
+        *Öneriniz için teşekkürler! Tek bir hatalı çeviri için **Translation issue** formunu kullanın.*
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area / Alan
+      options:
+        - Terminology or style guide / Terimler veya çeviri kılavuzu
+        - Translation coverage (missing module or extension) / Çeviri kapsamı (eksik modül veya uzantı)
+        - Documentation / Belgeler
+        - Tooling or release process / Araçlar veya sürüm süreci
+        - Other / Diğer
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve? / Bu öneri hangi sorunu çözüyor?
+      description: E.g. *"Host" is translated as both "Sunucu" and "Süper Kullanıcı", which is confusing.*
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution / Önerilen çözüm
+      description: For terminology, give the English term, the proposed Turkish term and a short reason.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered / Değerlendirilen alternatifler
+
+  - type: checkboxes
+    id: contribute
+    attributes:
+      label: Contribution / Katkı
+      options:
+        - label: I'd like to submit a pull request for this. / Bunun için bir Pull Request göndermek istiyorum.
