@@ -1,10 +1,10 @@
 <#
 .SYNOPSIS
-    Copies the tr-TR resource files from a working DNN site into this repository.
+    Copies the tr-TR resource files from a working DNN Platform site into this repository.
 
 .DESCRIPTION
-    Searches the DNN site for *.tr-TR.resx files and copies them into the Resources
-    folder, keeping the same relative folder structure DNN uses at install time.
+    Searches the DNN Platform site for *.tr-TR.resx files and copies them into the Resources
+    folder, keeping the same relative folder structure DNN Platform uses at install time.
 
     Skipped on purpose:
       - App_Data, bin, Install\Temp and other non-resource folders
@@ -14,7 +14,7 @@
     Run tools\Build-Manifest.ps1 afterwards to refresh the .dnn manifest.
 
 .PARAMETER SitePath
-    Root folder of the DNN site (the folder that contains web.config).
+    Root folder of the DNN Platform site (the folder that contains web.config).
 
 .PARAMETER Mirror
     Also delete tr-TR files from Resources that no longer exist on the site.
@@ -37,7 +37,7 @@ $ErrorActionPreference = 'Stop'
 
 $site = (Resolve-Path $SitePath).Path.TrimEnd('\', '/')
 if (-not (Test-Path (Join-Path $site 'web.config'))) {
-    throw "'$site' does not look like a DNN site root (no web.config found)."
+    throw "'$site' does not look like a DNN Platform site root (no web.config found)."
 }
 
 $repoResources = Join-Path (Split-Path $PSScriptRoot -Parent) 'Resources'

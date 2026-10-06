@@ -1,6 +1,6 @@
 #################
-## DNN tr-TR language pack
-## Allow-list: the Resources folder can be filled straight from a DNN site
+## DNN Platform tr-TR language pack
+## Allow-list: the Resources folder can be filled straight from a DNN Platform site
 ## (tools/Sync-FromSite.ps1) without dragging in unrelated site files.
 #################
 
@@ -19,6 +19,7 @@
 !/tools/*.ps1
 !/LICENSE
 !/readme.md
+!/readme.tr.md
 
 # Translated resource files (only the tr-TR culture)
 !/Resources/**/*.tr-TR.resx

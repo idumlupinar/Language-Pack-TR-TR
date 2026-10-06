@@ -1,4 +1,4 @@
-# DNN Türkçe Çeviri Kılavuzu
+# DNN Platform Türkçe Çeviri Kılavuzu
 
 Bu kılavuz, DNN Platform Türkçe dil paketinde tutarlı bir dil kullanmak için hazırlanmıştır. Çeviriye katkıda bulunmadan önce lütfen okuyun.
 
@@ -51,5 +51,5 @@ Mevcut çevirilerde bu terimler için birden fazla karşılık kullanılıyor. K
 
 en-US terim | Kullanılan karşılıklar | Not
 --- | --- | ---
-host | *Sunucu*, *Süper Kullanıcı (Host)* | DNN'de "host" bir kişi/rol (superuser) anlamındadır; *Host Settings* için *Sunucu Ayarları* kullanılıyor
+host | *Sunucu*, *Süper Kullanıcı (Host)* | DNN Platform'da "host" bir kişi/rol (superuser) anlamındadır; *Host Settings* için *Sunucu Ayarları* kullanılıyor
 journal / log | ikisi için de *Günlük* | *journal* (sosyal akış) ile *log* (kayıt) ayrıştırılmalı, ör. *journal* → *Akış*, *log* → *Günlük*

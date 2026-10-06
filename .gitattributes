@@ -1,4 +1,4 @@
-# Normalize line endings: stored as LF in git, checked out as CRLF (DNN is a Windows platform)
+# Normalize line endings: stored as LF in git, checked out as CRLF (DNN Platform runs on Windows)
 * text=auto eol=crlf
 
 *.resx text eol=crlf diff

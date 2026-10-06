@@ -6,15 +6,15 @@
     The manifest is built from the *.tr-TR.resx files that exist in the repository, so it
     can never list a file that is missing or forget one that was added.
 
-    Files are grouped into one CoreLanguagePack plus one ExtensionLanguagePack per DNN
+    Files are grouped into one CoreLanguagePack plus one ExtensionLanguagePack per DNN Platform
     extension, using the folder -> package map below. Package names must match the
-    names in the DNN "Packages" table; anything not matched goes into the core pack.
+    names in the DNN Platform "Packages" table; anything not matched goes into the core pack.
 
-    Note: DNN's built-in "Create Language Pack > Full" export puts every file into every
+    Note: DNN Platform's built-in "Create Language Pack > Full" export puts every file into every
     library package (Newtonsoft.Json, MailKit, ...). Use this script instead.
 
 .PARAMETER Version
-    Manifest version (DNN format, e.g. 10.04.00). Defaults to the version already in
+    Manifest version (DNN Platform format, e.g. 10.04.00). Defaults to the version already in
     the manifest. Release branches update it automatically (see .github/workflows).
 
 .PARAMETER Check
@@ -41,7 +41,7 @@ $Owner = [ordered]@{
     email        = 'info@dnncommunity.org'
 }
 
-# Folder prefix (relative to Resources, '/' separated) -> DNN package name. First match wins.
+# Folder prefix (relative to Resources, '/' separated) -> DNN Platform package name. First match wins.
 $PackageMap = [ordered]@{
     'DesktopModules/Admin/Dnn.EditBar/'                                  = 'Dnn.EditBar.UI'
     'DesktopModules/Admin/Dnn.PersonaBar/'                               = 'Dnn.PersonaBar.UI'
@@ -119,7 +119,7 @@ foreach ($package in $groups.Keys) {
 
     if ($isCore) {
         Line "    <package name=`"Core_$Culture`" type=`"CoreLanguagePack`" version=`"$Version`">"
-        Line "      <friendlyName>DNN Core $(Escape $DisplayName)</friendlyName>"
+        Line "      <friendlyName>DNN Platform Core $(Escape $DisplayName)</friendlyName>"
         Line "      <description>$(Escape $EnglishName) core language pack for DNN Platform.</description>"
     }
     else {
