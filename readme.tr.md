@@ -4,18 +4,14 @@
 
 [DNN Platform](https://github.com/dnnsoftware/Dnn.Platform) için Türkçe (Türkiye) dil paketi.
 
-Mevcut sürümler:
-* DNN Platform 10.4.0
-* DNN Platform 10.4.0-rc3 (ön sürüm)
-
 ## Kurulum
 
 [Releases](../../releases) sayfasından `Dnn_Platform_Language-Pack-TR-TR_<sürüm>.zip` dosyasını indirin ve
 DNN Platform'da **Persona Bar > Settings > Extensions > Install Extension** üzerinden yükleyin. Her sürümde, indirilen
 dosyayı doğrulamak için bir `.zip.sha256` dosyası da bulunur.
 
-DNN Platform sürümünüze uygun dil paketini seçin. Ön sürümler (ör. `10.4.0-rc3`) ilgili DNN Platform sürüm adayı için
-hazırlanır ve yalnızca test amaçlıdır.
+DNN Platform sürümünüze uygun dil paketini seçin; tüm sürümler Releases sayfasında listelenir. Ön sürümler
+(ör. `10.4.0-rc3`) ilgili DNN Platform sürüm adayı için hazırlanır ve yalnızca test amaçlıdır.
 
 ## Sorun bildirme
 
@@ -23,37 +19,12 @@ Hatalı bir çeviri mi buldunuz veya paket kurulmuyor mu? [Yeni bir kayıt açı
 seçin: **Translation issue** (çeviri hatası), **Bug report** (hata bildirimi) veya **Enhancement** (iyileştirme önerisi).
 İngilizce arayüzde de görülen hatalar [DNN Platform deposuna](https://github.com/dnnsoftware/Dnn.Platform/issues) bildirilmelidir.
 
-## Nasıl katkıda bulunabilirsiniz?
+## Katkıda bulunma
 
-**Önemli:** Çeviriye başlamadan önce lütfen [Türkçe çeviri kılavuzunu](.github/COMMON_TERMS.md) okuyun.
+Tarayıcıdan tek bir metni düzeltmekten bir DNN Platform sitesinden kapsamlı güncellemeler göndermeye kadar her katkıya
+açığız. [Katkı kılavuzuna](.github/CONTRIBUTING.tr.md) ve [Türkçe çeviri kılavuzuna](.github/COMMON_TERMS.md) göz atın.
 
-Bir GitHub hesabınızın olması yeterlidir. Tüm katkılar **develop** dalına Pull Request olarak gönderilir.
-
-### Kısa yol (tarayıcıdan)
-
-1. Bu depoyu kendi hesabınıza fork edin.
-2. Düzeltmek istediğiniz `.tr-TR.resx` dosyasını GitHub üzerinde düzenleyin.
-3. **develop** dalına bir Pull Request açın.
-
-### Çalışan bir DNN Platform sitesiyle
-
-1. Depoyu fork edip bilgisayarınıza klonlayın.
-2. Çevirileri DNN Platform içinde (**Settings > Site Settings > Languages**) yapın veya düzeltin.
-3. Dosyaları siteden depoya kopyalayın ve manifesti güncelleyin:
-
-   ```powershell
-   .\tools\Sync-FromSite.ps1 -SitePath C:\path\to\dnn-platform-site
-   .\tools\Build-Manifest.ps1
-   ```
-
-4. Değişiklikleri commit edip **develop** dalına Pull Request açın.
-
-`Build-Manifest.ps1`, `Resources\DNNCE_tr-TR.dnn` manifestini depodaki dosyalardan yeniden oluşturur. Her Pull Request'te
-`Build-Manifest.ps1 -Check` otomatik olarak çalışır; geçersiz XML veya güncel olmayan bir manifest varsa kontrol başarısız olur.
-
-> Windows'ta bazı dosya yolları 260 karakteri aşabilir. Klonlama hatası alırsanız: `git config --global core.longpaths true`
-
-Depo yapısı ve yeni sürüm yayınlama adımları için [İngilizce README](readme.md) dosyasına bakın.
+Bakımcılar için: sürüm yayınlama süreci [RELEASING.md](.github/RELEASING.md) dosyasında anlatılmaktadır (İngilizce).
 
 ## Lisans
 
