@@ -1,6 +1,11 @@
 <h2>tr-TR Dil Paketi Sürüm Notları</h2>
 <p>DNN Platform Türkçe dil paketine katkıda bulunmak için GitHub'daki <a href="https://github.com/idumlupinar/Language-Pack-TR-TR" target="_blank" rel="noopener">Language Pack tr-TR</a> deposunu ziyaret edin.</p>
 <hr>
+<h3>tr-TR Dil Paketi 10.4.0</h3>
+<ul>
+<li style="margin-left: 20px;">DNN Platform 10.4.0 için ilk kararlı Türkçe dil paketi sürümü.</li>
+<li style="margin-left: 20px;">Çeviriler 10.4.0-rc3 ile aynıdır; DNN Platform 10.4.0 sürümünde rc3'e göre kaynak metin değişikliği yoktur.</li>
+</ul>
 <h3>tr-TR Dil Paketi 10.4.0-rc3 (ön sürüm)</h3>
 <ul>
 <li style="margin-left: 20px;">DNN Platform 10.4.0-rc3 için ilk Türkçe dil paketi sürümü.</li>

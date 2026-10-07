@@ -5,6 +5,7 @@
 Turkish (Türkiye) language pack for [DNN Platform](https://github.com/dnnsoftware/Dnn.Platform).
 
 Versions available:
+* DNN Platform 10.4.0
 * DNN Platform 10.4.0-rc3 (pre-release)
 
 ## Installation

@@ -5,6 +5,7 @@
 [DNN Platform](https://github.com/dnnsoftware/Dnn.Platform) için Türkçe (Türkiye) dil paketi.
 
 Mevcut sürümler:
+* DNN Platform 10.4.0
 * DNN Platform 10.4.0-rc3 (ön sürüm)
 
 ## Kurulum
