@@ -13,6 +13,12 @@ file you can use to verify the download.
 Pick the release that matches your DNN Platform version; the Releases page lists every version. Pre-releases
 (e.g. `10.4.0-rc3`) are built for the matching DNN Platform release candidate and are meant for testing only.
 
+### Older DNN Platform versions
+
+Language packs for DNN Platform 08.00.00 to 10.03.03 are in the
+[Language-Pack-TR-TR-Archive](https://github.com/idumlupinar/Language-Pack-TR-TR-Archive) repository, with one tag
+per DNN Platform version (e.g. `v09.13.08`).
+
 ## Reporting issues
 
 Found a wrong translation, or the pack doesn't install? [Open an issue](../../issues/new/choose) and pick the form

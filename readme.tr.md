@@ -13,6 +13,12 @@ dosyayı doğrulamak için bir `.zip.sha256` dosyası da bulunur.
 DNN Platform sürümünüze uygun dil paketini seçin; tüm sürümler Releases sayfasında listelenir. Ön sürümler
 (ör. `10.4.0-rc3`) ilgili DNN Platform sürüm adayı için hazırlanır ve yalnızca test amaçlıdır.
 
+### Eski DNN Platform sürümleri
+
+DNN Platform 08.00.00 ile 10.03.03 arasındaki sürümlerin dil paketleri
+[Language-Pack-TR-TR-Archive](https://github.com/idumlupinar/Language-Pack-TR-TR-Archive) deposundadır; her DNN
+Platform sürümü için bir etiket vardır (ör. `v09.13.08`).
+
 ## Sorun bildirme
 
 Hatalı bir çeviri mi buldunuz veya paket kurulmuyor mu? [Yeni bir kayıt açın](../../issues/new/choose) ve uygun formu
