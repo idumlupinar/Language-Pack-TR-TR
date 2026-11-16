@@ -1491,6 +1491,12 @@
   <data name="WhitelistSettings.Text" xml:space="preserve">
     <value>İzin Verilen Dosya Uzantıları Listesi</value>
   </data>
+  <data name="AllowedExtensionsWhitelistEmpty.Error" xml:space="preserve">
+    <value>İzin verilen dosya uzantıları listesi, host tarafından izin verilen en az bir uzantı içermelidir.</value>
+  </data>
+  <data name="AllowedExtensionsRejected.Text" xml:space="preserve">
+    <value>Ayarlar kaydedildi, ancak aşağıdaki uzantılar host'un İzin Verilen Dosya Uzantıları arasında olmadığı için kaldırıldı:</value>
+  </data>
   <data name="Redirect_AfterLogin.Help" xml:space="preserve">
     <value>İsteğe bağlı olarak, kullanıcıların başarılı oturum açma işleminden sonra yönlendirileceği sayfayı seçin.</value>
   </data>

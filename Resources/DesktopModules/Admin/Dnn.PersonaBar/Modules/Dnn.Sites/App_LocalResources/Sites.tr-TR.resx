@@ -378,6 +378,12 @@
   <data name="PasswordConfirmRequired.Error" xml:space="preserve">
     <value>Şifre onayı zorunludur.</value>
   </data>
+  <data name="ConfirmPasswordMatched.Text" xml:space="preserve">
+    <value>Şifreler eşleşiyor</value>
+  </data>
+  <data name="ConfirmPasswordUnmatched.Text" xml:space="preserve">
+    <value>Şifreler eşleşmiyor</value>
+  </data>
   <data name="PasswordRequired.Error" xml:space="preserve">
     <value>Şifre zorunludur. Lütfen en az 7 karakter girin.</value>
   </data>
