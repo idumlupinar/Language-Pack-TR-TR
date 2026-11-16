@@ -1,6 +1,6 @@
 <dotnetnuke type="Package" version="5.0">
   <packages>
-    <package name="Core_tr-TR" type="CoreLanguagePack" version="10.04.00">
+    <package name="Core_tr-TR" type="CoreLanguagePack" version="10.04.01">
       <friendlyName>DNN Platform Core Türkçe (Türkiye)</friendlyName>
       <description>Turkish (Türkiye) core language pack for DNN Platform.</description>
       <iconFile />
@@ -342,7 +342,7 @@
         </component>
       </components>
     </package>
-    <package name="Dnn.EditBar.UI_tr-TR" type="ExtensionLanguagePack" version="10.04.00">
+    <package name="Dnn.EditBar.UI_tr-TR" type="ExtensionLanguagePack" version="10.04.01">
       <friendlyName>Dnn.EditBar.UI Türkçe (Türkiye)</friendlyName>
       <description>Turkish (Türkiye) language pack for Dnn.EditBar.UI.</description>
       <iconFile />
@@ -388,7 +388,7 @@
         </component>
       </components>
     </package>
-    <package name="Dnn.PersonaBar.UI_tr-TR" type="ExtensionLanguagePack" version="10.04.00">
+    <package name="Dnn.PersonaBar.UI_tr-TR" type="ExtensionLanguagePack" version="10.04.01">
       <friendlyName>Dnn.PersonaBar.UI Türkçe (Türkiye)</friendlyName>
       <description>Turkish (Türkiye) language pack for Dnn.PersonaBar.UI.</description>
       <iconFile />
@@ -518,7 +518,7 @@
         </component>
       </components>
     </package>
-    <package name="DotNetNuke.Console_tr-TR" type="ExtensionLanguagePack" version="10.04.00">
+    <package name="DotNetNuke.Console_tr-TR" type="ExtensionLanguagePack" version="10.04.01">
       <friendlyName>DotNetNuke.Console Türkçe (Türkiye)</friendlyName>
       <description>Turkish (Türkiye) language pack for DotNetNuke.Console.</description>
       <iconFile />
@@ -548,7 +548,7 @@
         </component>
       </components>
     </package>
-    <package name="DotNetNuke.HtmlEditorManager_tr-TR" type="ExtensionLanguagePack" version="10.04.00">
+    <package name="DotNetNuke.HtmlEditorManager_tr-TR" type="ExtensionLanguagePack" version="10.04.01">
       <friendlyName>DotNetNuke.HtmlEditorManager Türkçe (Türkiye)</friendlyName>
       <description>Turkish (Türkiye) language pack for DotNetNuke.HtmlEditorManager.</description>
       <iconFile />
@@ -574,7 +574,7 @@
         </component>
       </components>
     </package>
-    <package name="DefaultAuthentication_tr-TR" type="ExtensionLanguagePack" version="10.04.00">
+    <package name="DefaultAuthentication_tr-TR" type="ExtensionLanguagePack" version="10.04.01">
       <friendlyName>DefaultAuthentication Türkçe (Türkiye)</friendlyName>
       <description>Turkish (Türkiye) language pack for DefaultAuthentication.</description>
       <iconFile />
@@ -604,7 +604,7 @@
         </component>
       </components>
     </package>
-    <package name="Dnn.AzureConnector_tr-TR" type="ExtensionLanguagePack" version="10.04.00">
+    <package name="Dnn.AzureConnector_tr-TR" type="ExtensionLanguagePack" version="10.04.01">
       <friendlyName>Dnn.AzureConnector Türkçe (Türkiye)</friendlyName>
       <description>Turkish (Türkiye) language pack for Dnn.AzureConnector.</description>
       <iconFile />
@@ -630,7 +630,7 @@
         </component>
       </components>
     </package>
-    <package name="DNN.Connectors.GoogleAnalytics4_tr-TR" type="ExtensionLanguagePack" version="10.04.00">
+    <package name="DNN.Connectors.GoogleAnalytics4_tr-TR" type="ExtensionLanguagePack" version="10.04.01">
       <friendlyName>DNN.Connectors.GoogleAnalytics4 Türkçe (Türkiye)</friendlyName>
       <description>Turkish (Türkiye) language pack for DNN.Connectors.GoogleAnalytics4.</description>
       <iconFile />
@@ -656,7 +656,7 @@
         </component>
       </components>
     </package>
-    <package name="DNN.Connectors.GoogleAnalytics_tr-TR" type="ExtensionLanguagePack" version="10.04.00">
+    <package name="DNN.Connectors.GoogleAnalytics_tr-TR" type="ExtensionLanguagePack" version="10.04.01">
       <friendlyName>DNN.Connectors.GoogleAnalytics Türkçe (Türkiye)</friendlyName>
       <description>Turkish (Türkiye) language pack for DNN.Connectors.GoogleAnalytics.</description>
       <iconFile />
@@ -682,7 +682,7 @@
         </component>
       </components>
     </package>
-    <package name="DNN.Connectors.GoogleTagManager_tr-TR" type="ExtensionLanguagePack" version="10.04.00">
+    <package name="DNN.Connectors.GoogleTagManager_tr-TR" type="ExtensionLanguagePack" version="10.04.01">
       <friendlyName>DNN.Connectors.GoogleTagManager Türkçe (Türkiye)</friendlyName>
       <description>Turkish (Türkiye) language pack for DNN.Connectors.GoogleTagManager.</description>
       <iconFile />
@@ -708,7 +708,7 @@
         </component>
       </components>
     </package>
-    <package name="DotNetNuke.Modules.CoreMessaging_tr-TR" type="ExtensionLanguagePack" version="10.04.00">
+    <package name="DotNetNuke.Modules.CoreMessaging_tr-TR" type="ExtensionLanguagePack" version="10.04.01">
       <friendlyName>DotNetNuke.Modules.CoreMessaging Türkçe (Türkiye)</friendlyName>
       <description>Turkish (Türkiye) language pack for DotNetNuke.Modules.CoreMessaging.</description>
       <iconFile />
@@ -738,7 +738,7 @@
         </component>
       </components>
     </package>
-    <package name="DDRMenu_tr-TR" type="ExtensionLanguagePack" version="10.04.00">
+    <package name="DDRMenu_tr-TR" type="ExtensionLanguagePack" version="10.04.01">
       <friendlyName>DDRMenu Türkçe (Türkiye)</friendlyName>
       <description>Turkish (Türkiye) language pack for DDRMenu.</description>
       <iconFile />
@@ -768,7 +768,7 @@
         </component>
       </components>
     </package>
-    <package name="DNN_HTML_tr-TR" type="ExtensionLanguagePack" version="10.04.00">
+    <package name="DNN_HTML_tr-TR" type="ExtensionLanguagePack" version="10.04.01">
       <friendlyName>DNN_HTML Türkçe (Türkiye)</friendlyName>
       <description>Turkish (Türkiye) language pack for DNN_HTML.</description>
       <iconFile />
@@ -814,7 +814,7 @@
         </component>
       </components>
     </package>
-    <package name="Journal_tr-TR" type="ExtensionLanguagePack" version="10.04.00">
+    <package name="Journal_tr-TR" type="ExtensionLanguagePack" version="10.04.01">
       <friendlyName>Journal Türkçe (Türkiye)</friendlyName>
       <description>Turkish (Türkiye) language pack for Journal.</description>
       <iconFile />
@@ -852,7 +852,7 @@
         </component>
       </components>
     </package>
-    <package name="DotNetNuke.Modules.MemberDirectory_tr-TR" type="ExtensionLanguagePack" version="10.04.00">
+    <package name="DotNetNuke.Modules.MemberDirectory_tr-TR" type="ExtensionLanguagePack" version="10.04.01">
       <friendlyName>DotNetNuke.Modules.MemberDirectory Türkçe (Türkiye)</friendlyName>
       <description>Turkish (Türkiye) language pack for DotNetNuke.Modules.MemberDirectory.</description>
       <iconFile />
@@ -882,7 +882,7 @@
         </component>
       </components>
     </package>
-    <package name="DNNCorp.RazorHost_tr-TR" type="ExtensionLanguagePack" version="10.04.00">
+    <package name="DNNCorp.RazorHost_tr-TR" type="ExtensionLanguagePack" version="10.04.01">
       <friendlyName>DNNCorp.RazorHost Türkçe (Türkiye)</friendlyName>
       <description>Turkish (Türkiye) language pack for DNNCorp.RazorHost.</description>
       <iconFile />
@@ -924,7 +924,7 @@
         </component>
       </components>
     </package>
-    <package name="ResourceManager_tr-TR" type="ExtensionLanguagePack" version="10.04.00">
+    <package name="ResourceManager_tr-TR" type="ExtensionLanguagePack" version="10.04.01">
       <friendlyName>ResourceManager Türkçe (Türkiye)</friendlyName>
       <description>Turkish (Türkiye) language pack for ResourceManager.</description>
       <iconFile />
@@ -962,7 +962,7 @@
         </component>
       </components>
     </package>
-    <package name="SiteExportImport_tr-TR" type="ExtensionLanguagePack" version="10.04.00">
+    <package name="SiteExportImport_tr-TR" type="ExtensionLanguagePack" version="10.04.01">
       <friendlyName>SiteExportImport Türkçe (Türkiye)</friendlyName>
       <description>Turkish (Türkiye) language pack for SiteExportImport.</description>
       <iconFile />
@@ -988,7 +988,7 @@
         </component>
       </components>
     </package>
-    <package name="Social Groups_tr-TR" type="ExtensionLanguagePack" version="10.04.00">
+    <package name="Social Groups_tr-TR" type="ExtensionLanguagePack" version="10.04.01">
       <friendlyName>Social Groups Türkçe (Türkiye)</friendlyName>
       <description>Turkish (Türkiye) language pack for Social Groups.</description>
       <iconFile />
@@ -1030,7 +1030,7 @@
         </component>
       </components>
     </package>
-    <package name="AspNetClientCapabilityProvider_tr-TR" type="ExtensionLanguagePack" version="10.04.00">
+    <package name="AspNetClientCapabilityProvider_tr-TR" type="ExtensionLanguagePack" version="10.04.01">
       <friendlyName>AspNetClientCapabilityProvider Türkçe (Türkiye)</friendlyName>
       <description>Turkish (Türkiye) language pack for AspNetClientCapabilityProvider.</description>
       <iconFile />
@@ -1056,7 +1056,7 @@
         </component>
       </components>
     </package>
-    <package name="DotNetNuke.Providers.FolderProviders_tr-TR" type="ExtensionLanguagePack" version="10.04.00">
+    <package name="DotNetNuke.Providers.FolderProviders_tr-TR" type="ExtensionLanguagePack" version="10.04.01">
       <friendlyName>DotNetNuke.Providers.FolderProviders Türkçe (Türkiye)</friendlyName>
       <description>Turkish (Türkiye) language pack for DotNetNuke.Providers.FolderProviders.</description>
       <iconFile />
@@ -1082,7 +1082,7 @@
         </component>
       </components>
     </package>
-    <package name="DNNConnect.CKEditorProvider_tr-TR" type="ExtensionLanguagePack" version="10.04.00">
+    <package name="DNNConnect.CKEditorProvider_tr-TR" type="ExtensionLanguagePack" version="10.04.01">
       <friendlyName>DNNConnect.CKEditorProvider Türkçe (Türkiye)</friendlyName>
       <description>Turkish (Türkiye) language pack for DNNConnect.CKEditorProvider.</description>
       <iconFile />
@@ -1116,7 +1116,7 @@
         </component>
       </components>
     </package>
-    <package name="Dnn.ExchangeOnlineAuthProvider_tr-TR" type="ExtensionLanguagePack" version="10.04.00">
+    <package name="Dnn.ExchangeOnlineAuthProvider_tr-TR" type="ExtensionLanguagePack" version="10.04.01">
       <friendlyName>Dnn.ExchangeOnlineAuthProvider Türkçe (Türkiye)</friendlyName>
       <description>Turkish (Türkiye) language pack for Dnn.ExchangeOnlineAuthProvider.</description>
       <iconFile />
@@ -1142,7 +1142,7 @@
         </component>
       </components>
     </package>
-    <package name="Dnn.GoogleMailAuthProvider_tr-TR" type="ExtensionLanguagePack" version="10.04.00">
+    <package name="Dnn.GoogleMailAuthProvider_tr-TR" type="ExtensionLanguagePack" version="10.04.01">
       <friendlyName>Dnn.GoogleMailAuthProvider Türkçe (Türkiye)</friendlyName>
       <description>Turkish (Türkiye) language pack for Dnn.GoogleMailAuthProvider.</description>
       <iconFile />
